@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem", "SchoolSystem\SchoolSystem.csproj", "{CED7D4C9-4C99-42A9-B1D1-36D961616D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSystem", "SchoolSystem\SchoolSystem.csproj", "{CED7D4C9-4C99-42A9-B1D1-36D961616D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Core", "SchoolSystem.Core\SchoolSystem.Core.csproj", "{79D5BF16-835D-4B7D-90CE-6787448C7CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolSystem.Infrastructure", "SchoolSystem.Infrastructure\SchoolSystem.Infrastructure.csproj", "{FE521258-6C1D-4458-98CC-9CECC44111E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CED7D4C9-4C99-42A9-B1D1-36D961616D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED7D4C9-4C99-42A9-B1D1-36D961616D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED7D4C9-4C99-42A9-B1D1-36D961616D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D5BF16-835D-4B7D-90CE-6787448C7CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D5BF16-835D-4B7D-90CE-6787448C7CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D5BF16-835D-4B7D-90CE-6787448C7CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D5BF16-835D-4B7D-90CE-6787448C7CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE521258-6C1D-4458-98CC-9CECC44111E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE521258-6C1D-4458-98CC-9CECC44111E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE521258-6C1D-4458-98CC-9CECC44111E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE521258-6C1D-4458-98CC-9CECC44111E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
