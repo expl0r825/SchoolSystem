@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using SchoolSystem.Data;
+using SchoolSystem.Infrastructure.Data;
 
 namespace SchoolSystem
 {
