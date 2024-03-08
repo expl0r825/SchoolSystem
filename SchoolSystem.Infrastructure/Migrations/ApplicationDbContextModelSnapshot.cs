@@ -361,6 +361,10 @@ namespace SchoolSystem.Infrastructure.Migrations
                         .HasColumnType("nvarchar(30)")
                         .HasComment("Students Last Name");
 
+                    b.Property<int>("ParentId")
+                        .HasColumnType("int")
+                        .HasComment("Students Parent Identifier");
+
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -370,6 +374,8 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.HasIndex("ClassId");
 
                     b.HasIndex("ClassTeacherId");
+
+                    b.HasIndex("ParentId");
 
                     b.HasIndex("UserId");
 
@@ -554,7 +560,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.HasOne("SchoolSystem.Infrastructure.Data.Models.Student", "Child")
                         .WithMany()
                         .HasForeignKey("ChildId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -593,6 +599,12 @@ namespace SchoolSystem.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("SchoolSystem.Infrastructure.Data.Models.Parent", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -602,6 +614,8 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.Navigation("Class");
 
                     b.Navigation("ClassTeacher");
+
+                    b.Navigation("Parent");
 
                     b.Navigation("User");
                 });

@@ -22,6 +22,7 @@ namespace SchoolSystem.Infrastructure.Data.Models
         [Comment("Parents Child Identifier")]
         public int ChildId { get; set; }
 
+        [ForeignKey(nameof(ChildId))]
         public Student Child { get; set; } = null!;
 
         [Required]

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SchoolSystem.Infrastructure.Data.Models;
+using System.Drawing;
+using System.Reflection.Emit;
 
 namespace SchoolSystem.Infrastructure.Data
 {
@@ -24,14 +26,14 @@ namespace SchoolSystem.Infrastructure.Data
         {
             builder
                 .Entity<StudentSubjectGrade>()
-                .HasKey(sbg => new { sbg.StudentId, sbg.SubjectId});
+                .HasKey(sbg => new { sbg.StudentId, sbg.SubjectId });
 
-           builder
-                .Entity<Student>()
-                .HasOne(s => s.Class)
-                .WithMany(c => c.Students)
-                .HasForeignKey(s => s.ClassId)
-                .OnDelete(DeleteBehavior.Restrict);
+            builder
+                 .Entity<Student>()
+                 .HasOne(s => s.Class)
+                 .WithMany(c => c.Students)
+                 .HasForeignKey(s => s.ClassId)
+                 .OnDelete(DeleteBehavior.Restrict);
 
             builder
                 .Entity<Student>()
@@ -40,11 +42,10 @@ namespace SchoolSystem.Infrastructure.Data
                 .HasForeignKey(s => s.ClassTeacherId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder.Entity<StudentSubjectGrade>()
+            builder
+                .Entity<StudentSubjectGrade>()
                 .Property(s => s.Grade)
                 .HasColumnType("decimal(18,2)");
-
-            
 
 
             base.OnModelCreating(builder);

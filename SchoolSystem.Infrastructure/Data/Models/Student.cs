@@ -27,9 +27,15 @@ namespace SchoolSystem.Infrastructure.Data.Models
         [Comment("Students Class Identifier")]
         public int ClassId { get; set; }
 
+        [ForeignKey(nameof(ClassId))]
+        public Class Class { get; set; } = null!;
+
         [Required]
         [Comment("Students Teacher Identifier")]
         public int ClassTeacherId { get; set; }
+
+        [ForeignKey(nameof(ClassTeacherId))]
+        public Teacher ClassTeacher { get; set; } = null!;
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]
@@ -37,11 +43,12 @@ namespace SchoolSystem.Infrastructure.Data.Models
 
         public decimal AverageScore { get; set; }
 
-        [ForeignKey(nameof(ClassId))]
-        public Class Class { get; set; } = null!;
-        
-        [ForeignKey(nameof(ClassTeacherId))]
-        public Teacher ClassTeacher { get; set; } = null!;
+        [Required]
+        [Comment("Students Parent Identifier")]
+        public int ParentId { get; set; }
+
+        [ForeignKey(nameof(ParentId))]
+        public Parent Parent { get; set; } = null!;
 
         [Required]
         public string UserId { get; set; } = string.Empty;

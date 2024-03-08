@@ -12,8 +12,8 @@ using SchoolSystem.Infrastructure.Data;
 namespace SchoolSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240306083059_StartingOver")]
-    partial class StartingOver
+    [Migration("20240308231254_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -363,6 +363,10 @@ namespace SchoolSystem.Infrastructure.Migrations
                         .HasColumnType("nvarchar(30)")
                         .HasComment("Students Last Name");
 
+                    b.Property<int>("ParentId")
+                        .HasColumnType("int")
+                        .HasComment("Students Parent Identifier");
+
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -372,6 +376,8 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.HasIndex("ClassId");
 
                     b.HasIndex("ClassTeacherId");
+
+                    b.HasIndex("ParentId");
 
                     b.HasIndex("UserId");
 
@@ -556,7 +562,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.HasOne("SchoolSystem.Infrastructure.Data.Models.Student", "Child")
                         .WithMany()
                         .HasForeignKey("ChildId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -595,6 +601,12 @@ namespace SchoolSystem.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("SchoolSystem.Infrastructure.Data.Models.Parent", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
@@ -604,6 +616,8 @@ namespace SchoolSystem.Infrastructure.Migrations
                     b.Navigation("Class");
 
                     b.Navigation("ClassTeacher");
+
+                    b.Navigation("Parent");
 
                     b.Navigation("User");
                 });
