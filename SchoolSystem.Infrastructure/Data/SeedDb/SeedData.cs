@@ -1,5 +1,5 @@
-﻿using SchoolSystem.Infrastructure.Data.Models;
-using System.Net.Http.Headers;
+﻿using Microsoft.AspNetCore.Identity;
+using SchoolSystem.Infrastructure.Data.Models;
 
 namespace SchoolSystem.Infrastructure.Data.SeedDb
 {
@@ -22,15 +22,34 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
         //Teachers
 
         public Teacher TatyanaGerganova { get; set; }
+        public IdentityUser UserTatyanaGerganova { get; set; }
+
         public Teacher BilyanaLozanova { get; set; }
+        public IdentityUser UserBilyanaLozanova { get; set; }
+
         public Teacher KrasimiraKutin { get; set; }
+        public IdentityUser UserKrasimiraKutin { get; set; }
+
         public Teacher TeodorHristov { get; set; }
+        public IdentityUser UserTeodorHristov { get; set; }
+
         public Teacher SilviyaGancheva { get; set; }
+        public IdentityUser UserSilviyaGancheva { get; set; }
+
         public Teacher CvetomirAmbursa { get; set; }
+        public IdentityUser UserCvetomirAmbursa { get; set; }
+
         public Teacher MitkoMitkov { get; set; }
+        public IdentityUser UserMitkoMitkov { get; set; }
+
         public Teacher EmilStoyanov { get; set; }
+        public IdentityUser UserEmilStoyanov { get; set; }
+
         public Teacher BorislavaBangeeva { get; set; }
+        public IdentityUser UserBorislavaBangeeva { get; set; }
+
         public Teacher MariaIvanova { get; set; }
+        public IdentityUser UserMariaIvanova { get; set; }
 
 
         //Classes
@@ -45,164 +64,465 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
         //Principals
 
         public Principal RadostinaMekova { get; set; }
+        public IdentityUser UserRadostinaMekova { get; set; }
+
         public Principal ValentinaStoeva { get; set; }
+        public IdentityUser UserValentinaStoeva { get; set; }
+
         public Principal YulianaPetkova { get; set; }
+        public IdentityUser UserYulianaPetkova { get; set; }
 
 
         //Parents
 
         public Parent KrumIvanov { get; set; }
+        public IdentityUser UserKrumIvanov { get; set; }
+
         public Parent VeronikaPetrova { get; set; }
+        public IdentityUser UserVeronikaPetrova { get; set; }
+
         public Parent PlamenDimitrov { get; set; }
+        public IdentityUser UserPlamenDimitrov { get; set; }
+
         public Parent ZlatinaGeorgieva { get; set; }
+        public IdentityUser UserZlatinaGeorgieva { get; set; }
+
         public Parent RadoslavTodorov { get; set; }
+        public IdentityUser UserRadoslavTodorov { get; set; }
+
         public Parent AdrianaIvanova { get; set; }
+        public IdentityUser UserAdrianaIvanova { get; set; }
+
         public Parent BozhidarKolev { get; set; }
+        public IdentityUser UserBozhidarKolev { get; set; }
+
         public Parent EvelinaVasileva { get; set; }
+        public IdentityUser UserEvelinaVasileva { get; set; }
+
         public Parent StoyanPetrov { get; set; }
+        public IdentityUser UserStoyanPetrov { get; set; }
+
         public Parent TsvetelinaStoyanova { get; set; }
+        public IdentityUser UserTsvetelinaStoyanova { get; set; }
+
         public Parent LyubenMarinov { get; set; }
+        public IdentityUser UserLyubenMarinov { get; set; }
+
         public Parent RositsaPetrova { get; set; }
+        public IdentityUser UserRositsaPetrova { get; set; }
+
         public Parent KaloyanIvanov { get; set; }
+        public IdentityUser UserKaloyanIvanov { get; set; }
+
         public Parent EkaterinaGeorgieva { get; set; }
+        public IdentityUser UserEkaterinaGeorgieva { get; set; }
+
         public Parent HristoDimitrov { get; set; }
+        public IdentityUser UserHristoDimitrov { get; set; }
+
         public Parent DobrinkaIvanova { get; set; }
+        public IdentityUser UserDobrinkaIvanova { get; set; }
+
         public Parent BlagoyGeorgiev { get; set; }
+        public IdentityUser UserBlagoyGeorgiev { get; set; }
+
         public Parent IskraKoleva { get; set; }
+        public IdentityUser UserIskraKoleva { get; set; }
+
         public Parent KrasimirTodorov { get; set; }
+        public IdentityUser UserKrasimirTodorov { get; set; }
+
         public Parent GerganaIvanova { get; set; }
+        public IdentityUser UserGerganaIvanova { get; set; }
+
         public Parent VasilPetrov { get; set; }
+        public IdentityUser UserVasilPetrov { get; set; }
+
         public Parent NadezhdaDimitrova { get; set; }
+        public IdentityUser UserNadezhdaDimitrova { get; set; }
+
         public Parent TodorGeorgiev { get; set; }
+        public IdentityUser UserTodorGeorgiev { get; set; }
+
         public Parent RadkaIvanova { get; set; }
+        public IdentityUser UserRadkaIvanova { get; set; }
+
         public Parent HristinaStefanova { get; set; }
+        public IdentityUser UserHristinaStefanova { get; set; }
+
         public Parent YavorKolev { get; set; }
+        public IdentityUser UserYavorKolev { get; set; }
+
         public Parent KameliaPetrova { get; set; }
+        public IdentityUser UserKameliaPetrova { get; set; }
+
         public Parent EmilIvanov { get; set; }
+        public IdentityUser UserEmilIvanov { get; set; }
+
         public Parent DilyanaAleksandrova { get; set; }
+        public IdentityUser UserDilyanaAleksandrova { get; set; }
+
         public Parent TsvetanGeorgiev { get; set; }
+        public IdentityUser UserTsvetanGeorgiev { get; set; }
+
         public Parent ZhivkaIvanova { get; set; }
+        public IdentityUser UserZhivkaIvanova { get; set; }
+
         public Parent IvoDimitrov { get; set; }
+        public IdentityUser UserIvoDimitrov { get; set; }
+
         public Parent AdriyanaStoyanova { get; set; }
+        public IdentityUser UserAdriyanaStoyanova { get; set; }
+
         public Parent KamenPetrov { get; set; }
+        public IdentityUser UserKamenPetrov { get; set; }
+
         public Parent KristinaKoleva { get; set; }
+        public IdentityUser UserKristinaKoleva { get; set; }
+
         public Parent YankoIvanov { get; set; }
+        public IdentityUser UserYankoIvanov { get; set; }
+
         public Parent PolinaGeorgieva { get; set; }
+        public IdentityUser UserPolinaGeorgieva { get; set; }
+
         public Parent VeselinVasilev { get; set; }
+        public IdentityUser UserVeselinVasilev { get; set; }
+
         public Parent AntoniyaPetrova { get; set; }
+        public IdentityUser UserAntoniyaPetrova { get; set; }
+
         public Parent LyubomirDimitrov { get; set; }
+        public IdentityUser UserLyubomirDimitrov { get; set; }
+
         public Parent ZornitsaTodorova { get; set; }
+        public IdentityUser UserZornitsaTodorova { get; set; }
+
         public Parent StefanIvanov { get; set; }
+        public IdentityUser UserStefanIvanov { get; set; }
+
         public Parent YoanaGeorgieva { get; set; }
+        public IdentityUser UserYoanaGeorgieva { get; set; }
+
         public Parent KrasimiraPetrova { get; set; }
+        public IdentityUser UserKrasimiraPetrova { get; set; }
+
         public Parent IvayloKolev { get; set; }
+        public IdentityUser UserIvayloKolev { get; set; }
+
         public Parent MargaritaGeorgieva { get; set; }
+        public IdentityUser UserMargaritaGeorgieva { get; set; }
+
         public Parent RumenIvanov { get; set; }
+        public IdentityUser UserRumenIvanov { get; set; }
+
         public Parent MilenaDimitrova { get; set; }
+        public IdentityUser UserMilenaDimitrova { get; set; }
+
         public Parent YordanTodorov { get; set; }
+        public IdentityUser UserYordanTodorov { get; set; }
+
         public Parent SilviyaPetrova { get; set; }
+        public IdentityUser UserSilviyaPetrova { get; set; }
+
         public Parent BogdanIvanov { get; set; }
+        public IdentityUser UserBogdanIvanov { get; set; }
+
         public Parent PetyaKoleva { get; set; }
+        public IdentityUser UserPetyaKoleva { get; set; }
+
         public Parent AsenMarinov { get; set; }
+        public IdentityUser UserAsenMarinov { get; set; }
+
         public Parent RalitsaIvanova { get; set; }
+        public IdentityUser UserRalitsaIvanova { get; set; }
+
         public Parent VelkoVasilev { get; set; }
+        public IdentityUser UserVelkoVasilev { get; set; }
+
         public Parent GalyaDimitrova { get; set; }
+        public IdentityUser UserGalyaDimitrova { get; set; }
+
         public Parent DimiturIvanov { get; set; }
+        public IdentityUser UserDimiturIvanov { get; set; }
+
         public Parent NadiaKoleva { get; set; }
+        public IdentityUser UserNadiaKoleva { get; set; }
+
         public Parent YulianPetrov { get; set; }
+        public IdentityUser UserYulianPetrov { get; set; }
+
         public Parent RadostinaGeorgieva { get; set; }
+        public IdentityUser UserRadostinaGeorgieva { get; set; }
+
         public Parent KrasimIvanov { get; set; }
+        public IdentityUser UserKrasimIvanov { get; set; }
+
         public Parent TeodoraTodorova { get; set; }
+        public IdentityUser UserTeodoraTodorova { get; set; }
+
         public Parent KalinPetrov { get; set; }
+        public IdentityUser UserKalinPetrov { get; set; }
+
         public Parent SvetlaDimitrova { get; set; }
+        public IdentityUser UserSvetlaDimitrova { get; set; }
+
         public Parent VentsislavGeorgiev { get; set; }
+        public IdentityUser UserVentsislavGeorgiev { get; set; }
+
         public Parent VasilenaIvanova { get; set; }
+        public IdentityUser UserVasilenaIvanova { get; set; }
+
         public Parent MartinPetrov { get; set; }
+        public IdentityUser UserMartinPetrov { get; set; }
+
         public Parent RalitsaKoleva { get; set; }
+        public IdentityUser UserRalitsaKoleva { get; set; }
+
         public Parent StefanDimitrov { get; set; }
+        public IdentityUser UserStefanDimitrov { get; set; }
+
         public Parent SnezhanaGeorgieva { get; set; }
+        public IdentityUser UserSnezhanaGeorgieva { get; set; }
+
         public Parent IvayloIvanov { get; set; }
+        public IdentityUser UserIvayloIvanov { get; set; }
+
         public Parent MarianaPetrova { get; set; }
+        public IdentityUser UserMarianaPetrova { get; set; }
+
         public Parent RosenKolev { get; set; }
+        public IdentityUser UserRosenKolev { get; set; }
+
         public Parent TanyaStoyanova { get; set; }
+        public IdentityUser UserTanyaStoyanova { get; set; }
+
 
 
         //Students
 
         public Student DimitarIvanov { get; set; }
+        public IdentityUser UserDimitarIvanov { get; set; }
+
         public Student ElenaPetrova { get; set; }
+        public IdentityUser UserElenaPetrova { get; set; }
+
         public Student StefchoDimitrov { get; set; }
+        public IdentityUser UserStefchoDimitrov { get; set; }
+
         public Student MilenaGeorgieva { get; set; }
+        public IdentityUser UserMilenaGeorgieva { get; set; }
+
         public Student AleksandarTodorov { get; set; }
+        public IdentityUser UserAleksandarTodorov { get; set; }
+
         public Student ViktoriaIvanova { get; set; }
+        public IdentityUser UserViktoriaIvanova { get; set; }
+
         public Student NikolayKolev { get; set; }
+        public IdentityUser UserNikolayKolev { get; set; }
+
         public Student MariaVasileva { get; set; }
+        public IdentityUser UserMariaVasileva { get; set; }
+
         public Student IvayloPetrov { get; set; }
+        public IdentityUser UserIvayloPetrov { get; set; }
+
         public Student GabrielaStoyanova { get; set; }
+        public IdentityUser UserGabrielaStoyanova { get; set; }
+
         public Student GeorgiMarinov { get; set; }
+        public IdentityUser UserGeorgiMarinov { get; set; }
+
         public Student KristinaPetrova { get; set; }
+        public IdentityUser UserKristinaPetrova { get; set; }
+
         public Student RumchoIvanov { get; set; }
+        public IdentityUser UserRumchoIvanov { get; set; }
+
         public Student EmiliaGeorgieva { get; set; }
+        public IdentityUser UserEmiliaGeorgieva { get; set; }
+
         public Student KrasimirDimitrov { get; set; }
+        public IdentityUser UserKrasimirDimitrov { get; set; }
+
         public Student SilviyaIvanova { get; set; }
+        public IdentityUser UserSilviyaIvanova { get; set; }
+
         public Student AsenGeorgiev { get; set; }
+        public IdentityUser UserAsenGeorgiev { get; set; }
+
         public Student ElenaKoleva { get; set; }
+        public IdentityUser UserElenaKoleva { get; set; }
+
         public Student StanimirTodorov { get; set; }
+        public IdentityUser UserStanimirTodorov { get; set; }
+
         public Student MagdalenaIvanova { get; set; }
+        public IdentityUser UserMagdalenaIvanova { get; set; }
+
         public Student HristoPetrov { get; set; }
+        public IdentityUser UserHristoPetrov { get; set; }
+
         public Student KalinaDimitrova { get; set; }
+        public IdentityUser UserKalinaDimitrova { get; set; }
+
         public Student TsvetanchoGeorgiev { get; set; }
+        public IdentityUser UserTsvetanchoGeorgiev { get; set; }
+
         public Student NadezhdaIvanova { get; set; }
+        public IdentityUser UserNadezhdaIvanova { get; set; }
+
         public Student BorisStefanov { get; set; }
+        public IdentityUser UserBorisStefanov { get; set; }
+
         public Student AneliyaKoleva { get; set; }
+        public IdentityUser UserAneliyaKoleva { get; set; }
+
         public Student RosenPetrov { get; set; }
+        public IdentityUser UserRosenPetrov { get; set; }
+
         public Student RadostinaIvanova { get; set; }
+        public IdentityUser UserRadostinaIvanova { get; set; }
+
         public Student VasilAleksandrov { get; set; }
+        public IdentityUser UserVasilAleksandrov { get; set; }
+
         public Student RositsaGeorgieva { get; set; }
+        public IdentityUser UserRositsaGeorgieva { get; set; }
+
         public Student PlamenIvanov { get; set; }
+        public IdentityUser UserPlamenIvanov { get; set; }
+
         public Student ValentinaDimitrova { get; set; }
+        public IdentityUser UserValentinaDimitrova { get; set; }
+
         public Student IvoStoyanov { get; set; }
+        public IdentityUser UserIvoStoyanov { get; set; }
+
         public Student StefaniyaPetrova { get; set; }
+        public IdentityUser UserStefaniyaPetrova { get; set; }
+
         public Student MartinKolev { get; set; }
+        public IdentityUser UserMartinKolev { get; set; }
+
         public Student SonyaIvanova { get; set; }
+        public IdentityUser UserSonyaIvanova { get; set; }
+
         public Student LyubomirGeorgiev { get; set; }
+        public IdentityUser UserLyubomirGeorgiev { get; set; }
+
         public Student NataliyaVasileva { get; set; }
+        public IdentityUser UserNataliyaVasileva { get; set; }
+
         public Student PetarPetrov { get; set; }
+        public IdentityUser UserPetarPetrov { get; set; }
+
         public Student GerganaDimitrova { get; set; }
+        public IdentityUser UserGerganaDimitrova { get; set; }
+
         public Student LyubomiraTodorova { get; set; }
+        public IdentityUser UserLyubomiraTodorova { get; set; }
+
         public Student AntonIvanov { get; set; }
+        public IdentityUser UserAntonIvanov { get; set; }
+
         public Student TanyaGeorgieva { get; set; }
+        public IdentityUser UserTanyaGeorgieva { get; set; }
+
         public Student KamenchoPetrov { get; set; }
+        public IdentityUser UserKamenchoPetrov { get; set; }
+
         public Student VanyaKoleva { get; set; }
+        public IdentityUser UserVanyaKoleva { get; set; }
+
         public Student RadoslavGeorgiev { get; set; }
+        public IdentityUser UserRadoslavGeorgiev { get; set; }
+
         public Student VasilenkaIvanova { get; set; }
+        public IdentityUser UserVasilenkaIvanova { get; set; }
+
         public Student KirilDimitrov { get; set; }
+        public IdentityUser UserKirilDimitrov { get; set; }
+
         public Student KameliyaTodorova { get; set; }
+        public IdentityUser UserKameliyaTodorova { get; set; }
+
         public Student IliyaPetrov { get; set; }
+        public IdentityUser UserIliyaPetrov { get; set; }
+
         public Student DilyanaIvanova { get; set; }
+        public IdentityUser UserDilyanaIvanova { get; set; }
+
         public Student BogdanKolev { get; set; }
+        public IdentityUser UserBogdanKolev { get; set; }
+
         public Student DanielaMarinova { get; set; }
+        public IdentityUser UserDanielaMarinova { get; set; }
+
         public Student HristiyanIvanov { get; set; }
+        public IdentityUser UserHristiyanIvanov { get; set; }
+
         public Student TeodoraVasileva { get; set; }
+        public IdentityUser UserTeodoraVasileva { get; set; }
+
         public Student DesislavDimitrov { get; set; }
+        public IdentityUser UserDesislavDimitrov { get; set; }
+
         public Student GalyaIvanova { get; set; }
+        public IdentityUser UserGalyaIvanova { get; set; }
+
         public Student IvanKolev { get; set; }
+        public IdentityUser UserIvanKolev { get; set; }
+
         public Student MariyaPetrova { get; set; }
+        public IdentityUser UserMariyaPetrova { get; set; }
+
         public Student SimeonGeorgiev { get; set; }
+        public IdentityUser UserSimeonGeorgiev { get; set; }
+
         public Student MagdalinaIvanova { get; set; }
+        public IdentityUser UserMagdalinaIvanova { get; set; }
+
         public Student EmilTodorov { get; set; }
+        public IdentityUser UserEmilTodorov { get; set; }
+
         public Student KalinchoPetrov { get; set; }
+        public IdentityUser UserKalinchoPetrov { get; set; }
+
         public Student RalitsaDimitrova { get; set; }
+        public IdentityUser UserRalitsaDimitrova { get; set; }
+
         public Student YordanGeorgiev { get; set; }
+        public IdentityUser UserYordanGeorgiev { get; set; }
+
         public Student RadinkaIvanova { get; set; }
+        public IdentityUser UserRadinkaIvanova { get; set; }
+
         public Student VentsislavPetrov { get; set; }
+        public IdentityUser UserVentsislavPetrov { get; set; }
+
         public Student DarinaKoleva { get; set; }
+        public IdentityUser UserDarinaKoleva { get; set; }
+
         public Student BozhidarDimitrov { get; set; }
+        public IdentityUser UserBozhidarDimitrov { get; set; }
+
         public Student NeliGeorgieva { get; set; }
+        public IdentityUser UserNeliGeorgieva { get; set; }
+
         public Student YavorIvanov { get; set; }
+        public IdentityUser UserYavorIvanov { get; set; }
+
         public Student MilitsaPetrova { get; set; }
+        public IdentityUser UserMilitsaPetrova { get; set; }
+
         public Student ZdravkoKolev { get; set; }
+        public IdentityUser UserZdravkoKolev { get; set; }
+
         public Student ElenaStoyanova { get; set; }
+        public IdentityUser UserElenaStoyanova { get; set; }
+
 
 
         //StudentSubjectGrades
@@ -218,6 +538,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
         public StudentSubjectGrade OneEight { get; set; }
         public StudentSubjectGrade OneNine { get; set; }
         public StudentSubjectGrade OneTen { get; set; }
+
 
         //2
         public StudentSubjectGrade TwoOne { get; set; }
@@ -1097,6 +1418,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
 
         public SeedData()
         {
+            SeedUsers();
             SeedSubjects();
             SeedClasses();
             SeedPrincipals();
@@ -1106,6 +1428,1632 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             SeedStudentSubjectGrades();
         }
 
+        private void SeedUsers()
+        {
+            var hasher = new PasswordHasher<IdentityUser>();
+
+
+            //Teachers
+
+            UserTatyanaGerganova = new IdentityUser()
+            {
+                Id = "bfb57c7b-4d3d-44e5-8e4f-bf68bfdb542d",
+                UserName = TatyanaGerganova.Email,
+                NormalizedUserName = TatyanaGerganova.Email,
+                Email = TatyanaGerganova.Email,
+                NormalizedEmail = TatyanaGerganova.Email
+            };
+            UserTatyanaGerganova.PasswordHash = hasher.HashPassword(UserTatyanaGerganova, "TatyanaGerganova123");
+
+            UserBilyanaLozanova = new IdentityUser()
+            {
+                Id = "4f2d3e6a-8ef0-4e6b-80c2-9b487bbba2dd",
+                UserName = BilyanaLozanova.Email,
+                NormalizedUserName = BilyanaLozanova.Email,
+                Email = BilyanaLozanova.Email,
+                NormalizedEmail = BilyanaLozanova.Email
+            };
+            UserBilyanaLozanova.PasswordHash = hasher.HashPassword(UserBilyanaLozanova, "BilyanaLozanova123");
+
+            UserKrasimiraKutin = new IdentityUser()
+            {
+                Id = "f09a28d8-2ad2-465e-8ab6-7b4bd4a82ec6",
+                UserName = KrasimiraKutin.Email,
+                NormalizedUserName = KrasimiraKutin.Email,
+                Email = KrasimiraKutin.Email,
+                NormalizedEmail = KrasimiraKutin.Email
+            };
+            UserKrasimiraKutin.PasswordHash = hasher.HashPassword(UserKrasimiraKutin, "KrasimiraKutin123");
+
+            UserTeodorHristov = new IdentityUser()
+            {
+                Id = "8a7389a7-17c1-4f0a-96e9-0929cfa1c9b1",
+                UserName = TeodorHristov.Email,
+                NormalizedUserName = TeodorHristov.Email,
+                Email = TeodorHristov.Email,
+                NormalizedEmail = TeodorHristov.Email
+            };
+            UserTeodorHristov.PasswordHash = hasher.HashPassword(UserTeodorHristov, "TeodorHristov123");
+
+            UserSilviyaGancheva = new IdentityUser()
+            {
+                Id = "7a68960f-439a-42ab-9a4c-10720fd21c95",
+                UserName = SilviyaGancheva.Email,
+                NormalizedUserName = SilviyaGancheva.Email,
+                Email = SilviyaGancheva.Email,
+                NormalizedEmail = SilviyaGancheva.Email
+            };
+            UserSilviyaGancheva.PasswordHash = hasher.HashPassword(UserSilviyaGancheva, "SilviyaGancheva123");
+
+            UserCvetomirAmbursa = new IdentityUser()
+            {
+                Id = "c3926be0-cc65-4a5d-92c7-4c8917d390bf",
+                UserName = CvetomirAmbursa.Email,
+                NormalizedUserName = CvetomirAmbursa.Email,
+                Email = CvetomirAmbursa.Email,
+                NormalizedEmail = CvetomirAmbursa.Email
+            };
+            UserCvetomirAmbursa.PasswordHash = hasher.HashPassword(UserCvetomirAmbursa, "CvetomirAmbursa123");
+
+            UserMitkoMitkov = new IdentityUser()
+            {
+                Id = "a15da546-3bc8-4ee7-90cd-172a2180f220",
+                UserName = MitkoMitkov.Email,
+                NormalizedUserName = MitkoMitkov.Email,
+                Email = MitkoMitkov.Email,
+                NormalizedEmail = MitkoMitkov.Email
+            };
+            UserMitkoMitkov.PasswordHash = hasher.HashPassword(UserMitkoMitkov, "MitkoMitkov123");
+
+            UserEmilStoyanov = new IdentityUser()
+            {
+                Id = "d3a9008b-85c3-4a1a-8f57-36ad03b32a72",
+                UserName = EmilStoyanov.Email,
+                NormalizedUserName = EmilStoyanov.Email,
+                Email = EmilStoyanov.Email,
+                NormalizedEmail = EmilStoyanov.Email
+            };
+            UserEmilStoyanov.PasswordHash = hasher.HashPassword(UserEmilStoyanov, "EmilStoyanov123");
+
+            UserBorislavaBangeeva = new IdentityUser()
+            {
+                Id = "2db4cc9f-8d87-4e13-97f0-8eb8b7ea00e7",
+                UserName = BorislavaBangeeva.Email,
+                NormalizedUserName = BorislavaBangeeva.Email,
+                Email = BorislavaBangeeva.Email,
+                NormalizedEmail = BorislavaBangeeva.Email
+            };
+            UserBorislavaBangeeva.PasswordHash = hasher.HashPassword(UserBorislavaBangeeva, "BorislavaBangeeva123");
+
+            UserMariaIvanova = new IdentityUser()
+            {
+                Id = "0c2174fe-5bfc-4842-9cb3-882a35a09902",
+                UserName = MariaIvanova.Email,
+                NormalizedUserName = MariaIvanova.Email,
+                Email = MariaIvanova.Email,
+                NormalizedEmail = MariaIvanova.Email
+            };
+            UserMariaIvanova.PasswordHash = hasher.HashPassword(UserMariaIvanova, "MariaIvanova123");
+
+
+            //Principals
+
+            UserRadostinaMekova = new IdentityUser()
+            {
+                Id = "5a11fb1d-76ee-4c9a-8a9e-2534297cf94e",
+                UserName = RadostinaMekova.Email,
+                NormalizedUserName = RadostinaMekova.Email,
+                Email = RadostinaMekova.Email,
+                NormalizedEmail = RadostinaMekova.Email
+            };
+            UserRadostinaMekova.PasswordHash = hasher.HashPassword(UserRadostinaMekova, "RadostinaMekova123");
+
+            UserValentinaStoeva = new IdentityUser()
+            {
+                Id = "7d4e1b42-7463-4bcf-9d0f-eeb02a87d0c5",
+                UserName = ValentinaStoeva.Email,
+                NormalizedUserName = ValentinaStoeva.Email,
+                Email = ValentinaStoeva.Email,
+                NormalizedEmail = ValentinaStoeva.Email
+            };
+            UserValentinaStoeva.PasswordHash = hasher.HashPassword(UserValentinaStoeva, "ValentinaStoeva123");
+
+            UserYulianaPetkova = new IdentityUser()
+            {
+                Id = "fbb84d19-1715-4d08-87bb-c87966c442b8",
+                UserName = YulianaPetkova.Email,
+                NormalizedUserName = YulianaPetkova.Email,
+                Email = YulianaPetkova.Email,
+                NormalizedEmail = YulianaPetkova.Email
+            };
+            UserYulianaPetkova.PasswordHash = hasher.HashPassword(UserYulianaPetkova, "YulianaPetkova123");
+
+
+            //Parents
+
+            UserKrumIvanov = new IdentityUser()
+            {
+                Id = "b6f0b26e-4baf-4a7c-bb7d-02e5f3a12a6c",
+                UserName = "krumivanov",
+                NormalizedUserName = "krumivanov",
+                Email = "krumivanov@myschool.com",
+                NormalizedEmail = "krumivanov@myschool.com"
+            };
+            UserKrumIvanov.PasswordHash = hasher.HashPassword(UserKrumIvanov, "krumivanov123");
+
+            UserVeronikaPetrova = new IdentityUser()
+            {
+                Id = "87c52768-9d12-46c1-ae72-0dcf9f415f39",
+                UserName = "veronikapetrova",
+                NormalizedUserName = "veronikapetrova",
+                Email = "veronikapetrova@myschool.com",
+                NormalizedEmail = "veronikapetrova@myschool.com"
+            };
+            UserVeronikaPetrova.PasswordHash = hasher.HashPassword(UserVeronikaPetrova, "veronikapetrova123");
+
+            UserPlamenDimitrov = new IdentityUser()
+            {
+                Id = "2d8f5db8-876c-4c0a-9c3a-91a4e724cbdd",
+                UserName = "plamendimitrov",
+                NormalizedUserName = "plamendimitrov",
+                Email = "plamendimitrov@myschool.com",
+                NormalizedEmail = "plamendimitrov@myschool.com"
+            };
+            UserPlamenDimitrov.PasswordHash = hasher.HashPassword(UserPlamenDimitrov, "plamendimitrov123");
+
+            UserZlatinaGeorgieva = new IdentityUser()
+            {
+                Id = "f51a7a24-9aa3-4a93-9dd6-8d8e682ef64d",
+                UserName = "zlatinageorieva",
+                NormalizedUserName = "zlatinageorieva",
+                Email = "zlatinageorieva@myschool.com",
+                NormalizedEmail = "zlatinageorieva@myschool.com"
+            };
+            UserZlatinaGeorgieva.PasswordHash = hasher.HashPassword(UserZlatinaGeorgieva, "zlatinageorgieva123");
+
+            UserRadoslavTodorov = new IdentityUser()
+            {
+                Id = "c173c3a5-2bf3-40cd-86bb-27b18a2d3b7a",
+                UserName = "radoslavtodorov",
+                NormalizedUserName = "radoslavtodorov",
+                Email = "radoslavtodorov@myschool.com",
+                NormalizedEmail = "radoslavtodorov@myschool.com"
+            };
+            UserRadoslavTodorov.PasswordHash = hasher.HashPassword(UserRadoslavTodorov, "radoslavtodorov123");
+
+            UserAdrianaIvanova = new IdentityUser()
+            {
+                Id = "6d42e1d8-4e45-48b4-ba42-1a7f9c2a4a5c",
+                UserName = "adrianaivanova",
+                NormalizedUserName = "adrianaivanova",
+                Email = "adrianaivanova@myschool.com",
+                NormalizedEmail = "adrianaivanova@myschool.com"
+            };
+            UserAdrianaIvanova.PasswordHash = hasher.HashPassword(UserAdrianaIvanova, "adrianaivanova123");
+
+            UserBozhidarKolev = new IdentityUser()
+            {
+                Id = "a8f87e34-d5ae-4c46-aa1d-2f3cc6e11d2a",
+                UserName = "bozhidarakolev",
+                NormalizedUserName = "bozhidarakolev",
+                Email = "bozhidarakolev@myschool.com",
+                NormalizedEmail = "bozhidarakolev@myschool.com"
+            };
+            UserBozhidarKolev.PasswordHash = hasher.HashPassword(UserBozhidarKolev, "bozhidarkolev123");
+
+            UserEvelinaVasileva = new IdentityUser()
+            {
+                Id = "3f12d8fb-1251-48f5-b566-8f4ef5b2c5d5",
+                UserName = "evelinavasileva",
+                NormalizedUserName = "evelinavasileva",
+                Email = "evelinavasileva@myschool.com",
+                NormalizedEmail = "evelinavasileva@myschool.com"
+            };
+            UserEvelinaVasileva.PasswordHash = hasher.HashPassword(UserEvelinaVasileva, "evelinavasileva123");
+
+            UserStoyanPetrov = new IdentityUser()
+            {
+                Id = "d7cde10b-1785-4e74-92b3-c18c8f3d9e0a",
+                UserName = "stoyanpetrov",
+                NormalizedUserName = "stoyanpetrov",
+                Email = "stoyanpetrov@myschool.com",
+                NormalizedEmail = "stoyanpetrov@myschool.com"
+            };
+            UserStoyanPetrov.PasswordHash = hasher.HashPassword(UserStoyanPetrov, "stoyanpetrov123");
+
+            UserTsvetelinaStoyanova = new IdentityUser()
+            {
+                Id = "2f978b4c-4d9c-4ee1-aa1b-bdca0d1f89d6",
+                UserName = "tsvetelinastoyanova",
+                NormalizedUserName = "tsvetelinastoyanova",
+                Email = "tsvetelinastoyanova@myschool.com",
+                NormalizedEmail = "tsvetelinastoyanova@myschool.com"
+            };
+            UserTsvetelinaStoyanova.PasswordHash = hasher.HashPassword(UserTsvetelinaStoyanova, "tsvetelinastoyanova123");
+
+            UserLyubenMarinov = new IdentityUser()
+            {
+                Id = "8270e9b1-2c24-43e1-9f93-22d9923de12c",
+                UserName = "lyubenmarinov",
+                NormalizedUserName = "lyubenmarinov",
+                Email = "lyubenmarinov@myschool.com",
+                NormalizedEmail = "lyubenmarinov@myschool.com"
+            };
+            UserLyubenMarinov.PasswordHash = hasher.HashPassword(UserLyubenMarinov, "lyubenmarinov123");
+
+            UserRositsaPetrova = new IdentityUser()
+            {
+                Id = "f05ad822-8530-4f4d-9f43-d8908ee1ad48",
+                UserName = "rositsapetrova",
+                NormalizedUserName = "rositsapetrova",
+                Email = "rositsapetrova@myschool.com",
+                NormalizedEmail = "rositsapetrova@myschool.com"
+            };
+            UserRositsaPetrova.PasswordHash = hasher.HashPassword(UserRositsaPetrova, "rositsapetrova123");
+
+            UserKaloyanIvanov = new IdentityUser()
+            {
+                Id = "8e9d7e5c-3429-426e-8bf7-256f874a189a",
+                UserName = "kaloyanivanov",
+                NormalizedUserName = "kaloyanivanov",
+                Email = "kaloyanivanov@myschool.com",
+                NormalizedEmail = "kaloyanivanov@myschool.com"
+            };
+            UserKaloyanIvanov.PasswordHash = hasher.HashPassword(UserKaloyanIvanov, "kaloyanivanov123");
+
+            UserEkaterinaGeorgieva = new IdentityUser()
+            {
+                Id = "85bb508a-2d95-42d9-aa43-0e4fe33497a0",
+                UserName = "ekaterinageorgieva",
+                NormalizedUserName = "ekaterinageorgieva",
+                Email = "ekaterinageorgieva@myschool.com",
+                NormalizedEmail = "ekaterinageorgieva@myschool.com"
+            };
+            UserEkaterinaGeorgieva.PasswordHash = hasher.HashPassword(UserEkaterinaGeorgieva, "ekaterinageorgieva123");
+
+            UserHristoDimitrov = new IdentityUser()
+            {
+                Id = "b122f303-2d44-4f3d-bdd8-dac3626da548",
+                UserName = "hristodimitrov",
+                NormalizedUserName = "hristodimitrov",
+                Email = "hristodimitrov@myschool.com",
+                NormalizedEmail = "hristodimitrov@myschool.com"
+            };
+            UserHristoDimitrov.PasswordHash = hasher.HashPassword(UserHristoDimitrov, "hristodimitrov123");
+
+            UserDobrinkaIvanova = new IdentityUser()
+            {
+                Id = "4ce7832b-e2f3-446f-8c63-720db3f89237",
+                UserName = "dobrinkaivanova",
+                NormalizedUserName = "dobrinkaivanova",
+                Email = "dobrinkaivanova@myschool.com",
+                NormalizedEmail = "dobrinkaivanova@myschool.com"
+            };
+            UserDobrinkaIvanova.PasswordHash = hasher.HashPassword(UserDobrinkaIvanova, "dobrinkaivanova123");
+
+            UserBlagoyGeorgiev = new IdentityUser()
+            {
+                Id = "6b86569b-8f22-4a5c-9511-109f06d214a8",
+                UserName = "blagoygeorgiev",
+                NormalizedUserName = "blagoygeorgiev",
+                Email = "blagoygeorgiev@myschool.com",
+                NormalizedEmail = "blagoygeorgiev@myschool.com"
+            };
+            UserBlagoyGeorgiev.PasswordHash = hasher.HashPassword(UserBlagoyGeorgiev, "blagoygeorgiev123");
+
+            UserIskraKoleva = new IdentityUser()
+            {
+                Id = "923f8d7d-c02d-4177-a5f8-6b6975a7119b",
+                UserName = "iskrakoleva",
+                NormalizedUserName = "iskrakoleva",
+                Email = "iskrakoleva@myschool.com",
+                NormalizedEmail = "iskrakoleva@myschool.com"
+            };
+            UserIskraKoleva.PasswordHash = hasher.HashPassword(UserIskraKoleva, "iskrakoleva123");
+
+            UserKrasimirTodorov = new IdentityUser()
+            {
+                Id = "a0e8ee4a-4dbb-4a5e-b97f-e35c542b778e",
+                UserName = "krasimirtodorov",
+                NormalizedUserName = "krasimirtodorov",
+                Email = "krasimirtodorov@myschool.com",
+                NormalizedEmail = "krasimirtodorov@myschool.com"
+            };
+            UserKrasimirTodorov.PasswordHash = hasher.HashPassword(UserKrasimirTodorov, "krasimirtodorov123");
+
+            UserGerganaIvanova = new IdentityUser()
+            {
+                Id = "0fe8a18a-0f52-4e41-8d44-292001678e5b",
+                UserName = "gerganaivanova",
+                NormalizedUserName = "gerganaivanova",
+                Email = "gerganaivanova@myschool.com",
+                NormalizedEmail = "gerganaivanova@myschool.com"
+            };
+            UserGerganaIvanova.PasswordHash = hasher.HashPassword(UserGerganaIvanova, "gerganaivanova123");
+
+            UserVasilPetrov = new IdentityUser()
+            {
+                Id = "95226fbf-1ebd-49c2-aaaf-71788a690ac5",
+                UserName = "vasilpetrov",
+                NormalizedUserName = "vasilpetrov",
+                Email = "vasilpetrov@myschool.com",
+                NormalizedEmail = "vasilpetrov@myschool.com"
+            };
+            UserVasilPetrov.PasswordHash = hasher.HashPassword(UserVasilPetrov, "vasilpetrov123");
+
+            UserNadezhdaDimitrova = new IdentityUser()
+            {
+                Id = "c3d2b72a-bbf1-448f-9d87-ef1dd620e91d",
+                UserName = "nadezhdadimitrova",
+                NormalizedUserName = "nadezhdadimitrova",
+                Email = "nadezhdadimitrova@myschool.com",
+                NormalizedEmail = "nadezhdadimitrova@myschool.com"
+            };
+            UserNadezhdaDimitrova.PasswordHash = hasher.HashPassword(UserNadezhdaDimitrova, "nadezhdadimitrova123");
+
+            UserTodorGeorgiev = new IdentityUser()
+            {
+                Id = "3670d992-3c68-43a1-9862-1e14d65f8888",
+                UserName = "todorgeorgiev",
+                NormalizedUserName = "todorgeorgiev",
+                Email = "todorgeorgiev@myschool.com",
+                NormalizedEmail = "todorgeorgiev@myschool.com"
+            };
+            UserTodorGeorgiev.PasswordHash = hasher.HashPassword(UserTodorGeorgiev, "todorgeorgiev123");
+
+            UserRadkaIvanova = new IdentityUser()
+            {
+                Id = "04870e99-9ba7-4640-8ef2-01fc2a1190d7",
+                UserName = "radkaivanova",
+                NormalizedUserName = "radkaivanova",
+                Email = "radkaivanova@myschool.com",
+                NormalizedEmail = "radkaivanova@myschool.com"
+            };
+            UserRadkaIvanova.PasswordHash = hasher.HashPassword(UserRadkaIvanova, "radkaivanova123");
+
+            UserHristinaStefanova = new IdentityUser()
+            {
+                Id = "c5422b1e-16ed-4d05-8d45-9202c7d85d77",
+                UserName = "hristinastefanova",
+                NormalizedUserName = "hristinastefanova",
+                Email = "hristinastefanova@myschool.com",
+                NormalizedEmail = "hristinastefanova@myschool.com"
+            };
+            UserHristinaStefanova.PasswordHash = hasher.HashPassword(UserHristinaStefanova, "hristinastefanova123");
+
+            UserYavorKolev = new IdentityUser()
+            {
+                Id = "e06a86ef-9ed7-4852-b9e3-0c0c62b741fe",
+                UserName = "yavorkolev",
+                NormalizedUserName = "yavorkolev",
+                Email = "yavorkolev@myschool.com",
+                NormalizedEmail = "yavorkolev@myschool.com"
+            };
+            UserYavorKolev.PasswordHash = hasher.HashPassword(UserYavorKolev, "yavorkolev123");
+
+            UserKameliaPetrova = new IdentityUser()
+            {
+                Id = "0dbed053-0ea2-43c1-b4b1-99a1d1197084",
+                UserName = "kameliapetrova",
+                NormalizedUserName = "kameliapetrova",
+                Email = "kameliapetrova@myschool.com",
+                NormalizedEmail = "kameliapetrova@myschool.com"
+            };
+            UserKameliaPetrova.PasswordHash = hasher.HashPassword(UserKameliaPetrova, "kameliapetrova123");
+
+            UserEmilIvanov = new IdentityUser()
+            {
+                Id = "6e3ac05f-09b1-4e65-9ab5-81a0c787e9e3",
+                UserName = "emilivanov",
+                NormalizedUserName = "emilivanov",
+                Email = "emilivanov@myschool.com",
+                NormalizedEmail = "emilivanov@myschool.com"
+            };
+            UserEmilIvanov.PasswordHash = hasher.HashPassword(UserEmilIvanov, "emilivanov123");
+
+            UserDilyanaAleksandrova = new IdentityUser()
+            {
+                Id = "a7201fc2-3e05-4ad0-a0f3-1f925f05e0b1",
+                UserName = "dilyanaaleksandrova",
+                NormalizedUserName = "dilyanaaleksandrova",
+                Email = "dilyanaaleksandrova@myschool.com",
+                NormalizedEmail = "dilyanaaleksandrova@myschool.com"
+            };
+            UserDilyanaAleksandrova.PasswordHash = hasher.HashPassword(UserDilyanaAleksandrova, "dilyanaaleksandrova123");
+
+            UserTsvetanGeorgiev = new IdentityUser()
+            {
+                Id = "57e4c1a5-4c76-4cda-98ce-2e2a0a22c764",
+                UserName = "tsvetangeorgiev",
+                NormalizedUserName = "tsvetangeorgiev",
+                Email = "tsvetangeorgiev@myschool.com",
+                NormalizedEmail = "tsvetangeorgiev@myschool.com"
+            };
+            UserTsvetanGeorgiev.PasswordHash = hasher.HashPassword(UserTsvetanGeorgiev, "tsvetangeorgiev123");
+
+            UserZhivkaIvanova = new IdentityUser()
+            {
+                Id = "87e879c3-5c01-41d1-9e08-0a667172a0c7",
+                UserName = "zhivkaivanova",
+                NormalizedUserName = "zhivkaivanova",
+                Email = "zhivkaivanova@myschool.com",
+                NormalizedEmail = "zhivkaivanova@myschool.com"
+            };
+            UserZhivkaIvanova.PasswordHash = hasher.HashPassword(UserZhivkaIvanova, "zhivkaivanova123");
+
+            UserIvoDimitrov = new IdentityUser()
+            {
+                Id = "a7f2842b-bfd9-4e04-994a-c5f16bfefc10",
+                UserName = "ivodimitrov",
+                NormalizedUserName = "ivodimitrov",
+                Email = "ivodimitrov@myschool.com",
+                NormalizedEmail = "ivodimitrov@myschool.com"
+            };
+            UserIvoDimitrov.PasswordHash = hasher.HashPassword(UserIvoDimitrov, "ivodimitrov123");
+
+            UserAdriyanaStoyanova = new IdentityUser()
+            {
+                Id = "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1",
+                UserName = "adriyanastoyanova",
+                NormalizedUserName = "adriyanastoyanova",
+                Email = "adriyanastoyanova@myschool.com",
+                NormalizedEmail = "adriyanastoyanova@myschool.com"
+            };
+            UserAdriyanaStoyanova.PasswordHash = hasher.HashPassword(UserAdriyanaStoyanova, "adriyanastoyanova123");
+
+            UserKamenPetrov = new IdentityUser()
+            {
+                Id = "0f76fe6a-91ed-496d-aa60-ba07cda9c7e1",
+                UserName = "kamenpetrov",
+                NormalizedUserName = "kamenpetrov",
+                Email = "kamenpetrov@myschool.com",
+                NormalizedEmail = "kamenpetrov@myschool.com"
+            };
+            UserKamenPetrov.PasswordHash = hasher.HashPassword(UserKamenPetrov, "kamenpetrov123");
+
+            UserKristinaKoleva = new IdentityUser()
+            {
+                Id = "2e3c6d85-136f-4878-819b-9f982e6e4ed8",
+                UserName = "kristinakoleva",
+                NormalizedUserName = "kristinakoleva",
+                Email = "kristinakoleva@myschool.com",
+                NormalizedEmail = "kristinakoleva@myschool.com"
+            };
+            UserKristinaKoleva.PasswordHash = hasher.HashPassword(UserKristinaKoleva, "kristinakoleva123");
+
+            UserYankoIvanov = new IdentityUser()
+            {
+                Id = "65c645b2-cdf7-45d1-89d1-cd881a36ed98",
+                UserName = "yankoivanov",
+                NormalizedUserName = "yankoivanov",
+                Email = "yankoivanov@myschool.com",
+                NormalizedEmail = "yankoivanov@myschool.com"
+            };
+            UserYankoIvanov.PasswordHash = hasher.HashPassword(UserYankoIvanov, "yankoivanov123");
+
+            UserPolinaGeorgieva = new IdentityUser()
+            {
+                Id = "65aa7d12-2f5a-4381-8c69-9b01523cf5e1",
+                UserName = "polinageorgieva",
+                NormalizedUserName = "polinageorgieva",
+                Email = "polinageorgieva@myschool.com",
+                NormalizedEmail = "polinageorgieva@myschool.com"
+            };
+            UserPolinaGeorgieva.PasswordHash = hasher.HashPassword(UserPolinaGeorgieva, "polinageorgieva123");
+
+            UserVeselinVasilev = new IdentityUser()
+            {
+                Id = "3f0c19e4-df31-42e7-9421-882128123af3",
+                UserName = "veselinvasilev",
+                NormalizedUserName = "veselinvasilev",
+                Email = "veselinvasilev@myschool.com",
+                NormalizedEmail = "veselinvasilev@myschool.com"
+            };
+            UserVeselinVasilev.PasswordHash = hasher.HashPassword(UserVeselinVasilev, "veselinvasilev123");
+
+            UserAntoniyaPetrova = new IdentityUser()
+            {
+                Id = "2ef3d2b3-3d7f-4d52-8a04-5433e1f869ec",
+                UserName = "antoniyapetrova",
+                NormalizedUserName = "antoniyapetrova",
+                Email = "antoniyapetrova@myschool.com",
+                NormalizedEmail = "antoniyapetrova@myschool.com"
+            };
+            UserAntoniyaPetrova.PasswordHash = hasher.HashPassword(UserAntoniyaPetrova, "antoniyapetrova123");
+
+            UserLyubomirDimitrov = new IdentityUser()
+            {
+                Id = "b87b71e9-8db3-4f09-b865-5402a08d0b8b",
+                UserName = "lyubomirdimitrov",
+                NormalizedUserName = "lyubomirdimitrov",
+                Email = "lyubomirdimitrov@myschool.com",
+                NormalizedEmail = "lyubomirdimitrov@myschool.com"
+            };
+            UserLyubomirDimitrov.PasswordHash = hasher.HashPassword(UserLyubomirDimitrov, "lyubomirdimitrov123");
+
+            UserZornitsaTodorova = new IdentityUser()
+            {
+                Id = "f75d44bf-9f2d-4d0f-a20a-b28d8eac0d7d",
+                UserName = "zornitsatodorova",
+                NormalizedUserName = "zornitsatodorova",
+                Email = "zornitsatodorova@myschool.com",
+                NormalizedEmail = "zornitsatodorova@myschool.com"
+            };
+            UserZornitsaTodorova.PasswordHash = hasher.HashPassword(UserZornitsaTodorova, "zornitsatodorova123");
+
+            UserStefanIvanov = new IdentityUser()
+            {
+                Id = "1e1b85b7-6c15-4f2c-b1c4-47ad0c8bf5f9",
+                UserName = "stefanivanov",
+                NormalizedUserName = "stefanivanov",
+                Email = "stefanivanov@myschool.com",
+                NormalizedEmail = "stefanivanov@myschool.com"
+            };
+            UserStefanIvanov.PasswordHash = hasher.HashPassword(UserStefanIvanov, "stefanivanov123");
+
+            UserYoanaGeorgieva = new IdentityUser()
+            {
+                Id = "5a52e138-0a2c-4b1a-8a68-b95de62aa345",
+                UserName = "yoanageorgieva",
+                NormalizedUserName = "yoanageorgieva",
+                Email = "yoanageorgieva@myschool.com",
+                NormalizedEmail = "yoanageorgieva@myschool.com"
+            };
+            UserYoanaGeorgieva.PasswordHash = hasher.HashPassword(UserYoanaGeorgieva, "yoanageorgieva123");
+
+            UserKrasimiraPetrova = new IdentityUser()
+            {
+                Id = "b2c8a67c-5a1d-4e23-9c85-0c57454de9ee",
+                UserName = "krasimirapetrova",
+                NormalizedUserName = "krasimirapetrova",
+                Email = "krasimirapetrova@myschool.com",
+                NormalizedEmail = "krasimirapetrova@myschool.com"
+            };
+            UserKrasimiraPetrova.PasswordHash = hasher.HashPassword(UserKrasimiraPetrova, "krasimirapetrova123");
+
+            UserIvayloKolev = new IdentityUser()
+            {
+                Id = "9e3dbbc2-33d7-4c57-a3ee-5b7e19b1c3c2",
+                UserName = "ivaylokolev",
+                NormalizedUserName = "ivaylokolev",
+                Email = "ivaylokolev@myschool.com",
+                NormalizedEmail = "ivaylokolev@myschool.com"
+            };
+            UserIvayloKolev.PasswordHash = hasher.HashPassword(UserIvayloKolev, "ivaylokolev123");
+
+            UserMargaritaGeorgieva = new IdentityUser()
+            {
+                Id = "9b9474b0-06ab-4953-8f23-cff7e88c7a0b",
+                UserName = "margaritageorgeiva",
+                NormalizedUserName = "margaritageorgeiva",
+                Email = "margaritageorgeiva@myschool.com",
+                NormalizedEmail = "margaritageorgeiva@myschool.com"
+            };
+            UserMargaritaGeorgieva.PasswordHash = hasher.HashPassword(UserMargaritaGeorgieva, "margaritageorgieva123");
+
+            UserRumenIvanov = new IdentityUser()
+            {
+                Id = "7edf5ac1-2d87-4bf0-b2ed-4d2e4a7b9657",
+                UserName = "rumenivanov",
+                NormalizedUserName = "rumenivanov",
+                Email = "rumenivanov@myschool.com",
+                NormalizedEmail = "rumenivanov@myschool.com"
+            };
+            UserRumenIvanov.PasswordHash = hasher.HashPassword(UserRumenIvanov, "rumenivanov123");
+
+            UserMilenaDimitrova = new IdentityUser()
+            {
+                Id = "e192e1fe-5680-4ad9-a5e8-4c8328f7840c",
+                UserName = "milenadimitrova",
+                NormalizedUserName = "milenadimitrova",
+                Email = "milenadimitrova@myschool.com",
+                NormalizedEmail = "milenadimitrova@myschool.com"
+            };
+            UserMilenaDimitrova.PasswordHash = hasher.HashPassword(UserMilenaDimitrova, "milenadimitrova123");
+
+            UserYordanTodorov = new IdentityUser()
+            {
+                Id = "5d5313c0-7da7-4ac6-aa0d-3e6a51fe09b6",
+                UserName = "yordantodorov",
+                NormalizedUserName = "yordantodorov",
+                Email = "yordantodorov@myschool.com",
+                NormalizedEmail = "yordantodorov@myschool.com"
+            };
+            UserYordanTodorov.PasswordHash = hasher.HashPassword(UserYordanTodorov, "yordantodorov123");
+
+            UserSilviyaPetrova = new IdentityUser()
+            {
+                Id = "31d9f6c5-c9a8-48c8-8b5f-c990d06200ad",
+                UserName = "silviyapetrova",
+                NormalizedUserName = "silviyapetrova",
+                Email = "silviyapetrova@myschool.com",
+                NormalizedEmail = "silviyapetrova@myschool.com"
+            };
+            UserSilviyaPetrova.PasswordHash = hasher.HashPassword(UserSilviyaPetrova, "silviyapetrova123");
+
+            UserBogdanIvanov = new IdentityUser()
+            {
+                Id = "5e61439f-95d5-4e2b-9b0d-91e7c4472e3e",
+                UserName = "bogdanivanov",
+                NormalizedUserName = "bogdanivanov",
+                Email = "bogdanivanov@myschool.com",
+                NormalizedEmail = "bogdanivanov@myschool.com"
+            };
+            UserBogdanIvanov.PasswordHash = hasher.HashPassword(UserBogdanIvanov, "bogdanivanov123");
+
+            UserPetyaKoleva = new IdentityUser()
+            {
+                Id = "32d43d0a-632a-48fe-bc8f-68bb3f72f083",
+                UserName = "petyakoleva",
+                NormalizedUserName = "petyakoleva",
+                Email = "petyakoleva@myschool.com",
+                NormalizedEmail = "petyakoleva@myschool.com"
+            };
+            UserPetyaKoleva.PasswordHash = hasher.HashPassword(UserPetyaKoleva, "petyakoleva123");
+
+            UserAsenMarinov = new IdentityUser()
+            {
+                Id = "e9f13942-e518-46f3-8b3e-d332b26d18fc",
+                UserName = "asenmarinov",
+                NormalizedUserName = "asenmarinov",
+                Email = "asenmarinov@myschool.com",
+                NormalizedEmail = "asenmarinov@myschool.com"
+            };
+            UserAsenMarinov.PasswordHash = hasher.HashPassword(UserAsenMarinov, "asenmarinov123");
+
+            UserRalitsaIvanova = new IdentityUser()
+            {
+                Id = "5e4bb853-02b0-4e76-b28b-2181be91d1fc",
+                UserName = "ralitsaivanova",
+                NormalizedUserName = "ralitsaivanova",
+                Email = "ralitsaivanova@myschool.com",
+                NormalizedEmail = "ralitsaivanova@myschool.com"
+            };
+            UserRalitsaIvanova.PasswordHash = hasher.HashPassword(UserRalitsaIvanova, "ralitsaivanova123");
+
+            UserVelkoVasilev = new IdentityUser()
+            {
+                Id = "2b7e8569-4edf-46d1-8b07-d2a09977e361",
+                UserName = "velkovasilev",
+                NormalizedUserName = "velkovasilev",
+                Email = "velkovasilev@myschool.com",
+                NormalizedEmail = "velkovasilev@myschool.com"
+            };
+            UserVelkoVasilev.PasswordHash = hasher.HashPassword(UserVelkoVasilev, "velkovasilev123");
+
+            UserGalyaDimitrova = new IdentityUser()
+            {
+                Id = "b685f57e-87da-4d6f-8d52-1597c109a1f9",
+                UserName = "galyadimitrova",
+                NormalizedUserName = "galyadimitrova",
+                Email = "galyadimitrova@myschool.com",
+                NormalizedEmail = "galyadimitrova@myschool.com"
+            };
+            UserGalyaDimitrova.PasswordHash = hasher.HashPassword(UserGalyaDimitrova, "galyadimitrova123");
+
+            UserDimiturIvanov = new IdentityUser()
+            {
+                Id = "d6ab2e2d-bcc6-4e32-82eb-8c77280d482d",
+                UserName = "dimiturivanov",
+                NormalizedUserName = "dimiturivanov",
+                Email = "dimiturivanov@myschool.com",
+                NormalizedEmail = "dimiturivanov@myschool.com"
+            };
+            UserDimiturIvanov.PasswordHash = hasher.HashPassword(UserDimiturIvanov, "dimiturivanov123");
+
+            UserNadiaKoleva = new IdentityUser()
+            {
+                Id = "30936933-775b-4687-8e1a-5a758bc5ed38",
+                UserName = "nadiakoleva",
+                NormalizedUserName = "nadiakoleva",
+                Email = "nadiakoleva@myschool.com",
+                NormalizedEmail = "nadiakoleva@myschool.com"
+            };
+            UserNadiaKoleva.PasswordHash = hasher.HashPassword(UserNadiaKoleva, "nadiakoleva123");
+
+            UserYulianPetrov = new IdentityUser()
+            {
+                Id = "8c9965a3-36a4-4a6b-ba5a-7f3a262aa0c3",
+                UserName = "yulianpetrov",
+                NormalizedUserName = "yulianpetrov",
+                Email = "yulianpetrov@myschool.com",
+                NormalizedEmail = "yulianpetrov@myschool.com"
+            };
+            UserYulianPetrov.PasswordHash = hasher.HashPassword(UserYulianPetrov, "yulianpetrov123");
+
+            UserRadostinaGeorgieva = new IdentityUser()
+            {
+                Id = "5dbfbd88-cb21-4784-b7e8-6b0e618ad92b",
+                UserName = "radostinageorgieva",
+                NormalizedUserName = "radostinageorgieva",
+                Email = "radostinageorgieva@myschool.com",
+                NormalizedEmail = "radostinageorgieva@myschool.com"
+            };
+            UserRadostinaGeorgieva.PasswordHash = hasher.HashPassword(UserRadostinaGeorgieva, "radostinageorgieva123");
+
+            UserKrasimIvanov = new IdentityUser()
+            {
+                Id = "a4d2bcdc-23da-4395-9b9b-2087cc52bafe",
+                UserName = "krasimivanov",
+                NormalizedUserName = "krasimivanov",
+                Email = "krasimivanov@myschool.com",
+                NormalizedEmail = "krasimivanov@myschool.com"
+            };
+            UserKrasimIvanov.PasswordHash = hasher.HashPassword(UserKrasimIvanov, "krasimivanov123");
+
+            UserTeodoraTodorova = new IdentityUser()
+            {
+                Id = "23fb4de4-1bf9-4e72-9764-4c2d1f870990",
+                UserName = "teodoratodorova",
+                NormalizedUserName = "teodoratodorova",
+                Email = "teodoratodorova@myschool.com",
+                NormalizedEmail = "teodoratodorova@myschool.com"
+            };
+            UserTeodoraTodorova.PasswordHash = hasher.HashPassword(UserTeodoraTodorova, "teoodratodorova123");
+
+            UserKalinPetrov = new IdentityUser()
+            {
+                Id = "6a9e1770-798c-43de-aad7-8d8a6ad5eeab",
+                UserName = "kalinpetrov",
+                NormalizedUserName = "kalinpetrov",
+                Email = "kalinpetrov@myschool.com",
+                NormalizedEmail = "kalinpetrov@myschool.com"
+            };
+            UserKalinPetrov.PasswordHash = hasher.HashPassword(UserKalinPetrov, "kalinpetrov123");
+
+            UserSvetlaDimitrova = new IdentityUser()
+            {
+                Id = "41ac68c1-84c8-4a2a-9f69-8571bb50e80a",
+                UserName = "svetladimitrova",
+                NormalizedUserName = "svetladimitrova",
+                Email = "svetladimitrova@myschool.com",
+                NormalizedEmail = "svetladimitrova@myschool.com"
+            };
+            UserSvetlaDimitrova.PasswordHash = hasher.HashPassword(UserSvetlaDimitrova, "svetladimitrova123");
+
+            UserVentsislavGeorgiev = new IdentityUser()
+            {
+                Id = "3b3202f3-3f0c-4e15-9eb1-2c49b78aeb3b",
+                UserName = "ventsislavgeorgiev",
+                NormalizedUserName = "ventsislavgeorgiev",
+                Email = "ventsislavgeorgiev@myschool.com",
+                NormalizedEmail = "ventsislavgeorgiev@myschool.com"
+            };
+            UserVentsislavGeorgiev.PasswordHash = hasher.HashPassword(UserVentsislavGeorgiev, "ventsislavgeorgiev123");
+
+            UserVasilenaIvanova = new IdentityUser()
+            {
+                Id = "35af9309-d2fb-46a4-84b4-d3dfdaa6b7d3",
+                UserName = "vasilenaivanova",
+                NormalizedUserName = "vasilenaivanova",
+                Email = "vasilenaivanova@myschool.com",
+                NormalizedEmail = "vasilenaivanova@myschool.com"
+            };
+            UserVasilenaIvanova.PasswordHash = hasher.HashPassword(UserVasilenaIvanova, "vasilenaivanova123");
+
+            UserMartinPetrov = new IdentityUser()
+            {
+                Id = "4ec6a858-e99e-44a8-822d-5292c378fbb4",
+                UserName = "martinpetrov",
+                NormalizedUserName = "martinpetrov",
+                Email = "martinpetrov@myschool.com",
+                NormalizedEmail = "martinpetrov@myschool.com"
+            };
+            UserMartinPetrov.PasswordHash = hasher.HashPassword(UserMartinPetrov, "martinpetrov123");
+
+            UserRalitsaKoleva = new IdentityUser()
+            {
+                Id = "1a36c289-32ed-42d0-8b6b-1f5490ecf0ab",
+                UserName = "ralitsakoleva",
+                NormalizedUserName = "ralitsakoleva",
+                Email = "ralitsakoleva@myschool.com",
+                NormalizedEmail = "ralitsakoleva@myschool.com"
+            };
+            UserRalitsaKoleva.PasswordHash = hasher.HashPassword(UserRalitsaKoleva, "ralitsakoleva123");
+
+            UserStefanDimitrov = new IdentityUser()
+            {
+                Id = "1b56c7bf-0f4e-4c3d-94db-7e81f4c32ebf",
+                UserName = "stefandimitrov",
+                NormalizedUserName = "stefandimitrov",
+                Email = "stefandimitrov@myschool.com",
+                NormalizedEmail = "stefandimitrov@myschool.com"
+            };
+            UserStefanDimitrov.PasswordHash = hasher.HashPassword(UserStefanDimitrov, "stefandimitrov123");
+
+            UserSnezhanaGeorgieva = new IdentityUser()
+            {
+                Id = "a22b38b9-85b0-4fe0-9d5c-7e3d9aa55a45",
+                UserName = "snezhanageorgieva",
+                NormalizedUserName = "snezhanageorgieva",
+                Email = "snezhanageorgieva@myschool.com",
+                NormalizedEmail = "snezhanageorgieva@myschool.com"
+            };
+            UserSnezhanaGeorgieva.PasswordHash = hasher.HashPassword(UserSnezhanaGeorgieva, "snezhanageorgieva123");
+
+            UserIvayloIvanov = new IdentityUser()
+            {
+                Id = "11b2f953-01c9-446a-818f-778ce6a1f1a3",
+                UserName = "ivayloivanov",
+                NormalizedUserName = "ivayloivanov",
+                Email = "ivayloivanov@myschool.com",
+                NormalizedEmail = "ivayloivanov@myschool.com"
+            };
+            UserIvayloIvanov.PasswordHash = hasher.HashPassword(UserIvayloIvanov, "ivayloivanov123");
+
+            UserMarianaPetrova = new IdentityUser()
+            {
+                Id = "5a119169-b39a-4e4b-8f7f-3ab86a6cebc4",
+                UserName = "marianapetrova",
+                NormalizedUserName = "marianapetrova",
+                Email = "marianapetrova@myschool.com",
+                NormalizedEmail = "marianapetrova@myschool.com"
+            };
+            UserMarianaPetrova.PasswordHash = hasher.HashPassword(UserMarianaPetrova, "marianapetrova123");
+
+            UserRosenKolev = new IdentityUser()
+            {
+                Id = "2b7c8f64-17f7-42f5-bb92-84b8f4d35f4f",
+                UserName = "rosenkolev",
+                NormalizedUserName = "rosenkolev",
+                Email = "rosenkolev@myschool.com",
+                NormalizedEmail = "rosenkolev@myschool.com"
+            };
+            UserRosenKolev.PasswordHash = hasher.HashPassword(UserRosenKolev, "rosenkolev123");
+
+            UserTanyaStoyanova = new IdentityUser()
+            {
+                Id = "6b04a713-c12c-4a0f-aa0b-0eafde1543ac",
+                UserName = "tanyastoyanova",
+                NormalizedUserName = "tanyastoyanova",
+                Email = "tanyastoyanova@myschool.com",
+                NormalizedEmail = "tanyastoyanova@myschool.com"
+            };
+            UserTanyaStoyanova.PasswordHash = hasher.HashPassword(UserTanyaStoyanova, "tanyastoyanova123");
+
+
+            //Students
+
+            UserDimitarIvanov = new IdentityUser()
+            {
+                Id = "21d56e3d-8c91-431e-a6e2-760848cf2aae",
+                UserName = "dimitarivanov",
+                NormalizedUserName = "dimitarivanov",
+                Email = "dimitarivanov@myschool.com",
+                NormalizedEmail = "dimitarivanov@myschool.com"
+            };
+            UserDimitarIvanov.PasswordHash = hasher.HashPassword(UserDimitarIvanov, "dimitarivanov123");
+
+            UserElenaPetrova = new IdentityUser()
+            {
+                Id = "d3d28ff2-79fe-4e7a-bf85-8e4fe2e0a097",
+                UserName = "elenapetrova",
+                NormalizedUserName = "elenapetrova",
+                Email = "elenapetrova@myschool.com",
+                NormalizedEmail = "elenapetrova@myschool.com"
+            };
+            UserElenaPetrova.PasswordHash = hasher.HashPassword(UserElenaPetrova, "elenapetrova123");
+
+            UserStefchoDimitrov = new IdentityUser()
+            {
+                Id = "c6aa9e1c-1894-4ef8-9a29-29c110f31949",
+                UserName = "stefchodimitrov",
+                NormalizedUserName = "stefchodimitrov",
+                Email = "stefchodimitrov@myschool.com",
+                NormalizedEmail = "stefchodimitrov@myschool.com"
+            };
+            UserStefchoDimitrov.PasswordHash = hasher.HashPassword(UserStefchoDimitrov, "stefchodimitrov123");
+
+            UserMilenaGeorgieva = new IdentityUser()
+            {
+                Id = "109824cc-6b9f-4b1f-af65-87bb5a4ff79b",
+                UserName = "milenageorgieva",
+                NormalizedUserName = "milenageorgieva",
+                Email = "milenageorgieva@myschool.com",
+                NormalizedEmail = "milenageorgieva@myschool.com"
+            };
+            UserMilenaGeorgieva.PasswordHash = hasher.HashPassword(UserMilenaGeorgieva, "milenageorgieva123");
+
+            UserAleksandarTodorov = new IdentityUser()
+            {
+                Id = "8c0cb95d-0e1a-40c4-9e2f-2542d530dbaa",
+                UserName = "aleksandartodorov",
+                NormalizedUserName = "aleksandartodorov",
+                Email = "aleksandartodorov@myschool.com",
+                NormalizedEmail = "aleksandartodorov@myschool.com"
+            };
+            UserAleksandarTodorov.PasswordHash = hasher.HashPassword(UserAleksandarTodorov, "aleksandartodorov123");
+
+            UserViktoriaIvanova = new IdentityUser()
+            {
+                Id = "7fc4b81c-0b22-4e35-bc17-c7c3e73d1874",
+                UserName = "viktoriaivanova",
+                NormalizedUserName = "viktoriaivanova",
+                Email = "viktoriaivanova@myschool.com",
+                NormalizedEmail = "viktoriaivanova@myschool.com"
+            };
+            UserViktoriaIvanova.PasswordHash = hasher.HashPassword(UserViktoriaIvanova, "viktoriaivanova123");
+
+            UserNikolayKolev = new IdentityUser()
+            {
+                Id = "5a7d1e4a-8f4f-4e52-9d14-06f9d3a134b4",
+                UserName = "nikolaykolev",
+                NormalizedUserName = "nikolaykolev",
+                Email = "nikolaykolev@myschool.com",
+                NormalizedEmail = "nikolaykolev@myschool.com"
+            };
+            UserNikolayKolev.PasswordHash = hasher.HashPassword(UserNikolayKolev, "nikolaykolev123");
+
+            UserMariaVasileva = new IdentityUser()
+            {
+                Id = "93a6ac3b-c8c9-4a24-a00b-4f54e2f4d2d7",
+                UserName = "mariavasileva",
+                NormalizedUserName = "mariavasileva",
+                Email = "mariavasileva@myschool.com",
+                NormalizedEmail = "mariavasileva@myschool.com"
+            };
+            UserMariaVasileva.PasswordHash = hasher.HashPassword(UserMariaVasileva, "mariavasileva123");
+
+            UserIvayloPetrov = new IdentityUser()
+            {
+                Id = "d071556f-89ee-4819-86b2-7eb3b63f65a2",
+                UserName = "ivaylopetrov",
+                NormalizedUserName = "ivaylopetrov",
+                Email = "ivaylopetrov@myschool.com",
+                NormalizedEmail = "ivaylopetrov@myschool.com"
+            };
+            UserIvayloPetrov.PasswordHash = hasher.HashPassword(UserIvayloPetrov, "ivaylopetrov123");
+
+            UserGabrielaStoyanova = new IdentityUser()
+            {
+                Id = "c618a246-9af9-4a37-9e0d-257ec4b2b854",
+                UserName = "gabrielastoyanova",
+                NormalizedUserName = "gabrielastoyanova",
+                Email = "gabrielastoyanova@myschool.com",
+                NormalizedEmail = "gabrielastoyanova@myschool.com"
+            };
+            UserGabrielaStoyanova.PasswordHash = hasher.HashPassword(UserGabrielaStoyanova, "gabrielastoyanova123");
+
+            UserGeorgiMarinov = new IdentityUser()
+            {
+                Id = "172ef32c-2c8e-49f9-8c0f-0d8236a98fc7",
+                UserName = "georgimarinov",
+                NormalizedUserName = "georgimarinov",
+                Email = "georgimarinov@myschool.com",
+                NormalizedEmail = "georgimarinov@myschool.com"
+            };
+            UserGeorgiMarinov.PasswordHash = hasher.HashPassword(UserGeorgiMarinov, "georgimarinov123");
+
+            UserKristinaPetrova = new IdentityUser()
+            {
+                Id = "1f49e02f-784c-4b51-856b-0fc301da5bf0",
+                UserName = "kristinapetrova",
+                NormalizedUserName = "kristinapetrova",
+                Email = "kristinapetrova@myschool.com",
+                NormalizedEmail = "kristinapetrova@myschool.com"
+            };
+            UserKristinaPetrova.PasswordHash = hasher.HashPassword(UserKristinaPetrova, "kristinapetrova123");
+
+            UserRumchoIvanov = new IdentityUser()
+            {
+                Id = "f3dd26e0-e2eb-4e1f-9ea2-d260e779a5e3",
+                UserName = "rumchoivanov",
+                NormalizedUserName = "rumchoivanov",
+                Email = "rumchoivanov@myschool.com",
+                NormalizedEmail = "rumchoivanov@myschool.com"
+            };
+            UserRumchoIvanov.PasswordHash = hasher.HashPassword(UserRumchoIvanov, "rumchoivanov123");
+
+            UserEmiliaGeorgieva = new IdentityUser()
+            {
+                Id = "b4c1c7da-6491-48d6-91d5-3c4f43105fc1",
+                UserName = "emiliageorgieva",
+                NormalizedUserName = "emiliageorgieva",
+                Email = "emiliageorgieva@myschool.com",
+                NormalizedEmail = "emiliageorgieva@myschool.com"
+            };
+            UserEmiliaGeorgieva.PasswordHash = hasher.HashPassword(UserEmiliaGeorgieva, "emiliageorgieva123");
+
+            UserKrasimirDimitrov = new IdentityUser()
+            {
+                Id = "5038ef42-267f-4a5d-8b92-2d63052265c8",
+                UserName = "krasimirivanov",
+                NormalizedUserName = "krasimirivanov",
+                Email = "krasimirivanov@myschool.com",
+                NormalizedEmail = "krasimirivanov@myschool.com"
+            };
+            UserKrasimirDimitrov.PasswordHash = hasher.HashPassword(UserKrasimirDimitrov, "krasimirivanov123");
+
+            UserSilviyaIvanova = new IdentityUser()
+            {
+                Id = "9e32eab9-84e3-4b35-bb92-89b3dfb8e98f",
+                UserName = "silviyaivanova",
+                NormalizedUserName = "silviyaivanova",
+                Email = "silviyaivanova@myschool.com",
+                NormalizedEmail = "silviyaivanova@myschool.com"
+            };
+            UserSilviyaIvanova.PasswordHash = hasher.HashPassword(UserSilviyaIvanova, "silviyaivanova123");
+
+            UserAsenGeorgiev = new IdentityUser()
+            {
+                Id = "84ab245c-804d-4ac7-8f9e-bcda15863c5c",
+                UserName = "asengeorgiev",
+                NormalizedUserName = "asengeorgiev",
+                Email = "asengeorgiev@myschool.com",
+                NormalizedEmail = "asengeorgiev@myschool.com"
+            };
+            UserAsenGeorgiev.PasswordHash = hasher.HashPassword(UserAsenGeorgiev, "asengeorgiev123");
+
+            UserElenaKoleva = new IdentityUser()
+            {
+                Id = "5a141fd9-2bcf-4dab-8c0a-8c15b7c8dbef",
+                UserName = "elenakoleva",
+                NormalizedUserName = "elenakoleva",
+                Email = "elenakoleva@myschool.com",
+                NormalizedEmail = "elenakoleva@myschool.com"
+            };
+            UserElenaKoleva.PasswordHash = hasher.HashPassword(UserElenaKoleva, "elenakoleva123");
+
+            UserStanimirTodorov = new IdentityUser()
+            {
+                Id = "31b1f166-5412-40c7-b0cb-38aaec6a5ba6",
+                UserName = "stanimirtodorov",
+                NormalizedUserName = "stanimirtodorov",
+                Email = "stanimirtodorov@myschool.com",
+                NormalizedEmail = "stanimirtodorov@myschool.com"
+            };
+            UserStanimirTodorov.PasswordHash = hasher.HashPassword(UserStanimirTodorov, "stanimirtodorov123");
+
+            UserMagdalenaIvanova = new IdentityUser()
+            {
+                Id = "1443d844-bfd9-45a1-94a5-83c18f140c0e",
+                UserName = "magdalenaivanova",
+                NormalizedUserName = "magdalenaivanova",
+                Email = "magdalenaivanova@myschool.com",
+                NormalizedEmail = "magdalenaivanova@myschool.com"
+            };
+            UserMagdalenaIvanova.PasswordHash = hasher.HashPassword(UserMagdalenaIvanova, "magdalenaivanova123");
+
+            UserHristoPetrov = new IdentityUser()
+            {
+                Id = "d0b3c3d4-5803-4f42-9f3f-5879926e2f3f",
+                UserName = "hristopetrov",
+                NormalizedUserName = "hristopetrov",
+                Email = "hristopetrov@myschool.com",
+                NormalizedEmail = "hristopetrov@myschool.com"
+            };
+            UserHristoPetrov.PasswordHash = hasher.HashPassword(UserHristoPetrov, "hristopetrov123");
+
+            UserKalinaDimitrova = new IdentityUser()
+            {
+                Id = "7b1a2e32-bc36-4bf7-9b65-07fbfa810baa",
+                UserName = "kalinadimitrova",
+                NormalizedUserName = "kalinadimitrova",
+                Email = "kalinadimitrova@myschool.com",
+                NormalizedEmail = "kalinadimitrova@myschool.com"
+            };
+            UserKalinaDimitrova.PasswordHash = hasher.HashPassword(UserKalinaDimitrova, "kalinadimitrova123");
+
+            UserTsvetanchoGeorgiev = new IdentityUser()
+            {
+                Id = "321efec2-563e-4f66-a158-7c2e4f7db24b",
+                UserName = "tsvetanchogeorgiev",
+                NormalizedUserName = "tsvetanchogeorgiev",
+                Email = "tsvetanchogeorgiev@myschool.com",
+                NormalizedEmail = "tsvetanchogeorgiev@myschool.com"
+            };
+            UserTsvetanchoGeorgiev.PasswordHash = hasher.HashPassword(UserTsvetanchoGeorgiev, "tsvetanchogeorgiev123");
+
+            UserNadezhdaIvanova = new IdentityUser()
+            {
+                Id = "71c4c53d-0c7e-4d33-b8b3-15b3ff206249",
+                UserName = "nadezhdaivanova",
+                NormalizedUserName = "nadezhdaivanova",
+                Email = "nadezhdaivanova@myschool.com",
+                NormalizedEmail = "nadezhdaivanova@myschool.com"
+            };
+            UserNadezhdaIvanova.PasswordHash = hasher.HashPassword(UserNadezhdaIvanova, "nadezhdaivanova123");
+
+            UserBorisStefanov = new IdentityUser()
+            {
+                Id = "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7",
+                UserName = "boristefanov",
+                NormalizedUserName = "boristefanov",
+                Email = "boristefanov@myschool.com",
+                NormalizedEmail = "boristefanov@myschool.com"
+            };
+            UserBorisStefanov.PasswordHash = hasher.HashPassword(UserBorisStefanov, "boristefanov123");
+
+            UserAneliyaKoleva = new IdentityUser()
+            {
+                Id = "2b765779-8f0d-4d01-b822-41fb42f9d173",
+                UserName = "aneliyakoleva",
+                NormalizedUserName = "aneliyakoleva",
+                Email = "aneliyakoleva@myschool.com",
+                NormalizedEmail = "aneliyakoleva@myschool.com"
+            };
+            UserAneliyaKoleva.PasswordHash = hasher.HashPassword(UserAneliyaKoleva, "aneliyakoleva123");
+
+            UserRosenPetrov = new IdentityUser()
+            {
+                Id = "e20a8a8b-7038-45c5-b292-91c7b5e196d1",
+                UserName = "rosenpetrov",
+                NormalizedUserName = "rosenpetrov",
+                Email = "rosenpetrov@myschool.com",
+                NormalizedEmail = "rosenpetrov@myschool.com"
+            };
+            UserRosenPetrov.PasswordHash = hasher.HashPassword(UserRosenPetrov, "rosenpetrov123");
+
+            UserRadostinaIvanova = new IdentityUser()
+            {
+                Id = "39b55a1b-d8b5-4bb2-9e71-cc994a1463d5",
+                UserName = "radostinaivanova",
+                NormalizedUserName = "radostinaivanova",
+                Email = "radostinaivanova@myschool.com",
+                NormalizedEmail = "radostinaivanova@myschool.com"
+            };
+            UserRadostinaIvanova.PasswordHash = hasher.HashPassword(UserRadostinaIvanova, "radostinaivanova123");
+
+            UserVasilAleksandrov = new IdentityUser()
+            {
+                Id = "57ef3794-e725-4d7c-9d17-7b7ac01081c5",
+                UserName = "vasilaleksandrov",
+                NormalizedUserName = "vasilaleksandrov",
+                Email = "vasilaleksandrov@myschool.com",
+                NormalizedEmail = "vasilaleksandrov@myschool.com"
+            };
+            UserVasilAleksandrov.PasswordHash = hasher.HashPassword(UserVasilAleksandrov, "vasilaleksandrov123");
+
+            UserRositsaGeorgieva = new IdentityUser()
+            {
+                Id = "d6ddbe61-7627-4b88-bc3c-8c2b3a7e89a4",
+                UserName = "rositsageorgieva",
+                NormalizedUserName = "rositsageorgieva",
+                Email = "rositsageorgieva@myschool.com",
+                NormalizedEmail = "rositsageorgieva@myschool.com"
+            };
+            UserRositsaGeorgieva.PasswordHash = hasher.HashPassword(UserRositsaGeorgieva, "rositsageorgieva123");
+
+            UserPlamenIvanov = new IdentityUser()
+            {
+                Id = "d1983bf8-cb42-4da2-88d2-5297be88a146",
+                UserName = "plamenivanov",
+                NormalizedUserName = "plamenivanov",
+                Email = "plamenivanov@myschool.com",
+                NormalizedEmail = "plamenivanov@myschool.com"
+            };
+            UserPlamenIvanov.PasswordHash = hasher.HashPassword(UserPlamenIvanov, "plamenivanov123");
+
+            UserValentinaDimitrova = new IdentityUser()
+            {
+                Id = "162d8979-1a84-4642-9b27-49973518a040",
+                UserName = "valentinadimitrova",
+                NormalizedUserName = "valentinadimitrova",
+                Email = "valentinadimitrova@myschool.com",
+                NormalizedEmail = "valentinadimitrova@myschool.com"
+            };
+            UserValentinaDimitrova.PasswordHash = hasher.HashPassword(UserValentinaDimitrova, "valentinadimitrova123");
+
+            UserIvoStoyanov = new IdentityUser()
+            {
+                Id = "41c16c1c-6345-487b-9202-18bf7a723b5e",
+                UserName = "ivostoyanov",
+                NormalizedUserName = "ivostoyanov",
+                Email = "ivostoyanov@myschool.com",
+                NormalizedEmail = "ivostoyanov@myschool.com"
+            };
+            UserIvoStoyanov.PasswordHash = hasher.HashPassword(UserIvoStoyanov, "ivostoyanov123");
+
+            UserStefaniyaPetrova = new IdentityUser()
+            {
+                Id = "a3bd2a1d-5061-439e-aec9-0e54720e3ed5",
+                UserName = "stefaniyapetrova",
+                NormalizedUserName = "stefaniyapetrova",
+                Email = "stefaniyapetrova@myschool.com",
+                NormalizedEmail = "stefaniyapetrova@myschool.com"
+            };
+            UserStefaniyaPetrova.PasswordHash = hasher.HashPassword(UserStefaniyaPetrova, "stefaniyapetrova123");
+
+            UserMartinKolev = new IdentityUser()
+            {
+                Id = "2c537f9a-c6ef-43d1-98da-e63d947de2bd",
+                UserName = "martinkolev",
+                NormalizedUserName = "martinkolev",
+                Email = "martinkolev@myschool.com",
+                NormalizedEmail = "martinkolev@myschool.com"
+            };
+            UserMartinKolev.PasswordHash = hasher.HashPassword(UserMartinKolev, "martinkolev123");
+
+            UserSonyaIvanova = new IdentityUser()
+            {
+                Id = "512da3a0-4861-49ac-9142-1536f5ea2cb1",
+                UserName = "sonyaivanova",
+                NormalizedUserName = "sonyaivanova",
+                Email = "sonyaivanova@myschool.com",
+                NormalizedEmail = "sonyaivanova@myschool.com"
+            };
+            UserSonyaIvanova.PasswordHash = hasher.HashPassword(UserSonyaIvanova, "sonyaivanova123");
+
+            UserLyubomirGeorgiev = new IdentityUser()
+            {
+                Id = "9c1e0838-6a1b-4158-92a2-36c6234e9d41",
+                UserName = "lyubomirgeorgiev",
+                NormalizedUserName = "lyubomirgeorgiev",
+                Email = "lyubomirgeorgiev@myschool.com",
+                NormalizedEmail = "lyubomirgeorgiev@myschool.com"
+            };
+            UserLyubomirGeorgiev.PasswordHash = hasher.HashPassword(UserLyubomirGeorgiev, "lyubomirgeorgiev123");
+
+            UserNataliyaVasileva = new IdentityUser()
+            {
+                Id = "17b6757b-33e6-4d97-b8f4-22e3ec4e34a3",
+                UserName = "nataliyavasileva",
+                NormalizedUserName = "nataliyavasileva",
+                Email = "nataliyavasileva@myschool.com",
+                NormalizedEmail = "nataliyavasileva@myschool.com"
+            };
+            UserNataliyaVasileva.PasswordHash = hasher.HashPassword(UserNataliyaVasileva, "nataliyavasileva123");
+
+            UserPetarPetrov = new IdentityUser()
+            {
+                Id = "7d2f14fb-b3b5-4598-8989-ba10d3612c96",
+                UserName = "petarpetrov",
+                NormalizedUserName = "petarpetrov",
+                Email = "petarpetrov@myschool.com",
+                NormalizedEmail = "petarpetrov@myschool.com"
+            };
+            UserPetarPetrov.PasswordHash = hasher.HashPassword(UserPetarPetrov, "petarpetrov123");
+
+            UserGerganaDimitrova = new IdentityUser()
+            {
+                Id = "3f13969e-28fc-4315-b44d-b0f7b827202a",
+                UserName = "gerganadimitrova",
+                NormalizedUserName = "gerganadimitrova",
+                Email = "gerganadimitrova@myschool.com",
+                NormalizedEmail = "gerganadimitrova@myschool.com"
+            };
+            UserGerganaDimitrova.PasswordHash = hasher.HashPassword(UserGerganaDimitrova, "gerganadimitrova123");
+
+            UserLyubomiraTodorova = new IdentityUser()
+            {
+                Id = "8a4b8f2d-72e8-46d1-8a9f-2d06b1d9ecf1",
+                UserName = "lyubomiratodorova",
+                NormalizedUserName = "lyubomiratodorova",
+                Email = "lyubomiratodorova@myschool.com",
+                NormalizedEmail = "lyubomiratodorova@myschool.com"
+            };
+            UserLyubomiraTodorova.PasswordHash = hasher.HashPassword(UserLyubomiraTodorova, "lyubomiratodorova123");
+
+            UserAntonIvanov = new IdentityUser()
+            {
+                Id = "f4ec527a-d87f-4e87-b948-26e7d4c3351f",
+                UserName = "antonivanov",
+                NormalizedUserName = "antonivanov",
+                Email = "antonivanov@myschool.com",
+                NormalizedEmail = "antonivanov@myschool.com"
+            };
+            UserAntonIvanov.PasswordHash = hasher.HashPassword(UserAntonIvanov, "antonivanov123");
+
+            UserTanyaGeorgieva = new IdentityUser()
+            {
+                Id = "f0578b4d-49cc-4c3c-8b61-62ebc8c196e9",
+                UserName = "tanyageorgieva",
+                NormalizedUserName = "tanyageorgieva",
+                Email = "tanyageorgieva@myschool.com",
+                NormalizedEmail = "tanyageorgieva@myschool.com"
+            };
+            UserTanyaGeorgieva.PasswordHash = hasher.HashPassword(UserTanyaGeorgieva, "tanyageorgieva123");
+
+            UserKamenchoPetrov = new IdentityUser()
+            {
+                Id = "d68684c7-c3a8-4c21-8042-b76a4f43ff33",
+                UserName = "kamenchopetrov",
+                NormalizedUserName = "kamenchopetrov",
+                Email = "kamenchopetrov@myschool.com",
+                NormalizedEmail = "kamenchopetrov@myschool.com"
+            };
+            UserKamenchoPetrov.PasswordHash = hasher.HashPassword(UserKamenchoPetrov, "kamenchopetrov123");
+
+            UserVanyaKoleva = new IdentityUser()
+            {
+                Id = "8d0a37e9-91a1-4b3a-86a9-b57595b104ab",
+                UserName = "vanyakoleva",
+                NormalizedUserName = "vanyakoleva",
+                Email = "vanyakoleva@myschool.com",
+                NormalizedEmail = "vanyakoleva@myschool.com"
+            };
+            UserVanyaKoleva.PasswordHash = hasher.HashPassword(UserVanyaKoleva, "vanyakoleva123");
+
+            UserRadoslavGeorgiev = new IdentityUser()
+            {
+                Id = "23dbfde3-00c5-47d9-b1b4-23f97379881e",
+                UserName = "radoslavgeorgiev",
+                NormalizedUserName = "radoslavgeorgiev",
+                Email = "radoslavgeorgiev@myschool.com",
+                NormalizedEmail = "radoslavgeorgiev@myschool.com"
+            };
+            UserRadoslavGeorgiev.PasswordHash = hasher.HashPassword(UserRadoslavGeorgiev, "radoslavgeorgiev123");
+
+            UserVasilenkaIvanova = new IdentityUser()
+            {
+                Id = "6a56e5a9-b77d-492e-82c5-eab5c9397756",
+                UserName = "vasilenkaivanova",
+                NormalizedUserName = "vasilenkaivanova",
+                Email = "vasilenkaivanova@myschool.com",
+                NormalizedEmail = "vasilenkaivanova@myschool.com"
+            };
+            UserVasilenkaIvanova.PasswordHash = hasher.HashPassword(UserVasilenkaIvanova, "vasilenkaivanova123");
+
+            UserKirilDimitrov = new IdentityUser()
+            {
+                Id = "8d9f8a3f-16a2-4fe5-b12a-32c3f3c66fb1",
+                UserName = "kirildimitrov",
+                NormalizedUserName = "kirildimitrov",
+                Email = "kirildimitrov@myschool.com",
+                NormalizedEmail = "kirildimitrov@myschool.com"
+            };
+            UserKirilDimitrov.PasswordHash = hasher.HashPassword(UserKirilDimitrov, "kirildimitrov123");
+
+            UserKameliyaTodorova = new IdentityUser()
+            {
+                Id = "8b7f9c67-7985-4f3f-a2a1-271189e22a0d",
+                UserName = "kameliyatodorova",
+                NormalizedUserName = "kameliyatodorova",
+                Email = "kameliyatodorova@myschool.com",
+                NormalizedEmail = "kameliyatodorova@myschool.com"
+            };
+            UserKameliyaTodorova.PasswordHash = hasher.HashPassword(UserKameliyaTodorova, "kameliyatodorova123");
+
+            UserIliyaPetrov = new IdentityUser()
+            {
+                Id = "961b318b-7e65-4ef9-bf8e-3e22f74cdd6d",
+                UserName = "iliyapetrov",
+                NormalizedUserName = "iliyapetrov",
+                Email = "iliyapetrov@myschool.com",
+                NormalizedEmail = "iliyapetrov@myschool.com"
+            };
+            UserIliyaPetrov.PasswordHash = hasher.HashPassword(UserIliyaPetrov, "iliyapetrov123");
+
+            UserDilyanaIvanova = new IdentityUser()
+            {
+                Id = "d8b46962-25a4-4977-8363-d43e7076c85f",
+                UserName = "dilyanaivanova",
+                NormalizedUserName = "dilyanaivanova",
+                Email = "dilyanaivanova@myschool.com",
+                NormalizedEmail = "dilyanaivanova@myschool.com"
+            };
+            UserDilyanaIvanova.PasswordHash = hasher.HashPassword(UserDilyanaIvanova, "dilyanaivanova123");
+
+            UserBogdanKolev = new IdentityUser()
+            {
+                Id = "15b7349f-c184-42e7-9a18-0c0dd1a05bea",
+                UserName = "bogdankolev",
+                NormalizedUserName = "bogdankolev",
+                Email = "bogdankolev@myschool.com",
+                NormalizedEmail = "bogdankolev@myschool.com"
+            };
+            UserBogdanKolev.PasswordHash = hasher.HashPassword(UserBogdanKolev, "bogdankolev123");
+
+            UserDanielaMarinova = new IdentityUser()
+            {
+                Id = "8f35f8dd-b52a-4084-818b-3e1813e42f19",
+                UserName = "danielamarinova",
+                NormalizedUserName = "danielamarinova",
+                Email = "danielamarinova@myschool.com",
+                NormalizedEmail = "danielamarinova@myschool.com"
+            };
+            UserDanielaMarinova.PasswordHash = hasher.HashPassword(UserDanielaMarinova, "danielamarinova123");
+
+            UserHristiyanIvanov = new IdentityUser()
+            {
+                Id = "e2b8904e-9a9e-471d-af7b-ef17f62f0e35",
+                UserName = "hristiyanivanov",
+                NormalizedUserName = "hristiyanivanov",
+                Email = "hristiyanivanov@myschool.com",
+                NormalizedEmail = "hristiyanivanov@myschool.com"
+            };
+            UserHristiyanIvanov.PasswordHash = hasher.HashPassword(UserHristiyanIvanov, "hristiyanivanov123");
+
+            UserTeodoraVasileva = new IdentityUser()
+            {
+                Id = "7fbd8c2e-38c6-4a97-aa74-6321ee1f0e2a",
+                UserName = "teodoravasileva",
+                NormalizedUserName = "teodoravasileva",
+                Email = "teodoravasileva@myschool.com",
+                NormalizedEmail = "teodoravasileva@myschool.com"
+            };
+            UserTeodoraVasileva.PasswordHash = hasher.HashPassword(UserTeodoraVasileva, "teodoravasileva123");
+
+            UserDesislavDimitrov = new IdentityUser()
+            {
+                Id = "3251a6f3-1415-4173-8d95-509d9b57a4bb",
+                UserName = "desislavdimitrov",
+                NormalizedUserName = "desislavdimitrov",
+                Email = "desislavdimitrov@myschool.com",
+                NormalizedEmail = "desislavdimitrov@myschool.com"
+            };
+            UserDesislavDimitrov.PasswordHash = hasher.HashPassword(UserDesislavDimitrov, "desislavdimitrov123");
+
+            UserGalyaIvanova = new IdentityUser()
+            {
+                Id = "b2f18679-974f-4648-891b-05df89900b85",
+                UserName = "galyaivanova",
+                NormalizedUserName = "galyaivanova",
+                Email = "galyaivanova@myschool.com",
+                NormalizedEmail = "galyaivanova@myschool.com"
+            };
+            UserGalyaIvanova.PasswordHash = hasher.HashPassword(UserGalyaIvanova, "galyaivanova123");
+
+            UserIvanKolev = new IdentityUser()
+            {
+                Id = "6c704485-8f35-4b5d-aa5b-c971b87cb442",
+                UserName = "ivankolev",
+                NormalizedUserName = "ivankolev",
+                Email = "ivankolev@myschool.com",
+                NormalizedEmail = "ivankolev@myschool.com"
+            };
+            UserIvanKolev.PasswordHash = hasher.HashPassword(UserIvanKolev, "ivankolev123");
+
+            UserMariyaPetrova = new IdentityUser()
+            {
+                Id = "2e07c9b0-d2a4-41e7-b8d8-0e0384c5e81b",
+                UserName = "mariyapetrova",
+                NormalizedUserName = "mariyapetrova",
+                Email = "mariyapetrova@myschool.com",
+                NormalizedEmail = "mariyapetrova@myschool.com"
+            };
+            UserMariyaPetrova.PasswordHash = hasher.HashPassword(UserMariyaPetrova, "mariyapetrova123");
+
+            UserSimeonGeorgiev = new IdentityUser()
+            {
+                Id = "b5245ba7-c0e2-4e7d-b144-e9b7d8889e6e",
+                UserName = "simeongeorgiev",
+                NormalizedUserName = "simeongeorgiev",
+                Email = "simeongeorgiev@myschool.com",
+                NormalizedEmail = "simeongeorgiev@myschool.com"
+            };
+            UserSimeonGeorgiev.PasswordHash = hasher.HashPassword(UserSimeonGeorgiev, "simeongeorgiev123");
+
+            UserMagdalinaIvanova = new IdentityUser()
+            {
+                Id = "10b1bb25-7f3e-4ec5-bb68-9f8282850711",
+                UserName = "magdalinaivanova",
+                NormalizedUserName = "magdalinaivanova",
+                Email = "magdalinaivanova@myschool.com",
+                NormalizedEmail = "magdalinaivanova@myschool.com"
+            };
+            UserMagdalinaIvanova.PasswordHash = hasher.HashPassword(UserMagdalinaIvanova, "magdalinaivanova123");
+
+            UserEmilTodorov = new IdentityUser()
+            {
+                Id = "b7395fbb-59e7-4687-9b69-0f135abf8e72",
+                UserName = "emiltodorov",
+                NormalizedUserName = "emiltodorov",
+                Email = "emiltodorov@myschool.com",
+                NormalizedEmail = "emiltodorov@myschool.com"
+            };
+            UserEmilTodorov.PasswordHash = hasher.HashPassword(UserEmilTodorov, "emiltodorov123");
+
+            UserKalinchoPetrov = new IdentityUser()
+            {
+                Id = "6a4e15d5-29ae-4b86-9015-21d61e22e947",
+                UserName = "kalinchopetrov",
+                NormalizedUserName = "kalinchopetrov",
+                Email = "kalinchopetrov@myschool.com",
+                NormalizedEmail = "kalinchopetrov@myschool.com"
+            };
+            UserKalinchoPetrov.PasswordHash = hasher.HashPassword(UserKalinchoPetrov, "kalinchopetrov123");
+
+            UserRalitsaDimitrova = new IdentityUser()
+            {
+                Id = "cff038d2-716a-4c45-8f21-81b1e7769a74",
+                UserName = "ralitsadimitrova",
+                NormalizedUserName = "ralitsadimitrova",
+                Email = "ralitsadimitrova@myschool.com",
+                NormalizedEmail = "ralitsadimitrova@myschool.com"
+            };
+            UserRalitsaDimitrova.PasswordHash = hasher.HashPassword(UserRalitsaDimitrova, "ralitsadimitrova123");
+
+            UserYordanGeorgiev = new IdentityUser()
+            {
+                Id = "80f4cb68-199a-4f6d-8b82-6ad3521c0b52",
+                UserName = "yordangeorgiev",
+                NormalizedUserName = "yordangeorgiev",
+                Email = "yordangeorgiev@myschool.com",
+                NormalizedEmail = "yordangeorgiev@myschool.com"
+            };
+            UserYordanGeorgiev.PasswordHash = hasher.HashPassword(UserYordanGeorgiev, "yordangeorgiev123");
+
+            UserRadinkaIvanova = new IdentityUser()
+            {
+                Id = "1b441729-6f7d-4d13-9f0b-3fe4e76727c3",
+                UserName = "radinkaivanova",
+                NormalizedUserName = "radinkaivanova",
+                Email = "radinkaivanova@myschool.com",
+                NormalizedEmail = "radinkaivanova@myschool.com"
+            };
+            UserRadinkaIvanova.PasswordHash = hasher.HashPassword(UserRadinkaIvanova, "radinkaivanova123");
+
+            UserVentsislavPetrov = new IdentityUser()
+            {
+                Id = "675b60ea-ee3f-4e58-b8d4-109b9ab54d99",
+                UserName = "ventsislavpetrov",
+                NormalizedUserName = "ventsislavpetrov",
+                Email = "ventsislavpetrov@myschool.com",
+                NormalizedEmail = "ventsislavpetrov@myschool.com"
+            };
+            UserVentsislavPetrov.PasswordHash = hasher.HashPassword(UserVentsislavPetrov, "ventsislavpetrov123");
+
+            UserDarinaKoleva = new IdentityUser()
+            {
+                Id = "2bd002d3-ff51-4a18-a155-dc76bba5130a",
+                UserName = "darinkakoleva",
+                NormalizedUserName = "darinkakoleva",
+                Email = "darinkakoleva@myschool.com",
+                NormalizedEmail = "darinkakoleva@myschool.com"
+            };
+            UserDarinaKoleva.PasswordHash = hasher.HashPassword(UserDarinaKoleva, "darinkakoleva123");
+
+            UserBozhidarDimitrov = new IdentityUser()
+            {
+                Id = "98fb09c1-54d0-4d9c-86ee-7f7b510695ef",
+                UserName = "bozhidardimitrov",
+                NormalizedUserName = "bozhidardimitrov",
+                Email = "bozhidardimitrov@myschool.com",
+                NormalizedEmail = "bozhidardimitrov@myschool.com"
+            };
+            UserBozhidarDimitrov.PasswordHash = hasher.HashPassword(UserBozhidarDimitrov, "bozhidardimitrov123");
+
+            UserNeliGeorgieva = new IdentityUser()
+            {
+                Id = "731e88f2-bb26-46d8-8d53-031af77b5e15",
+                UserName = "neligeorgieva",
+                NormalizedUserName = "neligeorgieva",
+                Email = "neligeorgieva@myschool.com",
+                NormalizedEmail = "neligeorgieva@myschool.com"
+            };
+            UserNeliGeorgieva.PasswordHash = hasher.HashPassword(UserNeliGeorgieva, "neligeorgieva123");
+
+            UserYavorIvanov = new IdentityUser()
+            {
+                Id = "5b38fb70-63e4-4d02-a14f-3b58ff14bc76",
+                UserName = "yavorivanov",
+                NormalizedUserName = "yavorivanov",
+                Email = "yavorivanov@myschool.com",
+                NormalizedEmail = "yavorivanov@myschool.com"
+            };
+            UserYavorIvanov.PasswordHash = hasher.HashPassword(UserYavorIvanov, "yavorivanov123");
+
+            UserMilitsaPetrova = new IdentityUser()
+            {
+                Id = "80a73e8d-3a08-44b3-ba99-8a5ea3ebd012",
+                UserName = "militsapetrova",
+                NormalizedUserName = "militsapetrova",
+                Email = "militsapetrova@myschool.com",
+                NormalizedEmail = "militsapetrova@myschool.com"
+            };
+            UserMilitsaPetrova.PasswordHash = hasher.HashPassword(UserMilitsaPetrova, "militsapetrova123");
+
+            UserZdravkoKolev = new IdentityUser()
+            {
+                Id = "844dd2c8-e20b-4423-827f-349e0bbd2761",
+                UserName = "zdravkokolev",
+                NormalizedUserName = "zdravkokolev",
+                Email = "zdravkokolev@myschool.com",
+                NormalizedEmail = "zdravkokolev@myschool.com"
+            };
+            UserZdravkoKolev.PasswordHash = hasher.HashPassword(UserZdravkoKolev, "zdravkokolev123");
+
+            UserElenaStoyanova = new IdentityUser()
+            {
+                Id = "61f620da-d214-4e17-852a-c96fddcc682a",
+                UserName = "elenastoyanova",
+                NormalizedUserName = "elenastoyanova",
+                Email = "elenastoyanova@myschool.com",
+                NormalizedEmail = "elenastoyanova@myschool.com"
+            };
+            UserElenaStoyanova.PasswordHash = hasher.HashPassword(UserElenaStoyanova, "elenastoyanova123");
+        }
         private void SeedSubjects()
         {
             Bulgarian = new Subject()
@@ -1182,7 +3130,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "t.gerganova@myschool.com",
                 PhoneNumber = "1357924680",
                 ClassId = Tenth.Id,
-                UserId = ""
+                UserId = UserTatyanaGerganova.Id
             };
             BilyanaLozanova = new Teacher()
             {
@@ -1192,7 +3140,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "b.lozanova@myschool.com",
                 PhoneNumber = "5738291467",
                 ClassId = Ninth.Id,
-                UserId = ""
+                UserId = UserBilyanaLozanova.Id
             };
             KrasimiraKutin = new Teacher()
             {
@@ -1202,7 +3150,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "k.kutin@myschool.com",
                 PhoneNumber = "6248371095",
                 ClassId = null,
-                UserId = ""
+                UserId = UserKrasimiraKutin.Id
             };
             TeodorHristov = new Teacher()
             {
@@ -1212,7 +3160,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "t.hristov@myschool.com",
                 PhoneNumber = "8902145673",
                 ClassId = null,
-                UserId = ""
+                UserId = UserTeodorHristov.Id
             };
             SilviyaGancheva = new Teacher()
             {
@@ -1222,7 +3170,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "s.gancheva@myschool.com",
                 PhoneNumber = "4512067839",
                 ClassId = null,
-                UserId = ""
+                UserId = UserSilviyaGancheva.Id
             };
             CvetomirAmbursa = new Teacher()
             {
@@ -1232,7 +3180,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "c.ambursa@myschool.com",
                 PhoneNumber = "7263489510",
                 ClassId = Eleventh.Id,
-                UserId = ""
+                UserId = UserCvetomirAmbursa.Id
             };
             MitkoMitkov = new Teacher()
             {
@@ -1242,7 +3190,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "m.mitkov@myschool.com",
                 PhoneNumber = "5031982467",
                 ClassId = null,
-                UserId = ""
+                UserId = UserMitkoMitkov.Id
             };
             EmilStoyanov = new Teacher()
             {
@@ -1252,7 +3200,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "e.stoyanov@myschool.com",
                 PhoneNumber = "3156924708",
                 ClassId = Eight.Id,
-                UserId = ""
+                UserId = UserEmilStoyanov.Id
             };
             BorislavaBangeeva = new Teacher()
             {
@@ -1262,7 +3210,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "b.bangeeva@myschool.com",
                 PhoneNumber = "9785402163",
                 ClassId = null,
-                UserId = ""
+                UserId = UserBorislavaBangeeva.Id
             };
             MariaIvanova = new Teacher()
             {
@@ -1272,7 +3220,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Email = "m.ivanova@myschool.com",
                 PhoneNumber = "2047856931",
                 ClassId = Twelfth.Id,
-                UserId = ""
+                UserId = UserMariaIvanova.Id
             };
 
         }
@@ -1323,7 +3271,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 FullName = "Radostina Mekova",
                 Email = "r.mekova@myschool.com",
                 PhoneNumber = "8642097531",
-                UserId = ""
+                UserId = UserRadostinaMekova.Id
 
             };
             ValentinaStoeva = new Principal()
@@ -1332,7 +3280,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 FullName = "Valentina Stoeva",
                 Email = "v.stoeva@myschool.com",
                 PhoneNumber = "8742035918",
-                UserId = ""
+                UserId = UserValentinaStoeva.Id
             };
             YulianaPetkova = new Principal()
             {
@@ -1340,7 +3288,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 FullName = "Yuliana Petkova",
                 Email = "y.petkova@myschool.com",
                 PhoneNumber = "5268793407",
-                UserId = ""
+                UserId = UserYulianaPetkova.Id
             };
         }
         private void SeedParents()
@@ -1350,521 +3298,520 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 Id = 1,
                 FullName = "Krum Ivanov",
                 ChildId = 1,
-                UserId = ""
+                UserId = UserKrumIvanov.Id
             };
             VeronikaPetrova = new Parent()
             {
                 Id = 2,
                 FullName = "Veronika Petrova",
                 ChildId = 2,
-                UserId = ""
+                UserId = UserVeronikaPetrova.Id
             };
             PlamenDimitrov = new Parent()
             {
                 Id = 3,
                 FullName = "Plamen Dimitrov",
                 ChildId = 3,
-                UserId = ""
+                UserId = UserPlamenDimitrov.Id
             };
             ZlatinaGeorgieva = new Parent()
             {
                 Id = 4,
                 FullName = "Zlatina Georgieva",
                 ChildId = 4,
-                UserId = ""
+                UserId = UserZlatinaGeorgieva.Id
             };
             RadoslavTodorov = new Parent()
             {
                 Id = 5,
                 FullName = "Radoslav Todorov",
                 ChildId = 5,
-                UserId = ""
+                UserId = UserRadoslavTodorov.Id
             };
             AdrianaIvanova = new Parent()
             {
                 Id = 6,
                 FullName = "Adriana Ivanova",
                 ChildId = 6,
-                UserId = ""
+                UserId = UserAdrianaIvanova.Id
             };
             BozhidarKolev = new Parent()
             {
                 Id = 7,
                 FullName = "Bozhidar Kolev",
                 ChildId = 7,
-                UserId = ""
+                UserId = UserBozhidarKolev.Id
             };
             EvelinaVasileva = new Parent()
             {
                 Id = 8,
                 FullName = "Evelina Vasileva",
                 ChildId = 8,
-                UserId = ""
+                UserId = UserEvelinaVasileva.Id
             };
             StoyanPetrov = new Parent()
             {
                 Id = 9,
                 FullName = "Stoyan Petrov",
                 ChildId = 9,
-                UserId = ""
+                UserId = UserStoyanPetrov.Id
             };
             TsvetelinaStoyanova = new Parent()
             {
                 Id = 10,
                 FullName = "Tsvetelina Stoyanova",
                 ChildId = 10,
-                UserId = ""
+                UserId = UserTsvetelinaStoyanova.Id
             };
             LyubenMarinov = new Parent()
             {
                 Id = 11,
                 FullName = "Lyuben Marinov",
                 ChildId = 11,
-                UserId = ""
+                UserId = UserLyubenMarinov.Id
             };
             RositsaPetrova = new Parent()
             {
                 Id = 12,
                 FullName = "Rositsa Petrova",
                 ChildId = 12,
-                UserId = ""
+                UserId = UserRositsaPetrova.Id
             };
             KaloyanIvanov = new Parent()
             {
                 Id = 13,
                 FullName = "Kaloyan Ivanov",
                 ChildId = 13,
-                UserId = ""
+                UserId = UserKaloyanIvanov.Id
             };
             EkaterinaGeorgieva = new Parent()
             {
                 Id = 14,
                 FullName = "Ekaterina Georgieva",
                 ChildId = 14,
-                UserId = ""
+                UserId = UserEkaterinaGeorgieva.Id
             };
             HristoDimitrov = new Parent()
             {
                 Id = 15,
                 FullName = "Hristo Dimitrov",
                 ChildId = 15,
-                UserId = ""
+                UserId = UserHristoDimitrov.Id
             };
             DobrinkaIvanova = new Parent()
             {
                 Id = 16,
                 FullName = "Dobrinka Ivanova",
                 ChildId = 16,
-                UserId = ""
+                UserId = UserDobrinkaIvanova.Id
             };
             BlagoyGeorgiev = new Parent()
             {
                 Id = 17,
                 FullName = "Blagoy Georgiev",
                 ChildId = 17,
-                UserId = ""
+                UserId = UserBlagoyGeorgiev.Id
             };
             IskraKoleva = new Parent()
             {
                 Id = 18,
                 FullName = "Iskra Koleva",
                 ChildId = 18,
-                UserId = ""
+                UserId = UserIskraKoleva.Id
             };
             KrasimirTodorov = new Parent()
             {
                 Id = 19,
                 FullName = "Krasimir Todorov",
                 ChildId = 19,
-                UserId = ""
+                UserId = UserKrasimirTodorov.Id
             };
             GerganaIvanova = new Parent()
             {
                 Id = 20,
                 FullName = "Gergana Ivanova",
                 ChildId = 20,
-                UserId = ""
+                UserId = UserGerganaIvanova.Id
             };
             VasilPetrov = new Parent()
             {
                 Id = 21,
                 FullName = "Vasil Petrov",
                 ChildId = 21,
-                UserId = ""
+                UserId = UserVasilPetrov.Id
             };
             NadezhdaDimitrova = new Parent()
             {
                 Id = 22,
                 FullName = "Nadezhda Dimitrova",
                 ChildId = 22,
-                UserId = ""
+                UserId = UserNadezhdaDimitrova.Id
             };
             TodorGeorgiev = new Parent()
             {
                 Id = 23,
                 FullName = "Todor Georgiev",
                 ChildId = 23,
-                UserId = ""
+                UserId = UserTodorGeorgiev.Id
             };
             RadkaIvanova = new Parent()
             {
                 Id = 24,
                 FullName = "Radka Ivanova",
                 ChildId = 24,
-                UserId = ""
+                UserId = UserRadkaIvanova.Id
             };
             HristinaStefanova = new Parent()
             {
                 Id = 25,
                 FullName = "Hristina Stefanova",
                 ChildId = 25,
-                UserId = ""
+                UserId = UserHristinaStefanova.Id
             };
             YavorKolev = new Parent()
             {
                 Id = 26,
                 FullName = "Yavor Kolev",
                 ChildId = 26,
-                UserId = ""
+                UserId = UserYavorKolev.Id
             };
             KameliaPetrova = new Parent()
             {
                 Id = 27,
                 FullName = "Kamelia Petrova",
                 ChildId = 27,
-                UserId = ""
+                UserId = UserKameliaPetrova.Id
             };
             EmilIvanov = new Parent()
             {
                 Id = 28,
                 FullName = "Emil Ivanov",
                 ChildId = 28,
-                UserId = ""
+                UserId = UserEmilIvanov.Id
             };
             DilyanaAleksandrova = new Parent()
             {
                 Id = 29,
                 FullName = "Dilyana Aleksandrova",
                 ChildId = 29,
-                UserId = ""
+                UserId = UserDilyanaAleksandrova.Id
             };
             TsvetanGeorgiev = new Parent()
             {
                 Id = 30,
                 FullName = "Tsvetan Georgiev",
                 ChildId = 30,
-                UserId = ""
+                UserId = UserTsvetanGeorgiev.Id
             };
             ZhivkaIvanova = new Parent()
             {
                 Id = 31,
                 FullName = "Zhivka Ivanova",
                 ChildId = 31,
-                UserId = ""
+                UserId = UserZhivkaIvanova.Id
             };
             IvoDimitrov = new Parent()
             {
                 Id = 32,
                 FullName = "Ivo Dimitrov",
                 ChildId = 32,
-                UserId = ""
+                UserId = UserIvoDimitrov.Id
             };
             AdriyanaStoyanova = new Parent()
             {
                 Id = 33,
                 FullName = "Adriyana Stoyanova",
                 ChildId = 33,
-                UserId = ""
+                UserId = UserAdriyanaStoyanova.Id
             };
             KamenPetrov = new Parent()
             {
                 Id = 34,
                 FullName = "Kamen Petrov",
                 ChildId = 34,
-                UserId = ""
+                UserId = UserKamenPetrov.Id
             };
             KristinaKoleva = new Parent()
             {
                 Id = 35,
                 FullName = "Kristina Koleva",
                 ChildId = 35,
-                UserId = ""
+                UserId = UserKristinaKoleva.Id
             };
             YankoIvanov = new Parent()
             {
                 Id = 36,
                 FullName = "Yanko Ivanov",
                 ChildId = 36,
-                UserId = ""
+                UserId = UserYankoIvanov.Id
             };
             PolinaGeorgieva = new Parent()
             {
                 Id = 37,
                 FullName = "Polina Georgieva",
                 ChildId = 37,
-                UserId = ""
+                UserId = UserPolinaGeorgieva.Id
             };
             VeselinVasilev = new Parent()
             {
                 Id = 38,
                 FullName = "Veselin Vasilev",
                 ChildId = 38,
-                UserId = ""
+                UserId = UserVeselinVasilev.Id
             };
             AntoniyaPetrova = new Parent()
             {
                 Id = 39,
                 FullName = "Antoniya Petrova",
                 ChildId = 39,
-                UserId = ""
+                UserId = UserAntoniyaPetrova.Id
             };
             LyubomirDimitrov = new Parent()
             {
                 Id = 40,
                 FullName = "Lyubomir Dimitrov",
                 ChildId = 40,
-                UserId = ""
+                UserId = UserLyubomirDimitrov.Id
             };
             ZornitsaTodorova = new Parent()
             {
                 Id = 41,
                 FullName = "Zornitsa Todorova",
                 ChildId = 41,
-                UserId = ""
+                UserId = UserZornitsaTodorova.Id
             };
             StefanIvanov = new Parent()
             {
                 Id = 42,
                 FullName = "Stefan Ivanov",
                 ChildId = 42,
-                UserId = ""
+                UserId = UserStefanIvanov.Id
             };
             YoanaGeorgieva = new Parent()
             {
                 Id = 43,
                 FullName = "Yoana Georgieva",
                 ChildId = 43,
-                UserId = ""
+                UserId = UserYoanaGeorgieva.Id
             };
             KrasimiraPetrova = new Parent()
             {
                 Id = 44,
                 FullName = "Krasimira Petrova",
                 ChildId = 44,
-                UserId = ""
+                UserId = UserKrasimiraPetrova.Id
             };
             IvayloKolev = new Parent()
             {
                 Id = 45,
                 FullName = "Ivaylo Kolev",
                 ChildId = 45,
-                UserId = ""
+                UserId = UserIvayloKolev.Id
             };
             MargaritaGeorgieva = new Parent()
             {
                 Id = 46,
                 FullName = "Margarita Georgieva",
                 ChildId = 46,
-                UserId = ""
+                UserId = UserMargaritaGeorgieva.Id
             };
             RumenIvanov = new Parent()
             {
                 Id = 47,
                 FullName = "Rumen Ivanov",
                 ChildId = 47,
-                UserId = ""
+                UserId = UserRumenIvanov.Id
             };
             MilenaDimitrova = new Parent()
             {
                 Id = 48,
                 FullName = "Milena Dimitrova",
                 ChildId = 48,
-                UserId = ""
+                UserId = UserMilenaDimitrova.Id
             };
             YordanTodorov = new Parent()
             {
                 Id = 49,
                 FullName = "Yordan Todorov",
                 ChildId = 49,
-                UserId = ""
+                UserId = UserYordanTodorov.Id
             };
             SilviyaPetrova = new Parent()
             {
                 Id = 50,
                 FullName = "Silviya Petrova",
                 ChildId = 50,
-                UserId = ""
+                UserId = UserSilviyaPetrova.Id
             };
             BogdanIvanov = new Parent()
             {
                 Id = 51,
                 FullName = "Bogdan Ivanov",
                 ChildId = 51,
-                UserId = ""
+                UserId = UserBogdanIvanov.Id
             };
             PetyaKoleva = new Parent()
             {
                 Id = 52,
                 FullName = "Petya Koleva",
                 ChildId = 52,
-                UserId = ""
+                UserId = UserPetyaKoleva.Id
             };
             AsenMarinov = new Parent()
             {
                 Id = 53,
                 FullName = "Asen Marinov",
                 ChildId = 53,
-                UserId = ""
+                UserId = UserAsenMarinov.Id
             };
             RalitsaIvanova = new Parent()
             {
                 Id = 54,
                 FullName = "Ralitsa Ivanova",
                 ChildId = 54,
-                UserId = ""
+                UserId = UserRalitsaIvanova.Id
             };
             VelkoVasilev = new Parent()
             {
                 Id = 55,
                 FullName = "Velko Vasilev",
                 ChildId = 55,
-                UserId = ""
+                UserId = UserVelkoVasilev.Id
             };
             GalyaDimitrova = new Parent()
             {
                 Id = 56,
                 FullName = "Galya Dimitrova",
                 ChildId = 56,
-                UserId = ""
+                UserId = UserGalyaDimitrova.Id
             };
             DimiturIvanov = new Parent()
             {
                 Id = 57,
                 FullName = "Dimitur Ivanov",
                 ChildId = 57,
-                UserId = ""
+                UserId = UserDimiturIvanov.Id
             };
             NadiaKoleva = new Parent()
             {
                 Id = 58,
                 FullName = "Nadia Koleva",
                 ChildId = 58,
-                UserId = ""
+                UserId = UserNadiaKoleva.Id
             };
             YulianPetrov = new Parent()
             {
                 Id = 59,
                 FullName = "Yulian Petrov",
                 ChildId = 59,
-                UserId = ""
+                UserId = UserYulianPetrov.Id
             };
             RadostinaGeorgieva = new Parent()
             {
                 Id = 60,
                 FullName = "Radostina Georgieva",
                 ChildId = 60,
-                UserId = ""
+                UserId = UserRadostinaGeorgieva.Id
             };
             KrasimIvanov = new Parent()
             {
                 Id = 61,
                 FullName = "Krasim Ivanov",
                 ChildId = 61,
-                UserId = ""
+                UserId = UserKrasimIvanov.Id
             };
             TeodoraTodorova = new Parent()
             {
                 Id = 62,
                 FullName = "Teodora Todorova",
                 ChildId = 62,
-                UserId = ""
+                UserId = UserTeodoraTodorova.Id
             };
             KalinPetrov = new Parent()
             {
                 Id = 63,
                 FullName = "Kalin Petrov",
                 ChildId = 63,
-                UserId = ""
+                UserId = UserKalinPetrov.Id
             };
             SvetlaDimitrova = new Parent()
             {
                 Id = 64,
                 FullName = "Svetla Dimitrova",
                 ChildId = 64,
-                UserId = ""
+                UserId = UserSvetlaDimitrova.Id
             };
             VentsislavGeorgiev = new Parent()
             {
                 Id = 65,
                 FullName = "Ventsislav Georgiev",
                 ChildId = 65,
-                UserId = ""
+                UserId = UserVentsislavGeorgiev.Id
             };
             VasilenaIvanova = new Parent()
             {
                 Id = 66,
                 FullName = "Vasilena Ivanova",
                 ChildId = 66,
-                UserId = ""
+                UserId = UserVasilenaIvanova.Id
             };
             MartinPetrov = new Parent()
             {
                 Id = 67,
                 FullName = "Martin Petrov",
                 ChildId = 67,
-                UserId = ""
+                UserId = UserMartinPetrov.Id
             };
             RalitsaKoleva = new Parent()
             {
                 Id = 68,
                 FullName = "Ralitsa Koleva",
                 ChildId = 68,
-                UserId = ""
+                UserId = UserRalitsaKoleva.Id
             };
             StefanDimitrov = new Parent()
             {
                 Id = 69,
                 FullName = "Stefan Dimitrov",
                 ChildId = 69,
-                UserId = ""
+                UserId = UserStefanDimitrov.Id
             };
             SnezhanaGeorgieva = new Parent()
             {
                 Id = 70,
                 FullName = "Snezhana Georgieva",
                 ChildId = 70,
-                UserId = ""
+                UserId = UserSnezhanaGeorgieva.Id
             };
             IvayloIvanov = new Parent()
             {
                 Id = 71,
                 FullName = "Ivaylo Ivanov",
                 ChildId = 71,
-                UserId = ""
+                UserId = UserIvayloIvanov.Id
             };
             MarianaPetrova = new Parent()
             {
                 Id = 72,
                 FullName = "Mariana Petrova",
                 ChildId = 72,
-                UserId = ""
+                UserId = UserMarianaPetrova.Id
             };
             RosenKolev = new Parent()
             {
                 Id = 73,
                 FullName = "Rosen Kolev",
                 ChildId = 73,
-                UserId = ""
+                UserId = UserRosenKolev.Id
             };
             TanyaStoyanova = new Parent()
             {
                 Id = 74,
                 FullName = "Tanya Stoyanova",
                 ChildId = 74,
-                UserId = ""
+                UserId = UserTanyaStoyanova.Id
             };
         }
-
         private void SeedStudents()
         {
             DimitarIvanov = new Student()
@@ -1876,7 +3823,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 1,
-                UserId = ""
+                UserId = UserDimitarIvanov.Id
             };
             ElenaPetrova = new Student()
             {
@@ -1887,7 +3834,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 2,
-                UserId = ""
+                UserId = UserElenaPetrova.Id
             };
             StefchoDimitrov = new Student()
             {
@@ -1898,7 +3845,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 3,
-                UserId = ""
+                UserId = UserStefchoDimitrov.Id
             };
             MilenaGeorgieva = new Student()
             {
@@ -1909,7 +3856,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 4,
-                UserId = ""
+                UserId = UserMilenaGeorgieva.Id
             };
             AleksandarTodorov = new Student()
             {
@@ -1920,7 +3867,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 5,
-                UserId = ""
+                UserId = UserAleksandarTodorov.Id
             };
             ViktoriaIvanova = new Student()
             {
@@ -1931,7 +3878,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 6,
-                UserId = ""
+                UserId = UserViktoriaIvanova.Id
             };
             NikolayKolev = new Student()
             {
@@ -1942,7 +3889,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 7,
-                UserId = ""
+                UserId = UserNikolayKolev.Id
             };
             MariaVasileva = new Student()
             {
@@ -1953,7 +3900,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 8,
-                UserId = ""
+                UserId = UserMariaVasileva.Id
             };
             IvayloPetrov = new Student()
             {
@@ -1964,7 +3911,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 9,
-                UserId = ""
+                UserId = UserIvayloPetrov.Id
             };
             GabrielaStoyanova = new Student()
             {
@@ -1975,7 +3922,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 10,
-                UserId = ""
+                UserId = UserGabrielaStoyanova.Id
             };
             GeorgiMarinov = new Student()
             {
@@ -1986,7 +3933,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 11,
-                UserId = ""
+                UserId = UserGeorgiMarinov.Id
             };
             KristinaPetrova = new Student()
             {
@@ -1997,7 +3944,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 12,
-                UserId = ""
+                UserId = UserKristinaPetrova.Id
             };
             RumchoIvanov = new Student()
             {
@@ -2008,7 +3955,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 13,
-                UserId = ""
+                UserId = UserRumchoIvanov.Id
             };
             EmiliaGeorgieva = new Student()
             {
@@ -2019,10 +3966,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
                 ParentId = 14,
-                UserId = ""
+                UserId = UserEmiliaGeorgieva.Id
             };
-
-
             KrasimirDimitrov = new Student()
             {
                 Id = 15,
@@ -2032,7 +3977,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 15,
-                UserId = ""
+                UserId = UserKrasimirDimitrov.Id
             };
             SilviyaIvanova = new Student()
             {
@@ -2043,7 +3988,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 16,
-                UserId = ""
+                UserId = UserSilviyaIvanova.Id
             };
             AsenGeorgiev = new Student()
             {
@@ -2054,7 +3999,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 17,
-                UserId = ""
+                UserId = UserAsenGeorgiev.Id
             };
             ElenaKoleva = new Student()
             {
@@ -2065,7 +4010,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 18,
-                UserId = ""
+                UserId = UserElenaKoleva.Id
             };
             StanimirTodorov = new Student()
             {
@@ -2076,7 +4021,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 19,
-                UserId = ""
+                UserId = UserStanimirTodorov.Id
             };
             MagdalenaIvanova = new Student()
             {
@@ -2087,7 +4032,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 20,
-                UserId = ""
+                UserId = UserMagdalenaIvanova.Id
             };
             HristoPetrov = new Student()
             {
@@ -2098,7 +4043,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 21,
-                UserId = ""
+                UserId = UserHristoPetrov.Id
             };
             KalinaDimitrova = new Student()
             {
@@ -2109,7 +4054,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 22,
-                UserId = ""
+                UserId = UserKalinaDimitrova.Id
             };
             TsvetanchoGeorgiev = new Student()
             {
@@ -2120,7 +4065,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 23,
-                UserId = ""
+                UserId = UserTsvetanchoGeorgiev.Id
             };
             NadezhdaIvanova = new Student()
             {
@@ -2131,7 +4076,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 24,
-                UserId = ""
+                UserId = UserNadezhdaIvanova.Id
             };
             BorisStefanov = new Student()
             {
@@ -2142,7 +4087,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 25,
-                UserId = ""
+                UserId = UserBorisStefanov.Id
             };
             AneliyaKoleva = new Student()
             {
@@ -2153,7 +4098,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 26,
-                UserId = ""
+                UserId = UserAneliyaKoleva.Id
             };
             RosenPetrov = new Student()
             {
@@ -2164,7 +4109,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 27,
-                UserId = ""
+                UserId = UserRosenPetrov.Id
             };
             RadostinaIvanova = new Student()
             {
@@ -2175,7 +4120,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 28,
-                UserId = ""
+                UserId = UserRadostinaIvanova.Id
             };
             VasilAleksandrov = new Student()
             {
@@ -2186,7 +4131,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 29,
-                UserId = ""
+                UserId = UserVasilAleksandrov.Id
             };
             RositsaGeorgieva = new Student()
             {
@@ -2197,7 +4142,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 30,
-                UserId = ""
+                UserId = UserRositsaGeorgieva.Id
             };
             PlamenIvanov = new Student()
             {
@@ -2208,10 +4153,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
                 ParentId = 31,
-                UserId = ""
+                UserId = UserPlamenIvanov.Id
             };
-
-
             ValentinaDimitrova = new Student()
             {
                 Id = 32,
@@ -2221,7 +4164,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 32,
-                UserId = ""
+                UserId = UserValentinaDimitrova.Id
             };
             IvoStoyanov = new Student()
             {
@@ -2232,7 +4175,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 33,
-                UserId = ""
+                UserId = UserIvoStoyanov.Id
             };
             StefaniyaPetrova = new Student()
             {
@@ -2243,7 +4186,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 34,
-                UserId = ""
+                UserId = UserStefaniyaPetrova.Id
             };
             MartinKolev = new Student()
             {
@@ -2254,7 +4197,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 35,
-                UserId = ""
+                UserId = UserMartinKolev.Id
             };
             SonyaIvanova = new Student()
             {
@@ -2265,7 +4208,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 36,
-                UserId = ""
+                UserId = UserSonyaIvanova.Id
             };
             LyubomirGeorgiev = new Student()
             {
@@ -2276,7 +4219,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 37,
-                UserId = ""
+                UserId = UserLyubomirGeorgiev.Id
             };
             NataliyaVasileva = new Student()
             {
@@ -2287,7 +4230,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 38,
-                UserId = ""
+                UserId = UserNataliyaVasileva.Id
             };
             PetarPetrov = new Student()
             {
@@ -2298,7 +4241,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 39,
-                UserId = ""
+                UserId = UserPetarPetrov.Id
             };
             GerganaDimitrova = new Student()
             {
@@ -2309,7 +4252,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 40,
-                UserId = ""
+                UserId = UserGerganaDimitrova.Id
             };
             LyubomiraTodorova = new Student()
             {
@@ -2320,7 +4263,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 41,
-                UserId = ""
+                UserId = UserLyubomiraTodorova.Id
             };
             AntonIvanov = new Student()
             {
@@ -2331,7 +4274,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 42,
-                UserId = ""
+                UserId = UserAntonIvanov.Id
             };
             TanyaGeorgieva = new Student()
             {
@@ -2342,10 +4285,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
                 ParentId = 43,
-                UserId = ""
+                UserId = UserTanyaGeorgieva.Id
             };
-
-
             KamenchoPetrov = new Student()
             {
                 Id = 44,
@@ -2355,7 +4296,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 44,
-                UserId = ""
+                UserId = UserKamenchoPetrov.Id
             };
             VanyaKoleva = new Student()
             {
@@ -2366,7 +4307,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 45,
-                UserId = ""
+                UserId = UserVanyaKoleva.Id
             };
             RadoslavGeorgiev = new Student()
             {
@@ -2377,7 +4318,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 46,
-                UserId = ""
+                UserId = UserRadoslavGeorgiev.Id
             };
             VasilenkaIvanova = new Student()
             {
@@ -2388,7 +4329,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 47,
-                UserId = ""
+                UserId = UserVasilenkaIvanova.Id
             };
             KirilDimitrov = new Student()
             {
@@ -2399,7 +4340,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 48,
-                UserId = ""
+                UserId = UserKirilDimitrov.Id
             };
             KameliyaTodorova = new Student()
             {
@@ -2410,7 +4351,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 49,
-                UserId = ""
+                UserId = UserKameliyaTodorova.Id
             };
             IliyaPetrov = new Student()
             {
@@ -2421,7 +4362,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 50,
-                UserId = ""
+                UserId = UserIliyaPetrov.Id
             };
             DilyanaIvanova = new Student()
             {
@@ -2432,7 +4373,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 51,
-                UserId = ""
+                UserId = UserDilyanaIvanova.Id
             };
             BogdanKolev = new Student()
             {
@@ -2443,7 +4384,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 52,
-                UserId = ""
+                UserId = UserBogdanKolev.Id
             };
             DanielaMarinova = new Student()
             {
@@ -2454,7 +4395,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 53,
-                UserId = ""
+                UserId = UserDanielaMarinova.Id
             };
             HristiyanIvanov = new Student()
             {
@@ -2465,7 +4406,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 54,
-                UserId = ""
+                UserId = UserHristiyanIvanov.Id
             };
             TeodoraVasileva = new Student()
             {
@@ -2476,7 +4417,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 55,
-                UserId = ""
+                UserId = UserTeodoraVasileva.Id
             };
             DesislavDimitrov = new Student()
             {
@@ -2487,7 +4428,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 56,
-                UserId = ""
+                UserId = UserDesislavDimitrov.Id
             };
             GalyaIvanova = new Student()
             {
@@ -2498,7 +4439,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 57,
-                UserId = ""
+                UserId = UserGalyaIvanova.Id
             };
             IvanKolev = new Student()
             {
@@ -2509,7 +4450,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 58,
-                UserId = ""
+                UserId = UserIvanKolev.Id
             };
             MariyaPetrova = new Student()
             {
@@ -2520,10 +4461,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
                 ParentId = 59,
-                UserId = ""
+                UserId = UserMariyaPetrova.Id
             };
-
-
             SimeonGeorgiev = new Student()
             {
                 Id = 60,
@@ -2533,7 +4472,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 60,
-                UserId = ""
+                UserId = UserSimeonGeorgiev.Id
             };
             MagdalinaIvanova = new Student()
             {
@@ -2544,7 +4483,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 61,
-                UserId = ""
+                UserId = UserMagdalinaIvanova.Id
             };
             EmilTodorov = new Student()
             {
@@ -2555,7 +4494,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 62,
-                UserId = ""
+                UserId = UserEmilTodorov.Id
             };
             KalinchoPetrov = new Student()
             {
@@ -2566,7 +4505,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 63,
-                UserId = ""
+                UserId = UserKalinchoPetrov.Id
             };
             RalitsaDimitrova = new Student()
             {
@@ -2577,7 +4516,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 64,
-                UserId = ""
+                UserId = UserRalitsaDimitrova.Id
             };
             YordanGeorgiev = new Student()
             {
@@ -2588,7 +4527,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 65,
-                UserId = ""
+                UserId = UserYordanGeorgiev.Id
             };
             RadinkaIvanova = new Student()
             {
@@ -2599,7 +4538,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 66,
-                UserId = ""
+                UserId = UserRadinkaIvanova.Id
             };
             VentsislavPetrov = new Student()
             {
@@ -2610,7 +4549,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 67,
-                UserId = ""
+                UserId = UserVentsislavPetrov.Id
             };
             DarinaKoleva = new Student()
             {
@@ -2621,7 +4560,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 68,
-                UserId = ""
+                UserId = UserDarinaKoleva.Id
             };
             BozhidarDimitrov = new Student()
             {
@@ -2632,7 +4571,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 69,
-                UserId = ""
+                UserId = UserBozhidarDimitrov.Id
             };
             NeliGeorgieva = new Student()
             {
@@ -2643,7 +4582,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 70,
-                UserId = ""
+                UserId = UserNeliGeorgieva.Id
             };
             YavorIvanov = new Student()
             {
@@ -2654,7 +4593,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 71,
-                UserId = ""
+                UserId = UserYavorIvanov.Id
             };
             MilitsaPetrova = new Student()
             {
@@ -2665,7 +4604,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 72,
-                UserId = ""
+                UserId = UserMilitsaPetrova.Id
             };
             ZdravkoKolev = new Student()
             {
@@ -2676,7 +4615,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 73,
-                UserId = ""
+                UserId = UserZdravkoKolev.Id
             };
             ElenaStoyanova = new Student()
             {
@@ -2687,10 +4626,9 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
                 ParentId = 74,
-                UserId = ""
+                UserId = UserElenaStoyanova.Id
             };
         }
-
         private void SeedStudentSubjectGrades()
         {
             //1

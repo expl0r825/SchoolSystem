@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SchoolSystem.Infrastructure.Data.Models;
-using System.Drawing;
-using System.Reflection.Emit;
+using SchoolSystem.Infrastructure.Data.SeedDb;
 
 namespace SchoolSystem.Infrastructure.Data
 {
@@ -26,21 +25,7 @@ namespace SchoolSystem.Infrastructure.Data
         {
             builder
                 .Entity<StudentSubjectGrade>()
-                .HasKey(sbg => new { sbg.StudentId, sbg.SubjectId });
-
-            builder
-                 .Entity<Student>()
-                 .HasOne(s => s.Class)
-                 .WithMany(c => c.Students)
-                 .HasForeignKey(s => s.ClassId)
-                 .OnDelete(DeleteBehavior.Restrict);
-
-            builder
-                .Entity<Student>()
-                .HasOne(s => s.ClassTeacher)
-                .WithMany(c => c.Students)
-                .HasForeignKey(s => s.ClassTeacherId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasKey(ssg => new { ssg.StudentId, ssg.SubjectId });
 
             builder
                 .Entity<StudentSubjectGrade>()
@@ -48,8 +33,17 @@ namespace SchoolSystem.Infrastructure.Data
                 .HasColumnType("decimal(18,2)");
 
 
+            builder.ApplyConfiguration(new ClassConfiguration());
+            builder.ApplyConfiguration(new ParentConfiguration());
+            builder.ApplyConfiguration(new PrincipalConfiguration());
+            builder.ApplyConfiguration(new StudentConfiguration());
+            builder.ApplyConfiguration(new StudentSubjectGradeConfiguration());
+            builder.ApplyConfiguration(new SubjectConfiguration());
+            builder.ApplyConfiguration(new TeacherConfiguration());
+            builder.ApplyConfiguration(new UserConfiguration());
+
+
             base.OnModelCreating(builder);
         }
-
     }
 }
