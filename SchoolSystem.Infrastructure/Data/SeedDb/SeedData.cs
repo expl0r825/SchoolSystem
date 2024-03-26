@@ -7,1425 +7,1425 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
     {
         //Subjects
 
-        public Subject Bulgarian { get; set; }
-        public Subject Mathematics { get; set; }
-        public Subject English { get; set; }
-        public Subject SoftwareDesign { get; set; }
-        public Subject ComputerScience { get; set; }
-        public Subject Business { get; set; }
-        public Subject Physics { get; set; }
-        public Subject Programming { get; set; }
-        public Subject Engineering { get; set; }
-        public Subject History { get; set; }
+        public Subject Bulgarian { get; set; } = new Subject();
+        public Subject Mathematics { get; set; } = new Subject();
+        public Subject English { get; set; } = new Subject();
+        public Subject SoftwareDesign { get; set; } = new Subject();
+        public Subject ComputerScience { get; set; } = new Subject();
+        public Subject Business { get; set; } = new Subject();
+        public Subject Physics { get; set; } = new Subject();
+        public Subject Programming { get; set; } = new Subject();
+        public Subject Engineering { get; set; } = new Subject();
+        public Subject History { get; set; } = new Subject();
 
 
         //Teachers
 
-        public Teacher TatyanaGerganova { get; set; }
-        public IdentityUser UserTatyanaGerganova { get; set; }
+        public Teacher TatyanaGerganova { get; set; } = new Teacher();
+        public IdentityUser UserTatyanaGerganova { get; set; } = new IdentityUser();
 
-        public Teacher BilyanaLozanova { get; set; }
-        public IdentityUser UserBilyanaLozanova { get; set; }
+        public Teacher BilyanaLozanova { get; set; } = new Teacher();
+        public IdentityUser UserBilyanaLozanova { get; set; } = new IdentityUser();
 
-        public Teacher KrasimiraKutin { get; set; }
-        public IdentityUser UserKrasimiraKutin { get; set; }
+        public Teacher KrasimiraKutin { get; set; } = new Teacher();
+        public IdentityUser UserKrasimiraKutin { get; set; } = new IdentityUser();
 
-        public Teacher TeodorHristov { get; set; }
-        public IdentityUser UserTeodorHristov { get; set; }
+        public Teacher TeodorHristov { get; set; } = new Teacher();
+        public IdentityUser UserTeodorHristov { get; set; } = new IdentityUser();
 
-        public Teacher SilviyaGancheva { get; set; }
-        public IdentityUser UserSilviyaGancheva { get; set; }
+        public Teacher SilviyaGancheva { get; set; } = new Teacher();
+        public IdentityUser UserSilviyaGancheva { get; set; } = new IdentityUser();
 
-        public Teacher CvetomirAmbursa { get; set; }
-        public IdentityUser UserCvetomirAmbursa { get; set; }
+        public Teacher CvetomirAmbursa { get; set; } = new Teacher();
+        public IdentityUser UserCvetomirAmbursa { get; set; } = new IdentityUser();
 
-        public Teacher MitkoMitkov { get; set; }
-        public IdentityUser UserMitkoMitkov { get; set; }
+        public Teacher MitkoMitkov { get; set; } = new Teacher();
+        public IdentityUser UserMitkoMitkov { get; set; } = new IdentityUser();
 
-        public Teacher EmilStoyanov { get; set; }
-        public IdentityUser UserEmilStoyanov { get; set; }
+        public Teacher EmilStoyanov { get; set; } = new Teacher();
+        public IdentityUser UserEmilStoyanov { get; set; } = new IdentityUser();
 
-        public Teacher BorislavaBangeeva { get; set; }
-        public IdentityUser UserBorislavaBangeeva { get; set; }
+        public Teacher BorislavaBangeeva { get; set; } = new Teacher();
+        public IdentityUser UserBorislavaBangeeva { get; set; } = new IdentityUser();
 
-        public Teacher MariaIvanova { get; set; }
-        public IdentityUser UserMariaIvanova { get; set; }
+        public Teacher MariaIvanova { get; set; } = new Teacher();
+        public IdentityUser UserMariaIvanova { get; set; } = new IdentityUser();
 
 
         //Classes
 
-        public Class Eight { get; set; }
-        public Class Ninth { get; set; }
-        public Class Tenth { get; set; }
-        public Class Eleventh { get; set; }
-        public Class Twelfth { get; set; }
+        public Class Eight { get; set; } = new Class();
+        public Class Ninth { get; set; } = new Class();
+        public Class Tenth { get; set; } = new Class();
+        public Class Eleventh { get; set; } = new Class();
+        public Class Twelfth { get; set; } = new Class();
 
 
         //Principals
 
-        public Principal RadostinaMekova { get; set; }
-        public IdentityUser UserRadostinaMekova { get; set; }
+        public Principal RadostinaMekova { get; set; } = new Principal();
+        public IdentityUser UserRadostinaMekova { get; set; } = new IdentityUser();
 
-        public Principal ValentinaStoeva { get; set; }
-        public IdentityUser UserValentinaStoeva { get; set; }
+        public Principal ValentinaStoeva { get; set; } = new Principal();
+        public IdentityUser UserValentinaStoeva { get; set; } = new IdentityUser();
 
-        public Principal YulianaPetkova { get; set; }
-        public IdentityUser UserYulianaPetkova { get; set; }
+        public Principal YulianaPetkova { get; set; } = new Principal();
+        public IdentityUser UserYulianaPetkova { get; set; } = new IdentityUser();
 
 
         //Parents
 
-        public Parent KrumIvanov { get; set; }
-        public IdentityUser UserKrumIvanov { get; set; }
+        public Parent KrumIvanov { get; set; } = new Parent();
+        public IdentityUser UserKrumIvanov { get; set; } = new IdentityUser();
 
-        public Parent VeronikaPetrova { get; set; }
-        public IdentityUser UserVeronikaPetrova { get; set; }
+        public Parent VeronikaPetrova { get; set; } = new Parent();
+        public IdentityUser UserVeronikaPetrova { get; set; } = new IdentityUser();
 
-        public Parent PlamenDimitrov { get; set; }
-        public IdentityUser UserPlamenDimitrov { get; set; }
+        public Parent PlamenDimitrov { get; set; } = new Parent();
+        public IdentityUser UserPlamenDimitrov { get; set; } = new IdentityUser();
 
-        public Parent ZlatinaGeorgieva { get; set; }
-        public IdentityUser UserZlatinaGeorgieva { get; set; }
+        public Parent ZlatinaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserZlatinaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent RadoslavTodorov { get; set; }
-        public IdentityUser UserRadoslavTodorov { get; set; }
+        public Parent RadoslavTodorov { get; set; } = new Parent();
+        public IdentityUser UserRadoslavTodorov { get; set; } = new IdentityUser();
 
-        public Parent AdrianaIvanova { get; set; }
-        public IdentityUser UserAdrianaIvanova { get; set; }
+        public Parent AdrianaIvanova { get; set; } = new Parent();
+        public IdentityUser UserAdrianaIvanova { get; set; } = new IdentityUser();
 
-        public Parent BozhidarKolev { get; set; }
-        public IdentityUser UserBozhidarKolev { get; set; }
+        public Parent BozhidarKolev { get; set; } = new Parent();
+        public IdentityUser UserBozhidarKolev { get; set; } = new IdentityUser();
 
-        public Parent EvelinaVasileva { get; set; }
-        public IdentityUser UserEvelinaVasileva { get; set; }
+        public Parent EvelinaVasileva { get; set; } = new Parent();
+        public IdentityUser UserEvelinaVasileva { get; set; } = new IdentityUser();
 
-        public Parent StoyanPetrov { get; set; }
-        public IdentityUser UserStoyanPetrov { get; set; }
+        public Parent StoyanPetrov { get; set; } = new Parent();
+        public IdentityUser UserStoyanPetrov { get; set; } = new IdentityUser();
 
-        public Parent TsvetelinaStoyanova { get; set; }
-        public IdentityUser UserTsvetelinaStoyanova { get; set; }
+        public Parent TsvetelinaStoyanova { get; set; } = new Parent();
+        public IdentityUser UserTsvetelinaStoyanova { get; set; } = new IdentityUser();
 
-        public Parent LyubenMarinov { get; set; }
-        public IdentityUser UserLyubenMarinov { get; set; }
+        public Parent LyubenMarinov { get; set; } = new Parent();
+        public IdentityUser UserLyubenMarinov { get; set; } = new IdentityUser();
 
-        public Parent RositsaPetrova { get; set; }
-        public IdentityUser UserRositsaPetrova { get; set; }
+        public Parent RositsaPetrova { get; set; } = new Parent();
+        public IdentityUser UserRositsaPetrova { get; set; } = new IdentityUser();
 
-        public Parent KaloyanIvanov { get; set; }
-        public IdentityUser UserKaloyanIvanov { get; set; }
+        public Parent KaloyanIvanov { get; set; } = new Parent();
+        public IdentityUser UserKaloyanIvanov { get; set; } = new IdentityUser();
 
-        public Parent EkaterinaGeorgieva { get; set; }
-        public IdentityUser UserEkaterinaGeorgieva { get; set; }
+        public Parent EkaterinaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserEkaterinaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent HristoDimitrov { get; set; }
-        public IdentityUser UserHristoDimitrov { get; set; }
+        public Parent HristoDimitrov { get; set; } = new Parent();
+        public IdentityUser UserHristoDimitrov { get; set; } = new IdentityUser();
 
-        public Parent DobrinkaIvanova { get; set; }
-        public IdentityUser UserDobrinkaIvanova { get; set; }
+        public Parent DobrinkaIvanova { get; set; } = new Parent();
+        public IdentityUser UserDobrinkaIvanova { get; set; } = new IdentityUser();
 
-        public Parent BlagoyGeorgiev { get; set; }
-        public IdentityUser UserBlagoyGeorgiev { get; set; }
+        public Parent BlagoyGeorgiev { get; set; } = new Parent();
+        public IdentityUser UserBlagoyGeorgiev { get; set; } = new IdentityUser();
 
-        public Parent IskraKoleva { get; set; }
-        public IdentityUser UserIskraKoleva { get; set; }
+        public Parent IskraKoleva { get; set; } = new Parent();
+        public IdentityUser UserIskraKoleva { get; set; } = new IdentityUser();
 
-        public Parent KrasimirTodorov { get; set; }
-        public IdentityUser UserKrasimirTodorov { get; set; }
+        public Parent KrasimirTodorov { get; set; } = new Parent();
+        public IdentityUser UserKrasimirTodorov { get; set; } = new IdentityUser();
 
-        public Parent GerganaIvanova { get; set; }
-        public IdentityUser UserGerganaIvanova { get; set; }
+        public Parent GerganaIvanova { get; set; } = new Parent();
+        public IdentityUser UserGerganaIvanova { get; set; } = new IdentityUser();
 
-        public Parent VasilPetrov { get; set; }
-        public IdentityUser UserVasilPetrov { get; set; }
+        public Parent VasilPetrov { get; set; } = new Parent();
+        public IdentityUser UserVasilPetrov { get; set; } = new IdentityUser();
 
-        public Parent NadezhdaDimitrova { get; set; }
-        public IdentityUser UserNadezhdaDimitrova { get; set; }
+        public Parent NadezhdaDimitrova { get; set; } = new Parent();
+        public IdentityUser UserNadezhdaDimitrova { get; set; } = new IdentityUser();
 
-        public Parent TodorGeorgiev { get; set; }
-        public IdentityUser UserTodorGeorgiev { get; set; }
+        public Parent TodorGeorgiev { get; set; } = new Parent();
+        public IdentityUser UserTodorGeorgiev { get; set; } = new IdentityUser();
 
-        public Parent RadkaIvanova { get; set; }
-        public IdentityUser UserRadkaIvanova { get; set; }
+        public Parent RadkaIvanova { get; set; } = new Parent();
+        public IdentityUser UserRadkaIvanova { get; set; } = new IdentityUser();
 
-        public Parent HristinaStefanova { get; set; }
-        public IdentityUser UserHristinaStefanova { get; set; }
+        public Parent HristinaStefanova { get; set; } = new Parent();
+        public IdentityUser UserHristinaStefanova { get; set; } = new IdentityUser();
 
-        public Parent YavorKolev { get; set; }
-        public IdentityUser UserYavorKolev { get; set; }
+        public Parent YavorKolev { get; set; } = new Parent();
+        public IdentityUser UserYavorKolev { get; set; } = new IdentityUser();
 
-        public Parent KameliaPetrova { get; set; }
-        public IdentityUser UserKameliaPetrova { get; set; }
+        public Parent KameliaPetrova { get; set; } = new Parent();
+        public IdentityUser UserKameliaPetrova { get; set; } = new IdentityUser();
 
-        public Parent EmilIvanov { get; set; }
-        public IdentityUser UserEmilIvanov { get; set; }
+        public Parent EmilIvanov { get; set; } = new Parent();
+        public IdentityUser UserEmilIvanov { get; set; } = new IdentityUser();
 
-        public Parent DilyanaAleksandrova { get; set; }
-        public IdentityUser UserDilyanaAleksandrova { get; set; }
+        public Parent DilyanaAleksandrova { get; set; } = new Parent();
+        public IdentityUser UserDilyanaAleksandrova { get; set; } = new IdentityUser();
 
-        public Parent TsvetanGeorgiev { get; set; }
-        public IdentityUser UserTsvetanGeorgiev { get; set; }
+        public Parent TsvetanGeorgiev { get; set; } = new Parent();
+        public IdentityUser UserTsvetanGeorgiev { get; set; } = new IdentityUser();
 
-        public Parent ZhivkaIvanova { get; set; }
-        public IdentityUser UserZhivkaIvanova { get; set; }
+        public Parent ZhivkaIvanova { get; set; } = new Parent();
+        public IdentityUser UserZhivkaIvanova { get; set; } = new IdentityUser();
 
-        public Parent IvoDimitrov { get; set; }
-        public IdentityUser UserIvoDimitrov { get; set; }
+        public Parent IvoDimitrov { get; set; } = new Parent();
+        public IdentityUser UserIvoDimitrov { get; set; } = new IdentityUser();
 
-        public Parent AdriyanaStoyanova { get; set; }
-        public IdentityUser UserAdriyanaStoyanova { get; set; }
+        public Parent AdriyanaStoyanova { get; set; } = new Parent();
+        public IdentityUser UserAdriyanaStoyanova { get; set; } = new IdentityUser();
 
-        public Parent KamenPetrov { get; set; }
-        public IdentityUser UserKamenPetrov { get; set; }
+        public Parent KamenPetrov { get; set; } = new Parent();
+        public IdentityUser UserKamenPetrov { get; set; } = new IdentityUser();
 
-        public Parent KristinaKoleva { get; set; }
-        public IdentityUser UserKristinaKoleva { get; set; }
+        public Parent KristinaKoleva { get; set; } = new Parent();
+        public IdentityUser UserKristinaKoleva { get; set; } = new IdentityUser();
 
-        public Parent YankoIvanov { get; set; }
-        public IdentityUser UserYankoIvanov { get; set; }
+        public Parent YankoIvanov { get; set; } = new Parent();
+        public IdentityUser UserYankoIvanov { get; set; } = new IdentityUser();
 
-        public Parent PolinaGeorgieva { get; set; }
-        public IdentityUser UserPolinaGeorgieva { get; set; }
+        public Parent PolinaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserPolinaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent VeselinVasilev { get; set; }
-        public IdentityUser UserVeselinVasilev { get; set; }
+        public Parent VeselinVasilev { get; set; } = new Parent();
+        public IdentityUser UserVeselinVasilev { get; set; } = new IdentityUser();
 
-        public Parent AntoniyaPetrova { get; set; }
-        public IdentityUser UserAntoniyaPetrova { get; set; }
+        public Parent AntoniyaPetrova { get; set; } = new Parent();
+        public IdentityUser UserAntoniyaPetrova { get; set; } = new IdentityUser();
 
-        public Parent LyubomirDimitrov { get; set; }
-        public IdentityUser UserLyubomirDimitrov { get; set; }
+        public Parent LyubomirDimitrov { get; set; } = new Parent();
+        public IdentityUser UserLyubomirDimitrov { get; set; } = new IdentityUser();
 
-        public Parent ZornitsaTodorova { get; set; }
-        public IdentityUser UserZornitsaTodorova { get; set; }
+        public Parent ZornitsaTodorova { get; set; } = new Parent();
+        public IdentityUser UserZornitsaTodorova { get; set; } = new IdentityUser();
 
-        public Parent StefanIvanov { get; set; }
-        public IdentityUser UserStefanIvanov { get; set; }
+        public Parent StefanIvanov { get; set; } = new Parent();
+        public IdentityUser UserStefanIvanov { get; set; } = new IdentityUser();
 
-        public Parent YoanaGeorgieva { get; set; }
-        public IdentityUser UserYoanaGeorgieva { get; set; }
+        public Parent YoanaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserYoanaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent KrasimiraPetrova { get; set; }
-        public IdentityUser UserKrasimiraPetrova { get; set; }
+        public Parent KrasimiraPetrova { get; set; } = new Parent();
+        public IdentityUser UserKrasimiraPetrova { get; set; } = new IdentityUser();
 
-        public Parent IvayloKolev { get; set; }
-        public IdentityUser UserIvayloKolev { get; set; }
+        public Parent IvayloKolev { get; set; } = new Parent();
+        public IdentityUser UserIvayloKolev { get; set; } = new IdentityUser();
 
-        public Parent MargaritaGeorgieva { get; set; }
-        public IdentityUser UserMargaritaGeorgieva { get; set; }
+        public Parent MargaritaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserMargaritaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent RumenIvanov { get; set; }
-        public IdentityUser UserRumenIvanov { get; set; }
+        public Parent RumenIvanov { get; set; } = new Parent();
+        public IdentityUser UserRumenIvanov { get; set; } = new IdentityUser();
 
-        public Parent MilenaDimitrova { get; set; }
-        public IdentityUser UserMilenaDimitrova { get; set; }
+        public Parent MilenaDimitrova { get; set; } = new Parent();
+        public IdentityUser UserMilenaDimitrova { get; set; } = new IdentityUser();
 
-        public Parent YordanTodorov { get; set; }
-        public IdentityUser UserYordanTodorov { get; set; }
+        public Parent YordanTodorov { get; set; } = new Parent();
+        public IdentityUser UserYordanTodorov { get; set; } = new IdentityUser();
 
-        public Parent SilviyaPetrova { get; set; }
-        public IdentityUser UserSilviyaPetrova { get; set; }
+        public Parent SilviyaPetrova { get; set; } = new Parent();
+        public IdentityUser UserSilviyaPetrova { get; set; } = new IdentityUser();
 
-        public Parent BogdanIvanov { get; set; }
-        public IdentityUser UserBogdanIvanov { get; set; }
+        public Parent BogdanIvanov { get; set; } = new Parent();
+        public IdentityUser UserBogdanIvanov { get; set; } = new IdentityUser();
 
-        public Parent PetyaKoleva { get; set; }
-        public IdentityUser UserPetyaKoleva { get; set; }
+        public Parent PetyaKoleva { get; set; } = new Parent();
+        public IdentityUser UserPetyaKoleva { get; set; } = new IdentityUser();
 
-        public Parent AsenMarinov { get; set; }
-        public IdentityUser UserAsenMarinov { get; set; }
+        public Parent AsenMarinov { get; set; } = new Parent();
+        public IdentityUser UserAsenMarinov { get; set; } = new IdentityUser();
 
-        public Parent RalitsaIvanova { get; set; }
-        public IdentityUser UserRalitsaIvanova { get; set; }
+        public Parent RalitsaIvanova { get; set; } = new Parent();
+        public IdentityUser UserRalitsaIvanova { get; set; } = new IdentityUser();
 
-        public Parent VelkoVasilev { get; set; }
-        public IdentityUser UserVelkoVasilev { get; set; }
+        public Parent VelkoVasilev { get; set; } = new Parent();
+        public IdentityUser UserVelkoVasilev { get; set; } = new IdentityUser();
 
-        public Parent GalyaDimitrova { get; set; }
-        public IdentityUser UserGalyaDimitrova { get; set; }
+        public Parent GalyaDimitrova { get; set; } = new Parent();
+        public IdentityUser UserGalyaDimitrova { get; set; } = new IdentityUser();
 
-        public Parent DimiturIvanov { get; set; }
-        public IdentityUser UserDimiturIvanov { get; set; }
+        public Parent DimiturIvanov { get; set; } = new Parent();
+        public IdentityUser UserDimiturIvanov { get; set; } = new IdentityUser();
 
-        public Parent NadiaKoleva { get; set; }
-        public IdentityUser UserNadiaKoleva { get; set; }
+        public Parent NadiaKoleva { get; set; } = new Parent();
+        public IdentityUser UserNadiaKoleva { get; set; } = new IdentityUser();
 
-        public Parent YulianPetrov { get; set; }
-        public IdentityUser UserYulianPetrov { get; set; }
+        public Parent YulianPetrov { get; set; } = new Parent();
+        public IdentityUser UserYulianPetrov { get; set; } = new IdentityUser();
 
-        public Parent RadostinaGeorgieva { get; set; }
-        public IdentityUser UserRadostinaGeorgieva { get; set; }
+        public Parent RadostinaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserRadostinaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent KrasimIvanov { get; set; }
-        public IdentityUser UserKrasimIvanov { get; set; }
+        public Parent KrasimIvanov { get; set; } = new Parent();
+        public IdentityUser UserKrasimIvanov { get; set; } = new IdentityUser();
 
-        public Parent TeodoraTodorova { get; set; }
-        public IdentityUser UserTeodoraTodorova { get; set; }
+        public Parent TeodoraTodorova { get; set; } = new Parent();
+        public IdentityUser UserTeodoraTodorova { get; set; } = new IdentityUser();
 
-        public Parent KalinPetrov { get; set; }
-        public IdentityUser UserKalinPetrov { get; set; }
+        public Parent KalinPetrov { get; set; } = new Parent();
+        public IdentityUser UserKalinPetrov { get; set; } = new IdentityUser();
 
-        public Parent SvetlaDimitrova { get; set; }
-        public IdentityUser UserSvetlaDimitrova { get; set; }
+        public Parent SvetlaDimitrova { get; set; } = new Parent();
+        public IdentityUser UserSvetlaDimitrova { get; set; } = new IdentityUser();
 
-        public Parent VentsislavGeorgiev { get; set; }
-        public IdentityUser UserVentsislavGeorgiev { get; set; }
+        public Parent VentsislavGeorgiev { get; set; } = new Parent();
+        public IdentityUser UserVentsislavGeorgiev { get; set; } = new IdentityUser();
 
-        public Parent VasilenaIvanova { get; set; }
-        public IdentityUser UserVasilenaIvanova { get; set; }
+        public Parent VasilenaIvanova { get; set; } = new Parent();
+        public IdentityUser UserVasilenaIvanova { get; set; } = new IdentityUser();
 
-        public Parent MartinPetrov { get; set; }
-        public IdentityUser UserMartinPetrov { get; set; }
+        public Parent MartinPetrov { get; set; } = new Parent();
+        public IdentityUser UserMartinPetrov { get; set; } = new IdentityUser();
 
-        public Parent RalitsaKoleva { get; set; }
-        public IdentityUser UserRalitsaKoleva { get; set; }
+        public Parent RalitsaKoleva { get; set; } = new Parent();
+        public IdentityUser UserRalitsaKoleva { get; set; } = new IdentityUser();
 
-        public Parent StefanDimitrov { get; set; }
-        public IdentityUser UserStefanDimitrov { get; set; }
+        public Parent StefanDimitrov { get; set; } = new Parent();
+        public IdentityUser UserStefanDimitrov { get; set; } = new IdentityUser();
 
-        public Parent SnezhanaGeorgieva { get; set; }
-        public IdentityUser UserSnezhanaGeorgieva { get; set; }
+        public Parent SnezhanaGeorgieva { get; set; } = new Parent();
+        public IdentityUser UserSnezhanaGeorgieva { get; set; } = new IdentityUser();
 
-        public Parent IvayloIvanov { get; set; }
-        public IdentityUser UserIvayloIvanov { get; set; }
+        public Parent IvayloIvanov { get; set; } = new Parent();
+        public IdentityUser UserIvayloIvanov { get; set; } = new IdentityUser();
 
-        public Parent MarianaPetrova { get; set; }
-        public IdentityUser UserMarianaPetrova { get; set; }
+        public Parent MarianaPetrova { get; set; } = new Parent();
+        public IdentityUser UserMarianaPetrova { get; set; } = new IdentityUser();
 
-        public Parent RosenKolev { get; set; }
-        public IdentityUser UserRosenKolev { get; set; }
+        public Parent RosenKolev { get; set; } = new Parent();
+        public IdentityUser UserRosenKolev { get; set; } = new IdentityUser();
 
-        public Parent TanyaStoyanova { get; set; }
-        public IdentityUser UserTanyaStoyanova { get; set; }
+        public Parent TanyaStoyanova { get; set; } = new Parent();
+        public IdentityUser UserTanyaStoyanova { get; set; } = new IdentityUser();
 
 
 
         //Students
 
-        public Student DimitarIvanov { get; set; }
-        public IdentityUser UserDimitarIvanov { get; set; }
+        public Student DimitarIvanov { get; set; } = new Student();
+        public IdentityUser UserDimitarIvanov { get; set; } = new IdentityUser();
 
-        public Student ElenaPetrova { get; set; }
-        public IdentityUser UserElenaPetrova { get; set; }
+        public Student ElenaPetrova { get; set; } = new Student();
+        public IdentityUser UserElenaPetrova { get; set; } = new IdentityUser();
 
-        public Student StefchoDimitrov { get; set; }
-        public IdentityUser UserStefchoDimitrov { get; set; }
+        public Student StefchoDimitrov { get; set; } = new Student();
+        public IdentityUser UserStefchoDimitrov { get; set; } = new IdentityUser();
 
-        public Student MilenaGeorgieva { get; set; }
-        public IdentityUser UserMilenaGeorgieva { get; set; }
+        public Student MilenaGeorgieva { get; set; } = new Student();
+        public IdentityUser UserMilenaGeorgieva { get; set; } = new IdentityUser();
 
-        public Student AleksandarTodorov { get; set; }
-        public IdentityUser UserAleksandarTodorov { get; set; }
+        public Student AleksandarTodorov { get; set; } = new Student();
+        public IdentityUser UserAleksandarTodorov { get; set; } = new IdentityUser();
 
-        public Student ViktoriaIvanova { get; set; }
-        public IdentityUser UserViktoriaIvanova { get; set; }
+        public Student ViktoriaIvanova { get; set; } = new Student();
+        public IdentityUser UserViktoriaIvanova { get; set; } = new IdentityUser();
 
-        public Student NikolayKolev { get; set; }
-        public IdentityUser UserNikolayKolev { get; set; }
+        public Student NikolayKolev { get; set; } = new Student();
+        public IdentityUser UserNikolayKolev { get; set; } = new IdentityUser();
 
-        public Student MariaVasileva { get; set; }
-        public IdentityUser UserMariaVasileva { get; set; }
+        public Student MariaVasileva { get; set; } = new Student();
+        public IdentityUser UserMariaVasileva { get; set; } = new IdentityUser();
 
-        public Student IvayloPetrov { get; set; }
-        public IdentityUser UserIvayloPetrov { get; set; }
+        public Student IvayloPetrov { get; set; } = new Student();
+        public IdentityUser UserIvayloPetrov { get; set; } = new IdentityUser();
 
-        public Student GabrielaStoyanova { get; set; }
-        public IdentityUser UserGabrielaStoyanova { get; set; }
+        public Student GabrielaStoyanova { get; set; } = new Student();
+        public IdentityUser UserGabrielaStoyanova { get; set; } = new IdentityUser();
 
-        public Student GeorgiMarinov { get; set; }
-        public IdentityUser UserGeorgiMarinov { get; set; }
+        public Student GeorgiMarinov { get; set; } = new Student();
+        public IdentityUser UserGeorgiMarinov { get; set; } = new IdentityUser();
 
-        public Student KristinaPetrova { get; set; }
-        public IdentityUser UserKristinaPetrova { get; set; }
+        public Student KristinaPetrova { get; set; } = new Student();
+        public IdentityUser UserKristinaPetrova { get; set; } = new IdentityUser();
 
-        public Student RumchoIvanov { get; set; }
-        public IdentityUser UserRumchoIvanov { get; set; }
+        public Student RumchoIvanov { get; set; } = new Student();
+        public IdentityUser UserRumchoIvanov { get; set; } = new IdentityUser();
 
-        public Student EmiliaGeorgieva { get; set; }
-        public IdentityUser UserEmiliaGeorgieva { get; set; }
+        public Student EmiliaGeorgieva { get; set; } = new Student();
+        public IdentityUser UserEmiliaGeorgieva { get; set; } = new IdentityUser();
 
-        public Student KrasimirDimitrov { get; set; }
-        public IdentityUser UserKrasimirDimitrov { get; set; }
+        public Student KrasimirDimitrov { get; set; } = new Student();
+        public IdentityUser UserKrasimirDimitrov { get; set; } = new IdentityUser();
 
-        public Student SilviyaIvanova { get; set; }
-        public IdentityUser UserSilviyaIvanova { get; set; }
+        public Student SilviyaIvanova { get; set; } = new Student();
+        public IdentityUser UserSilviyaIvanova { get; set; } = new IdentityUser();
 
-        public Student AsenGeorgiev { get; set; }
-        public IdentityUser UserAsenGeorgiev { get; set; }
+        public Student AsenGeorgiev { get; set; } = new Student();
+        public IdentityUser UserAsenGeorgiev { get; set; } = new IdentityUser();
 
-        public Student ElenaKoleva { get; set; }
-        public IdentityUser UserElenaKoleva { get; set; }
+        public Student ElenaKoleva { get; set; } = new Student();
+        public IdentityUser UserElenaKoleva { get; set; } = new IdentityUser();
 
-        public Student StanimirTodorov { get; set; }
-        public IdentityUser UserStanimirTodorov { get; set; }
+        public Student StanimirTodorov { get; set; } = new Student();
+        public IdentityUser UserStanimirTodorov { get; set; } = new IdentityUser();
 
-        public Student MagdalenaIvanova { get; set; }
-        public IdentityUser UserMagdalenaIvanova { get; set; }
+        public Student MagdalenaIvanova { get; set; } = new Student();
+        public IdentityUser UserMagdalenaIvanova { get; set; } = new IdentityUser();
 
-        public Student HristoPetrov { get; set; }
-        public IdentityUser UserHristoPetrov { get; set; }
+        public Student HristoPetrov { get; set; } = new Student();
+        public IdentityUser UserHristoPetrov { get; set; } = new IdentityUser();
 
-        public Student KalinaDimitrova { get; set; }
-        public IdentityUser UserKalinaDimitrova { get; set; }
+        public Student KalinaDimitrova { get; set; } = new Student();
+        public IdentityUser UserKalinaDimitrova { get; set; } = new IdentityUser();
 
-        public Student TsvetanchoGeorgiev { get; set; }
-        public IdentityUser UserTsvetanchoGeorgiev { get; set; }
+        public Student TsvetanchoGeorgiev { get; set; } = new Student();
+        public IdentityUser UserTsvetanchoGeorgiev { get; set; } = new IdentityUser();
 
-        public Student NadezhdaIvanova { get; set; }
-        public IdentityUser UserNadezhdaIvanova { get; set; }
+        public Student NadezhdaIvanova { get; set; } = new Student();
+        public IdentityUser UserNadezhdaIvanova { get; set; } = new IdentityUser();
 
-        public Student BorisStefanov { get; set; }
-        public IdentityUser UserBorisStefanov { get; set; }
+        public Student BorisStefanov { get; set; } = new Student();
+        public IdentityUser UserBorisStefanov { get; set; } = new IdentityUser();
 
-        public Student AneliyaKoleva { get; set; }
-        public IdentityUser UserAneliyaKoleva { get; set; }
+        public Student AneliyaKoleva { get; set; } = new Student();
+        public IdentityUser UserAneliyaKoleva { get; set; } = new IdentityUser();
 
-        public Student RosenPetrov { get; set; }
-        public IdentityUser UserRosenPetrov { get; set; }
+        public Student RosenPetrov { get; set; } = new Student();
+        public IdentityUser UserRosenPetrov { get; set; } = new IdentityUser();
 
-        public Student RadostinaIvanova { get; set; }
-        public IdentityUser UserRadostinaIvanova { get; set; }
+        public Student RadostinaIvanova { get; set; } = new Student();
+        public IdentityUser UserRadostinaIvanova { get; set; } = new IdentityUser();
 
-        public Student VasilAleksandrov { get; set; }
-        public IdentityUser UserVasilAleksandrov { get; set; }
+        public Student VasilAleksandrov { get; set; } = new Student();
+        public IdentityUser UserVasilAleksandrov { get; set; } = new IdentityUser();
 
-        public Student RositsaGeorgieva { get; set; }
-        public IdentityUser UserRositsaGeorgieva { get; set; }
+        public Student RositsaGeorgieva { get; set; } = new Student();
+        public IdentityUser UserRositsaGeorgieva { get; set; } = new IdentityUser();
 
-        public Student PlamenIvanov { get; set; }
-        public IdentityUser UserPlamenIvanov { get; set; }
+        public Student PlamenIvanov { get; set; } = new Student();
+        public IdentityUser UserPlamenIvanov { get; set; } = new IdentityUser();
 
-        public Student ValentinaDimitrova { get; set; }
-        public IdentityUser UserValentinaDimitrova { get; set; }
+        public Student ValentinaDimitrova { get; set; } = new Student();
+        public IdentityUser UserValentinaDimitrova { get; set; } = new IdentityUser();
 
-        public Student IvoStoyanov { get; set; }
-        public IdentityUser UserIvoStoyanov { get; set; }
+        public Student IvoStoyanov { get; set; } = new Student();
+        public IdentityUser UserIvoStoyanov { get; set; } = new IdentityUser();
 
-        public Student StefaniyaPetrova { get; set; }
-        public IdentityUser UserStefaniyaPetrova { get; set; }
+        public Student StefaniyaPetrova { get; set; } = new Student();
+        public IdentityUser UserStefaniyaPetrova { get; set; } = new IdentityUser();
 
-        public Student MartinKolev { get; set; }
-        public IdentityUser UserMartinKolev { get; set; }
+        public Student MartinKolev { get; set; } = new Student();
+        public IdentityUser UserMartinKolev { get; set; } = new IdentityUser();
 
-        public Student SonyaIvanova { get; set; }
-        public IdentityUser UserSonyaIvanova { get; set; }
+        public Student SonyaIvanova { get; set; } = new Student();
+        public IdentityUser UserSonyaIvanova { get; set; } = new IdentityUser();
 
-        public Student LyubomirGeorgiev { get; set; }
-        public IdentityUser UserLyubomirGeorgiev { get; set; }
+        public Student LyubomirGeorgiev { get; set; } = new Student();
+        public IdentityUser UserLyubomirGeorgiev { get; set; } = new IdentityUser();
 
-        public Student NataliyaVasileva { get; set; }
-        public IdentityUser UserNataliyaVasileva { get; set; }
+        public Student NataliyaVasileva { get; set; } = new Student();
+        public IdentityUser UserNataliyaVasileva { get; set; } = new IdentityUser();
 
-        public Student PetarPetrov { get; set; }
-        public IdentityUser UserPetarPetrov { get; set; }
+        public Student PetarPetrov { get; set; } = new Student();
+        public IdentityUser UserPetarPetrov { get; set; } = new IdentityUser();
 
-        public Student GerganaDimitrova { get; set; }
-        public IdentityUser UserGerganaDimitrova { get; set; }
+        public Student GerganaDimitrova { get; set; } = new Student();
+        public IdentityUser UserGerganaDimitrova { get; set; } = new IdentityUser();
 
-        public Student LyubomiraTodorova { get; set; }
-        public IdentityUser UserLyubomiraTodorova { get; set; }
+        public Student LyubomiraTodorova { get; set; } = new Student();
+        public IdentityUser UserLyubomiraTodorova { get; set; } = new IdentityUser();
 
-        public Student AntonIvanov { get; set; }
-        public IdentityUser UserAntonIvanov { get; set; }
+        public Student AntonIvanov { get; set; } = new Student();
+        public IdentityUser UserAntonIvanov { get; set; } = new IdentityUser();
 
-        public Student TanyaGeorgieva { get; set; }
-        public IdentityUser UserTanyaGeorgieva { get; set; }
+        public Student TanyaGeorgieva { get; set; } = new Student();
+        public IdentityUser UserTanyaGeorgieva { get; set; } = new IdentityUser();
 
-        public Student KamenchoPetrov { get; set; }
-        public IdentityUser UserKamenchoPetrov { get; set; }
+        public Student KamenchoPetrov { get; set; } = new Student();
+        public IdentityUser UserKamenchoPetrov { get; set; } = new IdentityUser();
 
-        public Student VanyaKoleva { get; set; }
-        public IdentityUser UserVanyaKoleva { get; set; }
+        public Student VanyaKoleva { get; set; } = new Student();
+        public IdentityUser UserVanyaKoleva { get; set; } = new IdentityUser();
 
-        public Student RadoslavGeorgiev { get; set; }
-        public IdentityUser UserRadoslavGeorgiev { get; set; }
+        public Student RadoslavGeorgiev { get; set; } = new Student();
+        public IdentityUser UserRadoslavGeorgiev { get; set; } = new IdentityUser();
 
-        public Student VasilenkaIvanova { get; set; }
-        public IdentityUser UserVasilenkaIvanova { get; set; }
+        public Student VasilenkaIvanova { get; set; } = new Student();
+        public IdentityUser UserVasilenkaIvanova { get; set; } = new IdentityUser();
 
-        public Student KirilDimitrov { get; set; }
-        public IdentityUser UserKirilDimitrov { get; set; }
+        public Student KirilDimitrov { get; set; } = new Student();
+        public IdentityUser UserKirilDimitrov { get; set; } = new IdentityUser();
 
-        public Student KameliyaTodorova { get; set; }
-        public IdentityUser UserKameliyaTodorova { get; set; }
+        public Student KameliyaTodorova { get; set; } = new Student();
+        public IdentityUser UserKameliyaTodorova { get; set; } = new IdentityUser();
 
-        public Student IliyaPetrov { get; set; }
-        public IdentityUser UserIliyaPetrov { get; set; }
+        public Student IliyaPetrov { get; set; } = new Student();
+        public IdentityUser UserIliyaPetrov { get; set; } = new IdentityUser();
 
-        public Student DilyanaIvanova { get; set; }
-        public IdentityUser UserDilyanaIvanova { get; set; }
+        public Student DilyanaIvanova { get; set; } = new Student();
+        public IdentityUser UserDilyanaIvanova { get; set; } = new IdentityUser();
 
-        public Student BogdanKolev { get; set; }
-        public IdentityUser UserBogdanKolev { get; set; }
+        public Student BogdanKolev { get; set; } = new Student();
+        public IdentityUser UserBogdanKolev { get; set; } = new IdentityUser();
 
-        public Student DanielaMarinova { get; set; }
-        public IdentityUser UserDanielaMarinova { get; set; }
+        public Student DanielaMarinova { get; set; } = new Student();
+        public IdentityUser UserDanielaMarinova { get; set; } = new IdentityUser();
 
-        public Student HristiyanIvanov { get; set; }
-        public IdentityUser UserHristiyanIvanov { get; set; }
+        public Student HristiyanIvanov { get; set; } = new Student();
+        public IdentityUser UserHristiyanIvanov { get; set; } = new IdentityUser();
 
-        public Student TeodoraVasileva { get; set; }
-        public IdentityUser UserTeodoraVasileva { get; set; }
+        public Student TeodoraVasileva { get; set; } = new Student();
+        public IdentityUser UserTeodoraVasileva { get; set; } = new IdentityUser();
 
-        public Student DesislavDimitrov { get; set; }
-        public IdentityUser UserDesislavDimitrov { get; set; }
+        public Student DesislavDimitrov { get; set; } = new Student();
+        public IdentityUser UserDesislavDimitrov { get; set; } = new IdentityUser();
 
-        public Student GalyaIvanova { get; set; }
-        public IdentityUser UserGalyaIvanova { get; set; }
+        public Student GalyaIvanova { get; set; } = new Student();
+        public IdentityUser UserGalyaIvanova { get; set; } = new IdentityUser();
 
-        public Student IvanKolev { get; set; }
-        public IdentityUser UserIvanKolev { get; set; }
+        public Student IvanKolev { get; set; } = new Student();
+        public IdentityUser UserIvanKolev { get; set; } = new IdentityUser();
 
-        public Student MariyaPetrova { get; set; }
-        public IdentityUser UserMariyaPetrova { get; set; }
+        public Student MariyaPetrova { get; set; } = new Student();
+        public IdentityUser UserMariyaPetrova { get; set; } = new IdentityUser();
 
-        public Student SimeonGeorgiev { get; set; }
-        public IdentityUser UserSimeonGeorgiev { get; set; }
+        public Student SimeonGeorgiev { get; set; } = new Student();
+        public IdentityUser UserSimeonGeorgiev { get; set; } = new IdentityUser();
 
-        public Student MagdalinaIvanova { get; set; }
-        public IdentityUser UserMagdalinaIvanova { get; set; }
+        public Student MagdalinaIvanova { get; set; } = new Student();
+        public IdentityUser UserMagdalinaIvanova { get; set; } = new IdentityUser();
 
-        public Student EmilTodorov { get; set; }
-        public IdentityUser UserEmilTodorov { get; set; }
+        public Student EmilTodorov { get; set; } = new Student();
+        public IdentityUser UserEmilTodorov { get; set; } = new IdentityUser();
 
-        public Student KalinchoPetrov { get; set; }
-        public IdentityUser UserKalinchoPetrov { get; set; }
+        public Student KalinchoPetrov { get; set; } = new Student();
+        public IdentityUser UserKalinchoPetrov { get; set; } = new IdentityUser();
 
-        public Student RalitsaDimitrova { get; set; }
-        public IdentityUser UserRalitsaDimitrova { get; set; }
+        public Student RalitsaDimitrova { get; set; } = new Student();
+        public IdentityUser UserRalitsaDimitrova { get; set; } = new IdentityUser();
 
-        public Student YordanGeorgiev { get; set; }
-        public IdentityUser UserYordanGeorgiev { get; set; }
+        public Student YordanGeorgiev { get; set; } = new Student();
+        public IdentityUser UserYordanGeorgiev { get; set; } = new IdentityUser();
 
-        public Student RadinkaIvanova { get; set; }
-        public IdentityUser UserRadinkaIvanova { get; set; }
+        public Student RadinkaIvanova { get; set; } = new Student();
+        public IdentityUser UserRadinkaIvanova { get; set; } = new IdentityUser();
 
-        public Student VentsislavPetrov { get; set; }
-        public IdentityUser UserVentsislavPetrov { get; set; }
+        public Student VentsislavPetrov { get; set; } = new Student();
+        public IdentityUser UserVentsislavPetrov { get; set; } = new IdentityUser();
 
-        public Student DarinaKoleva { get; set; }
-        public IdentityUser UserDarinaKoleva { get; set; }
+        public Student DarinaKoleva { get; set; } = new Student();
+        public IdentityUser UserDarinaKoleva { get; set; } = new IdentityUser();
 
-        public Student BozhidarDimitrov { get; set; }
-        public IdentityUser UserBozhidarDimitrov { get; set; }
+        public Student BozhidarDimitrov { get; set; } = new Student();
+        public IdentityUser UserBozhidarDimitrov { get; set; } = new IdentityUser();
 
-        public Student NeliGeorgieva { get; set; }
-        public IdentityUser UserNeliGeorgieva { get; set; }
+        public Student NeliGeorgieva { get; set; } = new Student();
+        public IdentityUser UserNeliGeorgieva { get; set; } = new IdentityUser();
 
-        public Student YavorIvanov { get; set; }
-        public IdentityUser UserYavorIvanov { get; set; }
+        public Student YavorIvanov { get; set; } = new Student();
+        public IdentityUser UserYavorIvanov { get; set; } = new IdentityUser();
 
-        public Student MilitsaPetrova { get; set; }
-        public IdentityUser UserMilitsaPetrova { get; set; }
+        public Student MilitsaPetrova { get; set; } = new Student();
+        public IdentityUser UserMilitsaPetrova { get; set; } = new IdentityUser();
 
-        public Student ZdravkoKolev { get; set; }
-        public IdentityUser UserZdravkoKolev { get; set; }
+        public Student ZdravkoKolev { get; set; } = new Student();
+        public IdentityUser UserZdravkoKolev { get; set; } = new IdentityUser();
 
-        public Student ElenaStoyanova { get; set; }
-        public IdentityUser UserElenaStoyanova { get; set; }
+        public Student ElenaStoyanova { get; set; } = new Student();
+        public IdentityUser UserElenaStoyanova { get; set; } = new IdentityUser();
 
 
 
         //StudentSubjectGrades
 
         //1
-        public StudentSubjectGrade OneOne { get; set; }
-        public StudentSubjectGrade OneTwo { get; set; }
-        public StudentSubjectGrade OneThree { get; set; }
-        public StudentSubjectGrade OneFour { get; set; }
-        public StudentSubjectGrade OneFive { get; set; }
-        public StudentSubjectGrade OneSix { get; set; }
-        public StudentSubjectGrade OneSeven { get; set; }
-        public StudentSubjectGrade OneEight { get; set; }
-        public StudentSubjectGrade OneNine { get; set; }
-        public StudentSubjectGrade OneTen { get; set; }
+        public StudentSubjectGrade OneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade OneTen { get; set; } = new StudentSubjectGrade();
 
 
         //2
-        public StudentSubjectGrade TwoOne { get; set; }
-        public StudentSubjectGrade TwoTwo { get; set; }
-        public StudentSubjectGrade TwoThree { get; set; }
-        public StudentSubjectGrade TwoFour { get; set; }
-        public StudentSubjectGrade TwoFive { get; set; }
-        public StudentSubjectGrade TwoSix { get; set; }
-        public StudentSubjectGrade TwoSeven { get; set; }
-        public StudentSubjectGrade TwoEight { get; set; }
-        public StudentSubjectGrade TwoNine { get; set; }
-        public StudentSubjectGrade TwoTen { get; set; }
+        public StudentSubjectGrade TwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwoTen { get; set; } = new StudentSubjectGrade();
 
         //3
-        public StudentSubjectGrade ThreeOne { get; set; }
-        public StudentSubjectGrade ThreeTwo { get; set; }
-        public StudentSubjectGrade ThreeThree { get; set; }
-        public StudentSubjectGrade ThreeFour { get; set; }
-        public StudentSubjectGrade ThreeFive { get; set; }
-        public StudentSubjectGrade ThreeSix { get; set; }
-        public StudentSubjectGrade ThreeSeven { get; set; }
-        public StudentSubjectGrade ThreeEight { get; set; }
-        public StudentSubjectGrade ThreeNine { get; set; }
-        public StudentSubjectGrade ThreeTen { get; set; }
+        public StudentSubjectGrade ThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThreeTen { get; set; } = new StudentSubjectGrade();
 
         //4
-        public StudentSubjectGrade FourOne { get; set; }
-        public StudentSubjectGrade FourTwo { get; set; }
-        public StudentSubjectGrade FourThree { get; set; }
-        public StudentSubjectGrade FourFour { get; set; }
-        public StudentSubjectGrade FourFive { get; set; }
-        public StudentSubjectGrade FourSix { get; set; }
-        public StudentSubjectGrade FourSeven { get; set; }
-        public StudentSubjectGrade FourEight { get; set; }
-        public StudentSubjectGrade FourNine { get; set; }
-        public StudentSubjectGrade FourTen { get; set; }
+        public StudentSubjectGrade FourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourTen { get; set; } = new StudentSubjectGrade();
 
         //5
-        public StudentSubjectGrade FiveOne { get; set; }
-        public StudentSubjectGrade FiveTwo { get; set; }
-        public StudentSubjectGrade FiveThree { get; set; }
-        public StudentSubjectGrade FiveFour { get; set; }
-        public StudentSubjectGrade FiveFive { get; set; }
-        public StudentSubjectGrade FiveSix { get; set; }
-        public StudentSubjectGrade FiveSeven { get; set; }
-        public StudentSubjectGrade FiveEight { get; set; }
-        public StudentSubjectGrade FiveNine { get; set; }
-        public StudentSubjectGrade FiveTen { get; set; }
+        public StudentSubjectGrade FiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiveTen { get; set; } = new StudentSubjectGrade();
 
         //6
-        public StudentSubjectGrade SixOne { get; set; }
-        public StudentSubjectGrade SixTwo { get; set; }
-        public StudentSubjectGrade SixThree { get; set; }
-        public StudentSubjectGrade SixFour { get; set; }
-        public StudentSubjectGrade SixFive { get; set; }
-        public StudentSubjectGrade SixSix { get; set; }
-        public StudentSubjectGrade SixSeven { get; set; }
-        public StudentSubjectGrade SixEight { get; set; }
-        public StudentSubjectGrade SixNine { get; set; }
-        public StudentSubjectGrade SixTen { get; set; }
+        public StudentSubjectGrade SixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixTen { get; set; } = new StudentSubjectGrade();
 
         //7
-        public StudentSubjectGrade SevenOne { get; set; }
-        public StudentSubjectGrade SevenTwo { get; set; }
-        public StudentSubjectGrade SevenThree { get; set; }
-        public StudentSubjectGrade SevenFour { get; set; }
-        public StudentSubjectGrade SevenFive { get; set; }
-        public StudentSubjectGrade SevenSix { get; set; }
-        public StudentSubjectGrade SevenSeven { get; set; }
-        public StudentSubjectGrade SevenEight { get; set; }
-        public StudentSubjectGrade SevenNine { get; set; }
-        public StudentSubjectGrade SevenTen { get; set; }
+        public StudentSubjectGrade SevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SevenTen { get; set; } = new StudentSubjectGrade();
 
         //8
-        public StudentSubjectGrade EightOne { get; set; }
-        public StudentSubjectGrade EightTwo { get; set; }
-        public StudentSubjectGrade EightThree { get; set; }
-        public StudentSubjectGrade EightFour { get; set; }
-        public StudentSubjectGrade EightFive { get; set; }
-        public StudentSubjectGrade EightSix { get; set; }
-        public StudentSubjectGrade EightSeven { get; set; }
-        public StudentSubjectGrade EightEight { get; set; }
-        public StudentSubjectGrade EightNine { get; set; }
-        public StudentSubjectGrade EightTen { get; set; }
+        public StudentSubjectGrade EightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EightTen { get; set; } = new StudentSubjectGrade();
 
         //9
-        public StudentSubjectGrade NineOne { get; set; }
-        public StudentSubjectGrade NineTwo { get; set; }
-        public StudentSubjectGrade NineThree { get; set; }
-        public StudentSubjectGrade NineFour { get; set; }
-        public StudentSubjectGrade NineFive { get; set; }
-        public StudentSubjectGrade NineSix { get; set; }
-        public StudentSubjectGrade NineSeven { get; set; }
-        public StudentSubjectGrade NineEight { get; set; }
-        public StudentSubjectGrade NineNine { get; set; }
-        public StudentSubjectGrade NineTen { get; set; }
+        public StudentSubjectGrade NineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineTen { get; set; } = new StudentSubjectGrade();
 
         //10
-        public StudentSubjectGrade TenOne { get; set; }
-        public StudentSubjectGrade TenTwo { get; set; }
-        public StudentSubjectGrade TenThree { get; set; }
-        public StudentSubjectGrade TenFour { get; set; }
-        public StudentSubjectGrade TenFive { get; set; }
-        public StudentSubjectGrade TenSix { get; set; }
-        public StudentSubjectGrade TenSeven { get; set; }
-        public StudentSubjectGrade TenEight { get; set; }
-        public StudentSubjectGrade TenNine { get; set; }
-        public StudentSubjectGrade TenTen { get; set; }
+        public StudentSubjectGrade TenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TenTen { get; set; } = new StudentSubjectGrade();
 
         //11
-        public StudentSubjectGrade ElevenOne { get; set; }
-        public StudentSubjectGrade ElevenTwo { get; set; }
-        public StudentSubjectGrade ElevenThree { get; set; }
-        public StudentSubjectGrade ElevenFour { get; set; }
-        public StudentSubjectGrade ElevenFive { get; set; }
-        public StudentSubjectGrade ElevenSix { get; set; }
-        public StudentSubjectGrade ElevenSeven { get; set; }
-        public StudentSubjectGrade ElevenEight { get; set; }
-        public StudentSubjectGrade ElevenNine { get; set; }
-        public StudentSubjectGrade ElevenTen { get; set; }
+        public StudentSubjectGrade ElevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ElevenTen { get; set; } = new StudentSubjectGrade();
 
         //12
-        public StudentSubjectGrade TwelveOne { get; set; }
-        public StudentSubjectGrade TwelveTwo { get; set; }
-        public StudentSubjectGrade TwelveThree { get; set; }
-        public StudentSubjectGrade TwelveFour { get; set; }
-        public StudentSubjectGrade TwelveFive { get; set; }
-        public StudentSubjectGrade TwelveSix { get; set; }
-        public StudentSubjectGrade TwelveSeven { get; set; }
-        public StudentSubjectGrade TwelveEight { get; set; }
-        public StudentSubjectGrade TwelveNine { get; set; }
-        public StudentSubjectGrade TwelveTen { get; set; }
+        public StudentSubjectGrade TwelveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwelveTen { get; set; } = new StudentSubjectGrade();
 
         //13
-        public StudentSubjectGrade ThirteenOne { get; set; }
-        public StudentSubjectGrade ThirteenTwo { get; set; }
-        public StudentSubjectGrade ThirteenThree { get; set; }
-        public StudentSubjectGrade ThirteenFour { get; set; }
-        public StudentSubjectGrade ThirteenFive { get; set; }
-        public StudentSubjectGrade ThirteenSix { get; set; }
-        public StudentSubjectGrade ThirteenSeven { get; set; }
-        public StudentSubjectGrade ThirteenEight { get; set; }
-        public StudentSubjectGrade ThirteenNine { get; set; }
-        public StudentSubjectGrade ThirteenTen { get; set; }
+        public StudentSubjectGrade ThirteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirteenTen { get; set; } = new StudentSubjectGrade();
 
         //14
-        public StudentSubjectGrade FourteenOne { get; set; }
-        public StudentSubjectGrade FourteenTwo { get; set; }
-        public StudentSubjectGrade FourteenThree { get; set; }
-        public StudentSubjectGrade FourteenFour { get; set; }
-        public StudentSubjectGrade FourteenFive { get; set; }
-        public StudentSubjectGrade FourteenSix { get; set; }
-        public StudentSubjectGrade FourteenSeven { get; set; }
-        public StudentSubjectGrade FourteenEight { get; set; }
-        public StudentSubjectGrade FourteenNine { get; set; }
-        public StudentSubjectGrade FourteenTen { get; set; }
+        public StudentSubjectGrade FourteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FourteenTen { get; set; } = new StudentSubjectGrade();
 
         //15
-        public StudentSubjectGrade FifteenOne { get; set; }
-        public StudentSubjectGrade FifteenTwo { get; set; }
-        public StudentSubjectGrade FifteenThree { get; set; }
-        public StudentSubjectGrade FifteenFour { get; set; }
-        public StudentSubjectGrade FifteenFive { get; set; }
-        public StudentSubjectGrade FifteenSix { get; set; }
-        public StudentSubjectGrade FifteenSeven { get; set; }
-        public StudentSubjectGrade FifteenEight { get; set; }
-        public StudentSubjectGrade FifteenNine { get; set; }
-        public StudentSubjectGrade FifteenTen { get; set; }
+        public StudentSubjectGrade FifteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FifteenTen { get; set; } = new StudentSubjectGrade();
 
         //16
-        public StudentSubjectGrade SixteenOne { get; set; }
-        public StudentSubjectGrade SixteenTwo { get; set; }
-        public StudentSubjectGrade SixteenThree { get; set; }
-        public StudentSubjectGrade SixteenFour { get; set; }
-        public StudentSubjectGrade SixteenFive { get; set; }
-        public StudentSubjectGrade SixteenSix { get; set; }
-        public StudentSubjectGrade SixteenSeven { get; set; }
-        public StudentSubjectGrade SixteenEight { get; set; }
-        public StudentSubjectGrade SixteenNine { get; set; }
-        public StudentSubjectGrade SixteenTen { get; set; }
+        public StudentSubjectGrade SixteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixteenTen { get; set; } = new StudentSubjectGrade();
 
         //17
-        public StudentSubjectGrade SeventeenOne { get; set; }
-        public StudentSubjectGrade SeventeenTwo { get; set; }
-        public StudentSubjectGrade SeventeenThree { get; set; }
-        public StudentSubjectGrade SeventeenFour { get; set; }
-        public StudentSubjectGrade SeventeenFive { get; set; }
-        public StudentSubjectGrade SeventeenSix { get; set; }
-        public StudentSubjectGrade SeventeenSeven { get; set; }
-        public StudentSubjectGrade SeventeenEight { get; set; }
-        public StudentSubjectGrade SeventeenNine { get; set; }
-        public StudentSubjectGrade SeventeenTen { get; set; }
+        public StudentSubjectGrade SeventeenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventeenTen { get; set; } = new StudentSubjectGrade();
 
         //18
-        public StudentSubjectGrade EighteenOne { get; set; }
-        public StudentSubjectGrade EighteenTwo { get; set; }
-        public StudentSubjectGrade EighteenThree { get; set; }
-        public StudentSubjectGrade EighteenFour { get; set; }
-        public StudentSubjectGrade EighteenFive { get; set; }
-        public StudentSubjectGrade EighteenSix { get; set; }
-        public StudentSubjectGrade EighteenSeven { get; set; }
-        public StudentSubjectGrade EighteenEight { get; set; }
-        public StudentSubjectGrade EighteenNine { get; set; }
-        public StudentSubjectGrade EighteenTen { get; set; }
+        public StudentSubjectGrade EighteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade EighteenTen { get; set; } = new StudentSubjectGrade();
 
         //19
-        public StudentSubjectGrade NineteenOne { get; set; }
-        public StudentSubjectGrade NineteenTwo { get; set; }
-        public StudentSubjectGrade NineteenThree { get; set; }
-        public StudentSubjectGrade NineteenFour { get; set; }
-        public StudentSubjectGrade NineteenFive { get; set; }
-        public StudentSubjectGrade NineteenSix { get; set; }
-        public StudentSubjectGrade NineteenSeven { get; set; }
-        public StudentSubjectGrade NineteenEight { get; set; }
-        public StudentSubjectGrade NineteenNine { get; set; }
-        public StudentSubjectGrade NineteenTen { get; set; }
+        public StudentSubjectGrade NineteenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade NineteenTen { get; set; } = new StudentSubjectGrade();
 
         //20
-        public StudentSubjectGrade TwentyOne { get; set; }
-        public StudentSubjectGrade TwentyTwo { get; set; }
-        public StudentSubjectGrade TwentyThree { get; set; }
-        public StudentSubjectGrade TwentyFour { get; set; }
-        public StudentSubjectGrade TwentyFive { get; set; }
-        public StudentSubjectGrade TwentySix { get; set; }
-        public StudentSubjectGrade TwentySeven { get; set; }
-        public StudentSubjectGrade TwentyEight { get; set; }
-        public StudentSubjectGrade TwentyNine { get; set; }
-        public StudentSubjectGrade TwentyTen { get; set; }
+        public StudentSubjectGrade TwentyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTen { get; set; } = new StudentSubjectGrade();
 
         //21
-        public StudentSubjectGrade TwentyOneOne { get; set; }
-        public StudentSubjectGrade TwentyOneTwo { get; set; }
-        public StudentSubjectGrade TwentyOneThree { get; set; }
-        public StudentSubjectGrade TwentyOneFour { get; set; }
-        public StudentSubjectGrade TwentyOneFive { get; set; }
-        public StudentSubjectGrade TwentyOneSix { get; set; }
-        public StudentSubjectGrade TwentyOneSeven { get; set; }
-        public StudentSubjectGrade TwentyOneEight { get; set; }
-        public StudentSubjectGrade TwentyOneNine { get; set; }
-        public StudentSubjectGrade TwentyOneTen { get; set; }
+        public StudentSubjectGrade TwentyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyOneTen { get; set; } = new StudentSubjectGrade();
 
         //22
-        public StudentSubjectGrade TwentyTwoOne { get; set; }
-        public StudentSubjectGrade TwentyTwoTwo { get; set; }
-        public StudentSubjectGrade TwentyTwoThree { get; set; }
-        public StudentSubjectGrade TwentyTwoFour { get; set; }
-        public StudentSubjectGrade TwentyTwoFive { get; set; }
-        public StudentSubjectGrade TwentyTwoSix { get; set; }
-        public StudentSubjectGrade TwentyTwoSeven { get; set; }
-        public StudentSubjectGrade TwentyTwoEight { get; set; }
-        public StudentSubjectGrade TwentyTwoNine { get; set; }
-        public StudentSubjectGrade TwentyTwoTen { get; set; }
+        public StudentSubjectGrade TwentyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //23
-        public StudentSubjectGrade TwentyThreeOne { get; set; }
-        public StudentSubjectGrade TwentyThreeTwo { get; set; }
-        public StudentSubjectGrade TwentyThreeThree { get; set; }
-        public StudentSubjectGrade TwentyThreeFour { get; set; }
-        public StudentSubjectGrade TwentyThreeFive { get; set; }
-        public StudentSubjectGrade TwentyThreeSix { get; set; }
-        public StudentSubjectGrade TwentyThreeSeven { get; set; }
-        public StudentSubjectGrade TwentyThreeEight { get; set; }
-        public StudentSubjectGrade TwentyThreeNine { get; set; }
-        public StudentSubjectGrade TwentyThreeTen { get; set; }
+        public StudentSubjectGrade TwentyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //24
-        public StudentSubjectGrade TwentyFourOne { get; set; }
-        public StudentSubjectGrade TwentyFourTwo { get; set; }
-        public StudentSubjectGrade TwentyFourThree { get; set; }
-        public StudentSubjectGrade TwentyFourFour { get; set; }
-        public StudentSubjectGrade TwentyFourFive { get; set; }
-        public StudentSubjectGrade TwentyFourSix { get; set; }
-        public StudentSubjectGrade TwentyFourSeven { get; set; }
-        public StudentSubjectGrade TwentyFourEight { get; set; }
-        public StudentSubjectGrade TwentyFourNine { get; set; }
-        public StudentSubjectGrade TwentyFourTen { get; set; }
+        public StudentSubjectGrade TwentyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFourTen { get; set; } = new StudentSubjectGrade();
 
         //25
-        public StudentSubjectGrade TwentyFiveOne { get; set; }
-        public StudentSubjectGrade TwentyFiveTwo { get; set; }
-        public StudentSubjectGrade TwentyFiveThree { get; set; }
-        public StudentSubjectGrade TwentyFiveFour { get; set; }
-        public StudentSubjectGrade TwentyFiveFive { get; set; }
-        public StudentSubjectGrade TwentyFiveSix { get; set; }
-        public StudentSubjectGrade TwentyFiveSeven { get; set; }
-        public StudentSubjectGrade TwentyFiveEight { get; set; }
-        public StudentSubjectGrade TwentyFiveNine { get; set; }
-        public StudentSubjectGrade TwentyFiveTen { get; set; }
+        public StudentSubjectGrade TwentyFiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyFiveTen { get; set; } = new StudentSubjectGrade();
 
         //26
-        public StudentSubjectGrade TwentySixOne { get; set; }
-        public StudentSubjectGrade TwentySixTwo { get; set; }
-        public StudentSubjectGrade TwentySixThree { get; set; }
-        public StudentSubjectGrade TwentySixFour { get; set; }
-        public StudentSubjectGrade TwentySixFive { get; set; }
-        public StudentSubjectGrade TwentySixSix { get; set; }
-        public StudentSubjectGrade TwentySixSeven { get; set; }
-        public StudentSubjectGrade TwentySixEight { get; set; }
-        public StudentSubjectGrade TwentySixNine { get; set; }
-        public StudentSubjectGrade TwentySixTen { get; set; }
+        public StudentSubjectGrade TwentySixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySixTen { get; set; } = new StudentSubjectGrade();
 
         //27
-        public StudentSubjectGrade TwentySevenOne { get; set; }
-        public StudentSubjectGrade TwentySevenTwo { get; set; }
-        public StudentSubjectGrade TwentySevenThree { get; set; }
-        public StudentSubjectGrade TwentySevenFour { get; set; }
-        public StudentSubjectGrade TwentySevenFive { get; set; }
-        public StudentSubjectGrade TwentySevenSix { get; set; }
-        public StudentSubjectGrade TwentySevenSeven { get; set; }
-        public StudentSubjectGrade TwentySevenEight { get; set; }
-        public StudentSubjectGrade TwentySevenNine { get; set; }
-        public StudentSubjectGrade TwentySevenTen { get; set; }
+        public StudentSubjectGrade TwentySevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentySevenTen { get; set; } = new StudentSubjectGrade();
 
         //28
-        public StudentSubjectGrade TwentyEightOne { get; set; }
-        public StudentSubjectGrade TwentyEightTwo { get; set; }
-        public StudentSubjectGrade TwentyEightThree { get; set; }
-        public StudentSubjectGrade TwentyEightFour { get; set; }
-        public StudentSubjectGrade TwentyEightFive { get; set; }
-        public StudentSubjectGrade TwentyEightSix { get; set; }
-        public StudentSubjectGrade TwentyEightSeven { get; set; }
-        public StudentSubjectGrade TwentyEightEight { get; set; }
-        public StudentSubjectGrade TwentyEightNine { get; set; }
-        public StudentSubjectGrade TwentyEightTen { get; set; }
+        public StudentSubjectGrade TwentyEightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyEightTen { get; set; } = new StudentSubjectGrade();
 
         //29
-        public StudentSubjectGrade TwentyNineOne { get; set; }
-        public StudentSubjectGrade TwentyNineTwo { get; set; }
-        public StudentSubjectGrade TwentyNineThree { get; set; }
-        public StudentSubjectGrade TwentyNineFour { get; set; }
-        public StudentSubjectGrade TwentyNineFive { get; set; }
-        public StudentSubjectGrade TwentyNineSix { get; set; }
-        public StudentSubjectGrade TwentyNineSeven { get; set; }
-        public StudentSubjectGrade TwentyNineEight { get; set; }
-        public StudentSubjectGrade TwentyNineNine { get; set; }
-        public StudentSubjectGrade TwentyNineTen { get; set; }
+        public StudentSubjectGrade TwentyNineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade TwentyNineTen { get; set; } = new StudentSubjectGrade();
 
         //30
-        public StudentSubjectGrade ThirtyOne { get; set; }
-        public StudentSubjectGrade ThirtyTwo { get; set; }
-        public StudentSubjectGrade ThirtyThree { get; set; }
-        public StudentSubjectGrade ThirtyFour { get; set; }
-        public StudentSubjectGrade ThirtyFive { get; set; }
-        public StudentSubjectGrade ThirtySix { get; set; }
-        public StudentSubjectGrade ThirtySeven { get; set; }
-        public StudentSubjectGrade ThirtyEight { get; set; }
-        public StudentSubjectGrade ThirtyNine { get; set; }
-        public StudentSubjectGrade ThirtyTen { get; set; }
+        public StudentSubjectGrade ThirtyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTen { get; set; } = new StudentSubjectGrade();
 
         //31
-        public StudentSubjectGrade ThirtyOneOne { get; set; }
-        public StudentSubjectGrade ThirtyOneTwo { get; set; }
-        public StudentSubjectGrade ThirtyOneThree { get; set; }
-        public StudentSubjectGrade ThirtyOneFour { get; set; }
-        public StudentSubjectGrade ThirtyOneFive { get; set; }
-        public StudentSubjectGrade ThirtyOneSix { get; set; }
-        public StudentSubjectGrade ThirtyOneSeven { get; set; }
-        public StudentSubjectGrade ThirtyOneEight { get; set; }
-        public StudentSubjectGrade ThirtyOneNine { get; set; }
-        public StudentSubjectGrade ThirtyOneTen { get; set; }
+        public StudentSubjectGrade ThirtyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyOneTen { get; set; } = new StudentSubjectGrade();
 
         //32
-        public StudentSubjectGrade ThirtyTwoOne { get; set; }
-        public StudentSubjectGrade ThirtyTwoTwo { get; set; }
-        public StudentSubjectGrade ThirtyTwoThree { get; set; }
-        public StudentSubjectGrade ThirtyTwoFour { get; set; }
-        public StudentSubjectGrade ThirtyTwoFive { get; set; }
-        public StudentSubjectGrade ThirtyTwoSix { get; set; }
-        public StudentSubjectGrade ThirtyTwoSeven { get; set; }
-        public StudentSubjectGrade ThirtyTwoEight { get; set; }
-        public StudentSubjectGrade ThirtyTwoNine { get; set; }
-        public StudentSubjectGrade ThirtyTwoTen { get; set; }
+        public StudentSubjectGrade ThirtyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //33
-        public StudentSubjectGrade ThirtyThreeOne { get; set; }
-        public StudentSubjectGrade ThirtyThreeTwo { get; set; }
-        public StudentSubjectGrade ThirtyThreeThree { get; set; }
-        public StudentSubjectGrade ThirtyThreeFour { get; set; }
-        public StudentSubjectGrade ThirtyThreeFive { get; set; }
-        public StudentSubjectGrade ThirtyThreeSix { get; set; }
-        public StudentSubjectGrade ThirtyThreeSeven { get; set; }
-        public StudentSubjectGrade ThirtyThreeEight { get; set; }
-        public StudentSubjectGrade ThirtyThreeNine { get; set; }
-        public StudentSubjectGrade ThirtyThreeTen { get; set; }
+        public StudentSubjectGrade ThirtyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //34
-        public StudentSubjectGrade ThirtyFourOne { get; set; }
-        public StudentSubjectGrade ThirtyFourTwo { get; set; }
-        public StudentSubjectGrade ThirtyFourThree { get; set; }
-        public StudentSubjectGrade ThirtyFourFour { get; set; }
-        public StudentSubjectGrade ThirtyFourFive { get; set; }
-        public StudentSubjectGrade ThirtyFourSix { get; set; }
-        public StudentSubjectGrade ThirtyFourSeven { get; set; }
-        public StudentSubjectGrade ThirtyFourEight { get; set; }
-        public StudentSubjectGrade ThirtyFourNine { get; set; }
-        public StudentSubjectGrade ThirtyFourTen { get; set; }
+        public StudentSubjectGrade ThirtyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFourTen { get; set; } = new StudentSubjectGrade();
 
         //35
-        public StudentSubjectGrade ThirtyFiveOne { get; set; }
-        public StudentSubjectGrade ThirtyFiveTwo { get; set; }
-        public StudentSubjectGrade ThirtyFiveThree { get; set; }
-        public StudentSubjectGrade ThirtyFiveFour { get; set; }
-        public StudentSubjectGrade ThirtyFiveFive { get; set; }
-        public StudentSubjectGrade ThirtyFiveSix { get; set; }
-        public StudentSubjectGrade ThirtyFiveSeven { get; set; }
-        public StudentSubjectGrade ThirtyFiveEight { get; set; }
-        public StudentSubjectGrade ThirtyFiveNine { get; set; }
-        public StudentSubjectGrade ThirtyFiveTen { get; set; }
+        public StudentSubjectGrade ThirtyFiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyFiveTen { get; set; } = new StudentSubjectGrade();
 
         //36
-        public StudentSubjectGrade ThirtySixOne { get; set; }
-        public StudentSubjectGrade ThirtySixTwo { get; set; }
-        public StudentSubjectGrade ThirtySixThree { get; set; }
-        public StudentSubjectGrade ThirtySixFour { get; set; }
-        public StudentSubjectGrade ThirtySixFive { get; set; }
-        public StudentSubjectGrade ThirtySixSix { get; set; }
-        public StudentSubjectGrade ThirtySixSeven { get; set; }
-        public StudentSubjectGrade ThirtySixEight { get; set; }
-        public StudentSubjectGrade ThirtySixNine { get; set; }
-        public StudentSubjectGrade ThirtySixTen { get; set; }
+        public StudentSubjectGrade ThirtySixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySixTen { get; set; } = new StudentSubjectGrade();
 
         //37
-        public StudentSubjectGrade ThirtySevenOne { get; set; }
-        public StudentSubjectGrade ThirtySevenTwo { get; set; }
-        public StudentSubjectGrade ThirtySevenThree { get; set; }
-        public StudentSubjectGrade ThirtySevenFour { get; set; }
-        public StudentSubjectGrade ThirtySevenFive { get; set; }
-        public StudentSubjectGrade ThirtySevenSix { get; set; }
-        public StudentSubjectGrade ThirtySevenSeven { get; set; }
-        public StudentSubjectGrade ThirtySevenEight { get; set; }
-        public StudentSubjectGrade ThirtySevenNine { get; set; }
-        public StudentSubjectGrade ThirtySevenTen { get; set; }
+        public StudentSubjectGrade ThirtySevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtySevenTen { get; set; } = new StudentSubjectGrade();
 
         //38
-        public StudentSubjectGrade ThirtyEightOne { get; set; }
-        public StudentSubjectGrade ThirtyEightTwo { get; set; }
-        public StudentSubjectGrade ThirtyEightThree { get; set; }
-        public StudentSubjectGrade ThirtyEightFour { get; set; }
-        public StudentSubjectGrade ThirtyEightFive { get; set; }
-        public StudentSubjectGrade ThirtyEightSix { get; set; }
-        public StudentSubjectGrade ThirtyEightSeven { get; set; }
-        public StudentSubjectGrade ThirtyEightEight { get; set; }
-        public StudentSubjectGrade ThirtyEightNine { get; set; }
-        public StudentSubjectGrade ThirtyEightTen { get; set; }
+        public StudentSubjectGrade ThirtyEightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyEightTen { get; set; } = new StudentSubjectGrade();
 
         //39
-        public StudentSubjectGrade ThirtyNineOne { get; set; }
-        public StudentSubjectGrade ThirtyNineTwo { get; set; }
-        public StudentSubjectGrade ThirtyNineThree { get; set; }
-        public StudentSubjectGrade ThirtyNineFour { get; set; }
-        public StudentSubjectGrade ThirtyNineFive { get; set; }
-        public StudentSubjectGrade ThirtyNineSix { get; set; }
-        public StudentSubjectGrade ThirtyNineSeven { get; set; }
-        public StudentSubjectGrade ThirtyNineEight { get; set; }
-        public StudentSubjectGrade ThirtyNineNine { get; set; }
-        public StudentSubjectGrade ThirtyNineTen { get; set; }
+        public StudentSubjectGrade ThirtyNineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade ThirtyNineTen { get; set; } = new StudentSubjectGrade();
 
         //40
-        public StudentSubjectGrade FortyOne { get; set; }
-        public StudentSubjectGrade FortyTwo { get; set; }
-        public StudentSubjectGrade FortyThree { get; set; }
-        public StudentSubjectGrade FortyFour { get; set; }
-        public StudentSubjectGrade FortyFive { get; set; }
-        public StudentSubjectGrade FortySix { get; set; }
-        public StudentSubjectGrade FortySeven { get; set; }
-        public StudentSubjectGrade FortyEight { get; set; }
-        public StudentSubjectGrade FortyNine { get; set; }
-        public StudentSubjectGrade FortyTen { get; set; }
+        public StudentSubjectGrade FortyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTen { get; set; } = new StudentSubjectGrade();
 
         //41
-        public StudentSubjectGrade FortyOneOne { get; set; }
-        public StudentSubjectGrade FortyOneTwo { get; set; }
-        public StudentSubjectGrade FortyOneThree { get; set; }
-        public StudentSubjectGrade FortyOneFour { get; set; }
-        public StudentSubjectGrade FortyOneFive { get; set; }
-        public StudentSubjectGrade FortyOneSix { get; set; }
-        public StudentSubjectGrade FortyOneSeven { get; set; }
-        public StudentSubjectGrade FortyOneEight { get; set; }
-        public StudentSubjectGrade FortyOneNine { get; set; }
-        public StudentSubjectGrade FortyOneTen { get; set; }
+        public StudentSubjectGrade FortyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyOneTen { get; set; } = new StudentSubjectGrade();
 
         //42
-        public StudentSubjectGrade FortyTwoOne { get; set; }
-        public StudentSubjectGrade FortyTwoTwo { get; set; }
-        public StudentSubjectGrade FortyTwoThree { get; set; }
-        public StudentSubjectGrade FortyTwoFour { get; set; }
-        public StudentSubjectGrade FortyTwoFive { get; set; }
-        public StudentSubjectGrade FortyTwoSix { get; set; }
-        public StudentSubjectGrade FortyTwoSeven { get; set; }
-        public StudentSubjectGrade FortyTwoEight { get; set; }
-        public StudentSubjectGrade FortyTwoNine { get; set; }
-        public StudentSubjectGrade FortyTwoTen { get; set; }
+        public StudentSubjectGrade FortyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //43
-        public StudentSubjectGrade FortyThreeOne { get; set; }
-        public StudentSubjectGrade FortyThreeTwo { get; set; }
-        public StudentSubjectGrade FortyThreeThree { get; set; }
-        public StudentSubjectGrade FortyThreeFour { get; set; }
-        public StudentSubjectGrade FortyThreeFive { get; set; }
-        public StudentSubjectGrade FortyThreeSix { get; set; }
-        public StudentSubjectGrade FortyThreeSeven { get; set; }
-        public StudentSubjectGrade FortyThreeEight { get; set; }
-        public StudentSubjectGrade FortyThreeNine { get; set; }
-        public StudentSubjectGrade FortyThreeTen { get; set; }
+        public StudentSubjectGrade FortyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //44
-        public StudentSubjectGrade FortyFourOne { get; set; }
-        public StudentSubjectGrade FortyFourTwo { get; set; }
-        public StudentSubjectGrade FortyFourThree { get; set; }
-        public StudentSubjectGrade FortyFourFour { get; set; }
-        public StudentSubjectGrade FortyFourFive { get; set; }
-        public StudentSubjectGrade FortyFourSix { get; set; }
-        public StudentSubjectGrade FortyFourSeven { get; set; }
-        public StudentSubjectGrade FortyFourEight { get; set; }
-        public StudentSubjectGrade FortyFourNine { get; set; }
-        public StudentSubjectGrade FortyFourTen { get; set; }
+        public StudentSubjectGrade FortyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFourTen { get; set; } = new StudentSubjectGrade();
 
         //45
-        public StudentSubjectGrade FortyFiveOne { get; set; }
-        public StudentSubjectGrade FortyFiveTwo { get; set; }
-        public StudentSubjectGrade FortyFiveThree { get; set; }
-        public StudentSubjectGrade FortyFiveFour { get; set; }
-        public StudentSubjectGrade FortyFiveFive { get; set; }
-        public StudentSubjectGrade FortyFiveSix { get; set; }
-        public StudentSubjectGrade FortyFiveSeven { get; set; }
-        public StudentSubjectGrade FortyFiveEight { get; set; }
-        public StudentSubjectGrade FortyFiveNine { get; set; }
-        public StudentSubjectGrade FortyFiveTen { get; set; }
+        public StudentSubjectGrade FortyFiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyFiveTen { get; set; } = new StudentSubjectGrade();
 
         //46
-        public StudentSubjectGrade FortySixOne { get; set; }
-        public StudentSubjectGrade FortySixTwo { get; set; }
-        public StudentSubjectGrade FortySixThree { get; set; }
-        public StudentSubjectGrade FortySixFour { get; set; }
-        public StudentSubjectGrade FortySixFive { get; set; }
-        public StudentSubjectGrade FortySixSix { get; set; }
-        public StudentSubjectGrade FortySixSeven { get; set; }
-        public StudentSubjectGrade FortySixEight { get; set; }
-        public StudentSubjectGrade FortySixNine { get; set; }
-        public StudentSubjectGrade FortySixTen { get; set; }
+        public StudentSubjectGrade FortySixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySixTen { get; set; } = new StudentSubjectGrade();
 
         //47
-        public StudentSubjectGrade FortySevenOne { get; set; }
-        public StudentSubjectGrade FortySevenTwo { get; set; }
-        public StudentSubjectGrade FortySevenThree { get; set; }
-        public StudentSubjectGrade FortySevenFour { get; set; }
-        public StudentSubjectGrade FortySevenFive { get; set; }
-        public StudentSubjectGrade FortySevenSix { get; set; }
-        public StudentSubjectGrade FortySevenSeven { get; set; }
-        public StudentSubjectGrade FortySevenEight { get; set; }
-        public StudentSubjectGrade FortySevenNine { get; set; }
-        public StudentSubjectGrade FortySevenTen { get; set; }
+        public StudentSubjectGrade FortySevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortySevenTen { get; set; } = new StudentSubjectGrade();
 
         //48
-        public StudentSubjectGrade FortyEightOne { get; set; }
-        public StudentSubjectGrade FortyEightTwo { get; set; }
-        public StudentSubjectGrade FortyEightThree { get; set; }
-        public StudentSubjectGrade FortyEightFour { get; set; }
-        public StudentSubjectGrade FortyEightFive { get; set; }
-        public StudentSubjectGrade FortyEightSix { get; set; }
-        public StudentSubjectGrade FortyEightSeven { get; set; }
-        public StudentSubjectGrade FortyEightEight { get; set; }
-        public StudentSubjectGrade FortyEightNine { get; set; }
-        public StudentSubjectGrade FortyEightTen { get; set; }
+        public StudentSubjectGrade FortyEightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyEightTen { get; set; } = new StudentSubjectGrade();
 
         //49
-        public StudentSubjectGrade FortyNineOne { get; set; }
-        public StudentSubjectGrade FortyNineTwo { get; set; }
-        public StudentSubjectGrade FortyNineThree { get; set; }
-        public StudentSubjectGrade FortyNineFour { get; set; }
-        public StudentSubjectGrade FortyNineFive { get; set; }
-        public StudentSubjectGrade FortyNineSix { get; set; }
-        public StudentSubjectGrade FortyNineSeven { get; set; }
-        public StudentSubjectGrade FortyNineEight { get; set; }
-        public StudentSubjectGrade FortyNineNine { get; set; }
-        public StudentSubjectGrade FortyNineTen { get; set; }
+        public StudentSubjectGrade FortyNineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FortyNineTen { get; set; } = new StudentSubjectGrade();
 
         //50
-        public StudentSubjectGrade FiftyOne { get; set; }
-        public StudentSubjectGrade FiftyTwo { get; set; }
-        public StudentSubjectGrade FiftyThree { get; set; }
-        public StudentSubjectGrade FiftyFour { get; set; }
-        public StudentSubjectGrade FiftyFive { get; set; }
-        public StudentSubjectGrade FiftySix { get; set; }
-        public StudentSubjectGrade FiftySeven { get; set; }
-        public StudentSubjectGrade FiftyEight { get; set; }
-        public StudentSubjectGrade FiftyNine { get; set; }
-        public StudentSubjectGrade FiftyTen { get; set; }
+        public StudentSubjectGrade FiftyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTen { get; set; } = new StudentSubjectGrade();
 
         //51
-        public StudentSubjectGrade FiftyOneOne { get; set; }
-        public StudentSubjectGrade FiftyOneTwo { get; set; }
-        public StudentSubjectGrade FiftyOneThree { get; set; }
-        public StudentSubjectGrade FiftyOneFour { get; set; }
-        public StudentSubjectGrade FiftyOneFive { get; set; }
-        public StudentSubjectGrade FiftyOneSix { get; set; }
-        public StudentSubjectGrade FiftyOneSeven { get; set; }
-        public StudentSubjectGrade FiftyOneEight { get; set; }
-        public StudentSubjectGrade FiftyOneNine { get; set; }
-        public StudentSubjectGrade FiftyOneTen { get; set; }
+        public StudentSubjectGrade FiftyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyOneTen { get; set; } = new StudentSubjectGrade();
 
         //52
-        public StudentSubjectGrade FiftyTwoOne { get; set; }
-        public StudentSubjectGrade FiftyTwoTwo { get; set; }
-        public StudentSubjectGrade FiftyTwoThree { get; set; }
-        public StudentSubjectGrade FiftyTwoFour { get; set; }
-        public StudentSubjectGrade FiftyTwoFive { get; set; }
-        public StudentSubjectGrade FiftyTwoSix { get; set; }
-        public StudentSubjectGrade FiftyTwoSeven { get; set; }
-        public StudentSubjectGrade FiftyTwoEight { get; set; }
-        public StudentSubjectGrade FiftyTwoNine { get; set; }
-        public StudentSubjectGrade FiftyTwoTen { get; set; }
+        public StudentSubjectGrade FiftyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //53
-        public StudentSubjectGrade FiftyThreeOne { get; set; }
-        public StudentSubjectGrade FiftyThreeTwo { get; set; }
-        public StudentSubjectGrade FiftyThreeThree { get; set; }
-        public StudentSubjectGrade FiftyThreeFour { get; set; }
-        public StudentSubjectGrade FiftyThreeFive { get; set; }
-        public StudentSubjectGrade FiftyThreeSix { get; set; }
-        public StudentSubjectGrade FiftyThreeSeven { get; set; }
-        public StudentSubjectGrade FiftyThreeEight { get; set; }
-        public StudentSubjectGrade FiftyThreeNine { get; set; }
-        public StudentSubjectGrade FiftyThreeTen { get; set; }
+        public StudentSubjectGrade FiftyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //54
-        public StudentSubjectGrade FiftyFourOne { get; set; }
-        public StudentSubjectGrade FiftyFourTwo { get; set; }
-        public StudentSubjectGrade FiftyFourThree { get; set; }
-        public StudentSubjectGrade FiftyFourFour { get; set; }
-        public StudentSubjectGrade FiftyFourFive { get; set; }
-        public StudentSubjectGrade FiftyFourSix { get; set; }
-        public StudentSubjectGrade FiftyFourSeven { get; set; }
-        public StudentSubjectGrade FiftyFourEight { get; set; }
-        public StudentSubjectGrade FiftyFourNine { get; set; }
-        public StudentSubjectGrade FiftyFourTen { get; set; }
+        public StudentSubjectGrade FiftyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFourTen { get; set; } = new StudentSubjectGrade();
 
         //55
-        public StudentSubjectGrade FiftyFiveOne { get; set; }
-        public StudentSubjectGrade FiftyFiveTwo { get; set; }
-        public StudentSubjectGrade FiftyFiveThree { get; set; }
-        public StudentSubjectGrade FiftyFiveFour { get; set; }
-        public StudentSubjectGrade FiftyFiveFive { get; set; }
-        public StudentSubjectGrade FiftyFiveSix { get; set; }
-        public StudentSubjectGrade FiftyFiveSeven { get; set; }
-        public StudentSubjectGrade FiftyFiveEight { get; set; }
-        public StudentSubjectGrade FiftyFiveNine { get; set; }
-        public StudentSubjectGrade FiftyFiveTen { get; set; }
+        public StudentSubjectGrade FiftyFiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyFiveTen { get; set; } = new StudentSubjectGrade();
 
         //56
-        public StudentSubjectGrade FiftySixOne { get; set; }
-        public StudentSubjectGrade FiftySixTwo { get; set; }
-        public StudentSubjectGrade FiftySixThree { get; set; }
-        public StudentSubjectGrade FiftySixFour { get; set; }
-        public StudentSubjectGrade FiftySixFive { get; set; }
-        public StudentSubjectGrade FiftySixSix { get; set; }
-        public StudentSubjectGrade FiftySixSeven { get; set; }
-        public StudentSubjectGrade FiftySixEight { get; set; }
-        public StudentSubjectGrade FiftySixNine { get; set; }
-        public StudentSubjectGrade FiftySixTen { get; set; }
+        public StudentSubjectGrade FiftySixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySixTen { get; set; } = new StudentSubjectGrade();
 
         //57
-        public StudentSubjectGrade FiftySevenOne { get; set; }
-        public StudentSubjectGrade FiftySevenTwo { get; set; }
-        public StudentSubjectGrade FiftySevenThree { get; set; }
-        public StudentSubjectGrade FiftySevenFour { get; set; }
-        public StudentSubjectGrade FiftySevenFive { get; set; }
-        public StudentSubjectGrade FiftySevenSix { get; set; }
-        public StudentSubjectGrade FiftySevenSeven { get; set; }
-        public StudentSubjectGrade FiftySevenEight { get; set; }
-        public StudentSubjectGrade FiftySevenNine { get; set; }
-        public StudentSubjectGrade FiftySevenTen { get; set; }
+        public StudentSubjectGrade FiftySevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftySevenTen { get; set; } = new StudentSubjectGrade();
 
         //58
-        public StudentSubjectGrade FiftyEightOne { get; set; }
-        public StudentSubjectGrade FiftyEightTwo { get; set; }
-        public StudentSubjectGrade FiftyEightThree { get; set; }
-        public StudentSubjectGrade FiftyEightFour { get; set; }
-        public StudentSubjectGrade FiftyEightFive { get; set; }
-        public StudentSubjectGrade FiftyEightSix { get; set; }
-        public StudentSubjectGrade FiftyEightSeven { get; set; }
-        public StudentSubjectGrade FiftyEightEight { get; set; }
-        public StudentSubjectGrade FiftyEightNine { get; set; }
-        public StudentSubjectGrade FiftyEightTen { get; set; }
+        public StudentSubjectGrade FiftyEightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyEightTen { get; set; } = new StudentSubjectGrade();
 
         //59
-        public StudentSubjectGrade FiftyNineOne { get; set; }
-        public StudentSubjectGrade FiftyNineTwo { get; set; }
-        public StudentSubjectGrade FiftyNineThree { get; set; }
-        public StudentSubjectGrade FiftyNineFour { get; set; }
-        public StudentSubjectGrade FiftyNineFive { get; set; }
-        public StudentSubjectGrade FiftyNineSix { get; set; }
-        public StudentSubjectGrade FiftyNineSeven { get; set; }
-        public StudentSubjectGrade FiftyNineEight { get; set; }
-        public StudentSubjectGrade FiftyNineNine { get; set; }
-        public StudentSubjectGrade FiftyNineTen { get; set; }
+        public StudentSubjectGrade FiftyNineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade FiftyNineTen { get; set; } = new StudentSubjectGrade();
 
         //60
-        public StudentSubjectGrade SixtyOne { get; set; }
-        public StudentSubjectGrade SixtyTwo { get; set; }
-        public StudentSubjectGrade SixtyThree { get; set; }
-        public StudentSubjectGrade SixtyFour { get; set; }
-        public StudentSubjectGrade SixtyFive { get; set; }
-        public StudentSubjectGrade SixtySix { get; set; }
-        public StudentSubjectGrade SixtySeven { get; set; }
-        public StudentSubjectGrade SixtyEight { get; set; }
-        public StudentSubjectGrade SixtyNine { get; set; }
-        public StudentSubjectGrade SixtyTen { get; set; }
+        public StudentSubjectGrade SixtyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTen { get; set; } = new StudentSubjectGrade();
 
         //61
-        public StudentSubjectGrade SixtyOneOne { get; set; }
-        public StudentSubjectGrade SixtyOneTwo { get; set; }
-        public StudentSubjectGrade SixtyOneThree { get; set; }
-        public StudentSubjectGrade SixtyOneFour { get; set; }
-        public StudentSubjectGrade SixtyOneFive { get; set; }
-        public StudentSubjectGrade SixtyOneSix { get; set; }
-        public StudentSubjectGrade SixtyOneSeven { get; set; }
-        public StudentSubjectGrade SixtyOneEight { get; set; }
-        public StudentSubjectGrade SixtyOneNine { get; set; }
-        public StudentSubjectGrade SixtyOneTen { get; set; }
+        public StudentSubjectGrade SixtyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyOneTen { get; set; } = new StudentSubjectGrade();
 
         //62
-        public StudentSubjectGrade SixtyTwoOne { get; set; }
-        public StudentSubjectGrade SixtyTwoTwo { get; set; }
-        public StudentSubjectGrade SixtyTwoThree { get; set; }
-        public StudentSubjectGrade SixtyTwoFour { get; set; }
-        public StudentSubjectGrade SixtyTwoFive { get; set; }
-        public StudentSubjectGrade SixtyTwoSix { get; set; }
-        public StudentSubjectGrade SixtyTwoSeven { get; set; }
-        public StudentSubjectGrade SixtyTwoEight { get; set; }
-        public StudentSubjectGrade SixtyTwoNine { get; set; }
-        public StudentSubjectGrade SixtyTwoTen { get; set; }
+        public StudentSubjectGrade SixtyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //63
-        public StudentSubjectGrade SixtyThreeOne { get; set; }
-        public StudentSubjectGrade SixtyThreeTwo { get; set; }
-        public StudentSubjectGrade SixtyThreeThree { get; set; }
-        public StudentSubjectGrade SixtyThreeFour { get; set; }
-        public StudentSubjectGrade SixtyThreeFive { get; set; }
-        public StudentSubjectGrade SixtyThreeSix { get; set; }
-        public StudentSubjectGrade SixtyThreeSeven { get; set; }
-        public StudentSubjectGrade SixtyThreeEight { get; set; }
-        public StudentSubjectGrade SixtyThreeNine { get; set; }
-        public StudentSubjectGrade SixtyThreeTen { get; set; }
+        public StudentSubjectGrade SixtyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //64
-        public StudentSubjectGrade SixtyFourOne { get; set; }
-        public StudentSubjectGrade SixtyFourTwo { get; set; }
-        public StudentSubjectGrade SixtyFourThree { get; set; }
-        public StudentSubjectGrade SixtyFourFour { get; set; }
-        public StudentSubjectGrade SixtyFourFive { get; set; }
-        public StudentSubjectGrade SixtyFourSix { get; set; }
-        public StudentSubjectGrade SixtyFourSeven { get; set; }
-        public StudentSubjectGrade SixtyFourEight { get; set; }
-        public StudentSubjectGrade SixtyFourNine { get; set; }
-        public StudentSubjectGrade SixtyFourTen { get; set; }
+        public StudentSubjectGrade SixtyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFourTen { get; set; } = new StudentSubjectGrade();
 
         //65
-        public StudentSubjectGrade SixtyFiveOne { get; set; }
-        public StudentSubjectGrade SixtyFiveTwo { get; set; }
-        public StudentSubjectGrade SixtyFiveThree { get; set; }
-        public StudentSubjectGrade SixtyFiveFour { get; set; }
-        public StudentSubjectGrade SixtyFiveFive { get; set; }
-        public StudentSubjectGrade SixtyFiveSix { get; set; }
-        public StudentSubjectGrade SixtyFiveSeven { get; set; }
-        public StudentSubjectGrade SixtyFiveEight { get; set; }
-        public StudentSubjectGrade SixtyFiveNine { get; set; }
-        public StudentSubjectGrade SixtyFiveTen { get; set; }
+        public StudentSubjectGrade SixtyFiveOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyFiveTen { get; set; } = new StudentSubjectGrade();
 
         //66
-        public StudentSubjectGrade SixtySixOne { get; set; }
-        public StudentSubjectGrade SixtySixTwo { get; set; }
-        public StudentSubjectGrade SixtySixThree { get; set; }
-        public StudentSubjectGrade SixtySixFour { get; set; }
-        public StudentSubjectGrade SixtySixFive { get; set; }
-        public StudentSubjectGrade SixtySixSix { get; set; }
-        public StudentSubjectGrade SixtySixSeven { get; set; }
-        public StudentSubjectGrade SixtySixEight { get; set; }
-        public StudentSubjectGrade SixtySixNine { get; set; }
-        public StudentSubjectGrade SixtySixTen { get; set; }
+        public StudentSubjectGrade SixtySixOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySixTen { get; set; } = new StudentSubjectGrade();
 
         //67
-        public StudentSubjectGrade SixtySevenOne { get; set; }
-        public StudentSubjectGrade SixtySevenTwo { get; set; }
-        public StudentSubjectGrade SixtySevenThree { get; set; }
-        public StudentSubjectGrade SixtySevenFour { get; set; }
-        public StudentSubjectGrade SixtySevenFive { get; set; }
-        public StudentSubjectGrade SixtySevenSix { get; set; }
-        public StudentSubjectGrade SixtySevenSeven { get; set; }
-        public StudentSubjectGrade SixtySevenEight { get; set; }
-        public StudentSubjectGrade SixtySevenNine { get; set; }
-        public StudentSubjectGrade SixtySevenTen { get; set; }
+        public StudentSubjectGrade SixtySevenOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtySevenTen { get; set; } = new StudentSubjectGrade();
 
         //68
-        public StudentSubjectGrade SixtyEightOne { get; set; }
-        public StudentSubjectGrade SixtyEightTwo { get; set; }
-        public StudentSubjectGrade SixtyEightThree { get; set; }
-        public StudentSubjectGrade SixtyEightFour { get; set; }
-        public StudentSubjectGrade SixtyEightFive { get; set; }
-        public StudentSubjectGrade SixtyEightSix { get; set; }
-        public StudentSubjectGrade SixtyEightSeven { get; set; }
-        public StudentSubjectGrade SixtyEightEight { get; set; }
-        public StudentSubjectGrade SixtyEightNine { get; set; }
-        public StudentSubjectGrade SixtyEightTen { get; set; }
+        public StudentSubjectGrade SixtyEightOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyEightTen { get; set; } = new StudentSubjectGrade();
 
         //69
-        public StudentSubjectGrade SixtyNineOne { get; set; }
-        public StudentSubjectGrade SixtyNineTwo { get; set; }
-        public StudentSubjectGrade SixtyNineThree { get; set; }
-        public StudentSubjectGrade SixtyNineFour { get; set; }
-        public StudentSubjectGrade SixtyNineFive { get; set; }
-        public StudentSubjectGrade SixtyNineSix { get; set; }
-        public StudentSubjectGrade SixtyNineSeven { get; set; }
-        public StudentSubjectGrade SixtyNineEight { get; set; }
-        public StudentSubjectGrade SixtyNineNine { get; set; }
-        public StudentSubjectGrade SixtyNineTen { get; set; }
+        public StudentSubjectGrade SixtyNineOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SixtyNineTen { get; set; } = new StudentSubjectGrade();
 
         //70
-        public StudentSubjectGrade SeventyOne { get; set; }
-        public StudentSubjectGrade SeventyTwo { get; set; }
-        public StudentSubjectGrade SeventyThree { get; set; }
-        public StudentSubjectGrade SeventyFour { get; set; }
-        public StudentSubjectGrade SeventyFive { get; set; }
-        public StudentSubjectGrade SeventySix { get; set; }
-        public StudentSubjectGrade SeventySeven { get; set; }
-        public StudentSubjectGrade SeventyEight { get; set; }
-        public StudentSubjectGrade SeventyNine { get; set; }
-        public StudentSubjectGrade SeventyTen { get; set; }
+        public StudentSubjectGrade SeventyOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventySix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventySeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTen { get; set; } = new StudentSubjectGrade();
 
         //71
-        public StudentSubjectGrade SeventyOneOne { get; set; }
-        public StudentSubjectGrade SeventyOneTwo { get; set; }
-        public StudentSubjectGrade SeventyOneThree { get; set; }
-        public StudentSubjectGrade SeventyOneFour { get; set; }
-        public StudentSubjectGrade SeventyOneFive { get; set; }
-        public StudentSubjectGrade SeventyOneSix { get; set; }
-        public StudentSubjectGrade SeventyOneSeven { get; set; }
-        public StudentSubjectGrade SeventyOneEight { get; set; }
-        public StudentSubjectGrade SeventyOneNine { get; set; }
-        public StudentSubjectGrade SeventyOneTen { get; set; }
+        public StudentSubjectGrade SeventyOneOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyOneTen { get; set; } = new StudentSubjectGrade();
 
         //72
-        public StudentSubjectGrade SeventyTwoOne { get; set; }
-        public StudentSubjectGrade SeventyTwoTwo { get; set; }
-        public StudentSubjectGrade SeventyTwoThree { get; set; }
-        public StudentSubjectGrade SeventyTwoFour { get; set; }
-        public StudentSubjectGrade SeventyTwoFive { get; set; }
-        public StudentSubjectGrade SeventyTwoSix { get; set; }
-        public StudentSubjectGrade SeventyTwoSeven { get; set; }
-        public StudentSubjectGrade SeventyTwoEight { get; set; }
-        public StudentSubjectGrade SeventyTwoNine { get; set; }
-        public StudentSubjectGrade SeventyTwoTen { get; set; }
+        public StudentSubjectGrade SeventyTwoOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyTwoTen { get; set; } = new StudentSubjectGrade();
 
         //73
-        public StudentSubjectGrade SeventyThreeOne { get; set; }
-        public StudentSubjectGrade SeventyThreeTwo { get; set; }
-        public StudentSubjectGrade SeventyThreeThree { get; set; }
-        public StudentSubjectGrade SeventyThreeFour { get; set; }
-        public StudentSubjectGrade SeventyThreeFive { get; set; }
-        public StudentSubjectGrade SeventyThreeSix { get; set; }
-        public StudentSubjectGrade SeventyThreeSeven { get; set; }
-        public StudentSubjectGrade SeventyThreeEight { get; set; }
-        public StudentSubjectGrade SeventyThreeNine { get; set; }
-        public StudentSubjectGrade SeventyThreeTen { get; set; }
+        public StudentSubjectGrade SeventyThreeOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyThreeTen { get; set; } = new StudentSubjectGrade();
 
         //74
-        public StudentSubjectGrade SeventyFourOne { get; set; }
-        public StudentSubjectGrade SeventyFourTwo { get; set; }
-        public StudentSubjectGrade SeventyFourThree { get; set; }
-        public StudentSubjectGrade SeventyFourFour { get; set; }
-        public StudentSubjectGrade SeventyFourFive { get; set; }
-        public StudentSubjectGrade SeventyFourSix { get; set; }
-        public StudentSubjectGrade SeventyFourSeven { get; set; }
-        public StudentSubjectGrade SeventyFourEight { get; set; }
-        public StudentSubjectGrade SeventyFourNine { get; set; }
-        public StudentSubjectGrade SeventyFourTen { get; set; }
+        public StudentSubjectGrade SeventyFourOne { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourTwo { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourThree { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourFour { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourFive { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourSix { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourSeven { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourEight { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourNine { get; set; } = new StudentSubjectGrade();
+        public StudentSubjectGrade SeventyFourTen { get; set; } = new StudentSubjectGrade();
 
         public SeedData()
         {
-            SeedUsers();
-            SeedSubjects();
-            SeedClasses();
             SeedPrincipals();
             SeedParents();
             SeedStudents();
             SeedTeachers();
+            SeedClasses();
+            SeedSubjects();
             SeedStudentSubjectGrades();
+            SeedUsers();
         }
 
         private void SeedUsers()
@@ -3129,7 +3129,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = true,
                 Email = "t.gerganova@myschool.com",
                 PhoneNumber = "1357924680",
-                ClassId = Tenth.Id,
                 UserId = UserTatyanaGerganova.Id
             };
             BilyanaLozanova = new Teacher()
@@ -3139,7 +3138,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = true,
                 Email = "b.lozanova@myschool.com",
                 PhoneNumber = "5738291467",
-                ClassId = Ninth.Id,
                 UserId = UserBilyanaLozanova.Id
             };
             KrasimiraKutin = new Teacher()
@@ -3149,7 +3147,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = false,
                 Email = "k.kutin@myschool.com",
                 PhoneNumber = "6248371095",
-                ClassId = null,
                 UserId = UserKrasimiraKutin.Id
             };
             TeodorHristov = new Teacher()
@@ -3159,7 +3156,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = false,
                 Email = "t.hristov@myschool.com",
                 PhoneNumber = "8902145673",
-                ClassId = null,
                 UserId = UserTeodorHristov.Id
             };
             SilviyaGancheva = new Teacher()
@@ -3169,7 +3165,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = false,
                 Email = "s.gancheva@myschool.com",
                 PhoneNumber = "4512067839",
-                ClassId = null,
                 UserId = UserSilviyaGancheva.Id
             };
             CvetomirAmbursa = new Teacher()
@@ -3179,7 +3174,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = true,
                 Email = "c.ambursa@myschool.com",
                 PhoneNumber = "7263489510",
-                ClassId = Eleventh.Id,
                 UserId = UserCvetomirAmbursa.Id
             };
             MitkoMitkov = new Teacher()
@@ -3189,7 +3183,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = false,
                 Email = "m.mitkov@myschool.com",
                 PhoneNumber = "5031982467",
-                ClassId = null,
                 UserId = UserMitkoMitkov.Id
             };
             EmilStoyanov = new Teacher()
@@ -3199,7 +3192,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = true,
                 Email = "e.stoyanov@myschool.com",
                 PhoneNumber = "3156924708",
-                ClassId = Eight.Id,
                 UserId = UserEmilStoyanov.Id
             };
             BorislavaBangeeva = new Teacher()
@@ -3209,7 +3201,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = false,
                 Email = "b.bangeeva@myschool.com",
                 PhoneNumber = "9785402163",
-                ClassId = null,
                 UserId = UserBorislavaBangeeva.Id
             };
             MariaIvanova = new Teacher()
@@ -3219,7 +3210,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 IsClassTeacher = true,
                 Email = "m.ivanova@myschool.com",
                 PhoneNumber = "2047856931",
-                ClassId = Twelfth.Id,
                 UserId = UserMariaIvanova.Id
             };
 
@@ -3822,7 +3812,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 1,
                 UserId = UserDimitarIvanov.Id
             };
             ElenaPetrova = new Student()
@@ -3833,7 +3822,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 2,
                 UserId = UserElenaPetrova.Id
             };
             StefchoDimitrov = new Student()
@@ -3844,7 +3832,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 3,
                 UserId = UserStefchoDimitrov.Id
             };
             MilenaGeorgieva = new Student()
@@ -3855,7 +3842,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 4,
                 UserId = UserMilenaGeorgieva.Id
             };
             AleksandarTodorov = new Student()
@@ -3866,7 +3852,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 5,
                 UserId = UserAleksandarTodorov.Id
             };
             ViktoriaIvanova = new Student()
@@ -3877,7 +3862,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 6,
                 UserId = UserViktoriaIvanova.Id
             };
             NikolayKolev = new Student()
@@ -3888,7 +3872,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 7,
                 UserId = UserNikolayKolev.Id
             };
             MariaVasileva = new Student()
@@ -3899,7 +3882,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 8,
                 UserId = UserMariaVasileva.Id
             };
             IvayloPetrov = new Student()
@@ -3910,7 +3892,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 9,
                 UserId = UserIvayloPetrov.Id
             };
             GabrielaStoyanova = new Student()
@@ -3921,7 +3902,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 10,
                 UserId = UserGabrielaStoyanova.Id
             };
             GeorgiMarinov = new Student()
@@ -3932,7 +3912,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 11,
                 UserId = UserGeorgiMarinov.Id
             };
             KristinaPetrova = new Student()
@@ -3943,7 +3922,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 12,
                 UserId = UserKristinaPetrova.Id
             };
             RumchoIvanov = new Student()
@@ -3954,7 +3932,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 13,
                 UserId = UserRumchoIvanov.Id
             };
             EmiliaGeorgieva = new Student()
@@ -3965,7 +3942,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eight.Id,
                 ClassTeacherId = Eight.TeacherId,
-                ParentId = 14,
                 UserId = UserEmiliaGeorgieva.Id
             };
             KrasimirDimitrov = new Student()
@@ -3976,7 +3952,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 15,
                 UserId = UserKrasimirDimitrov.Id
             };
             SilviyaIvanova = new Student()
@@ -3987,7 +3962,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 16,
                 UserId = UserSilviyaIvanova.Id
             };
             AsenGeorgiev = new Student()
@@ -3998,7 +3972,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 17,
                 UserId = UserAsenGeorgiev.Id
             };
             ElenaKoleva = new Student()
@@ -4009,7 +3982,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 18,
                 UserId = UserElenaKoleva.Id
             };
             StanimirTodorov = new Student()
@@ -4020,7 +3992,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 19,
                 UserId = UserStanimirTodorov.Id
             };
             MagdalenaIvanova = new Student()
@@ -4031,7 +4002,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 20,
                 UserId = UserMagdalenaIvanova.Id
             };
             HristoPetrov = new Student()
@@ -4042,7 +4012,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 21,
                 UserId = UserHristoPetrov.Id
             };
             KalinaDimitrova = new Student()
@@ -4053,7 +4022,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 22,
                 UserId = UserKalinaDimitrova.Id
             };
             TsvetanchoGeorgiev = new Student()
@@ -4064,7 +4032,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 23,
                 UserId = UserTsvetanchoGeorgiev.Id
             };
             NadezhdaIvanova = new Student()
@@ -4075,7 +4042,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 24,
                 UserId = UserNadezhdaIvanova.Id
             };
             BorisStefanov = new Student()
@@ -4086,7 +4052,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 25,
                 UserId = UserBorisStefanov.Id
             };
             AneliyaKoleva = new Student()
@@ -4097,7 +4062,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 26,
                 UserId = UserAneliyaKoleva.Id
             };
             RosenPetrov = new Student()
@@ -4108,7 +4072,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 27,
                 UserId = UserRosenPetrov.Id
             };
             RadostinaIvanova = new Student()
@@ -4119,7 +4082,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 28,
                 UserId = UserRadostinaIvanova.Id
             };
             VasilAleksandrov = new Student()
@@ -4130,7 +4092,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 29,
                 UserId = UserVasilAleksandrov.Id
             };
             RositsaGeorgieva = new Student()
@@ -4141,7 +4102,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 30,
                 UserId = UserRositsaGeorgieva.Id
             };
             PlamenIvanov = new Student()
@@ -4152,7 +4112,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Ninth.Id,
                 ClassTeacherId = Ninth.TeacherId,
-                ParentId = 31,
                 UserId = UserPlamenIvanov.Id
             };
             ValentinaDimitrova = new Student()
@@ -4163,7 +4122,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 32,
                 UserId = UserValentinaDimitrova.Id
             };
             IvoStoyanov = new Student()
@@ -4174,7 +4132,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 33,
                 UserId = UserIvoStoyanov.Id
             };
             StefaniyaPetrova = new Student()
@@ -4185,7 +4142,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 34,
                 UserId = UserStefaniyaPetrova.Id
             };
             MartinKolev = new Student()
@@ -4196,7 +4152,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 35,
                 UserId = UserMartinKolev.Id
             };
             SonyaIvanova = new Student()
@@ -4207,7 +4162,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 36,
                 UserId = UserSonyaIvanova.Id
             };
             LyubomirGeorgiev = new Student()
@@ -4218,7 +4172,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 37,
                 UserId = UserLyubomirGeorgiev.Id
             };
             NataliyaVasileva = new Student()
@@ -4229,7 +4182,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 38,
                 UserId = UserNataliyaVasileva.Id
             };
             PetarPetrov = new Student()
@@ -4240,7 +4192,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 39,
                 UserId = UserPetarPetrov.Id
             };
             GerganaDimitrova = new Student()
@@ -4251,7 +4202,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 40,
                 UserId = UserGerganaDimitrova.Id
             };
             LyubomiraTodorova = new Student()
@@ -4262,7 +4212,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 41,
                 UserId = UserLyubomiraTodorova.Id
             };
             AntonIvanov = new Student()
@@ -4273,7 +4222,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 42,
                 UserId = UserAntonIvanov.Id
             };
             TanyaGeorgieva = new Student()
@@ -4284,7 +4232,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Tenth.Id,
                 ClassTeacherId = Tenth.TeacherId,
-                ParentId = 43,
                 UserId = UserTanyaGeorgieva.Id
             };
             KamenchoPetrov = new Student()
@@ -4295,7 +4242,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 44,
                 UserId = UserKamenchoPetrov.Id
             };
             VanyaKoleva = new Student()
@@ -4306,7 +4252,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 45,
                 UserId = UserVanyaKoleva.Id
             };
             RadoslavGeorgiev = new Student()
@@ -4317,7 +4262,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 46,
                 UserId = UserRadoslavGeorgiev.Id
             };
             VasilenkaIvanova = new Student()
@@ -4328,7 +4272,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 47,
                 UserId = UserVasilenkaIvanova.Id
             };
             KirilDimitrov = new Student()
@@ -4339,7 +4282,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 48,
                 UserId = UserKirilDimitrov.Id
             };
             KameliyaTodorova = new Student()
@@ -4350,7 +4292,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 49,
                 UserId = UserKameliyaTodorova.Id
             };
             IliyaPetrov = new Student()
@@ -4361,7 +4302,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 50,
                 UserId = UserIliyaPetrov.Id
             };
             DilyanaIvanova = new Student()
@@ -4372,7 +4312,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 51,
                 UserId = UserDilyanaIvanova.Id
             };
             BogdanKolev = new Student()
@@ -4383,7 +4322,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 52,
                 UserId = UserBogdanKolev.Id
             };
             DanielaMarinova = new Student()
@@ -4394,7 +4332,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 53,
                 UserId = UserDanielaMarinova.Id
             };
             HristiyanIvanov = new Student()
@@ -4405,7 +4342,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 54,
                 UserId = UserHristiyanIvanov.Id
             };
             TeodoraVasileva = new Student()
@@ -4416,7 +4352,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 55,
                 UserId = UserTeodoraVasileva.Id
             };
             DesislavDimitrov = new Student()
@@ -4427,7 +4362,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 56,
                 UserId = UserDesislavDimitrov.Id
             };
             GalyaIvanova = new Student()
@@ -4438,7 +4372,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 57,
                 UserId = UserGalyaIvanova.Id
             };
             IvanKolev = new Student()
@@ -4449,7 +4382,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 58,
                 UserId = UserIvanKolev.Id
             };
             MariyaPetrova = new Student()
@@ -4460,7 +4392,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Eleventh.Id,
                 ClassTeacherId = Eleventh.TeacherId,
-                ParentId = 59,
                 UserId = UserMariyaPetrova.Id
             };
             SimeonGeorgiev = new Student()
@@ -4471,7 +4402,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 60,
                 UserId = UserSimeonGeorgiev.Id
             };
             MagdalinaIvanova = new Student()
@@ -4482,7 +4412,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 61,
                 UserId = UserMagdalinaIvanova.Id
             };
             EmilTodorov = new Student()
@@ -4493,7 +4422,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 62,
                 UserId = UserEmilTodorov.Id
             };
             KalinchoPetrov = new Student()
@@ -4504,7 +4432,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 63,
                 UserId = UserKalinchoPetrov.Id
             };
             RalitsaDimitrova = new Student()
@@ -4515,7 +4442,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 64,
                 UserId = UserRalitsaDimitrova.Id
             };
             YordanGeorgiev = new Student()
@@ -4526,7 +4452,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 65,
                 UserId = UserYordanGeorgiev.Id
             };
             RadinkaIvanova = new Student()
@@ -4537,7 +4462,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 66,
                 UserId = UserRadinkaIvanova.Id
             };
             VentsislavPetrov = new Student()
@@ -4548,7 +4472,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 67,
                 UserId = UserVentsislavPetrov.Id
             };
             DarinaKoleva = new Student()
@@ -4559,7 +4482,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 68,
                 UserId = UserDarinaKoleva.Id
             };
             BozhidarDimitrov = new Student()
@@ -4570,7 +4492,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 69,
                 UserId = UserBozhidarDimitrov.Id
             };
             NeliGeorgieva = new Student()
@@ -4581,7 +4502,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 70,
                 UserId = UserNeliGeorgieva.Id
             };
             YavorIvanov = new Student()
@@ -4592,7 +4512,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 71,
                 UserId = UserYavorIvanov.Id
             };
             MilitsaPetrova = new Student()
@@ -4603,7 +4522,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 72,
                 UserId = UserMilitsaPetrova.Id
             };
             ZdravkoKolev = new Student()
@@ -4614,7 +4532,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 73,
                 UserId = UserZdravkoKolev.Id
             };
             ElenaStoyanova = new Student()
@@ -4625,7 +4542,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 AverageScore = 0,
                 ClassId = Twelfth.Id,
                 ClassTeacherId = Twelfth.TeacherId,
-                ParentId = 74,
                 UserId = UserElenaStoyanova.Id
             };
         }

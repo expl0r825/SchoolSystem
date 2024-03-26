@@ -44,13 +44,6 @@ namespace SchoolSystem.Infrastructure.Data.Models
         public decimal AverageScore { get; set; }
 
         [Required]
-        [Comment("Students Parent Identifier")]
-        public int ParentId { get; set; }
-
-        [ForeignKey(nameof(ParentId))]
-        public Parent Parent { get; set; } = null!;
-
-        [Required]
         public string UserId { get; set; } = string.Empty;
 
         [ForeignKey(nameof(UserId))]

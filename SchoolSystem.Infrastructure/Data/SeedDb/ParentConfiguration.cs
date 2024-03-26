@@ -20,7 +20,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             builder.HasData(new Parent[] {
                    data.KrumIvanov, data.VeronikaPetrova, data.PlamenDimitrov, data.ZlatinaGeorgieva, data.RadoslavTodorov,
                    data.AdrianaIvanova, data.BozhidarKolev, data.EvelinaVasileva,data.StoyanPetrov, data.TsvetelinaStoyanova,
-                   data.LyubenMarinov,data.RositsaPetrova, data.RositsaPetrova, data.KaloyanIvanov, data.EkaterinaGeorgieva,
+                   data.LyubenMarinov,data.RositsaPetrova, data.KaloyanIvanov, data.EkaterinaGeorgieva,
                    data.HristoDimitrov, data.DobrinkaIvanova,data.BlagoyGeorgiev, data.IskraKoleva, data.KrasimirTodorov,
                    data.GerganaIvanova, data.VasilPetrov, data.NadezhdaDimitrova,data.TodorGeorgiev, data.RadkaIvanova,
                    data.HristinaStefanova, data.YavorKolev, data.KameliaPetrova, data.EmilIvanov, data.DilyanaAleksandrova,

@@ -30,12 +30,6 @@ namespace SchoolSystem.Infrastructure.Data.Models
         [Comment("Teachers Phone Number")]
         public string? PhoneNumber { get; set; }
 
-        [Comment("Teachers Class")]
-        public int? ClassId { get; set; }
-
-        [ForeignKey(nameof(ClassId))]
-        public Class Class { get; set; } = null!;
-
         [Required]
         public string UserId { get; set; } = string.Empty;
 

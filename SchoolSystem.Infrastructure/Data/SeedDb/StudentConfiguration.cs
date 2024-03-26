@@ -21,11 +21,6 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
                 .HasForeignKey(s => s.ClassTeacherId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            builder
-                .HasOne(s => s.Parent)
-                .WithMany()
-                .HasForeignKey(s => s.ParentId)
-                .OnDelete(DeleteBehavior.Restrict);
 
             var data = new SeedData();
 
