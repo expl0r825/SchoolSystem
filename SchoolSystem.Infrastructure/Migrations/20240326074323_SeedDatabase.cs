@@ -284,7 +284,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                         column: x => x.ClassId,
                         principalTable: "Classes",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_Students_Teachers_ClassTeacherId",
                         column: x => x.ClassTeacherId,
@@ -337,13 +337,13 @@ namespace SchoolSystem.Infrastructure.Migrations
                         column: x => x.StudentsId,
                         principalTable: "Students",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_StudentSubject_Subjects_SubjectsId",
                         column: x => x.SubjectsId,
                         principalTable: "Subjects",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(
@@ -354,7 +354,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     { "04870e99-9ba7-4640-8ef2-01fc2a1190d7", 0, "8ad08c3a-98a1-46b3-bd14-50908d3e351a", "radkaivanova@myschool.com", false, false, null, "radkaivanova@myschool.com", "radkaivanova", "AQAAAAEAACcQAAAAEOn7rNVbjV5Y3EsCs1r9p8TBSkrbQC+njecbXHmO1tIzIwUn9vnrpOrjOZUw6JJiIg==", null, false, "8ecd8926-771e-482d-9fba-be91628298b5", false, "radkaivanova" },
                     { "0c2174fe-5bfc-4842-9cb3-882a35a09902", 0, "0b8d43f3-62e0-4d2c-92f5-40ab5ec5aaf7", "m.ivanova@myschool.com", false, false, null, "m.ivanova@myschool.com", "m.ivanova@myschool.com", "AQAAAAEAACcQAAAAENrI5PeGuyV5koL5KTh9PfUlzwG36mf7mFK+ImU2mOzgqzLOx1/ZwiuE1z8uDg4pFA==", null, false, "3b8842fc-9ba0-4aff-9377-f0da0ca5c764", false, "m.ivanova@myschool.com" },
                     { "0dbed053-0ea2-43c1-b4b1-99a1d1197084", 0, "de6b3e1e-04ac-46a9-b85b-ed6ba635a608", "kameliapetrova@myschool.com", false, false, null, "kameliapetrova@myschool.com", "kameliapetrova", "AQAAAAEAACcQAAAAEAXjDU8Nf0Hm0ZZDnrfRMpkWlsR0TCmoFQeH0XbOmJhoiH30W47bsi5IO5IvryJKrw==", null, false, "55dee046-8f7b-46eb-873c-81e631c9776b", false, "kameliapetrova" },
-                    { "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7", 0, "6e021e0c-e00f-4705-91aa-20080160c007", "boristefanov@myschool.com", false, false, null, "boristefanov@myschool.com", "boristefanov", "AQAAAAEAACcQAAAAEDObXoEwTR1QoLAORihKsBlMvsRibPgIgapoG/8RwYCud9kaekY/pQdL+4PloD7LOw==", null, false, "bc8d2787-b2af-4ad4-8c5f-36841b3c3555", false, "boristefanov" },
+                    { "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7", 0, "6e021e0c-e00f-4705-91aa-20080160c007", "borisstefanov@myschool.com", false, false, null, "borisstefanov@myschool.com", "borisstefanov", "AQAAAAEAACcQAAAAEDObXoEwTR1QoLAORihKsBlMvsRibPgIgapoG/8RwYCud9kaekY/pQdL+4PloD7LOw==", null, false, "bc8d2787-b2af-4ad4-8c5f-36841b3c3555", false, "borisstefanov" },
                     { "0f76fe6a-91ed-496d-aa60-ba07cda9c7e1", 0, "d6899b21-582e-489e-ba19-5d59fb4699f1", "kamenpetrov@myschool.com", false, false, null, "kamenpetrov@myschool.com", "kamenpetrov", "AQAAAAEAACcQAAAAEE4KMHT5tf8NkB8AxlhOPmi29hlDOde5bC6prUcpNM0RUm0OlMAKjIa+DE7FLmqnPQ==", null, false, "23127c96-01de-4da8-b652-f454cb32aa61", false, "kamenpetrov" },
                     { "0fe8a18a-0f52-4e41-8d44-292001678e5b", 0, "fb94bde5-ef70-42ed-81d0-8d05c98f0da5", "gerganaivanova@myschool.com", false, false, null, "gerganaivanova@myschool.com", "gerganaivanova", "AQAAAAEAACcQAAAAEJ23jSVluxvWxA0Z/n4myL0MuSC/6wbvTesi0u7YKrZLOwrcPRqCWAh8jvxBSeKkEg==", null, false, "2af681fe-2a71-4eb4-b8ae-08c697d4a82e", false, "gerganaivanova" },
                     { "109824cc-6b9f-4b1f-af65-87bb5a4ff79b", 0, "c188e9fb-306e-4707-80cc-8528f3cf476f", "milenageorgieva@myschool.com", false, false, null, "milenageorgieva@myschool.com", "milenageorgieva", "AQAAAAEAACcQAAAAEC9T1ZO+u1bZFpkuLwjTf7R2ZLgybFasJHTDJZWchBW5X2IjSLlgCoXD7HkhsYeHPQ==", null, false, "0df60dea-5ba4-4cd2-af87-6bca7a750f8d", false, "milenageorgieva" },
@@ -409,7 +409,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     { "4ce7832b-e2f3-446f-8c63-720db3f89237", 0, "41249362-9deb-4662-83f5-642d390384de", "dobrinkaivanova@myschool.com", false, false, null, "dobrinkaivanova@myschool.com", "dobrinkaivanova", "AQAAAAEAACcQAAAAEBmaUvaGAKc401q5EP2s61eSxPpDDAPTvn02rABayWPHKSTfmuz4grp+GhcORceEAA==", null, false, "f6ca1bae-d9a2-4250-bb2f-cefc1618e4ec", false, "dobrinkaivanova" },
                     { "4ec6a858-e99e-44a8-822d-5292c378fbb4", 0, "e0077328-f91e-4696-8a66-02cccff88878", "martinpetrov@myschool.com", false, false, null, "martinpetrov@myschool.com", "martinpetrov", "AQAAAAEAACcQAAAAENEvh+Blk/Lm9u6JJyPTdAxMRndq2j1BbN+pGBunFoG4W2uuoF5F+rKGU9jBbjbN0A==", null, false, "0a52c534-3d9b-4d9e-9a87-671c5a1588a8", false, "martinpetrov" },
                     { "4f2d3e6a-8ef0-4e6b-80c2-9b487bbba2dd", 0, "64ca5760-1d58-4f9c-a685-4f13dd311693", "b.lozanova@myschool.com", false, false, null, "b.lozanova@myschool.com", "b.lozanova@myschool.com", "AQAAAAEAACcQAAAAEJWMQ4tknkU+GRrkReCkG+yiKM3ymvqKanxURbe+FNNWmUu06PxOlgOEzUA+7qHNOw==", null, false, "5931c0fc-cb04-4a61-ba4b-ab33770fe56a", false, "b.lozanova@myschool.com" },
-                    { "5038ef42-267f-4a5d-8b92-2d63052265c8", 0, "e82f0005-0d76-4f2d-8343-c3240ed88f01", "krasimirivanov@myschool.com", false, false, null, "krasimirivanov@myschool.com", "krasimirivanov", "AQAAAAEAACcQAAAAEOro6lyBLdvBVEbG4VYBNGyt65Arh4SFaBXPltvH1v/kqPFMbb6+A/Xxc3Zpnh+ZIw==", null, false, "e8d4dcfe-eacd-4789-bd26-eddfc3b595b0", false, "krasimirivanov" },
+                    { "5038ef42-267f-4a5d-8b92-2d63052265c8", 0, "e82f0005-0d76-4f2d-8343-c3240ed88f01", "krasimirdimitrov@myschool.com", false, false, null, "krasimirdimitrov@myschool.com", "krasimirdimitrov", "AQAAAAEAACcQAAAAEOro6lyBLdvBVEbG4VYBNGyt65Arh4SFaBXPltvH1v/kqPFMbb6+A/Xxc3Zpnh+ZIw==", null, false, "e8d4dcfe-eacd-4789-bd26-eddfc3b595b0", false, "krasimirdimitrov" },
                     { "512da3a0-4861-49ac-9142-1536f5ea2cb1", 0, "56d22f86-c66d-49ad-83e5-10fc51d69d01", "sonyaivanova@myschool.com", false, false, null, "sonyaivanova@myschool.com", "sonyaivanova", "AQAAAAEAACcQAAAAEBhae5/Q7ivZG31trtrBN3EG+dlOWa98EUpwghHwitCC4KXOojtNoiTVnGEqyZx/yw==", null, false, "18aa4515-c751-45db-a7ba-16003f71c575", false, "sonyaivanova" },
                     { "57e4c1a5-4c76-4cda-98ce-2e2a0a22c764", 0, "80a4b48e-c6a9-4dfb-b04a-e34e1a902334", "tsvetangeorgiev@myschool.com", false, false, null, "tsvetangeorgiev@myschool.com", "tsvetangeorgiev", "AQAAAAEAACcQAAAAEFuEl1CdH8J8xlpg3O4wwYTzvmFGNgthNWbcYh0wFfPRfG66UuTylYr3vSL4zo12ew==", null, false, "dea1bee9-b802-4146-ba3b-c83b72c9b12e", false, "tsvetangeorgiev" },
                     { "57ef3794-e725-4d7c-9d17-7b7ac01081c5", 0, "5911842e-78c5-405b-a30e-254e89109297", "vasilaleksandrov@myschool.com", false, false, null, "vasilaleksandrov@myschool.com", "vasilaleksandrov", "AQAAAAEAACcQAAAAEBkkvxxLbiNXdAgEmYb1TKrAq+2CvLCP0BiKCYJDgst8Jw6s4UngXA6m8ToCKg8Zjw==", null, false, "e42d0720-3f6b-4303-990a-d65433112cee", false, "vasilaleksandrov" },
@@ -540,9 +540,54 @@ namespace SchoolSystem.Infrastructure.Migrations
                 columns: new[] { "Id", "Email", "FullName", "PhoneNumber", "UserId" },
                 values: new object[,]
                 {
-                    { 1, "r.mekova@myschool.com", "Radostina Mekova", "8642097531", "864cd678-fd52-4277-a0a0-1f13e8269262" },
-                    { 2, "v.stoeva@myschool.com", "Valentina Stoeva", "8742035918", "6cfe892f-4fcf-4f0f-b12e-5821fb31ca2d" },
-                    { 3, "y.petkova@myschool.com", "Yuliana Petkova", "5268793407", "ebbe6c45-279f-4142-8e44-38d7db704924" }
+                    { 1, "r.mekova@myschool.com", "Radostina Mekova", "8642097531", "5a11fb1d-76ee-4c9a-8a9e-2534297cf94e" },
+                    { 2, "v.stoeva@myschool.com", "Valentina Stoeva", "8742035918", "7d4e1b42-7463-4bcf-9d0f-eeb02a87d0c5" },
+                    { 3, "y.petkova@myschool.com", "Yuliana Petkova", "5268793407", "fbb84d19-1715-4d08-87bb-c87966c442b8" }
+                });
+
+
+            migrationBuilder.InsertData(
+               table: "Teachers",
+               columns: new[] { "Id", "Email", "FullName", "IsClassTeacher", "PhoneNumber", "UserId" },
+               values: new object[,]
+               {
+                    { 1, "t.gerganova@myschool.com", "Tatyana Gerganova", true, "1357924680", "bfb57c7b-4d3d-44e5-8e4f-bf68bfdb542d" },
+                    { 2, "b.lozanova@myschool.com", "Bilyana Lozanova", true, "5738291467", "4f2d3e6a-8ef0-4e6b-80c2-9b487bbba2dd" },
+                    { 3, "k.kutin@myschool.com", "Krasimira Kutin", false, "6248371095", "f09a28d8-2ad2-465e-8ab6-7b4bd4a82ec6" },
+                    { 4, "t.hristov@myschool.com", "Teodor Hristov", false, "8902145673", "8a7389a7-17c1-4f0a-96e9-0929cfa1c9b1" },
+                    { 5, "s.gancheva@myschool.com", "Silviya Gancheva", false, "4512067839", "7a68960f-439a-42ab-9a4c-10720fd21c95" },
+                    { 6, "c.ambursa@myschool.com", "Cvetomir Ambursa", true, "7263489510", "c3926be0-cc65-4a5d-92c7-4c8917d390bf" },
+                    { 7, "m.mitkov@myschool.com", "Mitko Mitkov", false, "5031982467", "a15da546-3bc8-4ee7-90cd-172a2180f220" },
+                    { 8, "e.stoyanov@myschool.com", "Emil Stoyanov", true, "3156924708", "d3a9008b-85c3-4a1a-8f57-36ad03b32a72" },
+                    { 9, "b.bangeeva@myschool.com", "Borislava Bangeeva", false, "9785402163", "2db4cc9f-8d87-4e13-97f0-8eb8b7ea00e7" },
+                    { 10, "m.ivanova@myschool.com", "Maria Ivanova", true, "2047856931", "0c2174fe-5bfc-4842-9cb3-882a35a09902" }
+               });
+
+
+
+            migrationBuilder.InsertData(
+                table: "Classes",
+                columns: new[] { "Id", "AverageScore", "Name", "TeacherId" },
+                values: new object[,]
+                {
+                    { 1, 0m, "8\"g\"", 8 },
+                    { 2, 0m, "9\"b\"", 2 },
+                    { 3, 0m, "10\"v\"", 1 },
+                    { 4, 0m, "11\"e\"", 6 },
+                    { 5, 0m, "12\"d\"", 10 }
+                });
+
+
+
+            migrationBuilder.InsertData(
+                table: "Students",
+                columns: new[] { "Id", "AverageScore", "ClassId", "ClassTeacherId", "FirstName", "LastName", "UserId" },
+                values: new object[,]
+                {
+                    { 1, 0m, 1, 8, "Dimitar", "Ivanov", "21d56e3d-8c91-431e-a6e2-760848cf2aae" },
+                    { 2, 0m, 1, 8, "Elena", "Petrova", "d3d28ff2-79fe-4e7a-bf85-8e4fe2e0a097" },
+                    { 3, 0m, 1, 8, "Stefcho", "Dimitrov", "c6aa9e1c-1894-4ef8-9a29-29c110f31949" },
+                    { 4, 0m, 1, 8, "Milena", "Georgieva", "109824cc-6b9f-4b1f-af65-87bb5a4ff79b" }
                 });
 
             migrationBuilder.InsertData(
@@ -550,10 +595,48 @@ namespace SchoolSystem.Infrastructure.Migrations
                 columns: new[] { "Id", "AverageScore", "ClassId", "ClassTeacherId", "FirstName", "LastName", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 0m, 1, 0, "Dimitar", "Ivanov", "35c6b99a-f741-40c4-bb46-5a08c37cd5b4" },
-                    { 2, 0m, 1, 0, "Elena", "Petrova", "eb5abd78-6e74-4a0c-b34a-d7322fed685e" },
-                    { 3, 0m, 1, 0, "Stefcho", "Dimitrov", "f2533a9c-e79f-42fe-80ca-b4a7247713cd" },
-                    { 4, 0m, 1, 0, "Milena", "Georgieva", "6ee3dea7-435e-45e9-bc19-35ca431945e2" }
+                    { 5, 0m, 1, 8, "Aleksandar", "Todorov", "8c0cb95d-0e1a-40c4-9e2f-2542d530dbaa" },
+                    { 6, 0m, 1, 8, "Viktoria", "Ivanova", "7fc4b81c-0b22-4e35-bc17-c7c3e73d1874" },
+                    { 7, 0m, 1, 8, "Nikolay", "Kolev", "5a7d1e4a-8f4f-4e52-9d14-06f9d3a134b4" },
+                    { 8, 0m, 1, 8, "Maria", "Vasileva", "93a6ac3b-c8c9-4a24-a00b-4f54e2f4d2d7" },
+                    { 9, 0m, 1, 8, "Ivaylo", "Petrov", "d071556f-89ee-4819-86b2-7eb3b63f65a2" },
+                    { 10, 0m, 1, 8, "Gabriela", "Stoyanova", "c618a246-9af9-4a37-9e0d-257ec4b2b854" },
+                    { 11, 0m, 1, 8, "Georgi", "Marinov", "172ef32c-2c8e-49f9-8c0f-0d8236a98fc7" },
+                    { 12, 0m, 1, 8, "Kristina", "Petrova", "1f49e02f-784c-4b51-856b-0fc301da5bf0" },
+                    { 13, 0m, 1, 8, "Rumcho", "Ivanov", "f3dd26e0-e2eb-4e1f-9ea2-d260e779a5e3" },
+                    { 14, 0m, 1, 8, "Emilia", "Georgieva", "b4c1c7da-6491-48d6-91d5-3c4f43105fc1" },
+                    { 15, 0m, 2, 2, "Krasimir", "Dimitrov", "5038ef42-267f-4a5d-8b92-2d63052265c8" },
+                    { 16, 0m, 2, 2, "Silviya", "Ivanova", "9e32eab9-84e3-4b35-bb92-89b3dfb8e98f" },
+                    { 17, 0m, 2, 2, "Asen", "Georgiev", "84ab245c-804d-4ac7-8f9e-bcda15863c5c" },
+                    { 18, 0m, 2, 2, "Elena", "Koleva", "5a141fd9-2bcf-4dab-8c0a-8c15b7c8dbef" },
+                    { 19, 0m, 2, 2, "Stanimir", "Todorov", "31b1f166-5412-40c7-b0cb-38aaec6a5ba6" },
+                    { 20, 0m, 2, 2, "Magdalena", "Ivanova", "1443d844-bfd9-45a1-94a5-83c18f140c0e" },
+                    { 21, 0m, 2, 2, "Hristo", "Petrov", "d0b3c3d4-5803-4f42-9f3f-5879926e2f3f" },
+                    { 22, 0m, 2, 2, "Kalina", "Dimitrova", "7b1a2e32-bc36-4bf7-9b65-07fbfa810baa" },
+                    { 23, 0m, 2, 2, "Tsvetancho", "Georgiev", "321efec2-563e-4f66-a158-7c2e4f7db24b" },
+                    { 24, 0m, 2, 2, "Nadezhda", "Ivanova", "71c4c53d-0c7e-4d33-b8b3-15b3ff206249" },
+                    { 25, 0m, 2, 2, "Boris", "Stefanov", "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7" },
+                    { 26, 0m, 2, 2, "Aneliya", "Koleva", "2b765779-8f0d-4d01-b822-41fb42f9d173" },
+                    { 27, 0m, 2, 2, "Rosen", "Petrov", "e20a8a8b-7038-45c5-b292-91c7b5e196d1" },
+                    { 28, 0m, 2, 2, "Radostina", "Ivanova", "39b55a1b-d8b5-4bb2-9e71-cc994a1463d5" },
+                    { 29, 0m, 2, 2, "Vasil", "Aleksandrov", "57ef3794-e725-4d7c-9d17-7b7ac01081c5" },
+                    { 30, 0m, 2, 2, "Rositsa", "Georgieva", "d6ddbe61-7627-4b88-bc3c-8c2b3a7e89a4" },
+                    { 31, 0m, 2, 2, "Plamen", "Ivanov", "d1983bf8-cb42-4da2-88d2-5297be88a146" },
+                    { 32, 0m, 3, 1, "Valentina", "Dimitrova", "162d8979-1a84-4642-9b27-49973518a040" },
+                    { 33, 0m, 3, 1, "Ivo", "Stoyanov", "41c16c1c-6345-487b-9202-18bf7a723b5e" },
+                    { 34, 0m, 3, 1, "Stefaniya", "Petrova", "a3bd2a1d-5061-439e-aec9-0e54720e3ed5" },
+                    { 35, 0m, 3, 1, "Martin", "Kolev", "2c537f9a-c6ef-43d1-98da-e63d947de2bd" },
+                    { 36, 0m, 3, 1, "Sonya", "Ivanova", "512da3a0-4861-49ac-9142-1536f5ea2cb1" },
+                    { 37, 0m, 3, 1, "Lyubomir", "Georgiev", "9c1e0838-6a1b-4158-92a2-36c6234e9d41" },
+                    { 38, 0m, 3, 1, "Nataliya", "Vasileva", "17b6757b-33e6-4d97-b8f4-22e3ec4e34a3" },
+                    { 39, 0m, 3, 1, "Petar", "Petrov", "7d2f14fb-b3b5-4598-8989-ba10d3612c96" },
+                    { 40, 0m, 3, 1, "Gergana", "Dimitrova", "3f13969e-28fc-4315-b44d-b0f7b827202a" },
+                    { 41, 0m, 3, 1, "Lyubomira", "Todorova", "8a4b8f2d-72e8-46d1-8a9f-2d06b1d9ecf1" },
+                    { 42, 0m, 3, 1, "Anton", "Ivanov", "f4ec527a-d87f-4e87-b948-26e7d4c3351f" },
+                    { 43, 0m, 3, 1, "Tanya", "Georgieva", "f0578b4d-49cc-4c3c-8b61-62ebc8c196e9" },
+                    { 44, 0m, 4, 6, "Kamencho", "Petrov", "d68684c7-c3a8-4c21-8042-b76a4f43ff33" },
+                    { 45, 0m, 4, 6, "Vanya", "Koleva", "8d0a37e9-91a1-4b3a-86a9-b57595b104ab" },
+                    { 46, 0m, 4, 6, "Radoslav", "Georgiev", "23dbfde3-00c5-47d9-b1b4-23f97379881e" }
                 });
 
             migrationBuilder.InsertData(
@@ -561,83 +644,34 @@ namespace SchoolSystem.Infrastructure.Migrations
                 columns: new[] { "Id", "AverageScore", "ClassId", "ClassTeacherId", "FirstName", "LastName", "UserId" },
                 values: new object[,]
                 {
-                    { 5, 0m, 1, 8, "Aleksandar", "Todorov", "331c9f78-cf7c-41c1-b93b-b82b639014eb" },
-                    { 6, 0m, 1, 8, "Viktoria", "Ivanova", "65dc4c0d-b5b1-4360-a8c4-d23eb836875d" },
-                    { 7, 0m, 1, 8, "Nikolay", "Kolev", "cfed7080-e445-4762-804b-69e3f0ba2d10" },
-                    { 8, 0m, 1, 8, "Maria", "Vasileva", "c7116a17-e3e6-4dd0-8f52-bdbe53a69d5b" },
-                    { 9, 0m, 1, 8, "Ivaylo", "Petrov", "e0440d11-ba75-473b-ba4d-6fbd4de570dd" },
-                    { 10, 0m, 1, 8, "Gabriela", "Stoyanova", "c1380457-d844-42fb-83b3-dff2a6c038f8" },
-                    { 11, 0m, 1, 8, "Georgi", "Marinov", "32dbfbf7-9248-4f5e-a0ee-9be0dea34273" },
-                    { 12, 0m, 1, 8, "Kristina", "Petrova", "605f8711-3359-4e7d-9702-0fb86b18333f" },
-                    { 13, 0m, 1, 8, "Rumcho", "Ivanov", "354fe73a-4bcd-4edc-8261-911ee1492fff" },
-                    { 14, 0m, 1, 8, "Emilia", "Georgieva", "8ecb5379-98c4-4e71-9a4b-035b783cf077" },
-                    { 15, 0m, 2, 2, "Krasimir", "Dimitrov", "98879578-cd66-4258-8a8b-8e6f31e9eba8" },
-                    { 16, 0m, 2, 2, "Silviya", "Ivanova", "7dd21d4f-2d0f-4c0f-aee4-e522339ed8e5" },
-                    { 17, 0m, 2, 2, "Asen", "Georgiev", "7f1d3ead-ac16-4ee2-8a39-80c6b3f041f3" },
-                    { 18, 0m, 2, 2, "Elena", "Koleva", "60072475-c026-4ce4-b3d2-3a2e72c4cb8b" },
-                    { 19, 0m, 2, 2, "Stanimir", "Todorov", "fdadb121-342d-42e9-926c-70bab6cedc92" },
-                    { 20, 0m, 2, 2, "Magdalena", "Ivanova", "16ecfcac-f8a4-4ca7-a796-38f282c9596a" },
-                    { 21, 0m, 2, 2, "Hristo", "Petrov", "3ea248c1-568a-4c61-a208-a62bd415ac40" },
-                    { 22, 0m, 2, 2, "Kalina", "Dimitrova", "c0c4f3d9-08a0-4c04-a647-597be56eacbe" },
-                    { 23, 0m, 2, 2, "Tsvetancho", "Georgiev", "671d9437-3451-4154-b379-074288befb2b" },
-                    { 24, 0m, 2, 2, "Nadezhda", "Ivanova", "2036af72-819e-4ef5-a395-7f872ad743ab" },
-                    { 25, 0m, 2, 2, "Boris", "Stefanov", "082e568c-4afe-4244-bafd-cdcbe228781c" },
-                    { 26, 0m, 2, 2, "Aneliya", "Koleva", "63bd1fba-da39-4901-8d6d-d121d60a6290" },
-                    { 27, 0m, 2, 2, "Rosen", "Petrov", "ba702a2a-9089-482c-b31f-d8e6dc97a290" },
-                    { 28, 0m, 2, 2, "Radostina", "Ivanova", "e227680e-ab85-4e4d-a56c-31842d2b419b" },
-                    { 29, 0m, 2, 2, "Vasil", "Aleksandrov", "d2be9076-2883-412c-8c6a-4f21e62a81df" },
-                    { 30, 0m, 2, 2, "Rositsa", "Georgieva", "f215fd91-1947-41e0-ba06-69d33946f69d" },
-                    { 31, 0m, 2, 2, "Plamen", "Ivanov", "a3d7a333-bee9-4872-8ddd-a3353ba94629" },
-                    { 32, 0m, 3, 1, "Valentina", "Dimitrova", "92881e13-dde5-4643-93fb-3bd126b7afe7" },
-                    { 33, 0m, 3, 1, "Ivo", "Stoyanov", "1d5c2bc9-4b09-4a8c-8d31-8854bff57d1e" },
-                    { 34, 0m, 3, 1, "Stefaniya", "Petrova", "583cd66b-517a-4a20-b8f0-06700c21dfbc" },
-                    { 35, 0m, 3, 1, "Martin", "Kolev", "21547b94-3de9-4062-9d43-a7fb966b44a8" },
-                    { 36, 0m, 3, 1, "Sonya", "Ivanova", "5008aa55-7c93-4563-a17c-7761eccce955" },
-                    { 37, 0m, 3, 1, "Lyubomir", "Georgiev", "76374d5f-1811-46b0-99b4-58600b4b319b" },
-                    { 38, 0m, 3, 1, "Nataliya", "Vasileva", "44f3f4a9-71ff-47e2-90d0-d7cce8d95979" },
-                    { 39, 0m, 3, 1, "Petar", "Petrov", "94ac6ee0-23c2-49ee-ab1e-a2629cd44015" },
-                    { 40, 0m, 3, 1, "Gergana", "Dimitrova", "62abc562-b9cf-4841-ab22-157fcf9bf007" },
-                    { 41, 0m, 3, 1, "Lyubomira", "Todorova", "870259db-495c-447e-b175-85dc081ef227" },
-                    { 42, 0m, 3, 1, "Anton", "Ivanov", "5a6cd600-f914-4345-88fc-82770be6ca53" },
-                    { 43, 0m, 3, 1, "Tanya", "Georgieva", "1c790669-c144-40e5-b511-0848103c9329" },
-                    { 44, 0m, 4, 6, "Kamencho", "Petrov", "af823994-bf45-4905-80d8-a3f9234c420b" },
-                    { 45, 0m, 4, 6, "Vanya", "Koleva", "45fc285a-9ea8-4652-a386-2c9ef9c2dc88" },
-                    { 46, 0m, 4, 6, "Radoslav", "Georgiev", "0c4c8c16-c58b-46b3-9b12-9931dabf12f0" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Students",
-                columns: new[] { "Id", "AverageScore", "ClassId", "ClassTeacherId", "FirstName", "LastName", "UserId" },
-                values: new object[,]
-                {
-                    { 47, 0m, 4, 6, "Vasilenka", "Ivanova", "41f4e610-5d74-493a-926c-5b3600b81ff5" },
-                    { 48, 0m, 4, 6, "Kiril", "Dimitrov", "4edfe952-da13-4f32-9ef0-a08a1369394b" },
-                    { 49, 0m, 4, 6, "Kameliya", "Todorova", "ba401f31-5918-4cef-9f02-a9003693859b" },
-                    { 50, 0m, 4, 6, "Iliya", "Petrov", "69ea66b4-ee58-4765-9513-8436a7618816" },
-                    { 51, 0m, 4, 6, "Dilyana", "Ivanova", "eeb583a3-a953-489b-b59a-bd0e83ed8290" },
-                    { 52, 0m, 4, 6, "Bogdan", "Kolev", "412c7de2-613f-4d77-9022-1b3da29201e2" },
-                    { 53, 0m, 4, 6, "Daniela", "Marinova", "0f9cc268-da37-49fc-a0f9-a2671333237d" },
-                    { 54, 0m, 4, 6, "Hristiyan", "Ivanov", "d68c6a8e-e4d8-4c02-94a2-22b30cb8daf5" },
-                    { 55, 0m, 4, 6, "Teodora", "Vasileva", "149a07e0-305d-464a-a538-9cdaf2ffdab0" },
-                    { 56, 0m, 4, 6, "Desislav", "Dimitrov", "c4f21d7d-1b99-4a7f-8ca9-84b4e10ca0b4" },
-                    { 57, 0m, 4, 6, "Galya", "Ivanova", "521caeff-5d20-48f5-b84a-ec15d8462173" },
-                    { 58, 0m, 4, 6, "Ivan", "Kolev", "e5114566-c33e-4c70-adc6-b68c67c5d193" },
-                    { 59, 0m, 4, 6, "Mariya", "Petrova", "4044fbf0-aca7-47a9-ae81-7e9c0d9c9f71" },
-                    { 60, 0m, 5, 10, "Simeon", "Georgiev", "e2139ffc-37dc-4bea-a1bf-4038f9e81b6f" },
-                    { 61, 0m, 5, 10, "Magdalina", "Ivanova", "da77b747-0090-4610-8f71-d3c682ab88c1" },
-                    { 62, 0m, 5, 10, "Emil", "Todorov", "cb826610-f78f-4966-a34c-3c477dc9f591" },
-                    { 63, 0m, 5, 10, "Kalincho", "Petrov", "d469daba-1cfd-4f91-b706-052a3f9736d7" },
-                    { 64, 0m, 5, 10, "Ralitsa", "Dimitrova", "b14c1939-acb8-440a-a2c3-ca8fe88c33f7" },
-                    { 65, 0m, 5, 10, "Yordan", "Georgiev", "1fd4c439-6de9-4b6a-a044-68b5221217cc" },
-                    { 66, 0m, 5, 10, "Radinka", "Ivanova", "ded3b494-478a-4fff-b350-0b54757246f6" },
-                    { 67, 0m, 5, 10, "Ventsislav", "Petrov", "136e2c50-1b55-4af5-9819-44fc6f861ef6" },
-                    { 68, 0m, 5, 10, "Darina", "Koleva", "bd7f6e4d-c77d-42b7-8da7-bb6397d5a496" },
-                    { 69, 0m, 5, 10, "Bozhidar", "Dimitrov", "960bb3fd-0ba0-4185-8d37-628e7e9a65f9" },
-                    { 70, 0m, 5, 10, "Neli", "Georgieva", "495b4c70-b021-42ad-8660-c22b098c6419" },
-                    { 71, 0m, 5, 10, "Yavor", "Ivanov", "68e94de0-014d-47ed-b8d9-6f19654e1c31" },
-                    { 72, 0m, 5, 10, "Militsa", "Petrova", "28020445-9f3c-44f2-bf9e-764db7fee99f" },
-                    { 73, 0m, 5, 10, "Zdravko", "Kolev", "7650432d-e3a2-4f5d-8141-315447ec5ac4" },
-                    { 74, 0m, 5, 10, "Elena", "Stoyanova", "3d998b6e-d6d0-4a8e-ab66-bf30cb207de5" }
+                    { 47, 0m, 4, 6, "Vasilenka", "Ivanova", "6a56e5a9-b77d-492e-82c5-eab5c9397756" },
+                    { 48, 0m, 4, 6, "Kiril", "Dimitrov", "8d9f8a3f-16a2-4fe5-b12a-32c3f3c66fb1" },
+                    { 49, 0m, 4, 6, "Kameliya", "Todorova", "8b7f9c67-7985-4f3f-a2a1-271189e22a0d" },
+                    { 50, 0m, 4, 6, "Iliya", "Petrov", "961b318b-7e65-4ef9-bf8e-3e22f74cdd6d" },
+                    { 51, 0m, 4, 6, "Dilyana", "Ivanova", "d8b46962-25a4-4977-8363-d43e7076c85f" },
+                    { 52, 0m, 4, 6, "Bogdan", "Kolev", "15b7349f-c184-42e7-9a18-0c0dd1a05bea" },
+                    { 53, 0m, 4, 6, "Daniela", "Marinova", "8f35f8dd-b52a-4084-818b-3e1813e42f19" },
+                    { 54, 0m, 4, 6, "Hristiyan", "Ivanov", "e2b8904e-9a9e-471d-af7b-ef17f62f0e35" },
+                    { 55, 0m, 4, 6, "Teodora", "Vasileva", "7fbd8c2e-38c6-4a97-aa74-6321ee1f0e2a" },
+                    { 56, 0m, 4, 6, "Desislav", "Dimitrov", "3251a6f3-1415-4173-8d95-509d9b57a4bb" },
+                    { 57, 0m, 4, 6, "Galya", "Ivanova", "b2f18679-974f-4648-891b-05df89900b85" },
+                    { 58, 0m, 4, 6, "Ivan", "Kolev", "6c704485-8f35-4b5d-aa5b-c971b87cb442" },
+                    { 59, 0m, 4, 6, "Mariya", "Petrova", "2e07c9b0-d2a4-41e7-b8d8-0e0384c5e81b" },
+                    { 60, 0m, 5, 10, "Simeon", "Georgiev", "b5245ba7-c0e2-4e7d-b144-e9b7d8889e6e" },
+                    { 61, 0m, 5, 10, "Magdalina", "Ivanova", "1443d844-bfd9-45a1-94a5-83c18f140c0e" },
+                    { 62, 0m, 5, 10, "Emil", "Todorov", "b7395fbb-59e7-4687-9b69-0f135abf8e72" },
+                    { 63, 0m, 5, 10, "Kalincho", "Petrov", "6a4e15d5-29ae-4b86-9015-21d61e22e947" },
+                    { 64, 0m, 5, 10, "Ralitsa", "Dimitrova", "cff038d2-716a-4c45-8f21-81b1e7769a74" },
+                    { 65, 0m, 5, 10, "Yordan", "Georgiev", "80f4cb68-199a-4f6d-8b82-6ad3521c0b52" },
+                    { 66, 0m, 5, 10, "Radinka", "Ivanova", "1b441729-6f7d-4d13-9f0b-3fe4e76727c3" },
+                    { 67, 0m, 5, 10, "Ventsislav", "Petrov", "675b60ea-ee3f-4e58-b8d4-109b9ab54d99" },
+                    { 68, 0m, 5, 10, "Darina", "Koleva", "2bd002d3-ff51-4a18-a155-dc76bba5130a" },
+                    { 69, 0m, 5, 10, "Bozhidar", "Dimitrov", "98fb09c1-54d0-4d9c-86ee-7f7b510695ef" },
+                    { 70, 0m, 5, 10, "Neli", "Georgieva", "731e88f2-bb26-46d8-8d53-031af77b5e15" },
+                    { 71, 0m, 5, 10, "Yavor", "Ivanov", "5b38fb70-63e4-4d02-a14f-3b58ff14bc76" },
+                    { 72, 0m, 5, 10, "Militsa", "Petrova", "80a73e8d-3a08-44b3-ba99-8a5ea3ebd012" },
+                    { 73, 0m, 5, 10, "Zdravko", "Kolev", "844dd2c8-e20b-4423-827f-349e0bbd2761" },
+                    { 74, 0m, 5, 10, "Elena", "Stoyanova", "61f620da-d214-4e17-852a-c96fddcc682a" }
                 });
 
             migrationBuilder.InsertData(
@@ -1513,33 +1547,51 @@ namespace SchoolSystem.Infrastructure.Migrations
                     { 74, 10, 5.00m }
                 });
 
-            migrationBuilder.InsertData(
-                table: "Teachers",
-                columns: new[] { "Id", "Email", "FullName", "IsClassTeacher", "PhoneNumber", "UserId" },
-                values: new object[,]
-                {
-                    { 1, "t.gerganova@myschool.com", "Tatyana Gerganova", true, "1357924680", "b61c7924-37ca-4ab4-8f0f-dd3ab627a604" },
-                    { 2, "b.lozanova@myschool.com", "Bilyana Lozanova", true, "5738291467", "baeda30d-0480-45e4-8da6-11422ed6864e" },
-                    { 3, "k.kutin@myschool.com", "Krasimira Kutin", false, "6248371095", "5c623621-fd16-4e2b-bee0-cc6ce49fecd9" },
-                    { 4, "t.hristov@myschool.com", "Teodor Hristov", false, "8902145673", "9cb7effc-634c-4bcc-ae5a-7179477dd4bf" },
-                    { 5, "s.gancheva@myschool.com", "Silviya Gancheva", false, "4512067839", "4964917e-5e50-409a-a504-1b739d836177" },
-                    { 6, "c.ambursa@myschool.com", "Cvetomir Ambursa", true, "7263489510", "ac86306c-e76f-455c-a1c0-e2b1d0d094eb" },
-                    { 7, "m.mitkov@myschool.com", "Mitko Mitkov", false, "5031982467", "f921ee68-3d21-4768-859e-1cede594dd6d" },
-                    { 8, "e.stoyanov@myschool.com", "Emil Stoyanov", true, "3156924708", "e462a0b9-0998-4c17-91fa-e93ef6d0d18d" },
-                    { 9, "b.bangeeva@myschool.com", "Borislava Bangeeva", false, "9785402163", "4a6013f9-a0a9-4438-bc5f-2063940da84c" },
-                    { 10, "m.ivanova@myschool.com", "Maria Ivanova", true, "2047856931", "d1c9b4de-eaf0-465d-8c38-17e2c0f0caea" }
-                });
+            
+
 
             migrationBuilder.InsertData(
-                table: "Classes",
-                columns: new[] { "Id", "AverageScore", "Name", "TeacherId" },
+                table: "Parents",
+                columns: new[] { "Id", "ChildId", "FullName", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 0m, "8\"g\"", 8 },
-                    { 2, 0m, "9\"b\"", 2 },
-                    { 3, 0m, "10\"v\"", 1 },
-                    { 4, 0m, "11\"e\"", 6 },
-                    { 5, 0m, "12\"d\"", 10 }
+                    { 1, 1, "Krum Ivanov", "b6f0b26e-4baf-4a7c-bb7d-02e5f3a12a6c" },
+                    { 2, 2, "Veronika Petrova", "87c52768-9d12-46c1-ae72-0dcf9f415f39" },
+                    { 3, 3, "Plamen Dimitrov", "2d8f5db8-876c-4c0a-9c3a-91a4e724cbdd" },
+                    { 4, 4, "Zlatina Georgieva", "f51a7a24-9aa3-4a93-9dd6-8d8e682ef64d" },
+                    { 5, 5, "Radoslav Todorov", "c173c3a5-2bf3-40cd-86bb-27b18a2d3b7a" },
+                    { 6, 6, "Adriana Ivanova", "6d42e1d8-4e45-48b4-ba42-1a7f9c2a4a5c" },
+                    { 7, 7, "Bozhidar Kolev", "a8f87e34-d5ae-4c46-aa1d-2f3cc6e11d2a" },
+                    { 8, 8, "Evelina Vasileva", "3f12d8fb-1251-48f5-b566-8f4ef5b2c5d5" },
+                    { 9, 9, "Stoyan Petrov", "d7cde10b-1785-4e74-92b3-c18c8f3d9e0a" },
+                    { 10, 10, "Tsvetelina Stoyanova", "2f978b4c-4d9c-4ee1-aa1b-bdca0d1f89d6" },
+                    { 11, 11, "Lyuben Marinov", "8270e9b1-2c24-43e1-9f93-22d9923de12c" },
+                    { 12, 12, "Rositsa Petrova", "f05ad822-8530-4f4d-9f43-d8908ee1ad48" },
+                    { 13, 13, "Kaloyan Ivanov", "8e9d7e5c-3429-426e-8bf7-256f874a189a" },
+                    { 14, 14, "Ekaterina Georgieva", "85bb508a-2d95-42d9-aa43-0e4fe33497a0" },
+                    { 15, 15, "Hristo Dimitrov", "b122f303-2d44-4f3d-bdd8-dac3626da548" },
+                    { 16, 16, "Dobrinka Ivanova", "4ce7832b-e2f3-446f-8c63-720db3f89237" },
+                    { 17, 17, "Blagoy Georgiev", "6b86569b-8f22-4a5c-9511-109f06d214a8" },
+                    { 18, 18, "Iskra Koleva", "923f8d7d-c02d-4177-a5f8-6b6975a7119b" },
+                    { 19, 19, "Krasimir Todorov", "a0e8ee4a-4dbb-4a5e-b97f-e35c542b778e" },
+                    { 20, 20, "Gergana Ivanova", "0fe8a18a-0f52-4e41-8d44-292001678e5b" },
+                    { 21, 21, "Vasil Petrov", "95226fbf-1ebd-49c2-aaaf-71788a690ac5" },
+                    { 22, 22, "Nadezhda Dimitrova", "c3d2b72a-bbf1-448f-9d87-ef1dd620e91d" },
+                    { 23, 23, "Todor Georgiev", "3670d992-3c68-43a1-9862-1e14d65f8888" },
+                    { 24, 24, "Radka Ivanova", "04870e99-9ba7-4640-8ef2-01fc2a1190d7" },
+                    { 25, 25, "Hristina Stefanova", "c5422b1e-16ed-4d05-8d45-9202c7d85d77" },
+                    { 26, 26, "Yavor Kolev", "e06a86ef-9ed7-4852-b9e3-0c0c62b741fe" },
+                    { 27, 27, "Kamelia Petrova", "0dbed053-0ea2-43c1-b4b1-99a1d1197084" },
+                    { 28, 28, "Emil Ivanov", "6e3ac05f-09b1-4e65-9ab5-81a0c787e9e3" },
+                    { 29, 29, "Dilyana Aleksandrova", "a7201fc2-3e05-4ad0-a0f3-1f925f05e0b1" },
+                    { 30, 30, "Tsvetan Georgiev", "57e4c1a5-4c76-4cda-98ce-2e2a0a22c764" },
+                    { 31, 31, "Zhivka Ivanova", "87e879c3-5c01-41d1-9e08-0a667172a0c7" },
+                    { 32, 32, "Ivo Dimitrov", "a7f2842b-bfd9-4e04-994a-c5f16bfefc10" },
+                    { 33, 33, "Adriyana Stoyanova", "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1" },
+                    { 34, 34, "Kamen Petrov", "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1" },
+                    { 35, 35, "Kristina Koleva", "2e3c6d85-136f-4878-819b-9f982e6e4ed8" },
+                    { 36, 36, "Yanko Ivanov", "65c645b2-cdf7-45d1-89d1-cd881a36ed98" },
+                    { 37, 37, "Polina Georgieva", "65aa7d12-2f5a-4381-8c69-9b01523cf5e1" }
                 });
 
             migrationBuilder.InsertData(
@@ -1547,87 +1599,43 @@ namespace SchoolSystem.Infrastructure.Migrations
                 columns: new[] { "Id", "ChildId", "FullName", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 1, "Krum Ivanov", "8e23305e-cbcb-49f1-a841-a5dea90e314c" },
-                    { 2, 2, "Veronika Petrova", "fa35e8cf-639b-4b63-8aad-ceba02281ef5" },
-                    { 3, 3, "Plamen Dimitrov", "a841112a-abdb-47f7-abac-9cedbf74b3f5" },
-                    { 4, 4, "Zlatina Georgieva", "300fcdcf-678f-4a07-a6ce-7e3c3d3ee3ff" },
-                    { 5, 5, "Radoslav Todorov", "93543c74-fcc6-4c95-a6b2-14ff57adf31f" },
-                    { 6, 6, "Adriana Ivanova", "01f9e4fd-a867-4259-a3f1-64f2e9c53045" },
-                    { 7, 7, "Bozhidar Kolev", "8abfd104-6fbc-450f-a524-b479a4d3c1e5" },
-                    { 8, 8, "Evelina Vasileva", "08049f66-5769-472e-ac3b-b8371d55f252" },
-                    { 9, 9, "Stoyan Petrov", "9385e4e6-92e7-439b-95fc-64da56bbeadd" },
-                    { 10, 10, "Tsvetelina Stoyanova", "697e5162-1163-49dd-a886-9c1e1474f699" },
-                    { 11, 11, "Lyuben Marinov", "5ef14e95-e8db-4459-b65c-372ac183ca0c" },
-                    { 12, 12, "Rositsa Petrova", "3e213cb8-042c-4400-a367-3a0b256ce1a9" },
-                    { 13, 13, "Kaloyan Ivanov", "0c4d3f35-6907-4994-988e-585ed04f0ada" },
-                    { 14, 14, "Ekaterina Georgieva", "a7376723-4a7e-4f32-8adb-9cf3bc41e92c" },
-                    { 15, 15, "Hristo Dimitrov", "6fe70ade-579e-453b-ad29-97ce16cfd5ea" },
-                    { 16, 16, "Dobrinka Ivanova", "efbe4da6-de14-4a89-9a68-5369f7a5fcee" },
-                    { 17, 17, "Blagoy Georgiev", "4fbc6bd4-2240-431b-b65d-ec9c11765be6" },
-                    { 18, 18, "Iskra Koleva", "c55fc65c-3766-4d14-8d1e-6be5349695fe" },
-                    { 19, 19, "Krasimir Todorov", "0fc4b54f-c891-4470-af34-a64e4a436337" },
-                    { 20, 20, "Gergana Ivanova", "955374c2-2f17-4fec-b2ee-2939069c1ab6" },
-                    { 21, 21, "Vasil Petrov", "6f4a7551-8159-4ac5-93e3-1c8da4a52336" },
-                    { 22, 22, "Nadezhda Dimitrova", "89bd4497-af0e-41db-adb4-6c7771e07483" },
-                    { 23, 23, "Todor Georgiev", "4d097544-a37a-4fbf-bdd4-2060a2d83455" },
-                    { 24, 24, "Radka Ivanova", "18549206-c18f-46fa-9cc7-b4ce8ee970e0" },
-                    { 25, 25, "Hristina Stefanova", "fd8ad51b-68d5-4e59-a2e0-5350304028b5" },
-                    { 26, 26, "Yavor Kolev", "d81b2780-0a3a-4484-b475-bc360ebfe32a" },
-                    { 27, 27, "Kamelia Petrova", "02853895-fad5-4770-8d71-5f471184f1a9" },
-                    { 28, 28, "Emil Ivanov", "5d6ce629-1f5b-48c2-9373-1bae7a393e21" },
-                    { 29, 29, "Dilyana Aleksandrova", "5134d1e7-e99c-4c55-9391-d86b8de419f3" },
-                    { 30, 30, "Tsvetan Georgiev", "11411e9f-d192-416d-8ed8-eddd8e99f831" },
-                    { 31, 31, "Zhivka Ivanova", "3cb3267c-1283-44c1-b9fa-bfa386ce6759" },
-                    { 32, 32, "Ivo Dimitrov", "c7f36ef0-e94d-4060-b3fd-cec5e35eb25a" },
-                    { 33, 33, "Adriyana Stoyanova", "00205b44-e526-42f8-8dd4-9349dd4c969a" },
-                    { 34, 34, "Kamen Petrov", "77a4d59a-6025-4d11-921c-a9d9804ed590" },
-                    { 35, 35, "Kristina Koleva", "3c6cc924-aba3-4ed0-af0f-a0316af4d903" },
-                    { 36, 36, "Yanko Ivanov", "cae1bfe0-d09b-4b05-9866-9d5bb14eb503" },
-                    { 37, 37, "Polina Georgieva", "35509f51-e10f-4842-a783-42fbed5df43d" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Parents",
-                columns: new[] { "Id", "ChildId", "FullName", "UserId" },
-                values: new object[,]
-                {
-                    { 38, 38, "Veselin Vasilev", "ce122240-c80e-4096-a798-3641d62f7665" },
-                    { 39, 39, "Antoniya Petrova", "1f1cde17-e09f-468c-827d-44351fb43198" },
-                    { 40, 40, "Lyubomir Dimitrov", "2426195e-34e3-4898-aa30-6ca909e6f557" },
-                    { 41, 41, "Zornitsa Todorova", "795895f1-afca-451e-964f-67921418dfe7" },
-                    { 42, 42, "Stefan Ivanov", "03d87297-a033-4572-9eef-aa14e373ee9e" },
-                    { 43, 43, "Yoana Georgieva", "e2ff7918-6627-4ccb-a17c-773b1325703b" },
-                    { 44, 44, "Krasimira Petrova", "6c1aa6ad-afdc-4ca3-8288-d99fb04fb98b" },
-                    { 45, 45, "Ivaylo Kolev", "dec23ba6-4202-44f2-961b-24d157354f9b" },
-                    { 46, 46, "Margarita Georgieva", "5f3da2f3-7c8c-4e0e-a840-83edfe42a5bc" },
-                    { 47, 47, "Rumen Ivanov", "efefecd5-69f1-4736-9069-27d2ce308870" },
-                    { 48, 48, "Milena Dimitrova", "cb1336e4-26f8-4942-b351-58621fb8efa1" },
-                    { 49, 49, "Yordan Todorov", "a7448811-fac9-4809-97a0-b839fa24e1a2" },
-                    { 50, 50, "Silviya Petrova", "0809c8ba-ed31-4eba-8cdb-19a6894b2825" },
-                    { 51, 51, "Bogdan Ivanov", "7f9864a1-4fb9-4fab-bd49-dd9ef71a6a28" },
-                    { 52, 52, "Petya Koleva", "26534582-dc6f-4c6b-8d52-af552108b40e" },
-                    { 53, 53, "Asen Marinov", "85596bf9-31d4-483b-b307-987fb2a6f816" },
-                    { 54, 54, "Ralitsa Ivanova", "1cfda4b3-7b1b-4ff9-adb3-ab03571b3546" },
-                    { 55, 55, "Velko Vasilev", "fb33e85e-d87a-4fd9-a0ca-1d87ad814454" },
-                    { 56, 56, "Galya Dimitrova", "3a8ce3e6-910d-4d12-be01-ab7a72f123b6" },
-                    { 57, 57, "Dimitur Ivanov", "939b0c49-f401-4f3a-af01-1769bce731e7" },
-                    { 58, 58, "Nadia Koleva", "be5c3176-fee5-4152-ab6f-df9f4fa4737b" },
-                    { 59, 59, "Yulian Petrov", "91b974e0-33ca-4b39-a54d-2135652bbbeb" },
-                    { 60, 60, "Radostina Georgieva", "af1c710e-0894-4f7a-a159-9fe05d05e091" },
-                    { 61, 61, "Krasim Ivanov", "ccee97e3-b3f7-47a0-a921-0d36842377cc" },
-                    { 62, 62, "Teodora Todorova", "feb1ac9a-ebe6-4c99-9952-c057d071a029" },
-                    { 63, 63, "Kalin Petrov", "29440668-2579-4926-8f23-f17c75587202" },
-                    { 64, 64, "Svetla Dimitrova", "8363b204-6f9f-4ef7-9710-29b00acbe7c6" },
-                    { 65, 65, "Ventsislav Georgiev", "978c1557-e001-4483-b0b0-a04655e188ad" },
-                    { 66, 66, "Vasilena Ivanova", "3978c20e-c38c-41b1-a897-b4daf574b129" },
-                    { 67, 67, "Martin Petrov", "5d7c38ff-25be-4358-ab32-5892a4109cea" },
-                    { 68, 68, "Ralitsa Koleva", "eef803f8-481e-4f00-bf62-44b57cf6f8de" },
-                    { 69, 69, "Stefan Dimitrov", "cca399bf-ff50-4275-a895-2da1dcf505bf" },
-                    { 70, 70, "Snezhana Georgieva", "8a201110-ba34-4df0-a3e8-1b8a51b21602" },
-                    { 71, 71, "Ivaylo Ivanov", "cb0a1730-3076-473d-a3f3-ac6b48fb481e" },
-                    { 72, 72, "Mariana Petrova", "2aff45af-5825-41bd-9d5f-6e2f39901340" },
-                    { 73, 73, "Rosen Kolev", "fb30ccb5-8941-4b1b-ad0a-916f51b1ca7b" },
-                    { 74, 74, "Tanya Stoyanova", "fc49342a-928d-416c-bb8b-5c66049b370d" }
+                    { 38, 38, "Veselin Vasilev", "3f0c19e4-df31-42e7-9421-882128123af3" },
+                    { 39, 39, "Antoniya Petrova", "2ef3d2b3-3d7f-4d52-8a04-5433e1f869ec" },
+                    { 40, 40, "Lyubomir Dimitrov", "b87b71e9-8db3-4f09-b865-5402a08d0b8b" },
+                    { 41, 41, "Zornitsa Todorova", "f75d44bf-9f2d-4d0f-a20a-b28d8eac0d7d" },
+                    { 42, 42, "Stefan Ivanov", "1e1b85b7-6c15-4f2c-b1c4-47ad0c8bf5f9" },
+                    { 43, 43, "Yoana Georgieva", "5a52e138-0a2c-4b1a-8a68-b95de62aa345" },
+                    { 44, 44, "Krasimira Petrova", "b2c8a67c-5a1d-4e23-9c85-0c57454de9ee" },
+                    { 45, 45, "Ivaylo Kolev", "9e3dbbc2-33d7-4c57-a3ee-5b7e19b1c3c2" },
+                    { 46, 46, "Margarita Georgieva", "9b9474b0-06ab-4953-8f23-cff7e88c7a0b" },
+                    { 47, 47, "Rumen Ivanov", "7edf5ac1-2d87-4bf0-b2ed-4d2e4a7b9657" },
+                    { 48, 48, "Milena Dimitrova", "e192e1fe-5680-4ad9-a5e8-4c8328f7840c" },
+                    { 49, 49, "Yordan Todorov", "5d5313c0-7da7-4ac6-aa0d-3e6a51fe09b6" },
+                    { 50, 50, "Silviya Petrova", "31d9f6c5-c9a8-48c8-8b5f-c990d06200ad" },
+                    { 51, 51, "Bogdan Ivanov", "5e61439f-95d5-4e2b-9b0d-91e7c4472e3e" },
+                    { 52, 52, "Petya Koleva", "32d43d0a-632a-48fe-bc8f-68bb3f72f083" },
+                    { 53, 53, "Asen Marinov", "e9f13942-e518-46f3-8b3e-d332b26d18fc" },
+                    { 54, 54, "Ralitsa Ivanova", "5e4bb853-02b0-4e76-b28b-2181be91d1fc" },
+                    { 55, 55, "Velko Vasilev", "2b7e8569-4edf-46d1-8b07-d2a09977e361" },
+                    { 56, 56, "Galya Dimitrova", "b685f57e-87da-4d6f-8d52-1597c109a1f9" },
+                    { 57, 57, "Dimitur Ivanov", "d6ab2e2d-bcc6-4e32-82eb-8c77280d482d" },
+                    { 58, 58, "Nadia Koleva", "30936933-775b-4687-8e1a-5a758bc5ed38" },
+                    { 59, 59, "Yulian Petrov", "8c9965a3-36a4-4a6b-ba5a-7f3a262aa0c3" },
+                    { 60, 60, "Radostina Georgieva", "5dbfbd88-cb21-4784-b7e8-6b0e618ad92b" },
+                    { 61, 61, "Krasim Ivanov", "a4d2bcdc-23da-4395-9b9b-2087cc52bafe" },
+                    { 62, 62, "Teodora Todorova", "23fb4de4-1bf9-4e72-9764-4c2d1f870990" },
+                    { 63, 63, "Kalin Petrov", "6a9e1770-798c-43de-aad7-8d8a6ad5eeab" },
+                    { 64, 64, "Svetla Dimitrova", "41ac68c1-84c8-4a2a-9f69-8571bb50e80a" },
+                    { 65, 65, "Ventsislav Georgiev", "3b3202f3-3f0c-4e15-9eb1-2c49b78aeb3b" },
+                    { 66, 66, "Vasilena Ivanova", "35af9309-d2fb-46a4-84b4-d3dfdaa6b7d3" },
+                    { 67, 67, "Martin Petrov", "4ec6a858-e99e-44a8-822d-5292c378fbb4" },
+                    { 68, 68, "Ralitsa Koleva", "1a36c289-32ed-42d0-8b6b-1f5490ecf0ab" },
+                    { 69, 69, "Stefan Dimitrov", "1b56c7bf-0f4e-4c3d-94db-7e81f4c32ebf" },
+                    { 70, 70, "Snezhana Georgieva", "a22b38b9-85b0-4fe0-9d5c-7e3d9aa55a45" },
+                    { 71, 71, "Ivaylo Ivanov", "11b2f953-01c9-446a-818f-778ce6a1f1a3" },
+                    { 72, 72, "Mariana Petrova", "5a119169-b39a-4e4b-8f7f-3ab86a6cebc4" },
+                    { 73, 73, "Rosen Kolev", "2b7c8f64-17f7-42f5-bb92-84b8f4d35f4f" },
+                    { 74, 74, "Tanya Stoyanova", "6b04a713-c12c-4a0f-aa0b-0eafde1543ac" }
                 });
 
             migrationBuilder.InsertData(
