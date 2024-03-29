@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using SchoolSystem.Infrastructure.Data.IdentiyModels;
 using SchoolSystem.Infrastructure.Data.Models;
 
 namespace SchoolSystem.Infrastructure.Data.SeedDb
@@ -22,34 +23,34 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
         //Teachers
 
         public Teacher TatyanaGerganova { get; set; } = new Teacher();
-        public IdentityUser UserTatyanaGerganova { get; set; } = new IdentityUser();
+        public ApplicationUser UserTatyanaGerganova { get; set; } = new ApplicationUser();
 
         public Teacher BilyanaLozanova { get; set; } = new Teacher();
-        public IdentityUser UserBilyanaLozanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserBilyanaLozanova { get; set; } = new ApplicationUser();
 
         public Teacher KrasimiraKutin { get; set; } = new Teacher();
-        public IdentityUser UserKrasimiraKutin { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrasimiraKutin { get; set; } = new ApplicationUser();
 
         public Teacher TeodorHristov { get; set; } = new Teacher();
-        public IdentityUser UserTeodorHristov { get; set; } = new IdentityUser();
+        public ApplicationUser UserTeodorHristov { get; set; } = new ApplicationUser();
 
         public Teacher SilviyaGancheva { get; set; } = new Teacher();
-        public IdentityUser UserSilviyaGancheva { get; set; } = new IdentityUser();
+        public ApplicationUser UserSilviyaGancheva { get; set; } = new ApplicationUser();
 
         public Teacher CvetomirAmbursa { get; set; } = new Teacher();
-        public IdentityUser UserCvetomirAmbursa { get; set; } = new IdentityUser();
+        public ApplicationUser UserCvetomirAmbursa { get; set; } = new ApplicationUser();
 
         public Teacher MitkoMitkov { get; set; } = new Teacher();
-        public IdentityUser UserMitkoMitkov { get; set; } = new IdentityUser();
+        public ApplicationUser UserMitkoMitkov { get; set; } = new ApplicationUser();
 
         public Teacher EmilStoyanov { get; set; } = new Teacher();
-        public IdentityUser UserEmilStoyanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserEmilStoyanov { get; set; } = new ApplicationUser();
 
         public Teacher BorislavaBangeeva { get; set; } = new Teacher();
-        public IdentityUser UserBorislavaBangeeva { get; set; } = new IdentityUser();
+        public ApplicationUser UserBorislavaBangeeva { get; set; } = new ApplicationUser();
 
         public Teacher MariaIvanova { get; set; } = new Teacher();
-        public IdentityUser UserMariaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMariaIvanova { get; set; } = new ApplicationUser();
 
 
         //Classes
@@ -64,464 +65,464 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
         //Principals
 
         public Principal RadostinaMekova { get; set; } = new Principal();
-        public IdentityUser UserRadostinaMekova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadostinaMekova { get; set; } = new ApplicationUser();
 
         public Principal ValentinaStoeva { get; set; } = new Principal();
-        public IdentityUser UserValentinaStoeva { get; set; } = new IdentityUser();
+        public ApplicationUser UserValentinaStoeva { get; set; } = new ApplicationUser();
 
         public Principal YulianaPetkova { get; set; } = new Principal();
-        public IdentityUser UserYulianaPetkova { get; set; } = new IdentityUser();
+        public ApplicationUser UserYulianaPetkova { get; set; } = new ApplicationUser();
 
 
         //Parents
 
         public Parent KrumIvanov { get; set; } = new Parent();
-        public IdentityUser UserKrumIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrumIvanov { get; set; } = new ApplicationUser();
 
         public Parent VeronikaPetrova { get; set; } = new Parent();
-        public IdentityUser UserVeronikaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserVeronikaPetrova { get; set; } = new ApplicationUser();
 
         public Parent PlamenDimitrov { get; set; } = new Parent();
-        public IdentityUser UserPlamenDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserPlamenDimitrov { get; set; } = new ApplicationUser();
 
         public Parent ZlatinaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserZlatinaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserZlatinaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent RadoslavTodorov { get; set; } = new Parent();
-        public IdentityUser UserRadoslavTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadoslavTodorov { get; set; } = new ApplicationUser();
 
         public Parent AdrianaIvanova { get; set; } = new Parent();
-        public IdentityUser UserAdrianaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserAdrianaIvanova { get; set; } = new ApplicationUser();
 
         public Parent BozhidarKolev { get; set; } = new Parent();
-        public IdentityUser UserBozhidarKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserBozhidarKolev { get; set; } = new ApplicationUser();
 
         public Parent EvelinaVasileva { get; set; } = new Parent();
-        public IdentityUser UserEvelinaVasileva { get; set; } = new IdentityUser();
+        public ApplicationUser UserEvelinaVasileva { get; set; } = new ApplicationUser();
 
         public Parent StoyanPetrov { get; set; } = new Parent();
-        public IdentityUser UserStoyanPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserStoyanPetrov { get; set; } = new ApplicationUser();
 
         public Parent TsvetelinaStoyanova { get; set; } = new Parent();
-        public IdentityUser UserTsvetelinaStoyanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserTsvetelinaStoyanova { get; set; } = new ApplicationUser();
 
         public Parent LyubenMarinov { get; set; } = new Parent();
-        public IdentityUser UserLyubenMarinov { get; set; } = new IdentityUser();
+        public ApplicationUser UserLyubenMarinov { get; set; } = new ApplicationUser();
 
         public Parent RositsaPetrova { get; set; } = new Parent();
-        public IdentityUser UserRositsaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRositsaPetrova { get; set; } = new ApplicationUser();
 
         public Parent KaloyanIvanov { get; set; } = new Parent();
-        public IdentityUser UserKaloyanIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKaloyanIvanov { get; set; } = new ApplicationUser();
 
         public Parent EkaterinaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserEkaterinaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserEkaterinaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent HristoDimitrov { get; set; } = new Parent();
-        public IdentityUser UserHristoDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserHristoDimitrov { get; set; } = new ApplicationUser();
 
         public Parent DobrinkaIvanova { get; set; } = new Parent();
-        public IdentityUser UserDobrinkaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserDobrinkaIvanova { get; set; } = new ApplicationUser();
 
         public Parent BlagoyGeorgiev { get; set; } = new Parent();
-        public IdentityUser UserBlagoyGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserBlagoyGeorgiev { get; set; } = new ApplicationUser();
 
         public Parent IskraKoleva { get; set; } = new Parent();
-        public IdentityUser UserIskraKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserIskraKoleva { get; set; } = new ApplicationUser();
 
         public Parent KrasimirTodorov { get; set; } = new Parent();
-        public IdentityUser UserKrasimirTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrasimirTodorov { get; set; } = new ApplicationUser();
 
         public Parent GerganaIvanova { get; set; } = new Parent();
-        public IdentityUser UserGerganaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserGerganaIvanova { get; set; } = new ApplicationUser();
 
         public Parent VasilPetrov { get; set; } = new Parent();
-        public IdentityUser UserVasilPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserVasilPetrov { get; set; } = new ApplicationUser();
 
         public Parent NadezhdaDimitrova { get; set; } = new Parent();
-        public IdentityUser UserNadezhdaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserNadezhdaDimitrova { get; set; } = new ApplicationUser();
 
         public Parent TodorGeorgiev { get; set; } = new Parent();
-        public IdentityUser UserTodorGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserTodorGeorgiev { get; set; } = new ApplicationUser();
 
         public Parent RadkaIvanova { get; set; } = new Parent();
-        public IdentityUser UserRadkaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadkaIvanova { get; set; } = new ApplicationUser();
 
         public Parent HristinaStefanova { get; set; } = new Parent();
-        public IdentityUser UserHristinaStefanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserHristinaStefanova { get; set; } = new ApplicationUser();
 
         public Parent YavorKolev { get; set; } = new Parent();
-        public IdentityUser UserYavorKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserYavorKolev { get; set; } = new ApplicationUser();
 
         public Parent KameliaPetrova { get; set; } = new Parent();
-        public IdentityUser UserKameliaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserKameliaPetrova { get; set; } = new ApplicationUser();
 
         public Parent EmilIvanov { get; set; } = new Parent();
-        public IdentityUser UserEmilIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserEmilIvanov { get; set; } = new ApplicationUser();
 
         public Parent DilyanaAleksandrova { get; set; } = new Parent();
-        public IdentityUser UserDilyanaAleksandrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserDilyanaAleksandrova { get; set; } = new ApplicationUser();
 
         public Parent TsvetanGeorgiev { get; set; } = new Parent();
-        public IdentityUser UserTsvetanGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserTsvetanGeorgiev { get; set; } = new ApplicationUser();
 
         public Parent ZhivkaIvanova { get; set; } = new Parent();
-        public IdentityUser UserZhivkaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserZhivkaIvanova { get; set; } = new ApplicationUser();
 
         public Parent IvoDimitrov { get; set; } = new Parent();
-        public IdentityUser UserIvoDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvoDimitrov { get; set; } = new ApplicationUser();
 
         public Parent AdriyanaStoyanova { get; set; } = new Parent();
-        public IdentityUser UserAdriyanaStoyanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserAdriyanaStoyanova { get; set; } = new ApplicationUser();
 
         public Parent KamenPetrov { get; set; } = new Parent();
-        public IdentityUser UserKamenPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKamenPetrov { get; set; } = new ApplicationUser();
 
         public Parent KristinaKoleva { get; set; } = new Parent();
-        public IdentityUser UserKristinaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserKristinaKoleva { get; set; } = new ApplicationUser();
 
         public Parent YankoIvanov { get; set; } = new Parent();
-        public IdentityUser UserYankoIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserYankoIvanov { get; set; } = new ApplicationUser();
 
         public Parent PolinaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserPolinaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserPolinaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent VeselinVasilev { get; set; } = new Parent();
-        public IdentityUser UserVeselinVasilev { get; set; } = new IdentityUser();
+        public ApplicationUser UserVeselinVasilev { get; set; } = new ApplicationUser();
 
         public Parent AntoniyaPetrova { get; set; } = new Parent();
-        public IdentityUser UserAntoniyaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserAntoniyaPetrova { get; set; } = new ApplicationUser();
 
         public Parent LyubomirDimitrov { get; set; } = new Parent();
-        public IdentityUser UserLyubomirDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserLyubomirDimitrov { get; set; } = new ApplicationUser();
 
         public Parent ZornitsaTodorova { get; set; } = new Parent();
-        public IdentityUser UserZornitsaTodorova { get; set; } = new IdentityUser();
+        public ApplicationUser UserZornitsaTodorova { get; set; } = new ApplicationUser();
 
         public Parent StefanIvanov { get; set; } = new Parent();
-        public IdentityUser UserStefanIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserStefanIvanov { get; set; } = new ApplicationUser();
 
         public Parent YoanaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserYoanaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserYoanaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent KrasimiraPetrova { get; set; } = new Parent();
-        public IdentityUser UserKrasimiraPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrasimiraPetrova { get; set; } = new ApplicationUser();
 
         public Parent IvayloKolev { get; set; } = new Parent();
-        public IdentityUser UserIvayloKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvayloKolev { get; set; } = new ApplicationUser();
 
         public Parent MargaritaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserMargaritaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserMargaritaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent RumenIvanov { get; set; } = new Parent();
-        public IdentityUser UserRumenIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserRumenIvanov { get; set; } = new ApplicationUser();
 
         public Parent MilenaDimitrova { get; set; } = new Parent();
-        public IdentityUser UserMilenaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMilenaDimitrova { get; set; } = new ApplicationUser();
 
         public Parent YordanTodorov { get; set; } = new Parent();
-        public IdentityUser UserYordanTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserYordanTodorov { get; set; } = new ApplicationUser();
 
         public Parent SilviyaPetrova { get; set; } = new Parent();
-        public IdentityUser UserSilviyaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserSilviyaPetrova { get; set; } = new ApplicationUser();
 
         public Parent BogdanIvanov { get; set; } = new Parent();
-        public IdentityUser UserBogdanIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserBogdanIvanov { get; set; } = new ApplicationUser();
 
         public Parent PetyaKoleva { get; set; } = new Parent();
-        public IdentityUser UserPetyaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserPetyaKoleva { get; set; } = new ApplicationUser();
 
         public Parent AsenMarinov { get; set; } = new Parent();
-        public IdentityUser UserAsenMarinov { get; set; } = new IdentityUser();
+        public ApplicationUser UserAsenMarinov { get; set; } = new ApplicationUser();
 
         public Parent RalitsaIvanova { get; set; } = new Parent();
-        public IdentityUser UserRalitsaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRalitsaIvanova { get; set; } = new ApplicationUser();
 
         public Parent VelkoVasilev { get; set; } = new Parent();
-        public IdentityUser UserVelkoVasilev { get; set; } = new IdentityUser();
+        public ApplicationUser UserVelkoVasilev { get; set; } = new ApplicationUser();
 
         public Parent GalyaDimitrova { get; set; } = new Parent();
-        public IdentityUser UserGalyaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserGalyaDimitrova { get; set; } = new ApplicationUser();
 
         public Parent DimiturIvanov { get; set; } = new Parent();
-        public IdentityUser UserDimiturIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserDimiturIvanov { get; set; } = new ApplicationUser();
 
         public Parent NadiaKoleva { get; set; } = new Parent();
-        public IdentityUser UserNadiaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserNadiaKoleva { get; set; } = new ApplicationUser();
 
         public Parent YulianPetrov { get; set; } = new Parent();
-        public IdentityUser UserYulianPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserYulianPetrov { get; set; } = new ApplicationUser();
 
         public Parent RadostinaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserRadostinaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadostinaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent KrasimIvanov { get; set; } = new Parent();
-        public IdentityUser UserKrasimIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrasimIvanov { get; set; } = new ApplicationUser();
 
         public Parent TeodoraTodorova { get; set; } = new Parent();
-        public IdentityUser UserTeodoraTodorova { get; set; } = new IdentityUser();
+        public ApplicationUser UserTeodoraTodorova { get; set; } = new ApplicationUser();
 
         public Parent KalinPetrov { get; set; } = new Parent();
-        public IdentityUser UserKalinPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKalinPetrov { get; set; } = new ApplicationUser();
 
         public Parent SvetlaDimitrova { get; set; } = new Parent();
-        public IdentityUser UserSvetlaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserSvetlaDimitrova { get; set; } = new ApplicationUser();
 
         public Parent VentsislavGeorgiev { get; set; } = new Parent();
-        public IdentityUser UserVentsislavGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserVentsislavGeorgiev { get; set; } = new ApplicationUser();
 
         public Parent VasilenaIvanova { get; set; } = new Parent();
-        public IdentityUser UserVasilenaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserVasilenaIvanova { get; set; } = new ApplicationUser();
 
         public Parent MartinPetrov { get; set; } = new Parent();
-        public IdentityUser UserMartinPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserMartinPetrov { get; set; } = new ApplicationUser();
 
         public Parent RalitsaKoleva { get; set; } = new Parent();
-        public IdentityUser UserRalitsaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserRalitsaKoleva { get; set; } = new ApplicationUser();
 
         public Parent StefanDimitrov { get; set; } = new Parent();
-        public IdentityUser UserStefanDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserStefanDimitrov { get; set; } = new ApplicationUser();
 
         public Parent SnezhanaGeorgieva { get; set; } = new Parent();
-        public IdentityUser UserSnezhanaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserSnezhanaGeorgieva { get; set; } = new ApplicationUser();
 
         public Parent IvayloIvanov { get; set; } = new Parent();
-        public IdentityUser UserIvayloIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvayloIvanov { get; set; } = new ApplicationUser();
 
         public Parent MarianaPetrova { get; set; } = new Parent();
-        public IdentityUser UserMarianaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMarianaPetrova { get; set; } = new ApplicationUser();
 
         public Parent RosenKolev { get; set; } = new Parent();
-        public IdentityUser UserRosenKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserRosenKolev { get; set; } = new ApplicationUser();
 
         public Parent TanyaStoyanova { get; set; } = new Parent();
-        public IdentityUser UserTanyaStoyanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserTanyaStoyanova { get; set; } = new ApplicationUser();
 
 
 
         //Students
 
         public Student DimitarIvanov { get; set; } = new Student();
-        public IdentityUser UserDimitarIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserDimitarIvanov { get; set; } = new ApplicationUser();
 
         public Student ElenaPetrova { get; set; } = new Student();
-        public IdentityUser UserElenaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserElenaPetrova { get; set; } = new ApplicationUser();
 
         public Student StefchoDimitrov { get; set; } = new Student();
-        public IdentityUser UserStefchoDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserStefchoDimitrov { get; set; } = new ApplicationUser();
 
         public Student MilenaGeorgieva { get; set; } = new Student();
-        public IdentityUser UserMilenaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserMilenaGeorgieva { get; set; } = new ApplicationUser();
 
         public Student AleksandarTodorov { get; set; } = new Student();
-        public IdentityUser UserAleksandarTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserAleksandarTodorov { get; set; } = new ApplicationUser();
 
         public Student ViktoriaIvanova { get; set; } = new Student();
-        public IdentityUser UserViktoriaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserViktoriaIvanova { get; set; } = new ApplicationUser();
 
         public Student NikolayKolev { get; set; } = new Student();
-        public IdentityUser UserNikolayKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserNikolayKolev { get; set; } = new ApplicationUser();
 
         public Student MariaVasileva { get; set; } = new Student();
-        public IdentityUser UserMariaVasileva { get; set; } = new IdentityUser();
+        public ApplicationUser UserMariaVasileva { get; set; } = new ApplicationUser();
 
         public Student IvayloPetrov { get; set; } = new Student();
-        public IdentityUser UserIvayloPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvayloPetrov { get; set; } = new ApplicationUser();
 
         public Student GabrielaStoyanova { get; set; } = new Student();
-        public IdentityUser UserGabrielaStoyanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserGabrielaStoyanova { get; set; } = new ApplicationUser();
 
         public Student GeorgiMarinov { get; set; } = new Student();
-        public IdentityUser UserGeorgiMarinov { get; set; } = new IdentityUser();
+        public ApplicationUser UserGeorgiMarinov { get; set; } = new ApplicationUser();
 
         public Student KristinaPetrova { get; set; } = new Student();
-        public IdentityUser UserKristinaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserKristinaPetrova { get; set; } = new ApplicationUser();
 
         public Student RumchoIvanov { get; set; } = new Student();
-        public IdentityUser UserRumchoIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserRumchoIvanov { get; set; } = new ApplicationUser();
 
         public Student EmiliaGeorgieva { get; set; } = new Student();
-        public IdentityUser UserEmiliaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserEmiliaGeorgieva { get; set; } = new ApplicationUser();
 
         public Student KrasimirDimitrov { get; set; } = new Student();
-        public IdentityUser UserKrasimirDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKrasimirDimitrov { get; set; } = new ApplicationUser();
 
         public Student SilviyaIvanova { get; set; } = new Student();
-        public IdentityUser UserSilviyaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserSilviyaIvanova { get; set; } = new ApplicationUser();
 
         public Student AsenGeorgiev { get; set; } = new Student();
-        public IdentityUser UserAsenGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserAsenGeorgiev { get; set; } = new ApplicationUser();
 
         public Student ElenaKoleva { get; set; } = new Student();
-        public IdentityUser UserElenaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserElenaKoleva { get; set; } = new ApplicationUser();
 
         public Student StanimirTodorov { get; set; } = new Student();
-        public IdentityUser UserStanimirTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserStanimirTodorov { get; set; } = new ApplicationUser();
 
         public Student MagdalenaIvanova { get; set; } = new Student();
-        public IdentityUser UserMagdalenaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMagdalenaIvanova { get; set; } = new ApplicationUser();
 
         public Student HristoPetrov { get; set; } = new Student();
-        public IdentityUser UserHristoPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserHristoPetrov { get; set; } = new ApplicationUser();
 
         public Student KalinaDimitrova { get; set; } = new Student();
-        public IdentityUser UserKalinaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserKalinaDimitrova { get; set; } = new ApplicationUser();
 
         public Student TsvetanchoGeorgiev { get; set; } = new Student();
-        public IdentityUser UserTsvetanchoGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserTsvetanchoGeorgiev { get; set; } = new ApplicationUser();
 
         public Student NadezhdaIvanova { get; set; } = new Student();
-        public IdentityUser UserNadezhdaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserNadezhdaIvanova { get; set; } = new ApplicationUser();
 
         public Student BorisStefanov { get; set; } = new Student();
-        public IdentityUser UserBorisStefanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserBorisStefanov { get; set; } = new ApplicationUser();
 
         public Student AneliyaKoleva { get; set; } = new Student();
-        public IdentityUser UserAneliyaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserAneliyaKoleva { get; set; } = new ApplicationUser();
 
         public Student RosenPetrov { get; set; } = new Student();
-        public IdentityUser UserRosenPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserRosenPetrov { get; set; } = new ApplicationUser();
 
         public Student RadostinaIvanova { get; set; } = new Student();
-        public IdentityUser UserRadostinaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadostinaIvanova { get; set; } = new ApplicationUser();
 
         public Student VasilAleksandrov { get; set; } = new Student();
-        public IdentityUser UserVasilAleksandrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserVasilAleksandrov { get; set; } = new ApplicationUser();
 
         public Student RositsaGeorgieva { get; set; } = new Student();
-        public IdentityUser UserRositsaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserRositsaGeorgieva { get; set; } = new ApplicationUser();
 
         public Student PlamenIvanov { get; set; } = new Student();
-        public IdentityUser UserPlamenIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserPlamenIvanov { get; set; } = new ApplicationUser();
 
         public Student ValentinaDimitrova { get; set; } = new Student();
-        public IdentityUser UserValentinaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserValentinaDimitrova { get; set; } = new ApplicationUser();
 
         public Student IvoStoyanov { get; set; } = new Student();
-        public IdentityUser UserIvoStoyanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvoStoyanov { get; set; } = new ApplicationUser();
 
         public Student StefaniyaPetrova { get; set; } = new Student();
-        public IdentityUser UserStefaniyaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserStefaniyaPetrova { get; set; } = new ApplicationUser();
 
         public Student MartinKolev { get; set; } = new Student();
-        public IdentityUser UserMartinKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserMartinKolev { get; set; } = new ApplicationUser();
 
         public Student SonyaIvanova { get; set; } = new Student();
-        public IdentityUser UserSonyaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserSonyaIvanova { get; set; } = new ApplicationUser();
 
         public Student LyubomirGeorgiev { get; set; } = new Student();
-        public IdentityUser UserLyubomirGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserLyubomirGeorgiev { get; set; } = new ApplicationUser();
 
         public Student NataliyaVasileva { get; set; } = new Student();
-        public IdentityUser UserNataliyaVasileva { get; set; } = new IdentityUser();
+        public ApplicationUser UserNataliyaVasileva { get; set; } = new ApplicationUser();
 
         public Student PetarPetrov { get; set; } = new Student();
-        public IdentityUser UserPetarPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserPetarPetrov { get; set; } = new ApplicationUser();
 
         public Student GerganaDimitrova { get; set; } = new Student();
-        public IdentityUser UserGerganaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserGerganaDimitrova { get; set; } = new ApplicationUser();
 
         public Student LyubomiraTodorova { get; set; } = new Student();
-        public IdentityUser UserLyubomiraTodorova { get; set; } = new IdentityUser();
+        public ApplicationUser UserLyubomiraTodorova { get; set; } = new ApplicationUser();
 
         public Student AntonIvanov { get; set; } = new Student();
-        public IdentityUser UserAntonIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserAntonIvanov { get; set; } = new ApplicationUser();
 
         public Student TanyaGeorgieva { get; set; } = new Student();
-        public IdentityUser UserTanyaGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserTanyaGeorgieva { get; set; } = new ApplicationUser();
 
         public Student KamenchoPetrov { get; set; } = new Student();
-        public IdentityUser UserKamenchoPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKamenchoPetrov { get; set; } = new ApplicationUser();
 
         public Student VanyaKoleva { get; set; } = new Student();
-        public IdentityUser UserVanyaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserVanyaKoleva { get; set; } = new ApplicationUser();
 
         public Student RadoslavGeorgiev { get; set; } = new Student();
-        public IdentityUser UserRadoslavGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadoslavGeorgiev { get; set; } = new ApplicationUser();
 
         public Student VasilenkaIvanova { get; set; } = new Student();
-        public IdentityUser UserVasilenkaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserVasilenkaIvanova { get; set; } = new ApplicationUser();
 
         public Student KirilDimitrov { get; set; } = new Student();
-        public IdentityUser UserKirilDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKirilDimitrov { get; set; } = new ApplicationUser();
 
         public Student KameliyaTodorova { get; set; } = new Student();
-        public IdentityUser UserKameliyaTodorova { get; set; } = new IdentityUser();
+        public ApplicationUser UserKameliyaTodorova { get; set; } = new ApplicationUser();
 
         public Student IliyaPetrov { get; set; } = new Student();
-        public IdentityUser UserIliyaPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserIliyaPetrov { get; set; } = new ApplicationUser();
 
         public Student DilyanaIvanova { get; set; } = new Student();
-        public IdentityUser UserDilyanaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserDilyanaIvanova { get; set; } = new ApplicationUser();
 
         public Student BogdanKolev { get; set; } = new Student();
-        public IdentityUser UserBogdanKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserBogdanKolev { get; set; } = new ApplicationUser();
 
         public Student DanielaMarinova { get; set; } = new Student();
-        public IdentityUser UserDanielaMarinova { get; set; } = new IdentityUser();
+        public ApplicationUser UserDanielaMarinova { get; set; } = new ApplicationUser();
 
         public Student HristiyanIvanov { get; set; } = new Student();
-        public IdentityUser UserHristiyanIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserHristiyanIvanov { get; set; } = new ApplicationUser();
 
         public Student TeodoraVasileva { get; set; } = new Student();
-        public IdentityUser UserTeodoraVasileva { get; set; } = new IdentityUser();
+        public ApplicationUser UserTeodoraVasileva { get; set; } = new ApplicationUser();
 
         public Student DesislavDimitrov { get; set; } = new Student();
-        public IdentityUser UserDesislavDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserDesislavDimitrov { get; set; } = new ApplicationUser();
 
         public Student GalyaIvanova { get; set; } = new Student();
-        public IdentityUser UserGalyaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserGalyaIvanova { get; set; } = new ApplicationUser();
 
         public Student IvanKolev { get; set; } = new Student();
-        public IdentityUser UserIvanKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserIvanKolev { get; set; } = new ApplicationUser();
 
         public Student MariyaPetrova { get; set; } = new Student();
-        public IdentityUser UserMariyaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMariyaPetrova { get; set; } = new ApplicationUser();
 
         public Student SimeonGeorgiev { get; set; } = new Student();
-        public IdentityUser UserSimeonGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserSimeonGeorgiev { get; set; } = new ApplicationUser();
 
         public Student MagdalinaIvanova { get; set; } = new Student();
-        public IdentityUser UserMagdalinaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMagdalinaIvanova { get; set; } = new ApplicationUser();
 
         public Student EmilTodorov { get; set; } = new Student();
-        public IdentityUser UserEmilTodorov { get; set; } = new IdentityUser();
+        public ApplicationUser UserEmilTodorov { get; set; } = new ApplicationUser();
 
         public Student KalinchoPetrov { get; set; } = new Student();
-        public IdentityUser UserKalinchoPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserKalinchoPetrov { get; set; } = new ApplicationUser();
 
         public Student RalitsaDimitrova { get; set; } = new Student();
-        public IdentityUser UserRalitsaDimitrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRalitsaDimitrova { get; set; } = new ApplicationUser();
 
         public Student YordanGeorgiev { get; set; } = new Student();
-        public IdentityUser UserYordanGeorgiev { get; set; } = new IdentityUser();
+        public ApplicationUser UserYordanGeorgiev { get; set; } = new ApplicationUser();
 
         public Student RadinkaIvanova { get; set; } = new Student();
-        public IdentityUser UserRadinkaIvanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserRadinkaIvanova { get; set; } = new ApplicationUser();
 
         public Student VentsislavPetrov { get; set; } = new Student();
-        public IdentityUser UserVentsislavPetrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserVentsislavPetrov { get; set; } = new ApplicationUser();
 
         public Student DarinaKoleva { get; set; } = new Student();
-        public IdentityUser UserDarinaKoleva { get; set; } = new IdentityUser();
+        public ApplicationUser UserDarinaKoleva { get; set; } = new ApplicationUser();
 
         public Student BozhidarDimitrov { get; set; } = new Student();
-        public IdentityUser UserBozhidarDimitrov { get; set; } = new IdentityUser();
+        public ApplicationUser UserBozhidarDimitrov { get; set; } = new ApplicationUser();
 
         public Student NeliGeorgieva { get; set; } = new Student();
-        public IdentityUser UserNeliGeorgieva { get; set; } = new IdentityUser();
+        public ApplicationUser UserNeliGeorgieva { get; set; } = new ApplicationUser();
 
         public Student YavorIvanov { get; set; } = new Student();
-        public IdentityUser UserYavorIvanov { get; set; } = new IdentityUser();
+        public ApplicationUser UserYavorIvanov { get; set; } = new ApplicationUser();
 
         public Student MilitsaPetrova { get; set; } = new Student();
-        public IdentityUser UserMilitsaPetrova { get; set; } = new IdentityUser();
+        public ApplicationUser UserMilitsaPetrova { get; set; } = new ApplicationUser();
 
         public Student ZdravkoKolev { get; set; } = new Student();
-        public IdentityUser UserZdravkoKolev { get; set; } = new IdentityUser();
+        public ApplicationUser UserZdravkoKolev { get; set; } = new ApplicationUser();
 
         public Student ElenaStoyanova { get; set; } = new Student();
-        public IdentityUser UserElenaStoyanova { get; set; } = new IdentityUser();
+        public ApplicationUser UserElenaStoyanova { get; set; } = new ApplicationUser();
 
 
 
@@ -1435,7 +1436,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
 
             //Teachers
 
-            UserTatyanaGerganova = new IdentityUser()
+            UserTatyanaGerganova = new ApplicationUser()
             {
                 Id = "bfb57c7b-4d3d-44e5-8e4f-bf68bfdb542d",
                 UserName = TatyanaGerganova.Email,
@@ -1445,7 +1446,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTatyanaGerganova.PasswordHash = hasher.HashPassword(UserTatyanaGerganova, "TatyanaGerganova123");
 
-            UserBilyanaLozanova = new IdentityUser()
+            UserBilyanaLozanova = new ApplicationUser()
             {
                 Id = "4f2d3e6a-8ef0-4e6b-80c2-9b487bbba2dd",
                 UserName = BilyanaLozanova.Email,
@@ -1455,7 +1456,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBilyanaLozanova.PasswordHash = hasher.HashPassword(UserBilyanaLozanova, "BilyanaLozanova123");
 
-            UserKrasimiraKutin = new IdentityUser()
+            UserKrasimiraKutin = new ApplicationUser()
             {
                 Id = "f09a28d8-2ad2-465e-8ab6-7b4bd4a82ec6",
                 UserName = KrasimiraKutin.Email,
@@ -1465,7 +1466,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrasimiraKutin.PasswordHash = hasher.HashPassword(UserKrasimiraKutin, "KrasimiraKutin123");
 
-            UserTeodorHristov = new IdentityUser()
+            UserTeodorHristov = new ApplicationUser()
             {
                 Id = "8a7389a7-17c1-4f0a-96e9-0929cfa1c9b1",
                 UserName = TeodorHristov.Email,
@@ -1475,7 +1476,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTeodorHristov.PasswordHash = hasher.HashPassword(UserTeodorHristov, "TeodorHristov123");
 
-            UserSilviyaGancheva = new IdentityUser()
+            UserSilviyaGancheva = new ApplicationUser()
             {
                 Id = "7a68960f-439a-42ab-9a4c-10720fd21c95",
                 UserName = SilviyaGancheva.Email,
@@ -1485,7 +1486,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSilviyaGancheva.PasswordHash = hasher.HashPassword(UserSilviyaGancheva, "SilviyaGancheva123");
 
-            UserCvetomirAmbursa = new IdentityUser()
+            UserCvetomirAmbursa = new ApplicationUser()
             {
                 Id = "c3926be0-cc65-4a5d-92c7-4c8917d390bf",
                 UserName = CvetomirAmbursa.Email,
@@ -1495,7 +1496,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserCvetomirAmbursa.PasswordHash = hasher.HashPassword(UserCvetomirAmbursa, "CvetomirAmbursa123");
 
-            UserMitkoMitkov = new IdentityUser()
+            UserMitkoMitkov = new ApplicationUser()
             {
                 Id = "a15da546-3bc8-4ee7-90cd-172a2180f220",
                 UserName = MitkoMitkov.Email,
@@ -1505,7 +1506,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMitkoMitkov.PasswordHash = hasher.HashPassword(UserMitkoMitkov, "MitkoMitkov123");
 
-            UserEmilStoyanov = new IdentityUser()
+            UserEmilStoyanov = new ApplicationUser()
             {
                 Id = "d3a9008b-85c3-4a1a-8f57-36ad03b32a72",
                 UserName = EmilStoyanov.Email,
@@ -1515,7 +1516,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEmilStoyanov.PasswordHash = hasher.HashPassword(UserEmilStoyanov, "EmilStoyanov123");
 
-            UserBorislavaBangeeva = new IdentityUser()
+            UserBorislavaBangeeva = new ApplicationUser()
             {
                 Id = "2db4cc9f-8d87-4e13-97f0-8eb8b7ea00e7",
                 UserName = BorislavaBangeeva.Email,
@@ -1525,7 +1526,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBorislavaBangeeva.PasswordHash = hasher.HashPassword(UserBorislavaBangeeva, "BorislavaBangeeva123");
 
-            UserMariaIvanova = new IdentityUser()
+            UserMariaIvanova = new ApplicationUser()
             {
                 Id = "0c2174fe-5bfc-4842-9cb3-882a35a09902",
                 UserName = MariaIvanova.Email,
@@ -1538,7 +1539,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
 
             //Principals
 
-            UserRadostinaMekova = new IdentityUser()
+            UserRadostinaMekova = new ApplicationUser()
             {
                 Id = "5a11fb1d-76ee-4c9a-8a9e-2534297cf94e",
                 UserName = RadostinaMekova.Email,
@@ -1548,7 +1549,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadostinaMekova.PasswordHash = hasher.HashPassword(UserRadostinaMekova, "RadostinaMekova123");
 
-            UserValentinaStoeva = new IdentityUser()
+            UserValentinaStoeva = new ApplicationUser()
             {
                 Id = "7d4e1b42-7463-4bcf-9d0f-eeb02a87d0c5",
                 UserName = ValentinaStoeva.Email,
@@ -1558,7 +1559,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserValentinaStoeva.PasswordHash = hasher.HashPassword(UserValentinaStoeva, "ValentinaStoeva123");
 
-            UserYulianaPetkova = new IdentityUser()
+            UserYulianaPetkova = new ApplicationUser()
             {
                 Id = "fbb84d19-1715-4d08-87bb-c87966c442b8",
                 UserName = YulianaPetkova.Email,
@@ -1571,7 +1572,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
 
             //Parents
 
-            UserKrumIvanov = new IdentityUser()
+            UserKrumIvanov = new ApplicationUser()
             {
                 Id = "b6f0b26e-4baf-4a7c-bb7d-02e5f3a12a6c",
                 UserName = "krumivanov",
@@ -1581,7 +1582,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrumIvanov.PasswordHash = hasher.HashPassword(UserKrumIvanov, "krumivanov123");
 
-            UserVeronikaPetrova = new IdentityUser()
+            UserVeronikaPetrova = new ApplicationUser()
             {
                 Id = "87c52768-9d12-46c1-ae72-0dcf9f415f39",
                 UserName = "veronikapetrova",
@@ -1591,7 +1592,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVeronikaPetrova.PasswordHash = hasher.HashPassword(UserVeronikaPetrova, "veronikapetrova123");
 
-            UserPlamenDimitrov = new IdentityUser()
+            UserPlamenDimitrov = new ApplicationUser()
             {
                 Id = "2d8f5db8-876c-4c0a-9c3a-91a4e724cbdd",
                 UserName = "plamendimitrov",
@@ -1601,7 +1602,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserPlamenDimitrov.PasswordHash = hasher.HashPassword(UserPlamenDimitrov, "plamendimitrov123");
 
-            UserZlatinaGeorgieva = new IdentityUser()
+            UserZlatinaGeorgieva = new ApplicationUser()
             {
                 Id = "f51a7a24-9aa3-4a93-9dd6-8d8e682ef64d",
                 UserName = "zlatinageorieva",
@@ -1611,7 +1612,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserZlatinaGeorgieva.PasswordHash = hasher.HashPassword(UserZlatinaGeorgieva, "zlatinageorgieva123");
 
-            UserRadoslavTodorov = new IdentityUser()
+            UserRadoslavTodorov = new ApplicationUser()
             {
                 Id = "c173c3a5-2bf3-40cd-86bb-27b18a2d3b7a",
                 UserName = "radoslavtodorov",
@@ -1621,7 +1622,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadoslavTodorov.PasswordHash = hasher.HashPassword(UserRadoslavTodorov, "radoslavtodorov123");
 
-            UserAdrianaIvanova = new IdentityUser()
+            UserAdrianaIvanova = new ApplicationUser()
             {
                 Id = "6d42e1d8-4e45-48b4-ba42-1a7f9c2a4a5c",
                 UserName = "adrianaivanova",
@@ -1631,7 +1632,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAdrianaIvanova.PasswordHash = hasher.HashPassword(UserAdrianaIvanova, "adrianaivanova123");
 
-            UserBozhidarKolev = new IdentityUser()
+            UserBozhidarKolev = new ApplicationUser()
             {
                 Id = "a8f87e34-d5ae-4c46-aa1d-2f3cc6e11d2a",
                 UserName = "bozhidarakolev",
@@ -1641,7 +1642,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBozhidarKolev.PasswordHash = hasher.HashPassword(UserBozhidarKolev, "bozhidarkolev123");
 
-            UserEvelinaVasileva = new IdentityUser()
+            UserEvelinaVasileva = new ApplicationUser()
             {
                 Id = "3f12d8fb-1251-48f5-b566-8f4ef5b2c5d5",
                 UserName = "evelinavasileva",
@@ -1651,7 +1652,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEvelinaVasileva.PasswordHash = hasher.HashPassword(UserEvelinaVasileva, "evelinavasileva123");
 
-            UserStoyanPetrov = new IdentityUser()
+            UserStoyanPetrov = new ApplicationUser()
             {
                 Id = "d7cde10b-1785-4e74-92b3-c18c8f3d9e0a",
                 UserName = "stoyanpetrov",
@@ -1661,7 +1662,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStoyanPetrov.PasswordHash = hasher.HashPassword(UserStoyanPetrov, "stoyanpetrov123");
 
-            UserTsvetelinaStoyanova = new IdentityUser()
+            UserTsvetelinaStoyanova = new ApplicationUser()
             {
                 Id = "2f978b4c-4d9c-4ee1-aa1b-bdca0d1f89d6",
                 UserName = "tsvetelinastoyanova",
@@ -1671,7 +1672,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTsvetelinaStoyanova.PasswordHash = hasher.HashPassword(UserTsvetelinaStoyanova, "tsvetelinastoyanova123");
 
-            UserLyubenMarinov = new IdentityUser()
+            UserLyubenMarinov = new ApplicationUser()
             {
                 Id = "8270e9b1-2c24-43e1-9f93-22d9923de12c",
                 UserName = "lyubenmarinov",
@@ -1681,7 +1682,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserLyubenMarinov.PasswordHash = hasher.HashPassword(UserLyubenMarinov, "lyubenmarinov123");
 
-            UserRositsaPetrova = new IdentityUser()
+            UserRositsaPetrova = new ApplicationUser()
             {
                 Id = "f05ad822-8530-4f4d-9f43-d8908ee1ad48",
                 UserName = "rositsapetrova",
@@ -1691,7 +1692,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRositsaPetrova.PasswordHash = hasher.HashPassword(UserRositsaPetrova, "rositsapetrova123");
 
-            UserKaloyanIvanov = new IdentityUser()
+            UserKaloyanIvanov = new ApplicationUser()
             {
                 Id = "8e9d7e5c-3429-426e-8bf7-256f874a189a",
                 UserName = "kaloyanivanov",
@@ -1701,7 +1702,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKaloyanIvanov.PasswordHash = hasher.HashPassword(UserKaloyanIvanov, "kaloyanivanov123");
 
-            UserEkaterinaGeorgieva = new IdentityUser()
+            UserEkaterinaGeorgieva = new ApplicationUser()
             {
                 Id = "85bb508a-2d95-42d9-aa43-0e4fe33497a0",
                 UserName = "ekaterinageorgieva",
@@ -1711,7 +1712,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEkaterinaGeorgieva.PasswordHash = hasher.HashPassword(UserEkaterinaGeorgieva, "ekaterinageorgieva123");
 
-            UserHristoDimitrov = new IdentityUser()
+            UserHristoDimitrov = new ApplicationUser()
             {
                 Id = "b122f303-2d44-4f3d-bdd8-dac3626da548",
                 UserName = "hristodimitrov",
@@ -1721,7 +1722,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserHristoDimitrov.PasswordHash = hasher.HashPassword(UserHristoDimitrov, "hristodimitrov123");
 
-            UserDobrinkaIvanova = new IdentityUser()
+            UserDobrinkaIvanova = new ApplicationUser()
             {
                 Id = "4ce7832b-e2f3-446f-8c63-720db3f89237",
                 UserName = "dobrinkaivanova",
@@ -1731,7 +1732,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDobrinkaIvanova.PasswordHash = hasher.HashPassword(UserDobrinkaIvanova, "dobrinkaivanova123");
 
-            UserBlagoyGeorgiev = new IdentityUser()
+            UserBlagoyGeorgiev = new ApplicationUser()
             {
                 Id = "6b86569b-8f22-4a5c-9511-109f06d214a8",
                 UserName = "blagoygeorgiev",
@@ -1741,7 +1742,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBlagoyGeorgiev.PasswordHash = hasher.HashPassword(UserBlagoyGeorgiev, "blagoygeorgiev123");
 
-            UserIskraKoleva = new IdentityUser()
+            UserIskraKoleva = new ApplicationUser()
             {
                 Id = "923f8d7d-c02d-4177-a5f8-6b6975a7119b",
                 UserName = "iskrakoleva",
@@ -1751,7 +1752,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIskraKoleva.PasswordHash = hasher.HashPassword(UserIskraKoleva, "iskrakoleva123");
 
-            UserKrasimirTodorov = new IdentityUser()
+            UserKrasimirTodorov = new ApplicationUser()
             {
                 Id = "a0e8ee4a-4dbb-4a5e-b97f-e35c542b778e",
                 UserName = "krasimirtodorov",
@@ -1761,7 +1762,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrasimirTodorov.PasswordHash = hasher.HashPassword(UserKrasimirTodorov, "krasimirtodorov123");
 
-            UserGerganaIvanova = new IdentityUser()
+            UserGerganaIvanova = new ApplicationUser()
             {
                 Id = "0fe8a18a-0f52-4e41-8d44-292001678e5b",
                 UserName = "gerganaivanova",
@@ -1771,7 +1772,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGerganaIvanova.PasswordHash = hasher.HashPassword(UserGerganaIvanova, "gerganaivanova123");
 
-            UserVasilPetrov = new IdentityUser()
+            UserVasilPetrov = new ApplicationUser()
             {
                 Id = "95226fbf-1ebd-49c2-aaaf-71788a690ac5",
                 UserName = "vasilpetrov",
@@ -1781,7 +1782,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVasilPetrov.PasswordHash = hasher.HashPassword(UserVasilPetrov, "vasilpetrov123");
 
-            UserNadezhdaDimitrova = new IdentityUser()
+            UserNadezhdaDimitrova = new ApplicationUser()
             {
                 Id = "c3d2b72a-bbf1-448f-9d87-ef1dd620e91d",
                 UserName = "nadezhdadimitrova",
@@ -1791,7 +1792,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNadezhdaDimitrova.PasswordHash = hasher.HashPassword(UserNadezhdaDimitrova, "nadezhdadimitrova123");
 
-            UserTodorGeorgiev = new IdentityUser()
+            UserTodorGeorgiev = new ApplicationUser()
             {
                 Id = "3670d992-3c68-43a1-9862-1e14d65f8888",
                 UserName = "todorgeorgiev",
@@ -1801,7 +1802,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTodorGeorgiev.PasswordHash = hasher.HashPassword(UserTodorGeorgiev, "todorgeorgiev123");
 
-            UserRadkaIvanova = new IdentityUser()
+            UserRadkaIvanova = new ApplicationUser()
             {
                 Id = "04870e99-9ba7-4640-8ef2-01fc2a1190d7",
                 UserName = "radkaivanova",
@@ -1811,7 +1812,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadkaIvanova.PasswordHash = hasher.HashPassword(UserRadkaIvanova, "radkaivanova123");
 
-            UserHristinaStefanova = new IdentityUser()
+            UserHristinaStefanova = new ApplicationUser()
             {
                 Id = "c5422b1e-16ed-4d05-8d45-9202c7d85d77",
                 UserName = "hristinastefanova",
@@ -1821,7 +1822,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserHristinaStefanova.PasswordHash = hasher.HashPassword(UserHristinaStefanova, "hristinastefanova123");
 
-            UserYavorKolev = new IdentityUser()
+            UserYavorKolev = new ApplicationUser()
             {
                 Id = "e06a86ef-9ed7-4852-b9e3-0c0c62b741fe",
                 UserName = "yavorkolev",
@@ -1831,7 +1832,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYavorKolev.PasswordHash = hasher.HashPassword(UserYavorKolev, "yavorkolev123");
 
-            UserKameliaPetrova = new IdentityUser()
+            UserKameliaPetrova = new ApplicationUser()
             {
                 Id = "0dbed053-0ea2-43c1-b4b1-99a1d1197084",
                 UserName = "kameliapetrova",
@@ -1841,7 +1842,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKameliaPetrova.PasswordHash = hasher.HashPassword(UserKameliaPetrova, "kameliapetrova123");
 
-            UserEmilIvanov = new IdentityUser()
+            UserEmilIvanov = new ApplicationUser()
             {
                 Id = "6e3ac05f-09b1-4e65-9ab5-81a0c787e9e3",
                 UserName = "emilivanov",
@@ -1851,7 +1852,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEmilIvanov.PasswordHash = hasher.HashPassword(UserEmilIvanov, "emilivanov123");
 
-            UserDilyanaAleksandrova = new IdentityUser()
+            UserDilyanaAleksandrova = new ApplicationUser()
             {
                 Id = "a7201fc2-3e05-4ad0-a0f3-1f925f05e0b1",
                 UserName = "dilyanaaleksandrova",
@@ -1861,7 +1862,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDilyanaAleksandrova.PasswordHash = hasher.HashPassword(UserDilyanaAleksandrova, "dilyanaaleksandrova123");
 
-            UserTsvetanGeorgiev = new IdentityUser()
+            UserTsvetanGeorgiev = new ApplicationUser()
             {
                 Id = "57e4c1a5-4c76-4cda-98ce-2e2a0a22c764",
                 UserName = "tsvetangeorgiev",
@@ -1871,7 +1872,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTsvetanGeorgiev.PasswordHash = hasher.HashPassword(UserTsvetanGeorgiev, "tsvetangeorgiev123");
 
-            UserZhivkaIvanova = new IdentityUser()
+            UserZhivkaIvanova = new ApplicationUser()
             {
                 Id = "87e879c3-5c01-41d1-9e08-0a667172a0c7",
                 UserName = "zhivkaivanova",
@@ -1881,7 +1882,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserZhivkaIvanova.PasswordHash = hasher.HashPassword(UserZhivkaIvanova, "zhivkaivanova123");
 
-            UserIvoDimitrov = new IdentityUser()
+            UserIvoDimitrov = new ApplicationUser()
             {
                 Id = "a7f2842b-bfd9-4e04-994a-c5f16bfefc10",
                 UserName = "ivodimitrov",
@@ -1891,7 +1892,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvoDimitrov.PasswordHash = hasher.HashPassword(UserIvoDimitrov, "ivodimitrov123");
 
-            UserAdriyanaStoyanova = new IdentityUser()
+            UserAdriyanaStoyanova = new ApplicationUser()
             {
                 Id = "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1",
                 UserName = "adriyanastoyanova",
@@ -1901,7 +1902,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAdriyanaStoyanova.PasswordHash = hasher.HashPassword(UserAdriyanaStoyanova, "adriyanastoyanova123");
 
-            UserKamenPetrov = new IdentityUser()
+            UserKamenPetrov = new ApplicationUser()
             {
                 Id = "0f76fe6a-91ed-496d-aa60-ba07cda9c7e1",
                 UserName = "kamenpetrov",
@@ -1911,7 +1912,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKamenPetrov.PasswordHash = hasher.HashPassword(UserKamenPetrov, "kamenpetrov123");
 
-            UserKristinaKoleva = new IdentityUser()
+            UserKristinaKoleva = new ApplicationUser()
             {
                 Id = "2e3c6d85-136f-4878-819b-9f982e6e4ed8",
                 UserName = "kristinakoleva",
@@ -1921,7 +1922,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKristinaKoleva.PasswordHash = hasher.HashPassword(UserKristinaKoleva, "kristinakoleva123");
 
-            UserYankoIvanov = new IdentityUser()
+            UserYankoIvanov = new ApplicationUser()
             {
                 Id = "65c645b2-cdf7-45d1-89d1-cd881a36ed98",
                 UserName = "yankoivanov",
@@ -1931,7 +1932,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYankoIvanov.PasswordHash = hasher.HashPassword(UserYankoIvanov, "yankoivanov123");
 
-            UserPolinaGeorgieva = new IdentityUser()
+            UserPolinaGeorgieva = new ApplicationUser()
             {
                 Id = "65aa7d12-2f5a-4381-8c69-9b01523cf5e1",
                 UserName = "polinageorgieva",
@@ -1941,7 +1942,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserPolinaGeorgieva.PasswordHash = hasher.HashPassword(UserPolinaGeorgieva, "polinageorgieva123");
 
-            UserVeselinVasilev = new IdentityUser()
+            UserVeselinVasilev = new ApplicationUser()
             {
                 Id = "3f0c19e4-df31-42e7-9421-882128123af3",
                 UserName = "veselinvasilev",
@@ -1951,7 +1952,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVeselinVasilev.PasswordHash = hasher.HashPassword(UserVeselinVasilev, "veselinvasilev123");
 
-            UserAntoniyaPetrova = new IdentityUser()
+            UserAntoniyaPetrova = new ApplicationUser()
             {
                 Id = "2ef3d2b3-3d7f-4d52-8a04-5433e1f869ec",
                 UserName = "antoniyapetrova",
@@ -1961,7 +1962,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAntoniyaPetrova.PasswordHash = hasher.HashPassword(UserAntoniyaPetrova, "antoniyapetrova123");
 
-            UserLyubomirDimitrov = new IdentityUser()
+            UserLyubomirDimitrov = new ApplicationUser()
             {
                 Id = "b87b71e9-8db3-4f09-b865-5402a08d0b8b",
                 UserName = "lyubomirdimitrov",
@@ -1971,7 +1972,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserLyubomirDimitrov.PasswordHash = hasher.HashPassword(UserLyubomirDimitrov, "lyubomirdimitrov123");
 
-            UserZornitsaTodorova = new IdentityUser()
+            UserZornitsaTodorova = new ApplicationUser()
             {
                 Id = "f75d44bf-9f2d-4d0f-a20a-b28d8eac0d7d",
                 UserName = "zornitsatodorova",
@@ -1981,7 +1982,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserZornitsaTodorova.PasswordHash = hasher.HashPassword(UserZornitsaTodorova, "zornitsatodorova123");
 
-            UserStefanIvanov = new IdentityUser()
+            UserStefanIvanov = new ApplicationUser()
             {
                 Id = "1e1b85b7-6c15-4f2c-b1c4-47ad0c8bf5f9",
                 UserName = "stefanivanov",
@@ -1991,7 +1992,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStefanIvanov.PasswordHash = hasher.HashPassword(UserStefanIvanov, "stefanivanov123");
 
-            UserYoanaGeorgieva = new IdentityUser()
+            UserYoanaGeorgieva = new ApplicationUser()
             {
                 Id = "5a52e138-0a2c-4b1a-8a68-b95de62aa345",
                 UserName = "yoanageorgieva",
@@ -2001,7 +2002,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYoanaGeorgieva.PasswordHash = hasher.HashPassword(UserYoanaGeorgieva, "yoanageorgieva123");
 
-            UserKrasimiraPetrova = new IdentityUser()
+            UserKrasimiraPetrova = new ApplicationUser()
             {
                 Id = "b2c8a67c-5a1d-4e23-9c85-0c57454de9ee",
                 UserName = "krasimirapetrova",
@@ -2011,7 +2012,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrasimiraPetrova.PasswordHash = hasher.HashPassword(UserKrasimiraPetrova, "krasimirapetrova123");
 
-            UserIvayloKolev = new IdentityUser()
+            UserIvayloKolev = new ApplicationUser()
             {
                 Id = "9e3dbbc2-33d7-4c57-a3ee-5b7e19b1c3c2",
                 UserName = "ivaylokolev",
@@ -2021,7 +2022,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvayloKolev.PasswordHash = hasher.HashPassword(UserIvayloKolev, "ivaylokolev123");
 
-            UserMargaritaGeorgieva = new IdentityUser()
+            UserMargaritaGeorgieva = new ApplicationUser()
             {
                 Id = "9b9474b0-06ab-4953-8f23-cff7e88c7a0b",
                 UserName = "margaritageorgeiva",
@@ -2031,7 +2032,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMargaritaGeorgieva.PasswordHash = hasher.HashPassword(UserMargaritaGeorgieva, "margaritageorgieva123");
 
-            UserRumenIvanov = new IdentityUser()
+            UserRumenIvanov = new ApplicationUser()
             {
                 Id = "7edf5ac1-2d87-4bf0-b2ed-4d2e4a7b9657",
                 UserName = "rumenivanov",
@@ -2041,7 +2042,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRumenIvanov.PasswordHash = hasher.HashPassword(UserRumenIvanov, "rumenivanov123");
 
-            UserMilenaDimitrova = new IdentityUser()
+            UserMilenaDimitrova = new ApplicationUser()
             {
                 Id = "e192e1fe-5680-4ad9-a5e8-4c8328f7840c",
                 UserName = "milenadimitrova",
@@ -2051,7 +2052,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMilenaDimitrova.PasswordHash = hasher.HashPassword(UserMilenaDimitrova, "milenadimitrova123");
 
-            UserYordanTodorov = new IdentityUser()
+            UserYordanTodorov = new ApplicationUser()
             {
                 Id = "5d5313c0-7da7-4ac6-aa0d-3e6a51fe09b6",
                 UserName = "yordantodorov",
@@ -2061,7 +2062,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYordanTodorov.PasswordHash = hasher.HashPassword(UserYordanTodorov, "yordantodorov123");
 
-            UserSilviyaPetrova = new IdentityUser()
+            UserSilviyaPetrova = new ApplicationUser()
             {
                 Id = "31d9f6c5-c9a8-48c8-8b5f-c990d06200ad",
                 UserName = "silviyapetrova",
@@ -2071,7 +2072,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSilviyaPetrova.PasswordHash = hasher.HashPassword(UserSilviyaPetrova, "silviyapetrova123");
 
-            UserBogdanIvanov = new IdentityUser()
+            UserBogdanIvanov = new ApplicationUser()
             {
                 Id = "5e61439f-95d5-4e2b-9b0d-91e7c4472e3e",
                 UserName = "bogdanivanov",
@@ -2081,7 +2082,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBogdanIvanov.PasswordHash = hasher.HashPassword(UserBogdanIvanov, "bogdanivanov123");
 
-            UserPetyaKoleva = new IdentityUser()
+            UserPetyaKoleva = new ApplicationUser()
             {
                 Id = "32d43d0a-632a-48fe-bc8f-68bb3f72f083",
                 UserName = "petyakoleva",
@@ -2091,7 +2092,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserPetyaKoleva.PasswordHash = hasher.HashPassword(UserPetyaKoleva, "petyakoleva123");
 
-            UserAsenMarinov = new IdentityUser()
+            UserAsenMarinov = new ApplicationUser()
             {
                 Id = "e9f13942-e518-46f3-8b3e-d332b26d18fc",
                 UserName = "asenmarinov",
@@ -2101,7 +2102,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAsenMarinov.PasswordHash = hasher.HashPassword(UserAsenMarinov, "asenmarinov123");
 
-            UserRalitsaIvanova = new IdentityUser()
+            UserRalitsaIvanova = new ApplicationUser()
             {
                 Id = "5e4bb853-02b0-4e76-b28b-2181be91d1fc",
                 UserName = "ralitsaivanova",
@@ -2111,7 +2112,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRalitsaIvanova.PasswordHash = hasher.HashPassword(UserRalitsaIvanova, "ralitsaivanova123");
 
-            UserVelkoVasilev = new IdentityUser()
+            UserVelkoVasilev = new ApplicationUser()
             {
                 Id = "2b7e8569-4edf-46d1-8b07-d2a09977e361",
                 UserName = "velkovasilev",
@@ -2121,7 +2122,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVelkoVasilev.PasswordHash = hasher.HashPassword(UserVelkoVasilev, "velkovasilev123");
 
-            UserGalyaDimitrova = new IdentityUser()
+            UserGalyaDimitrova = new ApplicationUser()
             {
                 Id = "b685f57e-87da-4d6f-8d52-1597c109a1f9",
                 UserName = "galyadimitrova",
@@ -2131,7 +2132,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGalyaDimitrova.PasswordHash = hasher.HashPassword(UserGalyaDimitrova, "galyadimitrova123");
 
-            UserDimiturIvanov = new IdentityUser()
+            UserDimiturIvanov = new ApplicationUser()
             {
                 Id = "d6ab2e2d-bcc6-4e32-82eb-8c77280d482d",
                 UserName = "dimiturivanov",
@@ -2141,7 +2142,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDimiturIvanov.PasswordHash = hasher.HashPassword(UserDimiturIvanov, "dimiturivanov123");
 
-            UserNadiaKoleva = new IdentityUser()
+            UserNadiaKoleva = new ApplicationUser()
             {
                 Id = "30936933-775b-4687-8e1a-5a758bc5ed38",
                 UserName = "nadiakoleva",
@@ -2151,7 +2152,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNadiaKoleva.PasswordHash = hasher.HashPassword(UserNadiaKoleva, "nadiakoleva123");
 
-            UserYulianPetrov = new IdentityUser()
+            UserYulianPetrov = new ApplicationUser()
             {
                 Id = "8c9965a3-36a4-4a6b-ba5a-7f3a262aa0c3",
                 UserName = "yulianpetrov",
@@ -2161,7 +2162,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYulianPetrov.PasswordHash = hasher.HashPassword(UserYulianPetrov, "yulianpetrov123");
 
-            UserRadostinaGeorgieva = new IdentityUser()
+            UserRadostinaGeorgieva = new ApplicationUser()
             {
                 Id = "5dbfbd88-cb21-4784-b7e8-6b0e618ad92b",
                 UserName = "radostinageorgieva",
@@ -2171,7 +2172,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadostinaGeorgieva.PasswordHash = hasher.HashPassword(UserRadostinaGeorgieva, "radostinageorgieva123");
 
-            UserKrasimIvanov = new IdentityUser()
+            UserKrasimIvanov = new ApplicationUser()
             {
                 Id = "a4d2bcdc-23da-4395-9b9b-2087cc52bafe",
                 UserName = "krasimivanov",
@@ -2181,7 +2182,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrasimIvanov.PasswordHash = hasher.HashPassword(UserKrasimIvanov, "krasimivanov123");
 
-            UserTeodoraTodorova = new IdentityUser()
+            UserTeodoraTodorova = new ApplicationUser()
             {
                 Id = "23fb4de4-1bf9-4e72-9764-4c2d1f870990",
                 UserName = "teodoratodorova",
@@ -2191,7 +2192,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTeodoraTodorova.PasswordHash = hasher.HashPassword(UserTeodoraTodorova, "teoodratodorova123");
 
-            UserKalinPetrov = new IdentityUser()
+            UserKalinPetrov = new ApplicationUser()
             {
                 Id = "6a9e1770-798c-43de-aad7-8d8a6ad5eeab",
                 UserName = "kalinpetrov",
@@ -2201,7 +2202,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKalinPetrov.PasswordHash = hasher.HashPassword(UserKalinPetrov, "kalinpetrov123");
 
-            UserSvetlaDimitrova = new IdentityUser()
+            UserSvetlaDimitrova = new ApplicationUser()
             {
                 Id = "41ac68c1-84c8-4a2a-9f69-8571bb50e80a",
                 UserName = "svetladimitrova",
@@ -2211,7 +2212,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSvetlaDimitrova.PasswordHash = hasher.HashPassword(UserSvetlaDimitrova, "svetladimitrova123");
 
-            UserVentsislavGeorgiev = new IdentityUser()
+            UserVentsislavGeorgiev = new ApplicationUser()
             {
                 Id = "3b3202f3-3f0c-4e15-9eb1-2c49b78aeb3b",
                 UserName = "ventsislavgeorgiev",
@@ -2221,7 +2222,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVentsislavGeorgiev.PasswordHash = hasher.HashPassword(UserVentsislavGeorgiev, "ventsislavgeorgiev123");
 
-            UserVasilenaIvanova = new IdentityUser()
+            UserVasilenaIvanova = new ApplicationUser()
             {
                 Id = "35af9309-d2fb-46a4-84b4-d3dfdaa6b7d3",
                 UserName = "vasilenaivanova",
@@ -2231,7 +2232,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVasilenaIvanova.PasswordHash = hasher.HashPassword(UserVasilenaIvanova, "vasilenaivanova123");
 
-            UserMartinPetrov = new IdentityUser()
+            UserMartinPetrov = new ApplicationUser()
             {
                 Id = "4ec6a858-e99e-44a8-822d-5292c378fbb4",
                 UserName = "martinpetrov",
@@ -2241,7 +2242,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMartinPetrov.PasswordHash = hasher.HashPassword(UserMartinPetrov, "martinpetrov123");
 
-            UserRalitsaKoleva = new IdentityUser()
+            UserRalitsaKoleva = new ApplicationUser()
             {
                 Id = "1a36c289-32ed-42d0-8b6b-1f5490ecf0ab",
                 UserName = "ralitsakoleva",
@@ -2251,7 +2252,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRalitsaKoleva.PasswordHash = hasher.HashPassword(UserRalitsaKoleva, "ralitsakoleva123");
 
-            UserStefanDimitrov = new IdentityUser()
+            UserStefanDimitrov = new ApplicationUser()
             {
                 Id = "1b56c7bf-0f4e-4c3d-94db-7e81f4c32ebf",
                 UserName = "stefandimitrov",
@@ -2261,7 +2262,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStefanDimitrov.PasswordHash = hasher.HashPassword(UserStefanDimitrov, "stefandimitrov123");
 
-            UserSnezhanaGeorgieva = new IdentityUser()
+            UserSnezhanaGeorgieva = new ApplicationUser()
             {
                 Id = "a22b38b9-85b0-4fe0-9d5c-7e3d9aa55a45",
                 UserName = "snezhanageorgieva",
@@ -2271,7 +2272,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSnezhanaGeorgieva.PasswordHash = hasher.HashPassword(UserSnezhanaGeorgieva, "snezhanageorgieva123");
 
-            UserIvayloIvanov = new IdentityUser()
+            UserIvayloIvanov = new ApplicationUser()
             {
                 Id = "11b2f953-01c9-446a-818f-778ce6a1f1a3",
                 UserName = "ivayloivanov",
@@ -2281,7 +2282,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvayloIvanov.PasswordHash = hasher.HashPassword(UserIvayloIvanov, "ivayloivanov123");
 
-            UserMarianaPetrova = new IdentityUser()
+            UserMarianaPetrova = new ApplicationUser()
             {
                 Id = "5a119169-b39a-4e4b-8f7f-3ab86a6cebc4",
                 UserName = "marianapetrova",
@@ -2291,7 +2292,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMarianaPetrova.PasswordHash = hasher.HashPassword(UserMarianaPetrova, "marianapetrova123");
 
-            UserRosenKolev = new IdentityUser()
+            UserRosenKolev = new ApplicationUser()
             {
                 Id = "2b7c8f64-17f7-42f5-bb92-84b8f4d35f4f",
                 UserName = "rosenkolev",
@@ -2301,7 +2302,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRosenKolev.PasswordHash = hasher.HashPassword(UserRosenKolev, "rosenkolev123");
 
-            UserTanyaStoyanova = new IdentityUser()
+            UserTanyaStoyanova = new ApplicationUser()
             {
                 Id = "6b04a713-c12c-4a0f-aa0b-0eafde1543ac",
                 UserName = "tanyastoyanova",
@@ -2314,7 +2315,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
 
             //Students
 
-            UserDimitarIvanov = new IdentityUser()
+            UserDimitarIvanov = new ApplicationUser()
             {
                 Id = "21d56e3d-8c91-431e-a6e2-760848cf2aae",
                 UserName = "dimitarivanov",
@@ -2324,7 +2325,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDimitarIvanov.PasswordHash = hasher.HashPassword(UserDimitarIvanov, "dimitarivanov123");
 
-            UserElenaPetrova = new IdentityUser()
+            UserElenaPetrova = new ApplicationUser()
             {
                 Id = "d3d28ff2-79fe-4e7a-bf85-8e4fe2e0a097",
                 UserName = "elenapetrova",
@@ -2334,7 +2335,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserElenaPetrova.PasswordHash = hasher.HashPassword(UserElenaPetrova, "elenapetrova123");
 
-            UserStefchoDimitrov = new IdentityUser()
+            UserStefchoDimitrov = new ApplicationUser()
             {
                 Id = "c6aa9e1c-1894-4ef8-9a29-29c110f31949",
                 UserName = "stefchodimitrov",
@@ -2344,7 +2345,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStefchoDimitrov.PasswordHash = hasher.HashPassword(UserStefchoDimitrov, "stefchodimitrov123");
 
-            UserMilenaGeorgieva = new IdentityUser()
+            UserMilenaGeorgieva = new ApplicationUser()
             {
                 Id = "109824cc-6b9f-4b1f-af65-87bb5a4ff79b",
                 UserName = "milenageorgieva",
@@ -2354,7 +2355,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMilenaGeorgieva.PasswordHash = hasher.HashPassword(UserMilenaGeorgieva, "milenageorgieva123");
 
-            UserAleksandarTodorov = new IdentityUser()
+            UserAleksandarTodorov = new ApplicationUser()
             {
                 Id = "8c0cb95d-0e1a-40c4-9e2f-2542d530dbaa",
                 UserName = "aleksandartodorov",
@@ -2364,7 +2365,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAleksandarTodorov.PasswordHash = hasher.HashPassword(UserAleksandarTodorov, "aleksandartodorov123");
 
-            UserViktoriaIvanova = new IdentityUser()
+            UserViktoriaIvanova = new ApplicationUser()
             {
                 Id = "7fc4b81c-0b22-4e35-bc17-c7c3e73d1874",
                 UserName = "viktoriaivanova",
@@ -2374,7 +2375,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserViktoriaIvanova.PasswordHash = hasher.HashPassword(UserViktoriaIvanova, "viktoriaivanova123");
 
-            UserNikolayKolev = new IdentityUser()
+            UserNikolayKolev = new ApplicationUser()
             {
                 Id = "5a7d1e4a-8f4f-4e52-9d14-06f9d3a134b4",
                 UserName = "nikolaykolev",
@@ -2384,7 +2385,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNikolayKolev.PasswordHash = hasher.HashPassword(UserNikolayKolev, "nikolaykolev123");
 
-            UserMariaVasileva = new IdentityUser()
+            UserMariaVasileva = new ApplicationUser()
             {
                 Id = "93a6ac3b-c8c9-4a24-a00b-4f54e2f4d2d7",
                 UserName = "mariavasileva",
@@ -2394,7 +2395,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMariaVasileva.PasswordHash = hasher.HashPassword(UserMariaVasileva, "mariavasileva123");
 
-            UserIvayloPetrov = new IdentityUser()
+            UserIvayloPetrov = new ApplicationUser()
             {
                 Id = "d071556f-89ee-4819-86b2-7eb3b63f65a2",
                 UserName = "ivaylopetrov",
@@ -2404,7 +2405,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvayloPetrov.PasswordHash = hasher.HashPassword(UserIvayloPetrov, "ivaylopetrov123");
 
-            UserGabrielaStoyanova = new IdentityUser()
+            UserGabrielaStoyanova = new ApplicationUser()
             {
                 Id = "c618a246-9af9-4a37-9e0d-257ec4b2b854",
                 UserName = "gabrielastoyanova",
@@ -2414,7 +2415,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGabrielaStoyanova.PasswordHash = hasher.HashPassword(UserGabrielaStoyanova, "gabrielastoyanova123");
 
-            UserGeorgiMarinov = new IdentityUser()
+            UserGeorgiMarinov = new ApplicationUser()
             {
                 Id = "172ef32c-2c8e-49f9-8c0f-0d8236a98fc7",
                 UserName = "georgimarinov",
@@ -2424,7 +2425,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGeorgiMarinov.PasswordHash = hasher.HashPassword(UserGeorgiMarinov, "georgimarinov123");
 
-            UserKristinaPetrova = new IdentityUser()
+            UserKristinaPetrova = new ApplicationUser()
             {
                 Id = "1f49e02f-784c-4b51-856b-0fc301da5bf0",
                 UserName = "kristinapetrova",
@@ -2434,7 +2435,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKristinaPetrova.PasswordHash = hasher.HashPassword(UserKristinaPetrova, "kristinapetrova123");
 
-            UserRumchoIvanov = new IdentityUser()
+            UserRumchoIvanov = new ApplicationUser()
             {
                 Id = "f3dd26e0-e2eb-4e1f-9ea2-d260e779a5e3",
                 UserName = "rumchoivanov",
@@ -2444,7 +2445,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRumchoIvanov.PasswordHash = hasher.HashPassword(UserRumchoIvanov, "rumchoivanov123");
 
-            UserEmiliaGeorgieva = new IdentityUser()
+            UserEmiliaGeorgieva = new ApplicationUser()
             {
                 Id = "b4c1c7da-6491-48d6-91d5-3c4f43105fc1",
                 UserName = "emiliageorgieva",
@@ -2454,7 +2455,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEmiliaGeorgieva.PasswordHash = hasher.HashPassword(UserEmiliaGeorgieva, "emiliageorgieva123");
 
-            UserKrasimirDimitrov = new IdentityUser()
+            UserKrasimirDimitrov = new ApplicationUser()
             {
                 Id = "5038ef42-267f-4a5d-8b92-2d63052265c8",
                 UserName = "krasimirivanov",
@@ -2464,7 +2465,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKrasimirDimitrov.PasswordHash = hasher.HashPassword(UserKrasimirDimitrov, "krasimirivanov123");
 
-            UserSilviyaIvanova = new IdentityUser()
+            UserSilviyaIvanova = new ApplicationUser()
             {
                 Id = "9e32eab9-84e3-4b35-bb92-89b3dfb8e98f",
                 UserName = "silviyaivanova",
@@ -2474,7 +2475,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSilviyaIvanova.PasswordHash = hasher.HashPassword(UserSilviyaIvanova, "silviyaivanova123");
 
-            UserAsenGeorgiev = new IdentityUser()
+            UserAsenGeorgiev = new ApplicationUser()
             {
                 Id = "84ab245c-804d-4ac7-8f9e-bcda15863c5c",
                 UserName = "asengeorgiev",
@@ -2484,7 +2485,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAsenGeorgiev.PasswordHash = hasher.HashPassword(UserAsenGeorgiev, "asengeorgiev123");
 
-            UserElenaKoleva = new IdentityUser()
+            UserElenaKoleva = new ApplicationUser()
             {
                 Id = "5a141fd9-2bcf-4dab-8c0a-8c15b7c8dbef",
                 UserName = "elenakoleva",
@@ -2494,7 +2495,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserElenaKoleva.PasswordHash = hasher.HashPassword(UserElenaKoleva, "elenakoleva123");
 
-            UserStanimirTodorov = new IdentityUser()
+            UserStanimirTodorov = new ApplicationUser()
             {
                 Id = "31b1f166-5412-40c7-b0cb-38aaec6a5ba6",
                 UserName = "stanimirtodorov",
@@ -2504,7 +2505,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStanimirTodorov.PasswordHash = hasher.HashPassword(UserStanimirTodorov, "stanimirtodorov123");
 
-            UserMagdalenaIvanova = new IdentityUser()
+            UserMagdalenaIvanova = new ApplicationUser()
             {
                 Id = "1443d844-bfd9-45a1-94a5-83c18f140c0e",
                 UserName = "magdalenaivanova",
@@ -2514,7 +2515,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMagdalenaIvanova.PasswordHash = hasher.HashPassword(UserMagdalenaIvanova, "magdalenaivanova123");
 
-            UserHristoPetrov = new IdentityUser()
+            UserHristoPetrov = new ApplicationUser()
             {
                 Id = "d0b3c3d4-5803-4f42-9f3f-5879926e2f3f",
                 UserName = "hristopetrov",
@@ -2524,7 +2525,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserHristoPetrov.PasswordHash = hasher.HashPassword(UserHristoPetrov, "hristopetrov123");
 
-            UserKalinaDimitrova = new IdentityUser()
+            UserKalinaDimitrova = new ApplicationUser()
             {
                 Id = "7b1a2e32-bc36-4bf7-9b65-07fbfa810baa",
                 UserName = "kalinadimitrova",
@@ -2534,7 +2535,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKalinaDimitrova.PasswordHash = hasher.HashPassword(UserKalinaDimitrova, "kalinadimitrova123");
 
-            UserTsvetanchoGeorgiev = new IdentityUser()
+            UserTsvetanchoGeorgiev = new ApplicationUser()
             {
                 Id = "321efec2-563e-4f66-a158-7c2e4f7db24b",
                 UserName = "tsvetanchogeorgiev",
@@ -2544,7 +2545,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTsvetanchoGeorgiev.PasswordHash = hasher.HashPassword(UserTsvetanchoGeorgiev, "tsvetanchogeorgiev123");
 
-            UserNadezhdaIvanova = new IdentityUser()
+            UserNadezhdaIvanova = new ApplicationUser()
             {
                 Id = "71c4c53d-0c7e-4d33-b8b3-15b3ff206249",
                 UserName = "nadezhdaivanova",
@@ -2554,7 +2555,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNadezhdaIvanova.PasswordHash = hasher.HashPassword(UserNadezhdaIvanova, "nadezhdaivanova123");
 
-            UserBorisStefanov = new IdentityUser()
+            UserBorisStefanov = new ApplicationUser()
             {
                 Id = "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7",
                 UserName = "boristefanov",
@@ -2564,7 +2565,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBorisStefanov.PasswordHash = hasher.HashPassword(UserBorisStefanov, "boristefanov123");
 
-            UserAneliyaKoleva = new IdentityUser()
+            UserAneliyaKoleva = new ApplicationUser()
             {
                 Id = "2b765779-8f0d-4d01-b822-41fb42f9d173",
                 UserName = "aneliyakoleva",
@@ -2574,7 +2575,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAneliyaKoleva.PasswordHash = hasher.HashPassword(UserAneliyaKoleva, "aneliyakoleva123");
 
-            UserRosenPetrov = new IdentityUser()
+            UserRosenPetrov = new ApplicationUser()
             {
                 Id = "e20a8a8b-7038-45c5-b292-91c7b5e196d1",
                 UserName = "rosenpetrov",
@@ -2584,7 +2585,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRosenPetrov.PasswordHash = hasher.HashPassword(UserRosenPetrov, "rosenpetrov123");
 
-            UserRadostinaIvanova = new IdentityUser()
+            UserRadostinaIvanova = new ApplicationUser()
             {
                 Id = "39b55a1b-d8b5-4bb2-9e71-cc994a1463d5",
                 UserName = "radostinaivanova",
@@ -2594,7 +2595,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadostinaIvanova.PasswordHash = hasher.HashPassword(UserRadostinaIvanova, "radostinaivanova123");
 
-            UserVasilAleksandrov = new IdentityUser()
+            UserVasilAleksandrov = new ApplicationUser()
             {
                 Id = "57ef3794-e725-4d7c-9d17-7b7ac01081c5",
                 UserName = "vasilaleksandrov",
@@ -2604,7 +2605,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVasilAleksandrov.PasswordHash = hasher.HashPassword(UserVasilAleksandrov, "vasilaleksandrov123");
 
-            UserRositsaGeorgieva = new IdentityUser()
+            UserRositsaGeorgieva = new ApplicationUser()
             {
                 Id = "d6ddbe61-7627-4b88-bc3c-8c2b3a7e89a4",
                 UserName = "rositsageorgieva",
@@ -2614,7 +2615,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRositsaGeorgieva.PasswordHash = hasher.HashPassword(UserRositsaGeorgieva, "rositsageorgieva123");
 
-            UserPlamenIvanov = new IdentityUser()
+            UserPlamenIvanov = new ApplicationUser()
             {
                 Id = "d1983bf8-cb42-4da2-88d2-5297be88a146",
                 UserName = "plamenivanov",
@@ -2624,7 +2625,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserPlamenIvanov.PasswordHash = hasher.HashPassword(UserPlamenIvanov, "plamenivanov123");
 
-            UserValentinaDimitrova = new IdentityUser()
+            UserValentinaDimitrova = new ApplicationUser()
             {
                 Id = "162d8979-1a84-4642-9b27-49973518a040",
                 UserName = "valentinadimitrova",
@@ -2634,7 +2635,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserValentinaDimitrova.PasswordHash = hasher.HashPassword(UserValentinaDimitrova, "valentinadimitrova123");
 
-            UserIvoStoyanov = new IdentityUser()
+            UserIvoStoyanov = new ApplicationUser()
             {
                 Id = "41c16c1c-6345-487b-9202-18bf7a723b5e",
                 UserName = "ivostoyanov",
@@ -2644,7 +2645,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvoStoyanov.PasswordHash = hasher.HashPassword(UserIvoStoyanov, "ivostoyanov123");
 
-            UserStefaniyaPetrova = new IdentityUser()
+            UserStefaniyaPetrova = new ApplicationUser()
             {
                 Id = "a3bd2a1d-5061-439e-aec9-0e54720e3ed5",
                 UserName = "stefaniyapetrova",
@@ -2654,7 +2655,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserStefaniyaPetrova.PasswordHash = hasher.HashPassword(UserStefaniyaPetrova, "stefaniyapetrova123");
 
-            UserMartinKolev = new IdentityUser()
+            UserMartinKolev = new ApplicationUser()
             {
                 Id = "2c537f9a-c6ef-43d1-98da-e63d947de2bd",
                 UserName = "martinkolev",
@@ -2664,7 +2665,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMartinKolev.PasswordHash = hasher.HashPassword(UserMartinKolev, "martinkolev123");
 
-            UserSonyaIvanova = new IdentityUser()
+            UserSonyaIvanova = new ApplicationUser()
             {
                 Id = "512da3a0-4861-49ac-9142-1536f5ea2cb1",
                 UserName = "sonyaivanova",
@@ -2674,7 +2675,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSonyaIvanova.PasswordHash = hasher.HashPassword(UserSonyaIvanova, "sonyaivanova123");
 
-            UserLyubomirGeorgiev = new IdentityUser()
+            UserLyubomirGeorgiev = new ApplicationUser()
             {
                 Id = "9c1e0838-6a1b-4158-92a2-36c6234e9d41",
                 UserName = "lyubomirgeorgiev",
@@ -2684,7 +2685,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserLyubomirGeorgiev.PasswordHash = hasher.HashPassword(UserLyubomirGeorgiev, "lyubomirgeorgiev123");
 
-            UserNataliyaVasileva = new IdentityUser()
+            UserNataliyaVasileva = new ApplicationUser()
             {
                 Id = "17b6757b-33e6-4d97-b8f4-22e3ec4e34a3",
                 UserName = "nataliyavasileva",
@@ -2694,7 +2695,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNataliyaVasileva.PasswordHash = hasher.HashPassword(UserNataliyaVasileva, "nataliyavasileva123");
 
-            UserPetarPetrov = new IdentityUser()
+            UserPetarPetrov = new ApplicationUser()
             {
                 Id = "7d2f14fb-b3b5-4598-8989-ba10d3612c96",
                 UserName = "petarpetrov",
@@ -2704,7 +2705,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserPetarPetrov.PasswordHash = hasher.HashPassword(UserPetarPetrov, "petarpetrov123");
 
-            UserGerganaDimitrova = new IdentityUser()
+            UserGerganaDimitrova = new ApplicationUser()
             {
                 Id = "3f13969e-28fc-4315-b44d-b0f7b827202a",
                 UserName = "gerganadimitrova",
@@ -2714,7 +2715,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGerganaDimitrova.PasswordHash = hasher.HashPassword(UserGerganaDimitrova, "gerganadimitrova123");
 
-            UserLyubomiraTodorova = new IdentityUser()
+            UserLyubomiraTodorova = new ApplicationUser()
             {
                 Id = "8a4b8f2d-72e8-46d1-8a9f-2d06b1d9ecf1",
                 UserName = "lyubomiratodorova",
@@ -2724,7 +2725,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserLyubomiraTodorova.PasswordHash = hasher.HashPassword(UserLyubomiraTodorova, "lyubomiratodorova123");
 
-            UserAntonIvanov = new IdentityUser()
+            UserAntonIvanov = new ApplicationUser()
             {
                 Id = "f4ec527a-d87f-4e87-b948-26e7d4c3351f",
                 UserName = "antonivanov",
@@ -2734,7 +2735,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserAntonIvanov.PasswordHash = hasher.HashPassword(UserAntonIvanov, "antonivanov123");
 
-            UserTanyaGeorgieva = new IdentityUser()
+            UserTanyaGeorgieva = new ApplicationUser()
             {
                 Id = "f0578b4d-49cc-4c3c-8b61-62ebc8c196e9",
                 UserName = "tanyageorgieva",
@@ -2744,7 +2745,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTanyaGeorgieva.PasswordHash = hasher.HashPassword(UserTanyaGeorgieva, "tanyageorgieva123");
 
-            UserKamenchoPetrov = new IdentityUser()
+            UserKamenchoPetrov = new ApplicationUser()
             {
                 Id = "d68684c7-c3a8-4c21-8042-b76a4f43ff33",
                 UserName = "kamenchopetrov",
@@ -2754,7 +2755,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKamenchoPetrov.PasswordHash = hasher.HashPassword(UserKamenchoPetrov, "kamenchopetrov123");
 
-            UserVanyaKoleva = new IdentityUser()
+            UserVanyaKoleva = new ApplicationUser()
             {
                 Id = "8d0a37e9-91a1-4b3a-86a9-b57595b104ab",
                 UserName = "vanyakoleva",
@@ -2764,7 +2765,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVanyaKoleva.PasswordHash = hasher.HashPassword(UserVanyaKoleva, "vanyakoleva123");
 
-            UserRadoslavGeorgiev = new IdentityUser()
+            UserRadoslavGeorgiev = new ApplicationUser()
             {
                 Id = "23dbfde3-00c5-47d9-b1b4-23f97379881e",
                 UserName = "radoslavgeorgiev",
@@ -2774,7 +2775,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadoslavGeorgiev.PasswordHash = hasher.HashPassword(UserRadoslavGeorgiev, "radoslavgeorgiev123");
 
-            UserVasilenkaIvanova = new IdentityUser()
+            UserVasilenkaIvanova = new ApplicationUser()
             {
                 Id = "6a56e5a9-b77d-492e-82c5-eab5c9397756",
                 UserName = "vasilenkaivanova",
@@ -2784,7 +2785,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVasilenkaIvanova.PasswordHash = hasher.HashPassword(UserVasilenkaIvanova, "vasilenkaivanova123");
 
-            UserKirilDimitrov = new IdentityUser()
+            UserKirilDimitrov = new ApplicationUser()
             {
                 Id = "8d9f8a3f-16a2-4fe5-b12a-32c3f3c66fb1",
                 UserName = "kirildimitrov",
@@ -2794,7 +2795,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKirilDimitrov.PasswordHash = hasher.HashPassword(UserKirilDimitrov, "kirildimitrov123");
 
-            UserKameliyaTodorova = new IdentityUser()
+            UserKameliyaTodorova = new ApplicationUser()
             {
                 Id = "8b7f9c67-7985-4f3f-a2a1-271189e22a0d",
                 UserName = "kameliyatodorova",
@@ -2804,7 +2805,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKameliyaTodorova.PasswordHash = hasher.HashPassword(UserKameliyaTodorova, "kameliyatodorova123");
 
-            UserIliyaPetrov = new IdentityUser()
+            UserIliyaPetrov = new ApplicationUser()
             {
                 Id = "961b318b-7e65-4ef9-bf8e-3e22f74cdd6d",
                 UserName = "iliyapetrov",
@@ -2814,7 +2815,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIliyaPetrov.PasswordHash = hasher.HashPassword(UserIliyaPetrov, "iliyapetrov123");
 
-            UserDilyanaIvanova = new IdentityUser()
+            UserDilyanaIvanova = new ApplicationUser()
             {
                 Id = "d8b46962-25a4-4977-8363-d43e7076c85f",
                 UserName = "dilyanaivanova",
@@ -2824,7 +2825,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDilyanaIvanova.PasswordHash = hasher.HashPassword(UserDilyanaIvanova, "dilyanaivanova123");
 
-            UserBogdanKolev = new IdentityUser()
+            UserBogdanKolev = new ApplicationUser()
             {
                 Id = "15b7349f-c184-42e7-9a18-0c0dd1a05bea",
                 UserName = "bogdankolev",
@@ -2834,7 +2835,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBogdanKolev.PasswordHash = hasher.HashPassword(UserBogdanKolev, "bogdankolev123");
 
-            UserDanielaMarinova = new IdentityUser()
+            UserDanielaMarinova = new ApplicationUser()
             {
                 Id = "8f35f8dd-b52a-4084-818b-3e1813e42f19",
                 UserName = "danielamarinova",
@@ -2844,7 +2845,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDanielaMarinova.PasswordHash = hasher.HashPassword(UserDanielaMarinova, "danielamarinova123");
 
-            UserHristiyanIvanov = new IdentityUser()
+            UserHristiyanIvanov = new ApplicationUser()
             {
                 Id = "e2b8904e-9a9e-471d-af7b-ef17f62f0e35",
                 UserName = "hristiyanivanov",
@@ -2854,7 +2855,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserHristiyanIvanov.PasswordHash = hasher.HashPassword(UserHristiyanIvanov, "hristiyanivanov123");
 
-            UserTeodoraVasileva = new IdentityUser()
+            UserTeodoraVasileva = new ApplicationUser()
             {
                 Id = "7fbd8c2e-38c6-4a97-aa74-6321ee1f0e2a",
                 UserName = "teodoravasileva",
@@ -2864,7 +2865,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserTeodoraVasileva.PasswordHash = hasher.HashPassword(UserTeodoraVasileva, "teodoravasileva123");
 
-            UserDesislavDimitrov = new IdentityUser()
+            UserDesislavDimitrov = new ApplicationUser()
             {
                 Id = "3251a6f3-1415-4173-8d95-509d9b57a4bb",
                 UserName = "desislavdimitrov",
@@ -2874,7 +2875,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDesislavDimitrov.PasswordHash = hasher.HashPassword(UserDesislavDimitrov, "desislavdimitrov123");
 
-            UserGalyaIvanova = new IdentityUser()
+            UserGalyaIvanova = new ApplicationUser()
             {
                 Id = "b2f18679-974f-4648-891b-05df89900b85",
                 UserName = "galyaivanova",
@@ -2884,7 +2885,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserGalyaIvanova.PasswordHash = hasher.HashPassword(UserGalyaIvanova, "galyaivanova123");
 
-            UserIvanKolev = new IdentityUser()
+            UserIvanKolev = new ApplicationUser()
             {
                 Id = "6c704485-8f35-4b5d-aa5b-c971b87cb442",
                 UserName = "ivankolev",
@@ -2894,7 +2895,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserIvanKolev.PasswordHash = hasher.HashPassword(UserIvanKolev, "ivankolev123");
 
-            UserMariyaPetrova = new IdentityUser()
+            UserMariyaPetrova = new ApplicationUser()
             {
                 Id = "2e07c9b0-d2a4-41e7-b8d8-0e0384c5e81b",
                 UserName = "mariyapetrova",
@@ -2904,7 +2905,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMariyaPetrova.PasswordHash = hasher.HashPassword(UserMariyaPetrova, "mariyapetrova123");
 
-            UserSimeonGeorgiev = new IdentityUser()
+            UserSimeonGeorgiev = new ApplicationUser()
             {
                 Id = "b5245ba7-c0e2-4e7d-b144-e9b7d8889e6e",
                 UserName = "simeongeorgiev",
@@ -2914,7 +2915,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserSimeonGeorgiev.PasswordHash = hasher.HashPassword(UserSimeonGeorgiev, "simeongeorgiev123");
 
-            UserMagdalinaIvanova = new IdentityUser()
+            UserMagdalinaIvanova = new ApplicationUser()
             {
                 Id = "10b1bb25-7f3e-4ec5-bb68-9f8282850711",
                 UserName = "magdalinaivanova",
@@ -2924,7 +2925,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMagdalinaIvanova.PasswordHash = hasher.HashPassword(UserMagdalinaIvanova, "magdalinaivanova123");
 
-            UserEmilTodorov = new IdentityUser()
+            UserEmilTodorov = new ApplicationUser()
             {
                 Id = "b7395fbb-59e7-4687-9b69-0f135abf8e72",
                 UserName = "emiltodorov",
@@ -2934,7 +2935,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserEmilTodorov.PasswordHash = hasher.HashPassword(UserEmilTodorov, "emiltodorov123");
 
-            UserKalinchoPetrov = new IdentityUser()
+            UserKalinchoPetrov = new ApplicationUser()
             {
                 Id = "6a4e15d5-29ae-4b86-9015-21d61e22e947",
                 UserName = "kalinchopetrov",
@@ -2944,7 +2945,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserKalinchoPetrov.PasswordHash = hasher.HashPassword(UserKalinchoPetrov, "kalinchopetrov123");
 
-            UserRalitsaDimitrova = new IdentityUser()
+            UserRalitsaDimitrova = new ApplicationUser()
             {
                 Id = "cff038d2-716a-4c45-8f21-81b1e7769a74",
                 UserName = "ralitsadimitrova",
@@ -2954,7 +2955,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRalitsaDimitrova.PasswordHash = hasher.HashPassword(UserRalitsaDimitrova, "ralitsadimitrova123");
 
-            UserYordanGeorgiev = new IdentityUser()
+            UserYordanGeorgiev = new ApplicationUser()
             {
                 Id = "80f4cb68-199a-4f6d-8b82-6ad3521c0b52",
                 UserName = "yordangeorgiev",
@@ -2964,7 +2965,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYordanGeorgiev.PasswordHash = hasher.HashPassword(UserYordanGeorgiev, "yordangeorgiev123");
 
-            UserRadinkaIvanova = new IdentityUser()
+            UserRadinkaIvanova = new ApplicationUser()
             {
                 Id = "1b441729-6f7d-4d13-9f0b-3fe4e76727c3",
                 UserName = "radinkaivanova",
@@ -2974,7 +2975,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserRadinkaIvanova.PasswordHash = hasher.HashPassword(UserRadinkaIvanova, "radinkaivanova123");
 
-            UserVentsislavPetrov = new IdentityUser()
+            UserVentsislavPetrov = new ApplicationUser()
             {
                 Id = "675b60ea-ee3f-4e58-b8d4-109b9ab54d99",
                 UserName = "ventsislavpetrov",
@@ -2984,7 +2985,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserVentsislavPetrov.PasswordHash = hasher.HashPassword(UserVentsislavPetrov, "ventsislavpetrov123");
 
-            UserDarinaKoleva = new IdentityUser()
+            UserDarinaKoleva = new ApplicationUser()
             {
                 Id = "2bd002d3-ff51-4a18-a155-dc76bba5130a",
                 UserName = "darinkakoleva",
@@ -2994,7 +2995,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserDarinaKoleva.PasswordHash = hasher.HashPassword(UserDarinaKoleva, "darinkakoleva123");
 
-            UserBozhidarDimitrov = new IdentityUser()
+            UserBozhidarDimitrov = new ApplicationUser()
             {
                 Id = "98fb09c1-54d0-4d9c-86ee-7f7b510695ef",
                 UserName = "bozhidardimitrov",
@@ -3004,7 +3005,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserBozhidarDimitrov.PasswordHash = hasher.HashPassword(UserBozhidarDimitrov, "bozhidardimitrov123");
 
-            UserNeliGeorgieva = new IdentityUser()
+            UserNeliGeorgieva = new ApplicationUser()
             {
                 Id = "731e88f2-bb26-46d8-8d53-031af77b5e15",
                 UserName = "neligeorgieva",
@@ -3014,7 +3015,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserNeliGeorgieva.PasswordHash = hasher.HashPassword(UserNeliGeorgieva, "neligeorgieva123");
 
-            UserYavorIvanov = new IdentityUser()
+            UserYavorIvanov = new ApplicationUser()
             {
                 Id = "5b38fb70-63e4-4d02-a14f-3b58ff14bc76",
                 UserName = "yavorivanov",
@@ -3024,7 +3025,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserYavorIvanov.PasswordHash = hasher.HashPassword(UserYavorIvanov, "yavorivanov123");
 
-            UserMilitsaPetrova = new IdentityUser()
+            UserMilitsaPetrova = new ApplicationUser()
             {
                 Id = "80a73e8d-3a08-44b3-ba99-8a5ea3ebd012",
                 UserName = "militsapetrova",
@@ -3034,7 +3035,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserMilitsaPetrova.PasswordHash = hasher.HashPassword(UserMilitsaPetrova, "militsapetrova123");
 
-            UserZdravkoKolev = new IdentityUser()
+            UserZdravkoKolev = new ApplicationUser()
             {
                 Id = "844dd2c8-e20b-4423-827f-349e0bbd2761",
                 UserName = "zdravkokolev",
@@ -3044,7 +3045,7 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             };
             UserZdravkoKolev.PasswordHash = hasher.HashPassword(UserZdravkoKolev, "zdravkokolev123");
 
-            UserElenaStoyanova = new IdentityUser()
+            UserElenaStoyanova = new ApplicationUser()
             {
                 Id = "61f620da-d214-4e17-852a-c96fddcc682a",
                 UserName = "elenastoyanova",

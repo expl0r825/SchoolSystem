@@ -40,5 +40,10 @@
 
         public const int ClassNameMinLength = 2;
         public const int ClassNameMaxLength = 10;
+
+
+        //User
+
+        public const int UserNameMaxLength = 50;
     }
 }

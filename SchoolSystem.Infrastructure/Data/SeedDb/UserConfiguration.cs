@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using SchoolSystem.Infrastructure.Data.IdentiyModels;
 
 namespace SchoolSystem.Infrastructure.Data.SeedDb
 {
-    internal class UserConfiguration : IEntityTypeConfiguration<IdentityUser>
+    internal class UserConfiguration : IEntityTypeConfiguration<ApplicationUser>
     {
-        public void Configure(EntityTypeBuilder<IdentityUser> builder)
+        public void Configure(EntityTypeBuilder<ApplicationUser> builder)
         {
             var data = new SeedData();
 
-            builder.HasData(new IdentityUser[]
+            builder.HasData(new ApplicationUser[]
             {
                       data.UserRadostinaMekova,
                       data.UserValentinaStoeva,

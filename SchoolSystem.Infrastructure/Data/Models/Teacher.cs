@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SchoolSystem.Infrastructure.Data.IdentiyModels;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using static SchoolSystem.Infrastructure.Constants.DataConstants;
@@ -34,7 +35,7 @@ namespace SchoolSystem.Infrastructure.Data.Models
         public string UserId { get; set; } = string.Empty;
 
         [ForeignKey(nameof(UserId))]
-        public IdentityUser User { get; set; } = null!;
+        public ApplicationUser User { get; set; } = null!;
 
         public IList<Student> Students { get; set; } = new List<Student>();
     }

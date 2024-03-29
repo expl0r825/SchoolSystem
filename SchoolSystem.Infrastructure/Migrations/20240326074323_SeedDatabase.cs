@@ -658,7 +658,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     { 58, 0m, 4, 6, "Ivan", "Kolev", "6c704485-8f35-4b5d-aa5b-c971b87cb442" },
                     { 59, 0m, 4, 6, "Mariya", "Petrova", "2e07c9b0-d2a4-41e7-b8d8-0e0384c5e81b" },
                     { 60, 0m, 5, 10, "Simeon", "Georgiev", "b5245ba7-c0e2-4e7d-b144-e9b7d8889e6e" },
-                    { 61, 0m, 5, 10, "Magdalina", "Ivanova", "1443d844-bfd9-45a1-94a5-83c18f140c0e" },
+                    { 61, 0m, 5, 10, "Magdalina", "Ivanova", "10b1bb25-7f3e-4ec5-bb68-9f8282850711" },
                     { 62, 0m, 5, 10, "Emil", "Todorov", "b7395fbb-59e7-4687-9b69-0f135abf8e72" },
                     { 63, 0m, 5, 10, "Kalincho", "Petrov", "6a4e15d5-29ae-4b86-9015-21d61e22e947" },
                     { 64, 0m, 5, 10, "Ralitsa", "Dimitrova", "cff038d2-716a-4c45-8f21-81b1e7769a74" },
@@ -1588,7 +1588,7 @@ namespace SchoolSystem.Infrastructure.Migrations
                     { 31, 31, "Zhivka Ivanova", "87e879c3-5c01-41d1-9e08-0a667172a0c7" },
                     { 32, 32, "Ivo Dimitrov", "a7f2842b-bfd9-4e04-994a-c5f16bfefc10" },
                     { 33, 33, "Adriyana Stoyanova", "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1" },
-                    { 34, 34, "Kamen Petrov", "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1" },
+                    { 34, 34, "Kamen Petrov", "0f76fe6a-91ed-496d-aa60-ba07cda9c7e1" },
                     { 35, 35, "Kristina Koleva", "2e3c6d85-136f-4878-819b-9f982e6e4ed8" },
                     { 36, 36, "Yanko Ivanov", "65c645b2-cdf7-45d1-89d1-cd881a36ed98" },
                     { 37, 37, "Polina Georgieva", "65aa7d12-2f5a-4381-8c69-9b01523cf5e1" }
