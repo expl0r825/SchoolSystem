@@ -12,6 +12,12 @@
 
   <ItemGroup>
     <Folder Include="Contracts\" />
+    <Folder Include="Models\Home\" />
+    <Folder Include="Models\Principal\" />
+    <Folder Include="Models\Parent\" />
+    <Folder Include="Models\Student\" />
+    <Folder Include="Models\User\" />
+    <Folder Include="Models\Teacher\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
