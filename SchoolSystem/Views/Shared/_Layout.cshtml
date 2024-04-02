@@ -23,6 +23,110 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @if (User.IsInRole("Student"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Student" 
+                                asp-action="SubjectsWithGrades">Grades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Student" 
+                                asp-action="SubjectstWithTeachers">Teachers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Student" 
+                                asp-action="SeeParent">Your Parent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Student" 
+                                asp-action="PrincipalsWithInfo">Principals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Student" 
+                                asp-action="Classmates">Classmates</a>
+                            </li>
+                        }
+                        else if (User.IsInRole("Parent"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Parent"
+                                   asp-action="ChildsGrades">Your Child's Grades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Parent"
+                                   asp-action="ParentsFromClass">Parents From The Same Class</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Parent"
+                                   asp-action="AllTeachers">Teachers</a>
+                            </li>
+                        }
+                        else if (User.IsInRole("Teacher"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Teacher"
+                                   asp-action="StudentsWithGrades">Students And Their Grades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Teacher"
+                                   asp-action="StudentsWithParents">All Parent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Teacher"
+                                   asp-action="ClassesWithGrades">Classes And Their Avg. Grade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Teacher"
+                                   asp-action="AllTeachers">Teachers</a>
+                            </li>
+                        }
+                        else if (User.IsInRole("Principal"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Student</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="AddStudent">Add a new Student</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="StudentDetails">See a Student's Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="RemoveStudent">Remove a Student</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="AllStudents">See All Students</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Teacher</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="AddTeacher">Add a new Teacher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="TeacherDetails">See a Teacher's Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="RemoveTeacher">Remove a Teacher</a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Principal"
+                                           asp-action="AllTeachers">See All Teachers</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
                     </ul>
 
                     <partial name="_LoginPartial" />
