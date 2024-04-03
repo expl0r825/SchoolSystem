@@ -7,14 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Home\**" />
+    <Compile Remove="Models\Principal\**" />
+    <Compile Remove="Models\User\**" />
+    <EmbeddedResource Remove="Models\Home\**" />
+    <EmbeddedResource Remove="Models\Principal\**" />
+    <EmbeddedResource Remove="Models\User\**" />
+    <None Remove="Models\Home\**" />
+    <None Remove="Models\Principal\**" />
+    <None Remove="Models\User\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SchoolSystem.Infrastructure\SchoolSystem.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Contracts\" />
-    <Folder Include="Models\Home\" />
-    <Folder Include="Models\Principal\" />
-    <Folder Include="Models\User\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

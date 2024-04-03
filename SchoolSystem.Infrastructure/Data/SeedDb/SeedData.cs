@@ -1575,8 +1575,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKrumIvanov = new ApplicationUser()
             {
                 Id = "b6f0b26e-4baf-4a7c-bb7d-02e5f3a12a6c",
-                UserName = "krumivanov",
-                NormalizedUserName = "krumivanov",
+                UserName = "krumivanov@myschool.com",
+                NormalizedUserName = "krumivanov@myschool.com",
                 Email = "krumivanov@myschool.com",
                 NormalizedEmail = "krumivanov@myschool.com"
             };
@@ -1585,8 +1585,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVeronikaPetrova = new ApplicationUser()
             {
                 Id = "87c52768-9d12-46c1-ae72-0dcf9f415f39",
-                UserName = "veronikapetrova",
-                NormalizedUserName = "veronikapetrova",
+                UserName = "veronikapetrova@myschool.com",
+                NormalizedUserName = "veronikapetrova@myschool.com",
                 Email = "veronikapetrova@myschool.com",
                 NormalizedEmail = "veronikapetrova@myschool.com"
             };
@@ -1595,8 +1595,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserPlamenDimitrov = new ApplicationUser()
             {
                 Id = "2d8f5db8-876c-4c0a-9c3a-91a4e724cbdd",
-                UserName = "plamendimitrov",
-                NormalizedUserName = "plamendimitrov",
+                UserName = "plamendimitrov@myschool.com",
+                NormalizedUserName = "plamendimitrov@myschool.com",
                 Email = "plamendimitrov@myschool.com",
                 NormalizedEmail = "plamendimitrov@myschool.com"
             };
@@ -1605,8 +1605,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserZlatinaGeorgieva = new ApplicationUser()
             {
                 Id = "f51a7a24-9aa3-4a93-9dd6-8d8e682ef64d",
-                UserName = "zlatinageorieva",
-                NormalizedUserName = "zlatinageorieva",
+                UserName = "zlatinageorieva@myschool.com",
+                NormalizedUserName = "zlatinageorieva@myschool.com",
                 Email = "zlatinageorieva@myschool.com",
                 NormalizedEmail = "zlatinageorieva@myschool.com"
             };
@@ -1615,8 +1615,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadoslavTodorov = new ApplicationUser()
             {
                 Id = "c173c3a5-2bf3-40cd-86bb-27b18a2d3b7a",
-                UserName = "radoslavtodorov",
-                NormalizedUserName = "radoslavtodorov",
+                UserName = "radoslavtodorov@myschool.com",
+                NormalizedUserName = "radoslavtodorov@myschool.com",
                 Email = "radoslavtodorov@myschool.com",
                 NormalizedEmail = "radoslavtodorov@myschool.com"
             };
@@ -1625,8 +1625,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAdrianaIvanova = new ApplicationUser()
             {
                 Id = "6d42e1d8-4e45-48b4-ba42-1a7f9c2a4a5c",
-                UserName = "adrianaivanova",
-                NormalizedUserName = "adrianaivanova",
+                UserName = "adrianaivanova@myschool.com",
+                NormalizedUserName = "adrianaivanova@myschool.com",
                 Email = "adrianaivanova@myschool.com",
                 NormalizedEmail = "adrianaivanova@myschool.com"
             };
@@ -1635,8 +1635,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBozhidarKolev = new ApplicationUser()
             {
                 Id = "a8f87e34-d5ae-4c46-aa1d-2f3cc6e11d2a",
-                UserName = "bozhidarakolev",
-                NormalizedUserName = "bozhidarakolev",
+                UserName = "bozhidarakolev@myschool.com",
+                NormalizedUserName = "bozhidarakolev@myschool.com",
                 Email = "bozhidarakolev@myschool.com",
                 NormalizedEmail = "bozhidarakolev@myschool.com"
             };
@@ -1645,8 +1645,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserEvelinaVasileva = new ApplicationUser()
             {
                 Id = "3f12d8fb-1251-48f5-b566-8f4ef5b2c5d5",
-                UserName = "evelinavasileva",
-                NormalizedUserName = "evelinavasileva",
+                UserName = "evelinavasileva@myschool.com",
+                NormalizedUserName = "evelinavasileva@myschool.com",
                 Email = "evelinavasileva@myschool.com",
                 NormalizedEmail = "evelinavasileva@myschool.com"
             };
@@ -1655,8 +1655,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStoyanPetrov = new ApplicationUser()
             {
                 Id = "d7cde10b-1785-4e74-92b3-c18c8f3d9e0a",
-                UserName = "stoyanpetrov",
-                NormalizedUserName = "stoyanpetrov",
+                UserName = "stoyanpetrov@myschool.com",
+                NormalizedUserName = "stoyanpetrov@myschool.com",
                 Email = "stoyanpetrov@myschool.com",
                 NormalizedEmail = "stoyanpetrov@myschool.com"
             };
@@ -1665,8 +1665,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTsvetelinaStoyanova = new ApplicationUser()
             {
                 Id = "2f978b4c-4d9c-4ee1-aa1b-bdca0d1f89d6",
-                UserName = "tsvetelinastoyanova",
-                NormalizedUserName = "tsvetelinastoyanova",
+                UserName = "tsvetelinastoyanova@myschool.com",
+                NormalizedUserName = "tsvetelinastoyanova@myschool.com",
                 Email = "tsvetelinastoyanova@myschool.com",
                 NormalizedEmail = "tsvetelinastoyanova@myschool.com"
             };
@@ -1675,8 +1675,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserLyubenMarinov = new ApplicationUser()
             {
                 Id = "8270e9b1-2c24-43e1-9f93-22d9923de12c",
-                UserName = "lyubenmarinov",
-                NormalizedUserName = "lyubenmarinov",
+                UserName = "lyubenmarinov@myschool.com",
+                NormalizedUserName = "lyubenmarinov@myschool.com",
                 Email = "lyubenmarinov@myschool.com",
                 NormalizedEmail = "lyubenmarinov@myschool.com"
             };
@@ -1685,8 +1685,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRositsaPetrova = new ApplicationUser()
             {
                 Id = "f05ad822-8530-4f4d-9f43-d8908ee1ad48",
-                UserName = "rositsapetrova",
-                NormalizedUserName = "rositsapetrova",
+                UserName = "rositsapetrova@myschool.com",
+                NormalizedUserName = "rositsapetrova@myschool.com",
                 Email = "rositsapetrova@myschool.com",
                 NormalizedEmail = "rositsapetrova@myschool.com"
             };
@@ -1695,8 +1695,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKaloyanIvanov = new ApplicationUser()
             {
                 Id = "8e9d7e5c-3429-426e-8bf7-256f874a189a",
-                UserName = "kaloyanivanov",
-                NormalizedUserName = "kaloyanivanov",
+                UserName = "kaloyanivanov@myschool.com",
+                NormalizedUserName = "kaloyanivanov@myschool.com",
                 Email = "kaloyanivanov@myschool.com",
                 NormalizedEmail = "kaloyanivanov@myschool.com"
             };
@@ -1705,8 +1705,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserEkaterinaGeorgieva = new ApplicationUser()
             {
                 Id = "85bb508a-2d95-42d9-aa43-0e4fe33497a0",
-                UserName = "ekaterinageorgieva",
-                NormalizedUserName = "ekaterinageorgieva",
+                UserName = "ekaterinageorgieva@myschool.com",
+                NormalizedUserName = "ekaterinageorgieva@myschool.com",
                 Email = "ekaterinageorgieva@myschool.com",
                 NormalizedEmail = "ekaterinageorgieva@myschool.com"
             };
@@ -1715,8 +1715,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserHristoDimitrov = new ApplicationUser()
             {
                 Id = "b122f303-2d44-4f3d-bdd8-dac3626da548",
-                UserName = "hristodimitrov",
-                NormalizedUserName = "hristodimitrov",
+                UserName = "hristodimitrov@myschool.com",
+                NormalizedUserName = "hristodimitrov@myschool.com",
                 Email = "hristodimitrov@myschool.com",
                 NormalizedEmail = "hristodimitrov@myschool.com"
             };
@@ -1725,8 +1725,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDobrinkaIvanova = new ApplicationUser()
             {
                 Id = "4ce7832b-e2f3-446f-8c63-720db3f89237",
-                UserName = "dobrinkaivanova",
-                NormalizedUserName = "dobrinkaivanova",
+                UserName = "dobrinkaivanova@myschool.com",
+                NormalizedUserName = "dobrinkaivanova@myschool.com",
                 Email = "dobrinkaivanova@myschool.com",
                 NormalizedEmail = "dobrinkaivanova@myschool.com"
             };
@@ -1735,8 +1735,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBlagoyGeorgiev = new ApplicationUser()
             {
                 Id = "6b86569b-8f22-4a5c-9511-109f06d214a8",
-                UserName = "blagoygeorgiev",
-                NormalizedUserName = "blagoygeorgiev",
+                UserName = "blagoygeorgiev@myschool.com",
+                NormalizedUserName = "blagoygeorgiev@myschool.com",
                 Email = "blagoygeorgiev@myschool.com",
                 NormalizedEmail = "blagoygeorgiev@myschool.com"
             };
@@ -1745,8 +1745,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIskraKoleva = new ApplicationUser()
             {
                 Id = "923f8d7d-c02d-4177-a5f8-6b6975a7119b",
-                UserName = "iskrakoleva",
-                NormalizedUserName = "iskrakoleva",
+                UserName = "iskrakoleva@myschool.com",
+                NormalizedUserName = "iskrakoleva@myschool.com",
                 Email = "iskrakoleva@myschool.com",
                 NormalizedEmail = "iskrakoleva@myschool.com"
             };
@@ -1755,8 +1755,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKrasimirTodorov = new ApplicationUser()
             {
                 Id = "a0e8ee4a-4dbb-4a5e-b97f-e35c542b778e",
-                UserName = "krasimirtodorov",
-                NormalizedUserName = "krasimirtodorov",
+                UserName = "krasimirtodorov@myschool.com",
+                NormalizedUserName = "krasimirtodorov@myschool.com",
                 Email = "krasimirtodorov@myschool.com",
                 NormalizedEmail = "krasimirtodorov@myschool.com"
             };
@@ -1765,8 +1765,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGerganaIvanova = new ApplicationUser()
             {
                 Id = "0fe8a18a-0f52-4e41-8d44-292001678e5b",
-                UserName = "gerganaivanova",
-                NormalizedUserName = "gerganaivanova",
+                UserName = "gerganaivanova@myschool.com",
+                NormalizedUserName = "gerganaivanova@myschool.com",
                 Email = "gerganaivanova@myschool.com",
                 NormalizedEmail = "gerganaivanova@myschool.com"
             };
@@ -1775,8 +1775,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVasilPetrov = new ApplicationUser()
             {
                 Id = "95226fbf-1ebd-49c2-aaaf-71788a690ac5",
-                UserName = "vasilpetrov",
-                NormalizedUserName = "vasilpetrov",
+                UserName = "vasilpetrov@myschool.com",
+                NormalizedUserName = "vasilpetrov@myschool.com",
                 Email = "vasilpetrov@myschool.com",
                 NormalizedEmail = "vasilpetrov@myschool.com"
             };
@@ -1785,8 +1785,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNadezhdaDimitrova = new ApplicationUser()
             {
                 Id = "c3d2b72a-bbf1-448f-9d87-ef1dd620e91d",
-                UserName = "nadezhdadimitrova",
-                NormalizedUserName = "nadezhdadimitrova",
+                UserName = "nadezhdadimitrova@myschool.com",
+                NormalizedUserName = "nadezhdadimitrova@myschool.com",
                 Email = "nadezhdadimitrova@myschool.com",
                 NormalizedEmail = "nadezhdadimitrova@myschool.com"
             };
@@ -1795,8 +1795,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTodorGeorgiev = new ApplicationUser()
             {
                 Id = "3670d992-3c68-43a1-9862-1e14d65f8888",
-                UserName = "todorgeorgiev",
-                NormalizedUserName = "todorgeorgiev",
+                UserName = "todorgeorgiev@myschool.com",
+                NormalizedUserName = "todorgeorgiev@myschool.com",
                 Email = "todorgeorgiev@myschool.com",
                 NormalizedEmail = "todorgeorgiev@myschool.com"
             };
@@ -1805,8 +1805,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadkaIvanova = new ApplicationUser()
             {
                 Id = "04870e99-9ba7-4640-8ef2-01fc2a1190d7",
-                UserName = "radkaivanova",
-                NormalizedUserName = "radkaivanova",
+                UserName = "radkaivanova@myschool.com",
+                NormalizedUserName = "radkaivanova@myschool.com",
                 Email = "radkaivanova@myschool.com",
                 NormalizedEmail = "radkaivanova@myschool.com"
             };
@@ -1815,8 +1815,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserHristinaStefanova = new ApplicationUser()
             {
                 Id = "c5422b1e-16ed-4d05-8d45-9202c7d85d77",
-                UserName = "hristinastefanova",
-                NormalizedUserName = "hristinastefanova",
+                UserName = "hristinastefanova@myschool.com",
+                NormalizedUserName = "hristinastefanova@myschool.com",
                 Email = "hristinastefanova@myschool.com",
                 NormalizedEmail = "hristinastefanova@myschool.com"
             };
@@ -1825,8 +1825,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYavorKolev = new ApplicationUser()
             {
                 Id = "e06a86ef-9ed7-4852-b9e3-0c0c62b741fe",
-                UserName = "yavorkolev",
-                NormalizedUserName = "yavorkolev",
+                UserName = "yavorkolev@myschool.com",
+                NormalizedUserName = "yavorkolev@myschool.com",
                 Email = "yavorkolev@myschool.com",
                 NormalizedEmail = "yavorkolev@myschool.com"
             };
@@ -1835,8 +1835,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKameliaPetrova = new ApplicationUser()
             {
                 Id = "0dbed053-0ea2-43c1-b4b1-99a1d1197084",
-                UserName = "kameliapetrova",
-                NormalizedUserName = "kameliapetrova",
+                UserName = "kameliapetrova@myschool.com",
+                NormalizedUserName = "kameliapetrova@myschool.com",
                 Email = "kameliapetrova@myschool.com",
                 NormalizedEmail = "kameliapetrova@myschool.com"
             };
@@ -1845,8 +1845,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserEmilIvanov = new ApplicationUser()
             {
                 Id = "6e3ac05f-09b1-4e65-9ab5-81a0c787e9e3",
-                UserName = "emilivanov",
-                NormalizedUserName = "emilivanov",
+                UserName = "emilivanov@myschool.com",
+                NormalizedUserName = "emilivanov@myschool.com",
                 Email = "emilivanov@myschool.com",
                 NormalizedEmail = "emilivanov@myschool.com"
             };
@@ -1855,8 +1855,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDilyanaAleksandrova = new ApplicationUser()
             {
                 Id = "a7201fc2-3e05-4ad0-a0f3-1f925f05e0b1",
-                UserName = "dilyanaaleksandrova",
-                NormalizedUserName = "dilyanaaleksandrova",
+                UserName = "dilyanaaleksandrova@myschool.com",
+                NormalizedUserName = "dilyanaaleksandrova@myschool.com",
                 Email = "dilyanaaleksandrova@myschool.com",
                 NormalizedEmail = "dilyanaaleksandrova@myschool.com"
             };
@@ -1865,8 +1865,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTsvetanGeorgiev = new ApplicationUser()
             {
                 Id = "57e4c1a5-4c76-4cda-98ce-2e2a0a22c764",
-                UserName = "tsvetangeorgiev",
-                NormalizedUserName = "tsvetangeorgiev",
+                UserName = "tsvetangeorgiev@myschool.com",
+                NormalizedUserName = "tsvetangeorgiev@myschool.com",
                 Email = "tsvetangeorgiev@myschool.com",
                 NormalizedEmail = "tsvetangeorgiev@myschool.com"
             };
@@ -1875,8 +1875,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserZhivkaIvanova = new ApplicationUser()
             {
                 Id = "87e879c3-5c01-41d1-9e08-0a667172a0c7",
-                UserName = "zhivkaivanova",
-                NormalizedUserName = "zhivkaivanova",
+                UserName = "zhivkaivanova@myschool.com",
+                NormalizedUserName = "zhivkaivanova@myschool.com",
                 Email = "zhivkaivanova@myschool.com",
                 NormalizedEmail = "zhivkaivanova@myschool.com"
             };
@@ -1885,8 +1885,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvoDimitrov = new ApplicationUser()
             {
                 Id = "a7f2842b-bfd9-4e04-994a-c5f16bfefc10",
-                UserName = "ivodimitrov",
-                NormalizedUserName = "ivodimitrov",
+                UserName = "ivodimitrov@myschool.com",
+                NormalizedUserName = "ivodimitrov@myschool.com",
                 Email = "ivodimitrov@myschool.com",
                 NormalizedEmail = "ivodimitrov@myschool.com"
             };
@@ -1895,8 +1895,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAdriyanaStoyanova = new ApplicationUser()
             {
                 Id = "9e8741d5-65d9-4cc0-b7b6-ff1b688c34f1",
-                UserName = "adriyanastoyanova",
-                NormalizedUserName = "adriyanastoyanova",
+                UserName = "adriyanastoyanova@myschool.com",
+                NormalizedUserName = "adriyanastoyanova@myschool.com",
                 Email = "adriyanastoyanova@myschool.com",
                 NormalizedEmail = "adriyanastoyanova@myschool.com"
             };
@@ -1905,8 +1905,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKamenPetrov = new ApplicationUser()
             {
                 Id = "0f76fe6a-91ed-496d-aa60-ba07cda9c7e1",
-                UserName = "kamenpetrov",
-                NormalizedUserName = "kamenpetrov",
+                UserName = "kamenpetrov@myschool.com",
+                NormalizedUserName = "kamenpetrov@myschool.com",
                 Email = "kamenpetrov@myschool.com",
                 NormalizedEmail = "kamenpetrov@myschool.com"
             };
@@ -1915,8 +1915,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKristinaKoleva = new ApplicationUser()
             {
                 Id = "2e3c6d85-136f-4878-819b-9f982e6e4ed8",
-                UserName = "kristinakoleva",
-                NormalizedUserName = "kristinakoleva",
+                UserName = "kristinakoleva@myschool.com",
+                NormalizedUserName = "kristinakoleva@myschool.com",
                 Email = "kristinakoleva@myschool.com",
                 NormalizedEmail = "kristinakoleva@myschool.com"
             };
@@ -1925,8 +1925,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYankoIvanov = new ApplicationUser()
             {
                 Id = "65c645b2-cdf7-45d1-89d1-cd881a36ed98",
-                UserName = "yankoivanov",
-                NormalizedUserName = "yankoivanov",
+                UserName = "yankoivanov@myschool.com",
+                NormalizedUserName = "yankoivanov@myschool.com",
                 Email = "yankoivanov@myschool.com",
                 NormalizedEmail = "yankoivanov@myschool.com"
             };
@@ -1935,8 +1935,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserPolinaGeorgieva = new ApplicationUser()
             {
                 Id = "65aa7d12-2f5a-4381-8c69-9b01523cf5e1",
-                UserName = "polinageorgieva",
-                NormalizedUserName = "polinageorgieva",
+                UserName = "polinageorgieva@myschool.com",
+                NormalizedUserName = "polinageorgieva@myschool.com",
                 Email = "polinageorgieva@myschool.com",
                 NormalizedEmail = "polinageorgieva@myschool.com"
             };
@@ -1945,8 +1945,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVeselinVasilev = new ApplicationUser()
             {
                 Id = "3f0c19e4-df31-42e7-9421-882128123af3",
-                UserName = "veselinvasilev",
-                NormalizedUserName = "veselinvasilev",
+                UserName = "veselinvasilev@myschool.com",
+                NormalizedUserName = "veselinvasilev@myschool.com",
                 Email = "veselinvasilev@myschool.com",
                 NormalizedEmail = "veselinvasilev@myschool.com"
             };
@@ -1955,8 +1955,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAntoniyaPetrova = new ApplicationUser()
             {
                 Id = "2ef3d2b3-3d7f-4d52-8a04-5433e1f869ec",
-                UserName = "antoniyapetrova",
-                NormalizedUserName = "antoniyapetrova",
+                UserName = "antoniyapetrova@myschool.com",
+                NormalizedUserName = "antoniyapetrova@myschool.com",
                 Email = "antoniyapetrova@myschool.com",
                 NormalizedEmail = "antoniyapetrova@myschool.com"
             };
@@ -1965,8 +1965,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserLyubomirDimitrov = new ApplicationUser()
             {
                 Id = "b87b71e9-8db3-4f09-b865-5402a08d0b8b",
-                UserName = "lyubomirdimitrov",
-                NormalizedUserName = "lyubomirdimitrov",
+                UserName = "lyubomirdimitrov@myschool.com",
+                NormalizedUserName = "lyubomirdimitrov@myschool.com",
                 Email = "lyubomirdimitrov@myschool.com",
                 NormalizedEmail = "lyubomirdimitrov@myschool.com"
             };
@@ -1975,8 +1975,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserZornitsaTodorova = new ApplicationUser()
             {
                 Id = "f75d44bf-9f2d-4d0f-a20a-b28d8eac0d7d",
-                UserName = "zornitsatodorova",
-                NormalizedUserName = "zornitsatodorova",
+                UserName = "zornitsatodorova@myschool.com",
+                NormalizedUserName = "zornitsatodorova@myschool.com",
                 Email = "zornitsatodorova@myschool.com",
                 NormalizedEmail = "zornitsatodorova@myschool.com"
             };
@@ -1985,8 +1985,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStefanIvanov = new ApplicationUser()
             {
                 Id = "1e1b85b7-6c15-4f2c-b1c4-47ad0c8bf5f9",
-                UserName = "stefanivanov",
-                NormalizedUserName = "stefanivanov",
+                UserName = "stefanivanov@myschool.com",
+                NormalizedUserName = "stefanivanov@myschool.com",
                 Email = "stefanivanov@myschool.com",
                 NormalizedEmail = "stefanivanov@myschool.com"
             };
@@ -1995,8 +1995,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYoanaGeorgieva = new ApplicationUser()
             {
                 Id = "5a52e138-0a2c-4b1a-8a68-b95de62aa345",
-                UserName = "yoanageorgieva",
-                NormalizedUserName = "yoanageorgieva",
+                UserName = "yoanageorgieva@myschool.com",
+                NormalizedUserName = "yoanageorgieva@myschool.com",
                 Email = "yoanageorgieva@myschool.com",
                 NormalizedEmail = "yoanageorgieva@myschool.com"
             };
@@ -2005,8 +2005,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKrasimiraPetrova = new ApplicationUser()
             {
                 Id = "b2c8a67c-5a1d-4e23-9c85-0c57454de9ee",
-                UserName = "krasimirapetrova",
-                NormalizedUserName = "krasimirapetrova",
+                UserName = "krasimirapetrova@myschool.com",
+                NormalizedUserName = "krasimirapetrova@myschool.com",
                 Email = "krasimirapetrova@myschool.com",
                 NormalizedEmail = "krasimirapetrova@myschool.com"
             };
@@ -2015,8 +2015,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvayloKolev = new ApplicationUser()
             {
                 Id = "9e3dbbc2-33d7-4c57-a3ee-5b7e19b1c3c2",
-                UserName = "ivaylokolev",
-                NormalizedUserName = "ivaylokolev",
+                UserName = "ivaylokolev@myschool.com",
+                NormalizedUserName = "ivaylokolev@myschool.com",
                 Email = "ivaylokolev@myschool.com",
                 NormalizedEmail = "ivaylokolev@myschool.com"
             };
@@ -2025,8 +2025,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMargaritaGeorgieva = new ApplicationUser()
             {
                 Id = "9b9474b0-06ab-4953-8f23-cff7e88c7a0b",
-                UserName = "margaritageorgeiva",
-                NormalizedUserName = "margaritageorgeiva",
+                UserName = "margaritageorgeiva@myschool.com",
+                NormalizedUserName = "margaritageorgeiva@myschool.com",
                 Email = "margaritageorgeiva@myschool.com",
                 NormalizedEmail = "margaritageorgeiva@myschool.com"
             };
@@ -2035,8 +2035,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRumenIvanov = new ApplicationUser()
             {
                 Id = "7edf5ac1-2d87-4bf0-b2ed-4d2e4a7b9657",
-                UserName = "rumenivanov",
-                NormalizedUserName = "rumenivanov",
+                UserName = "rumenivanov@myschool.com",
+                NormalizedUserName = "rumenivanov@myschool.com",
                 Email = "rumenivanov@myschool.com",
                 NormalizedEmail = "rumenivanov@myschool.com"
             };
@@ -2045,8 +2045,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMilenaDimitrova = new ApplicationUser()
             {
                 Id = "e192e1fe-5680-4ad9-a5e8-4c8328f7840c",
-                UserName = "milenadimitrova",
-                NormalizedUserName = "milenadimitrova",
+                UserName = "milenadimitrova@myschool.com",
+                NormalizedUserName = "milenadimitrova@myschool.com",
                 Email = "milenadimitrova@myschool.com",
                 NormalizedEmail = "milenadimitrova@myschool.com"
             };
@@ -2055,8 +2055,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYordanTodorov = new ApplicationUser()
             {
                 Id = "5d5313c0-7da7-4ac6-aa0d-3e6a51fe09b6",
-                UserName = "yordantodorov",
-                NormalizedUserName = "yordantodorov",
+                UserName = "yordantodorov@myschool.com",
+                NormalizedUserName = "yordantodorov@myschool.com",
                 Email = "yordantodorov@myschool.com",
                 NormalizedEmail = "yordantodorov@myschool.com"
             };
@@ -2065,8 +2065,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSilviyaPetrova = new ApplicationUser()
             {
                 Id = "31d9f6c5-c9a8-48c8-8b5f-c990d06200ad",
-                UserName = "silviyapetrova",
-                NormalizedUserName = "silviyapetrova",
+                UserName = "silviyapetrova@myschool.com",
+                NormalizedUserName = "silviyapetrova@myschool.com",
                 Email = "silviyapetrova@myschool.com",
                 NormalizedEmail = "silviyapetrova@myschool.com"
             };
@@ -2075,8 +2075,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBogdanIvanov = new ApplicationUser()
             {
                 Id = "5e61439f-95d5-4e2b-9b0d-91e7c4472e3e",
-                UserName = "bogdanivanov",
-                NormalizedUserName = "bogdanivanov",
+                UserName = "bogdanivanov@myschool.com",
+                NormalizedUserName = "bogdanivanov@myschool.com",
                 Email = "bogdanivanov@myschool.com",
                 NormalizedEmail = "bogdanivanov@myschool.com"
             };
@@ -2085,8 +2085,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserPetyaKoleva = new ApplicationUser()
             {
                 Id = "32d43d0a-632a-48fe-bc8f-68bb3f72f083",
-                UserName = "petyakoleva",
-                NormalizedUserName = "petyakoleva",
+                UserName = "petyakoleva@myschool.com",
+                NormalizedUserName = "petyakoleva@myschool.com",
                 Email = "petyakoleva@myschool.com",
                 NormalizedEmail = "petyakoleva@myschool.com"
             };
@@ -2095,8 +2095,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAsenMarinov = new ApplicationUser()
             {
                 Id = "e9f13942-e518-46f3-8b3e-d332b26d18fc",
-                UserName = "asenmarinov",
-                NormalizedUserName = "asenmarinov",
+                UserName = "asenmarinov@myschool.com",
+                NormalizedUserName = "asenmarinov@myschool.com",
                 Email = "asenmarinov@myschool.com",
                 NormalizedEmail = "asenmarinov@myschool.com"
             };
@@ -2105,8 +2105,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRalitsaIvanova = new ApplicationUser()
             {
                 Id = "5e4bb853-02b0-4e76-b28b-2181be91d1fc",
-                UserName = "ralitsaivanova",
-                NormalizedUserName = "ralitsaivanova",
+                UserName = "ralitsaivanova@myschool.com",
+                NormalizedUserName = "ralitsaivanova@myschool.com",
                 Email = "ralitsaivanova@myschool.com",
                 NormalizedEmail = "ralitsaivanova@myschool.com"
             };
@@ -2115,8 +2115,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVelkoVasilev = new ApplicationUser()
             {
                 Id = "2b7e8569-4edf-46d1-8b07-d2a09977e361",
-                UserName = "velkovasilev",
-                NormalizedUserName = "velkovasilev",
+                UserName = "velkovasilev@myschool.com",
+                NormalizedUserName = "velkovasilev@myschool.com",
                 Email = "velkovasilev@myschool.com",
                 NormalizedEmail = "velkovasilev@myschool.com"
             };
@@ -2125,8 +2125,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGalyaDimitrova = new ApplicationUser()
             {
                 Id = "b685f57e-87da-4d6f-8d52-1597c109a1f9",
-                UserName = "galyadimitrova",
-                NormalizedUserName = "galyadimitrova",
+                UserName = "galyadimitrova@myschool.com",
+                NormalizedUserName = "galyadimitrova@myschool.com",
                 Email = "galyadimitrova@myschool.com",
                 NormalizedEmail = "galyadimitrova@myschool.com"
             };
@@ -2135,8 +2135,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDimiturIvanov = new ApplicationUser()
             {
                 Id = "d6ab2e2d-bcc6-4e32-82eb-8c77280d482d",
-                UserName = "dimiturivanov",
-                NormalizedUserName = "dimiturivanov",
+                UserName = "dimiturivanov@myschool.com",
+                NormalizedUserName = "dimiturivanov@myschool.com",
                 Email = "dimiturivanov@myschool.com",
                 NormalizedEmail = "dimiturivanov@myschool.com"
             };
@@ -2145,8 +2145,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNadiaKoleva = new ApplicationUser()
             {
                 Id = "30936933-775b-4687-8e1a-5a758bc5ed38",
-                UserName = "nadiakoleva",
-                NormalizedUserName = "nadiakoleva",
+                UserName = "nadiakoleva@myschool.com",
+                NormalizedUserName = "nadiakoleva@myschool.com",
                 Email = "nadiakoleva@myschool.com",
                 NormalizedEmail = "nadiakoleva@myschool.com"
             };
@@ -2155,8 +2155,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYulianPetrov = new ApplicationUser()
             {
                 Id = "8c9965a3-36a4-4a6b-ba5a-7f3a262aa0c3",
-                UserName = "yulianpetrov",
-                NormalizedUserName = "yulianpetrov",
+                UserName = "yulianpetrov@myschool.com",
+                NormalizedUserName = "yulianpetrov@myschool.com",
                 Email = "yulianpetrov@myschool.com",
                 NormalizedEmail = "yulianpetrov@myschool.com"
             };
@@ -2165,8 +2165,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadostinaGeorgieva = new ApplicationUser()
             {
                 Id = "5dbfbd88-cb21-4784-b7e8-6b0e618ad92b",
-                UserName = "radostinageorgieva",
-                NormalizedUserName = "radostinageorgieva",
+                UserName = "radostinageorgieva@myschool.com",
+                NormalizedUserName = "radostinageorgieva@myschool.com",
                 Email = "radostinageorgieva@myschool.com",
                 NormalizedEmail = "radostinageorgieva@myschool.com"
             };
@@ -2175,8 +2175,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKrasimIvanov = new ApplicationUser()
             {
                 Id = "a4d2bcdc-23da-4395-9b9b-2087cc52bafe",
-                UserName = "krasimivanov",
-                NormalizedUserName = "krasimivanov",
+                UserName = "krasimivanov@myschool.com",
+                NormalizedUserName = "krasimivanov@myschool.com",
                 Email = "krasimivanov@myschool.com",
                 NormalizedEmail = "krasimivanov@myschool.com"
             };
@@ -2185,8 +2185,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTeodoraTodorova = new ApplicationUser()
             {
                 Id = "23fb4de4-1bf9-4e72-9764-4c2d1f870990",
-                UserName = "teodoratodorova",
-                NormalizedUserName = "teodoratodorova",
+                UserName = "teodoratodorova@myschool.com",
+                NormalizedUserName = "teodoratodorova@myschool.com",
                 Email = "teodoratodorova@myschool.com",
                 NormalizedEmail = "teodoratodorova@myschool.com"
             };
@@ -2195,8 +2195,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKalinPetrov = new ApplicationUser()
             {
                 Id = "6a9e1770-798c-43de-aad7-8d8a6ad5eeab",
-                UserName = "kalinpetrov",
-                NormalizedUserName = "kalinpetrov",
+                UserName = "kalinpetrov@myschool.com",
+                NormalizedUserName = "kalinpetrov@myschool.com",
                 Email = "kalinpetrov@myschool.com",
                 NormalizedEmail = "kalinpetrov@myschool.com"
             };
@@ -2205,8 +2205,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSvetlaDimitrova = new ApplicationUser()
             {
                 Id = "41ac68c1-84c8-4a2a-9f69-8571bb50e80a",
-                UserName = "svetladimitrova",
-                NormalizedUserName = "svetladimitrova",
+                UserName = "svetladimitrova@myschool.com",
+                NormalizedUserName = "svetladimitrova@myschool.com",
                 Email = "svetladimitrova@myschool.com",
                 NormalizedEmail = "svetladimitrova@myschool.com"
             };
@@ -2215,8 +2215,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVentsislavGeorgiev = new ApplicationUser()
             {
                 Id = "3b3202f3-3f0c-4e15-9eb1-2c49b78aeb3b",
-                UserName = "ventsislavgeorgiev",
-                NormalizedUserName = "ventsislavgeorgiev",
+                UserName = "ventsislavgeorgiev@myschool.com",
+                NormalizedUserName = "ventsislavgeorgiev@myschool.com",
                 Email = "ventsislavgeorgiev@myschool.com",
                 NormalizedEmail = "ventsislavgeorgiev@myschool.com"
             };
@@ -2225,8 +2225,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVasilenaIvanova = new ApplicationUser()
             {
                 Id = "35af9309-d2fb-46a4-84b4-d3dfdaa6b7d3",
-                UserName = "vasilenaivanova",
-                NormalizedUserName = "vasilenaivanova",
+                UserName = "vasilenaivanova@myschool.com",
+                NormalizedUserName = "vasilenaivanova@myschool.com",
                 Email = "vasilenaivanova@myschool.com",
                 NormalizedEmail = "vasilenaivanova@myschool.com"
             };
@@ -2235,8 +2235,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMartinPetrov = new ApplicationUser()
             {
                 Id = "4ec6a858-e99e-44a8-822d-5292c378fbb4",
-                UserName = "martinpetrov",
-                NormalizedUserName = "martinpetrov",
+                UserName = "martinpetrov@myschool.com",
+                NormalizedUserName = "martinpetrov@myschool.com",
                 Email = "martinpetrov@myschool.com",
                 NormalizedEmail = "martinpetrov@myschool.com"
             };
@@ -2245,8 +2245,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRalitsaKoleva = new ApplicationUser()
             {
                 Id = "1a36c289-32ed-42d0-8b6b-1f5490ecf0ab",
-                UserName = "ralitsakoleva",
-                NormalizedUserName = "ralitsakoleva",
+                UserName = "ralitsakoleva@myschool.com",
+                NormalizedUserName = "ralitsakoleva@myschool.com",
                 Email = "ralitsakoleva@myschool.com",
                 NormalizedEmail = "ralitsakoleva@myschool.com"
             };
@@ -2255,8 +2255,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStefanDimitrov = new ApplicationUser()
             {
                 Id = "1b56c7bf-0f4e-4c3d-94db-7e81f4c32ebf",
-                UserName = "stefandimitrov",
-                NormalizedUserName = "stefandimitrov",
+                UserName = "stefandimitrov@myschool.com",
+                NormalizedUserName = "stefandimitrov@myschool.com",
                 Email = "stefandimitrov@myschool.com",
                 NormalizedEmail = "stefandimitrov@myschool.com"
             };
@@ -2265,8 +2265,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSnezhanaGeorgieva = new ApplicationUser()
             {
                 Id = "a22b38b9-85b0-4fe0-9d5c-7e3d9aa55a45",
-                UserName = "snezhanageorgieva",
-                NormalizedUserName = "snezhanageorgieva",
+                UserName = "snezhanageorgieva@myschool.com",
+                NormalizedUserName = "snezhanageorgieva@myschool.com",
                 Email = "snezhanageorgieva@myschool.com",
                 NormalizedEmail = "snezhanageorgieva@myschool.com"
             };
@@ -2275,8 +2275,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvayloIvanov = new ApplicationUser()
             {
                 Id = "11b2f953-01c9-446a-818f-778ce6a1f1a3",
-                UserName = "ivayloivanov",
-                NormalizedUserName = "ivayloivanov",
+                UserName = "ivayloivanov@myschool.com",
+                NormalizedUserName = "ivayloivanov@myschool.com",
                 Email = "ivayloivanov@myschool.com",
                 NormalizedEmail = "ivayloivanov@myschool.com"
             };
@@ -2285,8 +2285,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMarianaPetrova = new ApplicationUser()
             {
                 Id = "5a119169-b39a-4e4b-8f7f-3ab86a6cebc4",
-                UserName = "marianapetrova",
-                NormalizedUserName = "marianapetrova",
+                UserName = "marianapetrova@myschool.com",
+                NormalizedUserName = "marianapetrova@myschool.com",
                 Email = "marianapetrova@myschool.com",
                 NormalizedEmail = "marianapetrova@myschool.com"
             };
@@ -2295,8 +2295,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRosenKolev = new ApplicationUser()
             {
                 Id = "2b7c8f64-17f7-42f5-bb92-84b8f4d35f4f",
-                UserName = "rosenkolev",
-                NormalizedUserName = "rosenkolev",
+                UserName = "rosenkolev@myschool.com",
+                NormalizedUserName = "rosenkolev@myschool.com",
                 Email = "rosenkolev@myschool.com",
                 NormalizedEmail = "rosenkolev@myschool.com"
             };
@@ -2305,8 +2305,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTanyaStoyanova = new ApplicationUser()
             {
                 Id = "6b04a713-c12c-4a0f-aa0b-0eafde1543ac",
-                UserName = "tanyastoyanova",
-                NormalizedUserName = "tanyastoyanova",
+                UserName = "tanyastoyanova@myschool.com",
+                NormalizedUserName = "tanyastoyanova@myschool.com",
                 Email = "tanyastoyanova@myschool.com",
                 NormalizedEmail = "tanyastoyanova@myschool.com"
             };
@@ -2318,8 +2318,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDimitarIvanov = new ApplicationUser()
             {
                 Id = "21d56e3d-8c91-431e-a6e2-760848cf2aae",
-                UserName = "dimitarivanov",
-                NormalizedUserName = "dimitarivanov",
+                UserName = "dimitarivanov@myschool.com",
+                NormalizedUserName = "dimitarivanov@myschool.com",
                 Email = "dimitarivanov@myschool.com",
                 NormalizedEmail = "dimitarivanov@myschool.com"
             };
@@ -2328,8 +2328,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserElenaPetrova = new ApplicationUser()
             {
                 Id = "d3d28ff2-79fe-4e7a-bf85-8e4fe2e0a097",
-                UserName = "elenapetrova",
-                NormalizedUserName = "elenapetrova",
+                UserName = "elenapetrova@myschool.com",
+                NormalizedUserName = "elenapetrova@myschool.com",
                 Email = "elenapetrova@myschool.com",
                 NormalizedEmail = "elenapetrova@myschool.com"
             };
@@ -2338,8 +2338,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStefchoDimitrov = new ApplicationUser()
             {
                 Id = "c6aa9e1c-1894-4ef8-9a29-29c110f31949",
-                UserName = "stefchodimitrov",
-                NormalizedUserName = "stefchodimitrov",
+                UserName = "stefchodimitrov@myschool.com",
+                NormalizedUserName = "stefchodimitrov@myschool.com",
                 Email = "stefchodimitrov@myschool.com",
                 NormalizedEmail = "stefchodimitrov@myschool.com"
             };
@@ -2348,8 +2348,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMilenaGeorgieva = new ApplicationUser()
             {
                 Id = "109824cc-6b9f-4b1f-af65-87bb5a4ff79b",
-                UserName = "milenageorgieva",
-                NormalizedUserName = "milenageorgieva",
+                UserName = "milenageorgieva@myschool.com",
+                NormalizedUserName = "milenageorgieva@myschool.com",
                 Email = "milenageorgieva@myschool.com",
                 NormalizedEmail = "milenageorgieva@myschool.com"
             };
@@ -2358,8 +2358,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAleksandarTodorov = new ApplicationUser()
             {
                 Id = "8c0cb95d-0e1a-40c4-9e2f-2542d530dbaa",
-                UserName = "aleksandartodorov",
-                NormalizedUserName = "aleksandartodorov",
+                UserName = "aleksandartodorov@myschool.com",
+                NormalizedUserName = "aleksandartodorov@myschool.com",
                 Email = "aleksandartodorov@myschool.com",
                 NormalizedEmail = "aleksandartodorov@myschool.com"
             };
@@ -2368,8 +2368,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserViktoriaIvanova = new ApplicationUser()
             {
                 Id = "7fc4b81c-0b22-4e35-bc17-c7c3e73d1874",
-                UserName = "viktoriaivanova",
-                NormalizedUserName = "viktoriaivanova",
+                UserName = "viktoriaivanova@myschool.com",
+                NormalizedUserName = "viktoriaivanova@myschool.com",
                 Email = "viktoriaivanova@myschool.com",
                 NormalizedEmail = "viktoriaivanova@myschool.com"
             };
@@ -2378,8 +2378,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNikolayKolev = new ApplicationUser()
             {
                 Id = "5a7d1e4a-8f4f-4e52-9d14-06f9d3a134b4",
-                UserName = "nikolaykolev",
-                NormalizedUserName = "nikolaykolev",
+                UserName = "nikolaykolev@myschool.com",
+                NormalizedUserName = "nikolaykolev@myschool.com",
                 Email = "nikolaykolev@myschool.com",
                 NormalizedEmail = "nikolaykolev@myschool.com"
             };
@@ -2388,8 +2388,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMariaVasileva = new ApplicationUser()
             {
                 Id = "93a6ac3b-c8c9-4a24-a00b-4f54e2f4d2d7",
-                UserName = "mariavasileva",
-                NormalizedUserName = "mariavasileva",
+                UserName = "mariavasileva@myschool.com",
+                NormalizedUserName = "mariavasileva@myschool.com",
                 Email = "mariavasileva@myschool.com",
                 NormalizedEmail = "mariavasileva@myschool.com"
             };
@@ -2398,8 +2398,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvayloPetrov = new ApplicationUser()
             {
                 Id = "d071556f-89ee-4819-86b2-7eb3b63f65a2",
-                UserName = "ivaylopetrov",
-                NormalizedUserName = "ivaylopetrov",
+                UserName = "ivaylopetrov@myschool.com",
+                NormalizedUserName = "ivaylopetrov@myschool.com",
                 Email = "ivaylopetrov@myschool.com",
                 NormalizedEmail = "ivaylopetrov@myschool.com"
             };
@@ -2408,8 +2408,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGabrielaStoyanova = new ApplicationUser()
             {
                 Id = "c618a246-9af9-4a37-9e0d-257ec4b2b854",
-                UserName = "gabrielastoyanova",
-                NormalizedUserName = "gabrielastoyanova",
+                UserName = "gabrielastoyanova@myschool.com",
+                NormalizedUserName = "gabrielastoyanova@myschool.com",
                 Email = "gabrielastoyanova@myschool.com",
                 NormalizedEmail = "gabrielastoyanova@myschool.com"
             };
@@ -2418,8 +2418,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGeorgiMarinov = new ApplicationUser()
             {
                 Id = "172ef32c-2c8e-49f9-8c0f-0d8236a98fc7",
-                UserName = "georgimarinov",
-                NormalizedUserName = "georgimarinov",
+                UserName = "georgimarinov@myschool.com",
+                NormalizedUserName = "georgimarinov@myschool.com",
                 Email = "georgimarinov@myschool.com",
                 NormalizedEmail = "georgimarinov@myschool.com"
             };
@@ -2428,8 +2428,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKristinaPetrova = new ApplicationUser()
             {
                 Id = "1f49e02f-784c-4b51-856b-0fc301da5bf0",
-                UserName = "kristinapetrova",
-                NormalizedUserName = "kristinapetrova",
+                UserName = "kristinapetrova@myschool.com",
+                NormalizedUserName = "kristinapetrova@myschool.com",
                 Email = "kristinapetrova@myschool.com",
                 NormalizedEmail = "kristinapetrova@myschool.com"
             };
@@ -2438,8 +2438,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRumchoIvanov = new ApplicationUser()
             {
                 Id = "f3dd26e0-e2eb-4e1f-9ea2-d260e779a5e3",
-                UserName = "rumchoivanov",
-                NormalizedUserName = "rumchoivanov",
+                UserName = "rumchoivanov@myschool.com",
+                NormalizedUserName = "rumchoivanov@myschool.com",
                 Email = "rumchoivanov@myschool.com",
                 NormalizedEmail = "rumchoivanov@myschool.com"
             };
@@ -2448,8 +2448,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserEmiliaGeorgieva = new ApplicationUser()
             {
                 Id = "b4c1c7da-6491-48d6-91d5-3c4f43105fc1",
-                UserName = "emiliageorgieva",
-                NormalizedUserName = "emiliageorgieva",
+                UserName = "emiliageorgieva@myschool.com",
+                NormalizedUserName = "emiliageorgieva@myschool.com",
                 Email = "emiliageorgieva@myschool.com",
                 NormalizedEmail = "emiliageorgieva@myschool.com"
             };
@@ -2458,8 +2458,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKrasimirDimitrov = new ApplicationUser()
             {
                 Id = "5038ef42-267f-4a5d-8b92-2d63052265c8",
-                UserName = "krasimirivanov",
-                NormalizedUserName = "krasimirivanov",
+                UserName = "krasimirivanov@myschool.com",
+                NormalizedUserName = "krasimirivanov@myschool.com",
                 Email = "krasimirivanov@myschool.com",
                 NormalizedEmail = "krasimirivanov@myschool.com"
             };
@@ -2468,8 +2468,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSilviyaIvanova = new ApplicationUser()
             {
                 Id = "9e32eab9-84e3-4b35-bb92-89b3dfb8e98f",
-                UserName = "silviyaivanova",
-                NormalizedUserName = "silviyaivanova",
+                UserName = "silviyaivanova@myschool.com",
+                NormalizedUserName = "silviyaivanova@myschool.com",
                 Email = "silviyaivanova@myschool.com",
                 NormalizedEmail = "silviyaivanova@myschool.com"
             };
@@ -2478,8 +2478,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAsenGeorgiev = new ApplicationUser()
             {
                 Id = "84ab245c-804d-4ac7-8f9e-bcda15863c5c",
-                UserName = "asengeorgiev",
-                NormalizedUserName = "asengeorgiev",
+                UserName = "asengeorgiev@myschool.com",
+                NormalizedUserName = "asengeorgiev@myschool.com",
                 Email = "asengeorgiev@myschool.com",
                 NormalizedEmail = "asengeorgiev@myschool.com"
             };
@@ -2488,8 +2488,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserElenaKoleva = new ApplicationUser()
             {
                 Id = "5a141fd9-2bcf-4dab-8c0a-8c15b7c8dbef",
-                UserName = "elenakoleva",
-                NormalizedUserName = "elenakoleva",
+                UserName = "elenakoleva@myschool.com",
+                NormalizedUserName = "elenakoleva@myschool.com",
                 Email = "elenakoleva@myschool.com",
                 NormalizedEmail = "elenakoleva@myschool.com"
             };
@@ -2498,8 +2498,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStanimirTodorov = new ApplicationUser()
             {
                 Id = "31b1f166-5412-40c7-b0cb-38aaec6a5ba6",
-                UserName = "stanimirtodorov",
-                NormalizedUserName = "stanimirtodorov",
+                UserName = "stanimirtodorov@myschool.com",
+                NormalizedUserName = "stanimirtodorov@myschool.com",
                 Email = "stanimirtodorov@myschool.com",
                 NormalizedEmail = "stanimirtodorov@myschool.com"
             };
@@ -2508,8 +2508,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMagdalenaIvanova = new ApplicationUser()
             {
                 Id = "1443d844-bfd9-45a1-94a5-83c18f140c0e",
-                UserName = "magdalenaivanova",
-                NormalizedUserName = "magdalenaivanova",
+                UserName = "magdalenaivanova@myschool.com",
+                NormalizedUserName = "magdalenaivanova@myschool.com",
                 Email = "magdalenaivanova@myschool.com",
                 NormalizedEmail = "magdalenaivanova@myschool.com"
             };
@@ -2518,8 +2518,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserHristoPetrov = new ApplicationUser()
             {
                 Id = "d0b3c3d4-5803-4f42-9f3f-5879926e2f3f",
-                UserName = "hristopetrov",
-                NormalizedUserName = "hristopetrov",
+                UserName = "hristopetrov@myschool.com",
+                NormalizedUserName = "hristopetrov@myschool.com",
                 Email = "hristopetrov@myschool.com",
                 NormalizedEmail = "hristopetrov@myschool.com"
             };
@@ -2528,8 +2528,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKalinaDimitrova = new ApplicationUser()
             {
                 Id = "7b1a2e32-bc36-4bf7-9b65-07fbfa810baa",
-                UserName = "kalinadimitrova",
-                NormalizedUserName = "kalinadimitrova",
+                UserName = "kalinadimitrova@myschool.com",
+                NormalizedUserName = "kalinadimitrova@myschool.com",
                 Email = "kalinadimitrova@myschool.com",
                 NormalizedEmail = "kalinadimitrova@myschool.com"
             };
@@ -2538,8 +2538,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTsvetanchoGeorgiev = new ApplicationUser()
             {
                 Id = "321efec2-563e-4f66-a158-7c2e4f7db24b",
-                UserName = "tsvetanchogeorgiev",
-                NormalizedUserName = "tsvetanchogeorgiev",
+                UserName = "tsvetanchogeorgiev@myschool.com",
+                NormalizedUserName = "tsvetanchogeorgiev@myschool.com",
                 Email = "tsvetanchogeorgiev@myschool.com",
                 NormalizedEmail = "tsvetanchogeorgiev@myschool.com"
             };
@@ -2548,8 +2548,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNadezhdaIvanova = new ApplicationUser()
             {
                 Id = "71c4c53d-0c7e-4d33-b8b3-15b3ff206249",
-                UserName = "nadezhdaivanova",
-                NormalizedUserName = "nadezhdaivanova",
+                UserName = "nadezhdaivanova@myschool.com",
+                NormalizedUserName = "nadezhdaivanova@myschool.com",
                 Email = "nadezhdaivanova@myschool.com",
                 NormalizedEmail = "nadezhdaivanova@myschool.com"
             };
@@ -2558,8 +2558,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBorisStefanov = new ApplicationUser()
             {
                 Id = "0e119a09-9c6b-46c2-bb9b-5151d5b8a8d7",
-                UserName = "boristefanov",
-                NormalizedUserName = "boristefanov",
+                UserName = "boristefanov@myschool.com",
+                NormalizedUserName = "boristefanov@myschool.com",
                 Email = "boristefanov@myschool.com",
                 NormalizedEmail = "boristefanov@myschool.com"
             };
@@ -2568,8 +2568,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAneliyaKoleva = new ApplicationUser()
             {
                 Id = "2b765779-8f0d-4d01-b822-41fb42f9d173",
-                UserName = "aneliyakoleva",
-                NormalizedUserName = "aneliyakoleva",
+                UserName = "aneliyakoleva@myschool.com",
+                NormalizedUserName = "aneliyakoleva@myschool.com",
                 Email = "aneliyakoleva@myschool.com",
                 NormalizedEmail = "aneliyakoleva@myschool.com"
             };
@@ -2578,8 +2578,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRosenPetrov = new ApplicationUser()
             {
                 Id = "e20a8a8b-7038-45c5-b292-91c7b5e196d1",
-                UserName = "rosenpetrov",
-                NormalizedUserName = "rosenpetrov",
+                UserName = "rosenpetrov@myschool.com",
+                NormalizedUserName = "rosenpetrov@myschool.com",
                 Email = "rosenpetrov@myschool.com",
                 NormalizedEmail = "rosenpetrov@myschool.com"
             };
@@ -2588,8 +2588,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadostinaIvanova = new ApplicationUser()
             {
                 Id = "39b55a1b-d8b5-4bb2-9e71-cc994a1463d5",
-                UserName = "radostinaivanova",
-                NormalizedUserName = "radostinaivanova",
+                UserName = "radostinaivanova@myschool.com",
+                NormalizedUserName = "radostinaivanova@myschool.com",
                 Email = "radostinaivanova@myschool.com",
                 NormalizedEmail = "radostinaivanova@myschool.com"
             };
@@ -2598,8 +2598,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVasilAleksandrov = new ApplicationUser()
             {
                 Id = "57ef3794-e725-4d7c-9d17-7b7ac01081c5",
-                UserName = "vasilaleksandrov",
-                NormalizedUserName = "vasilaleksandrov",
+                UserName = "vasilaleksandrov@myschool.com",
+                NormalizedUserName = "vasilaleksandrov@myschool.com",
                 Email = "vasilaleksandrov@myschool.com",
                 NormalizedEmail = "vasilaleksandrov@myschool.com"
             };
@@ -2608,8 +2608,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRositsaGeorgieva = new ApplicationUser()
             {
                 Id = "d6ddbe61-7627-4b88-bc3c-8c2b3a7e89a4",
-                UserName = "rositsageorgieva",
-                NormalizedUserName = "rositsageorgieva",
+                UserName = "rositsageorgieva@myschool.com",
+                NormalizedUserName = "rositsageorgieva@myschool.com",
                 Email = "rositsageorgieva@myschool.com",
                 NormalizedEmail = "rositsageorgieva@myschool.com"
             };
@@ -2618,8 +2618,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserPlamenIvanov = new ApplicationUser()
             {
                 Id = "d1983bf8-cb42-4da2-88d2-5297be88a146",
-                UserName = "plamenivanov",
-                NormalizedUserName = "plamenivanov",
+                UserName = "plamenivanov@myschool.com",
+                NormalizedUserName = "plamenivanov@myschool.com",
                 Email = "plamenivanov@myschool.com",
                 NormalizedEmail = "plamenivanov@myschool.com"
             };
@@ -2628,8 +2628,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserValentinaDimitrova = new ApplicationUser()
             {
                 Id = "162d8979-1a84-4642-9b27-49973518a040",
-                UserName = "valentinadimitrova",
-                NormalizedUserName = "valentinadimitrova",
+                UserName = "valentinadimitrova@myschool.com",
+                NormalizedUserName = "valentinadimitrova@myschool.com",
                 Email = "valentinadimitrova@myschool.com",
                 NormalizedEmail = "valentinadimitrova@myschool.com"
             };
@@ -2638,8 +2638,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvoStoyanov = new ApplicationUser()
             {
                 Id = "41c16c1c-6345-487b-9202-18bf7a723b5e",
-                UserName = "ivostoyanov",
-                NormalizedUserName = "ivostoyanov",
+                UserName = "ivostoyanov@myschool.com",
+                NormalizedUserName = "ivostoyanov@myschool.com",
                 Email = "ivostoyanov@myschool.com",
                 NormalizedEmail = "ivostoyanov@myschool.com"
             };
@@ -2648,8 +2648,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserStefaniyaPetrova = new ApplicationUser()
             {
                 Id = "a3bd2a1d-5061-439e-aec9-0e54720e3ed5",
-                UserName = "stefaniyapetrova",
-                NormalizedUserName = "stefaniyapetrova",
+                UserName = "stefaniyapetrova@myschool.com",
+                NormalizedUserName = "stefaniyapetrova@myschool.com",
                 Email = "stefaniyapetrova@myschool.com",
                 NormalizedEmail = "stefaniyapetrova@myschool.com"
             };
@@ -2658,8 +2658,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMartinKolev = new ApplicationUser()
             {
                 Id = "2c537f9a-c6ef-43d1-98da-e63d947de2bd",
-                UserName = "martinkolev",
-                NormalizedUserName = "martinkolev",
+                UserName = "martinkolev@myschool.com",
+                NormalizedUserName = "martinkolev@myschool.com",
                 Email = "martinkolev@myschool.com",
                 NormalizedEmail = "martinkolev@myschool.com"
             };
@@ -2668,8 +2668,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSonyaIvanova = new ApplicationUser()
             {
                 Id = "512da3a0-4861-49ac-9142-1536f5ea2cb1",
-                UserName = "sonyaivanova",
-                NormalizedUserName = "sonyaivanova",
+                UserName = "sonyaivanova@myschool.com",
+                NormalizedUserName = "sonyaivanova@myschool.com",
                 Email = "sonyaivanova@myschool.com",
                 NormalizedEmail = "sonyaivanova@myschool.com"
             };
@@ -2678,8 +2678,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserLyubomirGeorgiev = new ApplicationUser()
             {
                 Id = "9c1e0838-6a1b-4158-92a2-36c6234e9d41",
-                UserName = "lyubomirgeorgiev",
-                NormalizedUserName = "lyubomirgeorgiev",
+                UserName = "lyubomirgeorgiev@myschool.com",
+                NormalizedUserName = "lyubomirgeorgiev@myschool.com",
                 Email = "lyubomirgeorgiev@myschool.com",
                 NormalizedEmail = "lyubomirgeorgiev@myschool.com"
             };
@@ -2688,8 +2688,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNataliyaVasileva = new ApplicationUser()
             {
                 Id = "17b6757b-33e6-4d97-b8f4-22e3ec4e34a3",
-                UserName = "nataliyavasileva",
-                NormalizedUserName = "nataliyavasileva",
+                UserName = "nataliyavasileva@myschool.com",
+                NormalizedUserName = "nataliyavasileva@myschool.com",
                 Email = "nataliyavasileva@myschool.com",
                 NormalizedEmail = "nataliyavasileva@myschool.com"
             };
@@ -2698,8 +2698,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserPetarPetrov = new ApplicationUser()
             {
                 Id = "7d2f14fb-b3b5-4598-8989-ba10d3612c96",
-                UserName = "petarpetrov",
-                NormalizedUserName = "petarpetrov",
+                UserName = "petarpetrov@myschool.com",
+                NormalizedUserName = "petarpetrov@myschool.com",
                 Email = "petarpetrov@myschool.com",
                 NormalizedEmail = "petarpetrov@myschool.com"
             };
@@ -2708,8 +2708,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGerganaDimitrova = new ApplicationUser()
             {
                 Id = "3f13969e-28fc-4315-b44d-b0f7b827202a",
-                UserName = "gerganadimitrova",
-                NormalizedUserName = "gerganadimitrova",
+                UserName = "gerganadimitrova@myschool.com",
+                NormalizedUserName = "gerganadimitrova@myschool.com",
                 Email = "gerganadimitrova@myschool.com",
                 NormalizedEmail = "gerganadimitrova@myschool.com"
             };
@@ -2718,8 +2718,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserLyubomiraTodorova = new ApplicationUser()
             {
                 Id = "8a4b8f2d-72e8-46d1-8a9f-2d06b1d9ecf1",
-                UserName = "lyubomiratodorova",
-                NormalizedUserName = "lyubomiratodorova",
+                UserName = "lyubomiratodorova@myschool.com",
+                NormalizedUserName = "lyubomiratodorova@myschool.com",
                 Email = "lyubomiratodorova@myschool.com",
                 NormalizedEmail = "lyubomiratodorova@myschool.com"
             };
@@ -2728,8 +2728,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserAntonIvanov = new ApplicationUser()
             {
                 Id = "f4ec527a-d87f-4e87-b948-26e7d4c3351f",
-                UserName = "antonivanov",
-                NormalizedUserName = "antonivanov",
+                UserName = "antonivanov@myschool.com",
+                NormalizedUserName = "antonivanov@myschool.com",
                 Email = "antonivanov@myschool.com",
                 NormalizedEmail = "antonivanov@myschool.com"
             };
@@ -2738,8 +2738,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTanyaGeorgieva = new ApplicationUser()
             {
                 Id = "f0578b4d-49cc-4c3c-8b61-62ebc8c196e9",
-                UserName = "tanyageorgieva",
-                NormalizedUserName = "tanyageorgieva",
+                UserName = "tanyageorgieva@myschool.com",
+                NormalizedUserName = "tanyageorgieva@myschool.com",
                 Email = "tanyageorgieva@myschool.com",
                 NormalizedEmail = "tanyageorgieva@myschool.com"
             };
@@ -2748,8 +2748,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKamenchoPetrov = new ApplicationUser()
             {
                 Id = "d68684c7-c3a8-4c21-8042-b76a4f43ff33",
-                UserName = "kamenchopetrov",
-                NormalizedUserName = "kamenchopetrov",
+                UserName = "kamenchopetrov@myschool.com",
+                NormalizedUserName = "kamenchopetrov@myschool.com",
                 Email = "kamenchopetrov@myschool.com",
                 NormalizedEmail = "kamenchopetrov@myschool.com"
             };
@@ -2758,8 +2758,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVanyaKoleva = new ApplicationUser()
             {
                 Id = "8d0a37e9-91a1-4b3a-86a9-b57595b104ab",
-                UserName = "vanyakoleva",
-                NormalizedUserName = "vanyakoleva",
+                UserName = "vanyakoleva@myschool.com",
+                NormalizedUserName = "vanyakoleva@myschool.com",
                 Email = "vanyakoleva@myschool.com",
                 NormalizedEmail = "vanyakoleva@myschool.com"
             };
@@ -2768,8 +2768,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadoslavGeorgiev = new ApplicationUser()
             {
                 Id = "23dbfde3-00c5-47d9-b1b4-23f97379881e",
-                UserName = "radoslavgeorgiev",
-                NormalizedUserName = "radoslavgeorgiev",
+                UserName = "radoslavgeorgiev@myschool.com",
+                NormalizedUserName = "radoslavgeorgiev@myschool.com",
                 Email = "radoslavgeorgiev@myschool.com",
                 NormalizedEmail = "radoslavgeorgiev@myschool.com"
             };
@@ -2778,8 +2778,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVasilenkaIvanova = new ApplicationUser()
             {
                 Id = "6a56e5a9-b77d-492e-82c5-eab5c9397756",
-                UserName = "vasilenkaivanova",
-                NormalizedUserName = "vasilenkaivanova",
+                UserName = "vasilenkaivanova@myschool.com",
+                NormalizedUserName = "vasilenkaivanova@myschool.com",
                 Email = "vasilenkaivanova@myschool.com",
                 NormalizedEmail = "vasilenkaivanova@myschool.com"
             };
@@ -2788,8 +2788,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKirilDimitrov = new ApplicationUser()
             {
                 Id = "8d9f8a3f-16a2-4fe5-b12a-32c3f3c66fb1",
-                UserName = "kirildimitrov",
-                NormalizedUserName = "kirildimitrov",
+                UserName = "kirildimitrov@myschool.com",
+                NormalizedUserName = "kirildimitrov@myschool.com",
                 Email = "kirildimitrov@myschool.com",
                 NormalizedEmail = "kirildimitrov@myschool.com"
             };
@@ -2798,8 +2798,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKameliyaTodorova = new ApplicationUser()
             {
                 Id = "8b7f9c67-7985-4f3f-a2a1-271189e22a0d",
-                UserName = "kameliyatodorova",
-                NormalizedUserName = "kameliyatodorova",
+                UserName = "kameliyatodorova@myschool.com",
+                NormalizedUserName = "kameliyatodorova@myschool.com",
                 Email = "kameliyatodorova@myschool.com",
                 NormalizedEmail = "kameliyatodorova@myschool.com"
             };
@@ -2808,8 +2808,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIliyaPetrov = new ApplicationUser()
             {
                 Id = "961b318b-7e65-4ef9-bf8e-3e22f74cdd6d",
-                UserName = "iliyapetrov",
-                NormalizedUserName = "iliyapetrov",
+                UserName = "iliyapetrov@myschool.com",
+                NormalizedUserName = "iliyapetrov@myschool.com",
                 Email = "iliyapetrov@myschool.com",
                 NormalizedEmail = "iliyapetrov@myschool.com"
             };
@@ -2818,8 +2818,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDilyanaIvanova = new ApplicationUser()
             {
                 Id = "d8b46962-25a4-4977-8363-d43e7076c85f",
-                UserName = "dilyanaivanova",
-                NormalizedUserName = "dilyanaivanova",
+                UserName = "dilyanaivanova@myschool.com",
+                NormalizedUserName = "dilyanaivanova@myschool.com",
                 Email = "dilyanaivanova@myschool.com",
                 NormalizedEmail = "dilyanaivanova@myschool.com"
             };
@@ -2828,8 +2828,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBogdanKolev = new ApplicationUser()
             {
                 Id = "15b7349f-c184-42e7-9a18-0c0dd1a05bea",
-                UserName = "bogdankolev",
-                NormalizedUserName = "bogdankolev",
+                UserName = "bogdankolev@myschool.com",
+                NormalizedUserName = "bogdankolev@myschool.com",
                 Email = "bogdankolev@myschool.com",
                 NormalizedEmail = "bogdankolev@myschool.com"
             };
@@ -2838,8 +2838,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDanielaMarinova = new ApplicationUser()
             {
                 Id = "8f35f8dd-b52a-4084-818b-3e1813e42f19",
-                UserName = "danielamarinova",
-                NormalizedUserName = "danielamarinova",
+                UserName = "danielamarinova@myschool.com",
+                NormalizedUserName = "danielamarinova@myschool.com",
                 Email = "danielamarinova@myschool.com",
                 NormalizedEmail = "danielamarinova@myschool.com"
             };
@@ -2848,8 +2848,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserHristiyanIvanov = new ApplicationUser()
             {
                 Id = "e2b8904e-9a9e-471d-af7b-ef17f62f0e35",
-                UserName = "hristiyanivanov",
-                NormalizedUserName = "hristiyanivanov",
+                UserName = "hristiyanivanov@myschool.com",
+                NormalizedUserName = "hristiyanivanov@myschool.com",
                 Email = "hristiyanivanov@myschool.com",
                 NormalizedEmail = "hristiyanivanov@myschool.com"
             };
@@ -2858,8 +2858,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserTeodoraVasileva = new ApplicationUser()
             {
                 Id = "7fbd8c2e-38c6-4a97-aa74-6321ee1f0e2a",
-                UserName = "teodoravasileva",
-                NormalizedUserName = "teodoravasileva",
+                UserName = "teodoravasileva@myschool.com",
+                NormalizedUserName = "teodoravasileva@myschool.com",
                 Email = "teodoravasileva@myschool.com",
                 NormalizedEmail = "teodoravasileva@myschool.com"
             };
@@ -2868,8 +2868,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDesislavDimitrov = new ApplicationUser()
             {
                 Id = "3251a6f3-1415-4173-8d95-509d9b57a4bb",
-                UserName = "desislavdimitrov",
-                NormalizedUserName = "desislavdimitrov",
+                UserName = "desislavdimitrov@myschool.com",
+                NormalizedUserName = "desislavdimitrov@myschool.com",
                 Email = "desislavdimitrov@myschool.com",
                 NormalizedEmail = "desislavdimitrov@myschool.com"
             };
@@ -2878,8 +2878,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserGalyaIvanova = new ApplicationUser()
             {
                 Id = "b2f18679-974f-4648-891b-05df89900b85",
-                UserName = "galyaivanova",
-                NormalizedUserName = "galyaivanova",
+                UserName = "galyaivanova@myschool.com",
+                NormalizedUserName = "galyaivanova@myschool.com",
                 Email = "galyaivanova@myschool.com",
                 NormalizedEmail = "galyaivanova@myschool.com"
             };
@@ -2888,8 +2888,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserIvanKolev = new ApplicationUser()
             {
                 Id = "6c704485-8f35-4b5d-aa5b-c971b87cb442",
-                UserName = "ivankolev",
-                NormalizedUserName = "ivankolev",
+                UserName = "ivankolev@myschool.com",
+                NormalizedUserName = "ivankolev@myschool.com",
                 Email = "ivankolev@myschool.com",
                 NormalizedEmail = "ivankolev@myschool.com"
             };
@@ -2898,8 +2898,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMariyaPetrova = new ApplicationUser()
             {
                 Id = "2e07c9b0-d2a4-41e7-b8d8-0e0384c5e81b",
-                UserName = "mariyapetrova",
-                NormalizedUserName = "mariyapetrova",
+                UserName = "mariyapetrova@myschool.com",
+                NormalizedUserName = "mariyapetrova@myschool.com",
                 Email = "mariyapetrova@myschool.com",
                 NormalizedEmail = "mariyapetrova@myschool.com"
             };
@@ -2908,8 +2908,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserSimeonGeorgiev = new ApplicationUser()
             {
                 Id = "b5245ba7-c0e2-4e7d-b144-e9b7d8889e6e",
-                UserName = "simeongeorgiev",
-                NormalizedUserName = "simeongeorgiev",
+                UserName = "simeongeorgiev@myschool.com",
+                NormalizedUserName = "simeongeorgiev@myschool.com",
                 Email = "simeongeorgiev@myschool.com",
                 NormalizedEmail = "simeongeorgiev@myschool.com"
             };
@@ -2918,8 +2918,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMagdalinaIvanova = new ApplicationUser()
             {
                 Id = "10b1bb25-7f3e-4ec5-bb68-9f8282850711",
-                UserName = "magdalinaivanova",
-                NormalizedUserName = "magdalinaivanova",
+                UserName = "magdalinaivanova@myschool.com",
+                NormalizedUserName = "magdalinaivanova@myschool.com",
                 Email = "magdalinaivanova@myschool.com",
                 NormalizedEmail = "magdalinaivanova@myschool.com"
             };
@@ -2928,8 +2928,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserEmilTodorov = new ApplicationUser()
             {
                 Id = "b7395fbb-59e7-4687-9b69-0f135abf8e72",
-                UserName = "emiltodorov",
-                NormalizedUserName = "emiltodorov",
+                UserName = "emiltodorov@myschool.com",
+                NormalizedUserName = "emiltodorov@myschool.com",
                 Email = "emiltodorov@myschool.com",
                 NormalizedEmail = "emiltodorov@myschool.com"
             };
@@ -2938,8 +2938,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserKalinchoPetrov = new ApplicationUser()
             {
                 Id = "6a4e15d5-29ae-4b86-9015-21d61e22e947",
-                UserName = "kalinchopetrov",
-                NormalizedUserName = "kalinchopetrov",
+                UserName = "kalinchopetrov@myschool.com",
+                NormalizedUserName = "kalinchopetrov@myschool.com",
                 Email = "kalinchopetrov@myschool.com",
                 NormalizedEmail = "kalinchopetrov@myschool.com"
             };
@@ -2948,8 +2948,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRalitsaDimitrova = new ApplicationUser()
             {
                 Id = "cff038d2-716a-4c45-8f21-81b1e7769a74",
-                UserName = "ralitsadimitrova",
-                NormalizedUserName = "ralitsadimitrova",
+                UserName = "ralitsadimitrova@myschool.com",
+                NormalizedUserName = "ralitsadimitrova@myschool.com",
                 Email = "ralitsadimitrova@myschool.com",
                 NormalizedEmail = "ralitsadimitrova@myschool.com"
             };
@@ -2958,8 +2958,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYordanGeorgiev = new ApplicationUser()
             {
                 Id = "80f4cb68-199a-4f6d-8b82-6ad3521c0b52",
-                UserName = "yordangeorgiev",
-                NormalizedUserName = "yordangeorgiev",
+                UserName = "yordangeorgiev@myschool.com",
+                NormalizedUserName = "yordangeorgiev@myschool.com",
                 Email = "yordangeorgiev@myschool.com",
                 NormalizedEmail = "yordangeorgiev@myschool.com"
             };
@@ -2968,8 +2968,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserRadinkaIvanova = new ApplicationUser()
             {
                 Id = "1b441729-6f7d-4d13-9f0b-3fe4e76727c3",
-                UserName = "radinkaivanova",
-                NormalizedUserName = "radinkaivanova",
+                UserName = "radinkaivanova@myschool.com",
+                NormalizedUserName = "radinkaivanova@myschool.com",
                 Email = "radinkaivanova@myschool.com",
                 NormalizedEmail = "radinkaivanova@myschool.com"
             };
@@ -2978,8 +2978,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserVentsislavPetrov = new ApplicationUser()
             {
                 Id = "675b60ea-ee3f-4e58-b8d4-109b9ab54d99",
-                UserName = "ventsislavpetrov",
-                NormalizedUserName = "ventsislavpetrov",
+                UserName = "ventsislavpetrov@myschool.com",
+                NormalizedUserName = "ventsislavpetrov@myschool.com",
                 Email = "ventsislavpetrov@myschool.com",
                 NormalizedEmail = "ventsislavpetrov@myschool.com"
             };
@@ -2988,8 +2988,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserDarinaKoleva = new ApplicationUser()
             {
                 Id = "2bd002d3-ff51-4a18-a155-dc76bba5130a",
-                UserName = "darinkakoleva",
-                NormalizedUserName = "darinkakoleva",
+                UserName = "darinkakoleva@myschool.com",
+                NormalizedUserName = "darinkakoleva@myschool.com",
                 Email = "darinkakoleva@myschool.com",
                 NormalizedEmail = "darinkakoleva@myschool.com"
             };
@@ -2998,8 +2998,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserBozhidarDimitrov = new ApplicationUser()
             {
                 Id = "98fb09c1-54d0-4d9c-86ee-7f7b510695ef",
-                UserName = "bozhidardimitrov",
-                NormalizedUserName = "bozhidardimitrov",
+                UserName = "bozhidardimitrov@myschool.com",
+                NormalizedUserName = "bozhidardimitrov@myschool.com",
                 Email = "bozhidardimitrov@myschool.com",
                 NormalizedEmail = "bozhidardimitrov@myschool.com"
             };
@@ -3008,8 +3008,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserNeliGeorgieva = new ApplicationUser()
             {
                 Id = "731e88f2-bb26-46d8-8d53-031af77b5e15",
-                UserName = "neligeorgieva",
-                NormalizedUserName = "neligeorgieva",
+                UserName = "neligeorgieva@myschool.com",
+                NormalizedUserName = "neligeorgieva@myschool.com",
                 Email = "neligeorgieva@myschool.com",
                 NormalizedEmail = "neligeorgieva@myschool.com"
             };
@@ -3018,8 +3018,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserYavorIvanov = new ApplicationUser()
             {
                 Id = "5b38fb70-63e4-4d02-a14f-3b58ff14bc76",
-                UserName = "yavorivanov",
-                NormalizedUserName = "yavorivanov",
+                UserName = "yavorivanov@myschool.com",
+                NormalizedUserName = "yavorivanov@myschool.com",
                 Email = "yavorivanov@myschool.com",
                 NormalizedEmail = "yavorivanov@myschool.com"
             };
@@ -3028,8 +3028,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserMilitsaPetrova = new ApplicationUser()
             {
                 Id = "80a73e8d-3a08-44b3-ba99-8a5ea3ebd012",
-                UserName = "militsapetrova",
-                NormalizedUserName = "militsapetrova",
+                UserName = "militsapetrova@myschool.com",
+                NormalizedUserName = "militsapetrova@myschool.com",
                 Email = "militsapetrova@myschool.com",
                 NormalizedEmail = "militsapetrova@myschool.com"
             };
@@ -3038,8 +3038,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserZdravkoKolev = new ApplicationUser()
             {
                 Id = "844dd2c8-e20b-4423-827f-349e0bbd2761",
-                UserName = "zdravkokolev",
-                NormalizedUserName = "zdravkokolev",
+                UserName = "zdravkokolev@myschool.com",
+                NormalizedUserName = "zdravkokolev@myschool.com",
                 Email = "zdravkokolev@myschool.com",
                 NormalizedEmail = "zdravkokolev@myschool.com"
             };
@@ -3048,8 +3048,8 @@ namespace SchoolSystem.Infrastructure.Data.SeedDb
             UserElenaStoyanova = new ApplicationUser()
             {
                 Id = "61f620da-d214-4e17-852a-c96fddcc682a",
-                UserName = "elenastoyanova",
-                NormalizedUserName = "elenastoyanova",
+                UserName = "elenastoyanova@myschool.com",
+                NormalizedUserName = "elenastoyanova@myschool.com",
                 Email = "elenastoyanova@myschool.com",
                 NormalizedEmail = "elenastoyanova@myschool.com"
             };
