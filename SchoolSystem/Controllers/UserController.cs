@@ -153,6 +153,7 @@ namespace SchoolSystem.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [AllowAnonymous]
         public IActionResult CheckRole(string rolename)
         {
             return Ok(User.IsInRole(rolename));

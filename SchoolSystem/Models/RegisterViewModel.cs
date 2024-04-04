@@ -1,20 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using static SchoolSystem.Infrastructure.Constants.DataConstants;
 
 namespace SchoolSystem.Models
 {
     public class RegisterViewModel
     {
         [Required]
-        [StringLength(20, MinimumLength = 5)]
+        [StringLength(UserNameMaxLengthr, MinimumLength = UserNameMinLength)]
         public string UserName { get; set; } = null!;
 
         [Required]
         [EmailAddress]
-        [StringLength(60, MinimumLength = 10)]
+        [StringLength(EmailMaxLength, MinimumLength = EmailMinLength)]
         public string Email { get; set; } = null!;
 
         [Required]
-        [StringLength(20, MinimumLength = 5)]
+        [StringLength(PasswordMaxLength, MinimumLength = PasswordMinLength)]
         [DataType(DataType.Password)]
         public string Password { get; set; } = null!;
 
