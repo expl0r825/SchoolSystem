@@ -1,6 +1,8 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SchoolSystem.Core.Contracts.Student;
+using SchoolSystem.Core.Services.Student;
 using SchoolSystem.Infrastructure.Data;
+using SchoolSystem.Infrastructure.Data.Common;
 using SchoolSystem.Infrastructure.Data.IdentiyModels;
 
 namespace SchoolSystem
@@ -14,6 +16,12 @@ namespace SchoolSystem
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
+
+
+            builder.Services.AddScoped<IRepository, Repository>();
+            builder.Services.AddScoped<IStudentService, StudentService>();
+
+
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<ApplicationUser>(options =>

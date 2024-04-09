@@ -1,16 +1,30 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SchoolSystem.Core.Contracts.Student;
 using SchoolSystem.Core.Models.Student;
+using SchoolSystem.Core.Services.Student;
+using System.Security.Claims;
+
 
 namespace SchoolSystem.Controllers
 {
     [Authorize(Roles = "Student")]
     public class StudentController : Controller
     {
-        [HttpGet]
-        public IActionResult SubjectsWithGrades()
+        private readonly IStudentService studentService;
+
+        public StudentController(IStudentService _studentService)
         {
-            var model = new SubjectsWithGradesFormModel();
+            studentService = _studentService;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> SubjectsWithGrades()
+        {
+            int id = await StudentId();
+
+            var model = await studentService.Grades(id);
+
 
             return View(model);
         }
@@ -48,9 +62,13 @@ namespace SchoolSystem.Controllers
         }
 
 
-        private int StudentId()
+        private async Task<int> StudentId()
         {
-            return 0;
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var student = await studentService.Students(userId);
+
+            return student;
         }
     }
 }

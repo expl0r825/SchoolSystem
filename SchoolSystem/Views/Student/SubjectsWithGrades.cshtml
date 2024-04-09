@@ -1,5 +1,14 @@
-﻿@model IEnumerable<SubjectsWithGradesFormModel>
+﻿@model SubjectsWithGradesFormModel
 
 @{
     ViewData["Title"] = "My Grades";
+}
+
+<h1> @Model.StudentName</h1>
+
+<h1>--------------------------------------</h1>
+
+@for (int i = 0; i < 10; i++)
+{
+    <h3>@Model.SubjectName[i] - @Model.Grade[i]</h3>
 }
