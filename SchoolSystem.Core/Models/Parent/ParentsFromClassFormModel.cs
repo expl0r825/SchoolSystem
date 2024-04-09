@@ -2,8 +2,8 @@
 {
     public class ParentsFromClassFormModel
     {
-        public string StudentName { get; set; } = string.Empty;
+        public List<string> StudentName { get; set; } = new List<string>();
 
-        public string ParentName { get; set; } = string.Empty;
+        public List<string> ParentName { get; set; } = new List<string>();
     }
 }

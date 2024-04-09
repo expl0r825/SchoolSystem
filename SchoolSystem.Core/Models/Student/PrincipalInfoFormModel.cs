@@ -2,10 +2,10 @@
 {
     public class PrincipalInfoFormModel
     {
-        public string FullName { get; set; } = string.Empty;
+        public List<string> FullName { get; set; } = new List<string>();
 
-        public string Email {  get; set; } = string.Empty;
+        public List<string> Email { get; set; } = new List<string>();
 
-        public string PhoneNumber { get; set; } = string.Empty;
+        public List<string> PhoneNumber { get; set; } = new List<string>();
     }
 }

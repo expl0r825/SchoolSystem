@@ -1,5 +1,13 @@
-﻿@model IEnumerable<PrincipalInfoFormModel>
+﻿@model PrincipalInfoFormModel
 
 @{
     ViewData["Title"] = "Principals Information";
+}
+
+<h1> Name - Email - Number</h1>
+<h1>---------------------------------------------------</h1>
+
+@for (int i = 0; i < 3; i++)
+{
+    <h3>@Model.FullName[i] - @Model.Email[i] - @Model.PhoneNumber[i]</h3>
 }

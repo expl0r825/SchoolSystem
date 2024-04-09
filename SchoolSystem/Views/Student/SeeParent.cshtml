@@ -1,3 +1,10 @@
-﻿@{
-    <h1> @ViewData["Parent"] </h1>
+﻿@model ParentViewModel
+
+@{
+    ViewData["Title"] = "Your Parent";
 }
+
+
+<h1> You - Your Parent</h1>
+<h1>--------------------------------------</h1>
+<h3> @Model.StudentName - @Model.ParentName</h3>

@@ -2,8 +2,8 @@
 {
     public class SubjectsWithTeachersFormModel
     {
-        public string SubjectName { get; set; } = string.Empty;
+        public List<string> SubjectName { get; set; } = new List<string>();
 
-        public string TeacherName { get; set; } = string.Empty;
+        public List<string> TeacherName { get; set; } = new List<string>();
     }
 }

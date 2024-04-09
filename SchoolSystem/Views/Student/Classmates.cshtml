@@ -3,3 +3,11 @@
 @{
     ViewData["Title"] = "My Classmates";
 }
+
+<h1> @Model.ClassName - @Model.TeacherName</h1>
+<h1>--------------------------------------</h1>
+
+@for (int i = 0; i < Model.ClassmatesName.Count; i++)
+{
+    <h3>@Model.ClassmatesName[i]</h3>
+}

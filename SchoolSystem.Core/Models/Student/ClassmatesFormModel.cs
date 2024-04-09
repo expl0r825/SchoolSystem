@@ -2,8 +2,10 @@
 {
     public class ClassmatesFormModel
     {
-        public string Class {  get; set; } = string.Empty;
+        public string ClassName {  get; set; } = string.Empty;
 
-        public List<string> ClassMatesName { get; set; } = new List<string>();
+        public string TeacherName { get; set; } = string.Empty;
+
+        public List<string> ClassmatesName { get; set; } = new List<string>();
     }
 }
